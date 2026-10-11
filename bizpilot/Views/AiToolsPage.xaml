@@ -1,0 +1,49 @@
+<Page
+    x:Class="BizPilot.Views.AiToolsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer Padding="24">
+        <StackPanel Spacing="16" MaxWidth="800">
+            <TextBlock Text="AI Tools" Style="{ThemeResource TitleTextBlockStyle}" />
+            <InfoBar IsOpen="True" Severity="Informational" Message="{x:Bind ViewModel.AiStatusMessage, Mode=OneWay}" />
+
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="12">
+                    <TextBlock Text="Client email drafter" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                    <TextBlock Text="Enter the key points and pick a tone. The on-device model drafts the email — nothing leaves your PC." TextWrapping="Wrap" Foreground="{ThemeResource TextFillColorSecondaryBrush}" FontSize="12" />
+                    <TextBox Header="Key points (one per line)" Text="{x:Bind ViewModel.EmailBullets, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="120" />
+                    <ComboBox Header="Tone" ItemsSource="{x:Bind ViewModel.Tones, Mode=OneWay}" SelectedItem="{x:Bind ViewModel.EmailTone, Mode=TwoWay}" MinWidth="200" />
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <Button
+                            Content="Generate Email"
+                            Command="{x:Bind ViewModel.GenerateEmailCommand}"
+                            IsEnabled="{x:Bind ViewModel.IsAiAvailable, Mode=OneWay}"
+                            ToolTipService.ToolTip="{x:Bind ViewModel.AiStatusMessage, Mode=OneWay}"
+                            Style="{ThemeResource AccentButtonStyle}" />
+                        <ProgressRing IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}" Width="24" Height="24" />
+                    </StackPanel>
+                    <TextBox Header="Draft" Text="{x:Bind ViewModel.GeneratedEmail, Mode=OneWay}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="160" />
+                </StackPanel>
+            </Border>
+
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="12">
+                    <TextBlock Text="Meeting notes summarizer" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                    <TextBlock Text="Paste raw meeting notes. The on-device model returns a concise summary — nothing leaves your PC." TextWrapping="Wrap" Foreground="{ThemeResource TextFillColorSecondaryBrush}" FontSize="12" />
+                    <TextBox Header="Meeting notes" Text="{x:Bind ViewModel.MeetingNotes, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="140" />
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <Button
+                            Content="Summarize"
+                            Command="{x:Bind ViewModel.SummarizeCommand}"
+                            IsEnabled="{x:Bind ViewModel.IsAiAvailable, Mode=OneWay}"
+                            ToolTipService.ToolTip="{x:Bind ViewModel.AiStatusMessage, Mode=OneWay}"
+                            Style="{ThemeResource AccentButtonStyle}" />
+                        <ProgressRing IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}" Width="24" Height="24" />
+                    </StackPanel>
+                    <TextBox Header="Summary" Text="{x:Bind ViewModel.MeetingSummary, Mode=OneWay}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="120" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

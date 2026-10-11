@@ -1,0 +1,25 @@
+<Page
+    x:Class="BizPilot.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer Padding="24">
+        <StackPanel Spacing="16" MaxWidth="640">
+            <TextBlock Text="Settings" Style="{ThemeResource TitleTextBlockStyle}" />
+
+            <TextBlock Text="Business profile" Style="{ThemeResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="This information appears on every invoice PDF you export." TextWrapping="Wrap" Foreground="{ThemeResource TextFillColorSecondaryBrush}" FontSize="12" />
+
+            <TextBox Header="Business name" Text="{x:Bind ViewModel.BusinessName, Mode=TwoWay}" />
+            <TextBox Header="Address" Text="{x:Bind ViewModel.Address, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" />
+            <TextBox Header="Email" Text="{x:Bind ViewModel.Email, Mode=TwoWay}" InputScope="EmailSmtpAddress" />
+            <TextBox Header="Phone" Text="{x:Bind ViewModel.Phone, Mode=TwoWay}" InputScope="TelephoneNumber" />
+            <NumberBox Header="Default tax rate" Value="{x:Bind ViewModel.TaxRate, Mode=TwoWay}" Minimum="0" Maximum="1" SmallChange="0.0025" LargeChange="0.01" SpinButtonPlacementMode="Inline" />
+            <Button Content="Save Profile" Command="{x:Bind ViewModel.SaveProfileCommand}" Style="{ThemeResource AccentButtonStyle}" HorizontalAlignment="Left" />
+
+            <TextBlock Text="On-device AI" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0,16,0,0" />
+            <TextBlock Text="{x:Bind ViewModel.AiStatus, Mode=OneWay}" TextWrapping="Wrap" />
+            <Button Content="Check AI Status" Command="{x:Bind ViewModel.RefreshAiCommand}" HorizontalAlignment="Left" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
