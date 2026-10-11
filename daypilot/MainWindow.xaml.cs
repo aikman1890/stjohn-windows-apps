@@ -52,7 +52,7 @@ public sealed partial class MainWindow : Window
     public MainWindow()
     {
         this.InitializeComponent();
-        this.DataContext = ViewModel;
+        ((FrameworkElement)this.Content).DataContext = ViewModel;
 
         _hwnd = WindowNative.GetWindowHandle(this);
         _subclassProc = SubclassProc;
