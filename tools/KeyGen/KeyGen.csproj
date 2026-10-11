@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>KeyGen</AssemblyName>
+    <RootNamespace>StJohn.KeyGen</RootNamespace>
+    <!-- No telemetry, no network. Offline key minting only. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Shared verbatim with the apps: the exact same HMAC scheme. -->
+    <Compile Include="..\..\Licensing\LicenseCore.cs" Link="LicenseCore.cs" />
+    <Compile Include="..\..\Licensing\LicenseSecrets.cs" Link="LicenseSecrets.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,257 @@
+<Page
+    x:Class="ClaimPilot.Views.BankruptcyPage"
+    x:Name="PageRoot"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:ClaimPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12" MaxWidth="980">
+            <TextBlock x:Uid="BankruptcyPage_BankruptcyChapters713" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.IntroText}" TextWrapping="Wrap" />
+
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16">
+                <TextBlock Text="{x:Bind ViewModel.DisclaimerText}" TextWrapping="Wrap" />
+            </Border>
+
+            <!-- Bankruptcy Plus unlock gate -->
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16"
+                Visibility="{x:Bind ViewModel.LockedVisibility, Mode=OneWay}">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="Bankruptcy Plus" Style="{StaticResource SubtitleTextBlockStyle}" />
+                    <TextBlock Text="{x:Bind ViewModel.UnlockBlurb}" TextWrapping="Wrap" />
+                    <TextBlock>
+                        <Run Text="Subscription: " />
+                        <Run Text="{x:Bind ViewModel.UnlockPriceDisplay}" FontWeight="SemiBold" />
+                        <Run Text=" (base ClaimPilot app is separate)." />
+                    </TextBlock>
+                    <TextBox Header="Bankruptcy Plus license key" PlaceholderText="XXXXX-XXXXX-XXXXX-XXXXX"
+                             Text="{x:Bind ViewModel.PlusLicenseKey, Mode=TwoWay}" />
+                    <TextBox Header="Purchase email" PlaceholderText="Email used at purchase" InputScope="EmailSmtpAddress"
+                             Text="{x:Bind ViewModel.PlusLicenseEmail, Mode=TwoWay}" />
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <Button Content="Activate key" Command="{x:Bind ViewModel.ActivatePlusKeyCommand}" />
+                        <Button Content="I already own it — check again" Command="{x:Bind ViewModel.CheckOwnershipCommand}" />
+                        <ProgressRing IsActive="{x:Bind ViewModel.IsCheckingOwnership, Mode=OneWay}" Width="24" Height="24" />
+                    </StackPanel>
+                    <TextBlock Text="{x:Bind ViewModel.StatusMessage, Mode=OneWay}" TextWrapping="Wrap" FontStyle="Italic" />
+                </StackPanel>
+            </Border>
+
+            <!-- Unlocked content -->
+            <StackPanel Spacing="12" Visibility="{x:Bind ViewModel.UnlockedVisibility, Mode=OneWay}">
+
+                <TextBlock Text="{x:Bind ViewModel.Chapter7Guide.Title}" Style="{StaticResource SubtitleTextBlockStyle}" />
+                <TextBlock Text="{x:Bind ViewModel.Chapter7Guide.Intro}" TextWrapping="Wrap" />
+                <ListView ItemsSource="{x:Bind ViewModel.Chapter7Guide.Sections, Mode=OneWay}" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:BankruptcySection">
+                            <Border
+                                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                                BorderThickness="1"
+                                CornerRadius="8"
+                                Padding="16"
+                                Margin="0,6">
+                                <StackPanel Spacing="6">
+                                    <TextBlock Text="{x:Bind Heading}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                                    <TextBlock Text="{x:Bind Body}" TextWrapping="Wrap" />
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <TextBlock Text="{x:Bind ViewModel.Chapter13Guide.Title}" Style="{StaticResource SubtitleTextBlockStyle}" />
+                <TextBlock Text="{x:Bind ViewModel.Chapter13Guide.Intro}" TextWrapping="Wrap" />
+                <ListView ItemsSource="{x:Bind ViewModel.Chapter13Guide.Sections, Mode=OneWay}" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:BankruptcySection">
+                            <Border
+                                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                                BorderThickness="1"
+                                CornerRadius="8"
+                                Padding="16"
+                                Margin="0,6">
+                                <StackPanel Spacing="6">
+                                    <TextBlock Text="{x:Bind Heading}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                                    <TextBlock Text="{x:Bind Body}" TextWrapping="Wrap" />
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <TextBlock x:Uid="BankruptcyPage_Chapter7DocumentChecklist" Style="{StaticResource SubtitleTextBlockStyle}" />
+                <TextBlock x:Uid="BankruptcyPage_AnOrganizationalChecklistNot"
+                    TextWrapping="Wrap"
+                    FontStyle="Italic"
+                    Opacity="0.85" />
+                <ListView ItemsSource="{x:Bind ViewModel.Chapter7Checklist, Mode=OneWay}" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:ChecklistItem">
+                            <CheckBox IsChecked="{x:Bind IsChecked, Mode=TwoWay}" Content="{x:Bind Text}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <TextBlock x:Uid="BankruptcyPage_Chapter13DocumentChecklist" Style="{StaticResource SubtitleTextBlockStyle}" />
+                <TextBlock x:Uid="BankruptcyPage_AnOrganizationalChecklistNot_2"
+                    TextWrapping="Wrap"
+                    FontStyle="Italic"
+                    Opacity="0.85" />
+                <ListView ItemsSource="{x:Bind ViewModel.Chapter13Checklist, Mode=OneWay}" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:ChecklistItem">
+                            <CheckBox IsChecked="{x:Bind IsChecked, Mode=TwoWay}" Content="{x:Bind Text}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <TextBlock x:Uid="BankruptcyPage_RequiredCoursesTracker" Style="{StaticResource SubtitleTextBlockStyle}" />
+                <Border
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1"
+                    CornerRadius="8"
+                    Padding="16">
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="{x:Bind ViewModel.CourseHonestyText}" TextWrapping="Wrap" FontWeight="SemiBold" />
+                        <HyperlinkButton x:Uid="BankruptcyPage_OfficialListApprovedCreditCo" Click="CreditCounselingLink_Click" />
+                        <HyperlinkButton x:Uid="BankruptcyPage_OfficialListApprovedDebtorEd" Click="DebtorEducationLink_Click" />
+                    </StackPanel>
+                </Border>
+
+                <TextBlock x:Uid="BankruptcyPage_180DayCreditCounselingCalcul" FontWeight="SemiBold" />
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <TextBlock x:Uid="BankruptcyPage_PlannedFilingDate" VerticalAlignment="Center" />
+                    <DatePicker Date="{x:Bind ViewModel.PlannedFilingDate, Mode=TwoWay}" />
+                </StackPanel>
+                <TextBlock Text="{x:Bind ViewModel.CounselingWindowText, Mode=OneWay}" TextWrapping="Wrap" />
+
+                <TextBlock x:Uid="BankruptcyPage_Chapter7Courses" FontWeight="SemiBold" />
+                <ListView ItemsSource="{x:Bind ViewModel.Chapter7Courses, Mode=OneWay}" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:CourseRecord">
+                            <Border
+                                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                                BorderThickness="1"
+                                CornerRadius="8"
+                                Padding="16"
+                                Margin="0,6">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="{x:Bind DisplayName}" FontWeight="SemiBold" />
+                                    <TextBlock Text="{x:Bind StatusDisplay, Mode=OneWay}" />
+                                    <ComboBox x:Uid="BankruptcyPage_Status"
+                                        SelectedItem="{x:Bind StatusLabel, Mode=TwoWay}"
+                                        SelectionChanged="CourseStatus_Changed">
+                                        <x:String x:Uid="BankruptcyPage_NotStarted">Not started</x:String>
+                                        <x:String x:Uid="BankruptcyPage_Scheduled">Scheduled</x:String>
+                                        <x:String x:Uid="BankruptcyPage_Completed">Completed</x:String>
+                                    </ComboBox>
+                                    <DatePicker x:Uid="BankruptcyPage_ScheduledDate" Date="{x:Bind ScheduledDateOffset, Mode=TwoWay}" DateChanged="CourseDate_Changed" />
+                                    <DatePicker x:Uid="BankruptcyPage_CompletedDate" Date="{x:Bind CompletedDateOffset, Mode=TwoWay}" DateChanged="CourseDate_Changed" />
+                                    <TextBox x:Uid="BankruptcyPage_ProviderNameMustBeU"
+                                        Text="{x:Bind ProviderName, Mode=TwoWay}"
+                                        LostFocus="CourseText_LostFocus" />
+                                    <StackPanel Orientation="Horizontal" Spacing="8">
+                                        <Button x:Uid="BankruptcyPage_AttachCertificatePDFImage" Click="AttachCertificate_Click" />
+                                        <Button x:Uid="BankruptcyPage_OpenCertificate"
+                                            Click="OpenCertificate_Click"
+                                            Visibility="{x:Bind CertificateVisibility, Mode=OneWay}" />
+                                        <Button x:Uid="BankruptcyPage_Reset" Click="ResetCourse_Click" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <TextBlock x:Uid="BankruptcyPage_Chapter13Courses" FontWeight="SemiBold" />
+                <ListView ItemsSource="{x:Bind ViewModel.Chapter13Courses, Mode=OneWay}" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:CourseRecord">
+                            <Border
+                                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                                BorderThickness="1"
+                                CornerRadius="8"
+                                Padding="16"
+                                Margin="0,6">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="{x:Bind DisplayName}" FontWeight="SemiBold" />
+                                    <TextBlock Text="{x:Bind StatusDisplay, Mode=OneWay}" />
+                                    <ComboBox x:Uid="BankruptcyPage_Status_2"
+                                        SelectedItem="{x:Bind StatusLabel, Mode=TwoWay}"
+                                        SelectionChanged="CourseStatus_Changed">
+                                        <x:String x:Uid="BankruptcyPage_NotStarted_2">Not started</x:String>
+                                        <x:String x:Uid="BankruptcyPage_Scheduled_2">Scheduled</x:String>
+                                        <x:String x:Uid="BankruptcyPage_Completed_2">Completed</x:String>
+                                    </ComboBox>
+                                    <DatePicker x:Uid="BankruptcyPage_ScheduledDate_2" Date="{x:Bind ScheduledDateOffset, Mode=TwoWay}" DateChanged="CourseDate_Changed" />
+                                    <DatePicker x:Uid="BankruptcyPage_CompletedDate_2" Date="{x:Bind CompletedDateOffset, Mode=TwoWay}" DateChanged="CourseDate_Changed" />
+                                    <TextBox x:Uid="BankruptcyPage_ProviderNameMustBeU_2"
+                                        Text="{x:Bind ProviderName, Mode=TwoWay}"
+                                        LostFocus="CourseText_LostFocus" />
+                                    <StackPanel Orientation="Horizontal" Spacing="8">
+                                        <Button x:Uid="BankruptcyPage_AttachCertificatePDFImage_2" Click="AttachCertificate_Click" />
+                                        <Button x:Uid="BankruptcyPage_OpenCertificate_2"
+                                            Click="OpenCertificate_Click"
+                                            Visibility="{x:Bind CertificateVisibility, Mode=OneWay}" />
+                                        <Button x:Uid="BankruptcyPage_Reset_2" Click="ResetCourse_Click" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <TextBlock x:Uid="BankruptcyPage_AddBankruptcyDeadlinesToThe" Style="{StaticResource SubtitleTextBlockStyle}" />
+                <TextBlock x:Uid="BankruptcyPage_PickYourFilingDateThen"
+                    TextWrapping="Wrap" />
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <TextBlock x:Uid="BankruptcyPage_FilingDate" VerticalAlignment="Center" />
+                    <DatePicker Date="{x:Bind ViewModel.DeadlineSeedFilingDate, Mode=TwoWay}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Uid="BankruptcyPage_AddChapter7Deadlines" Command="{x:Bind ViewModel.AddChapterDeadlinesCommand}" CommandParameter="7" />
+                    <Button x:Uid="BankruptcyPage_AddChapter13Deadlines" Command="{x:Bind ViewModel.AddChapterDeadlinesCommand}" CommandParameter="13" />
+                </StackPanel>
+
+                <TextBlock Text="{x:Bind ViewModel.StatusMessage, Mode=OneWay}" TextWrapping="Wrap" FontStyle="Italic" />
+            </StackPanel>
+
+            <TextBlock x:Uid="BankruptcyPage_ReadThisFirstHonestNotes" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <ListView ItemsSource="{x:Bind ViewModel.HonestNotes, Mode=OneWay}" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:HonestNote">
+                        <Border
+                            Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                            BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            Padding="16"
+                            Margin="0,6">
+                            <StackPanel Spacing="6">
+                                <TextBlock Text="{x:Bind Title}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                                <TextBlock Text="{x:Bind Body}" TextWrapping="Wrap" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

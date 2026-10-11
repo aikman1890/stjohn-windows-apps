@@ -1,0 +1,102 @@
+<Window
+    x:Class="ClaimPilot.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <NavigationView
+        x:Name="NavView"
+        IsBackButtonVisible="Collapsed"
+        IsSettingsVisible="False"
+        Loaded="NavView_Loaded"
+        SelectionChanged="NavView_SelectionChanged">
+        <NavigationView.MenuItems>
+            <NavigationViewItem x:Uid="MainWindow_Dashboard" Tag="dashboard">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Home" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_ViolationSpotter" Tag="violations">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Flag" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_LetterBuilder" Tag="letters">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Mail" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_LawsuitWorksheet" Tag="worksheet">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Document" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItemSeparator />
+            <NavigationViewItem x:Uid="MainWindow_CivilRights" Tag="civilrights">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="People" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_CourtFinder" Tag="courtfinder">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Find" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_Bankruptcy" Tag="bankruptcy">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Bank" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItemSeparator />
+            <NavigationViewItemHeader x:Uid="MainWindow_LegalMatters" />
+            <NavigationViewItem x:Uid="MainWindow_TrafficTickets" Tag="traffictickets">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Car" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_CriminalCases" Tag="criminalcases">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Shield" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_FederalMatters" Tag="federalmatters">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Globe" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_CourtGuide" Tag="courtguide">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Library" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_CaseBuilder" Tag="casebuilder">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Add" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItemSeparator />
+            <NavigationViewItem x:Uid="MainWindow_Deadlines" Tag="deadlines">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Calendar" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_EvidenceVault" Tag="vault">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Folder" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <!-- Windows Ink support: Ink Notes page (added 2026-10-10; own block to avoid merge conflicts with licensing work). -->
+            <NavigationViewItem x:Uid="MainWindow_InkNotes" Tag="inknotes">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Edit" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_About" Tag="about">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Help" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+
+        <Frame x:Name="ContentFrame" />
+    </NavigationView>
+</Window>

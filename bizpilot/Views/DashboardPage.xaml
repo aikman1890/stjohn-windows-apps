@@ -1,0 +1,71 @@
+<Page
+    x:Class="BizPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:BizPilot.Models">
+
+    <ScrollViewer Padding="24">
+        <StackPanel Spacing="16" MaxWidth="1100">
+            <TextBlock x:Uid="DashboardPage_Dashboard" Style="{ThemeResource TitleTextBlockStyle}" />
+
+            <Grid ColumnSpacing="12" RowSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1" CornerRadius="8" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock x:Uid="DashboardPage_Outstanding" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        <TextBlock Text="{x:Bind ViewModel.OutstandingTotal, Mode=OneWay, Converter={StaticResource CurrencyConverter}}" Style="{ThemeResource TitleLargeTextBlockStyle}" FontWeight="SemiBold" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1" CornerRadius="8" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock x:Uid="DashboardPage_PaidThisMonth" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        <TextBlock Text="{x:Bind ViewModel.PaidThisMonth, Mode=OneWay, Converter={StaticResource CurrencyConverter}}" Style="{ThemeResource TitleLargeTextBlockStyle}" FontWeight="SemiBold" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1" CornerRadius="8" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock x:Uid="DashboardPage_ExpensesThisMonth" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        <TextBlock Text="{x:Bind ViewModel.ExpenseThisMonth, Mode=OneWay, Converter={StaticResource CurrencyConverter}}" Style="{ThemeResource TitleLargeTextBlockStyle}" FontWeight="SemiBold" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="3" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1" CornerRadius="8" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock x:Uid="DashboardPage_Clients" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        <TextBlock Text="{x:Bind ViewModel.ClientCount, Mode=OneWay}" Style="{ThemeResource TitleLargeTextBlockStyle}" FontWeight="SemiBold" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <TextBlock x:Uid="DashboardPage_RecentInvoices" Style="{ThemeResource SubtitleTextBlockStyle}" />
+
+            <ListView ItemsSource="{x:Bind ViewModel.RecentInvoices, Mode=OneWay}" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Invoice">
+                        <Grid Padding="8" ColumnSpacing="12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel>
+                                <TextBlock Text="{x:Bind Number}" FontWeight="SemiBold" />
+                                <TextBlock Text="{x:Bind ClientName}" FontSize="12" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                            </StackPanel>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Total, Mode=OneWay, Converter={StaticResource CurrencyConverter}}" VerticalAlignment="Center" />
+                            <TextBlock Grid.Column="2" Text="{x:Bind Status}" VerticalAlignment="Center" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

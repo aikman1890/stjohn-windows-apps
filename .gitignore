@@ -1,0 +1,7 @@
+# License signing secrets are NEVER committed. They are generated at build
+# time on the GitHub runner from the LICENSE_SECRETS repo secret.
+Licensing/LicenseSecrets.cs
+# Shaun's personal comp keys — local only, never published.
+Licensing/Shaun-Comp-Keys.txt
+Licensing/Family-Legacy-Keys.txt
+Licensing/shaun-voice-profile/

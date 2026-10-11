@@ -1,0 +1,81 @@
+<Page
+    x:Class="ClaimPilot.Views.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Loaded="AboutPage_Loaded">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12" MaxWidth="900">
+            <TextBlock Text="{x:Bind ViewModel.AppName}" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock x:Name="VersionTapTarget"
+                       Text="{x:Bind ViewModel.VersionText}"
+                       Style="{StaticResource SubtitleTextBlockStyle}"
+                       IsTapEnabled="True"
+                       Tapped="VersionTapTarget_Tapped" />
+            <TextBlock Text="{x:Bind ViewModel.PublisherText}" Opacity="0.8" />
+
+            <!-- Creator panel: hidden until the version line is tapped 7 times. -->
+            <Border x:Name="CreatorPanel"
+                    Visibility="Collapsed"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Creator Unlock" Style="{StaticResource SubtitleTextBlockStyle}" />
+                    <TextBlock x:Name="CreatorHintText" TextWrapping="Wrap" Opacity="0.85" />
+                    <PasswordBox x:Name="CreatorPinBox"
+                                 PlaceholderText="Creator PIN (4+ characters)"
+                                 MaxLength="64" />
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Button x:Name="CreatorPrimaryButton" Click="CreatorPrimaryButton_Click" />
+                        <Button Content="Lock" Click="CreatorLockButton_Click" />
+                    </StackPanel>
+                    <TextBlock x:Name="CreatorStatusText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+
+            <TextBlock Text="License" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16">
+                <StackPanel Spacing="10">
+                    <TextBlock x:Name="BaseLicenseStatusText" TextWrapping="Wrap" FontWeight="SemiBold" />
+                    <TextBlock x:Name="PlusLicenseStatusText" TextWrapping="Wrap" />
+                    <TextBlock x:Name="LegalMattersStatusText" TextWrapping="Wrap" />
+                    <TextBox x:Name="BaseKeyBox" Header="ClaimPilot license key" PlaceholderText="XXXXX-XXXXX-XXXXX-XXXXX" />
+                    <TextBox x:Name="BaseEmailBox" Header="Purchase email" PlaceholderText="Email used at purchase" InputScope="EmailSmtpAddress" />
+                    <Button Content="Activate base key" Click="ActivateBaseKey_Click" HorizontalAlignment="Left" />
+                    <TextBlock x:Name="BaseKeyResultText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+
+            <TextBlock x:Uid="AboutPage_ImportantNotice" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16">
+                <TextBlock Text="{x:Bind ViewModel.DisclaimerText}" TextWrapping="Wrap" />
+            </Border>
+
+            <TextBlock x:Uid="AboutPage_WhatClaimPilotDoes" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.WhatItDoesText}" TextWrapping="Wrap" />
+
+            <TextBlock x:Uid="AboutPage_WhatClaimPilotDoesNotDo" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.WhatItDoesNotDoText}" TextWrapping="Wrap" />
+
+            <TextBlock x:Uid="AboutPage_YourData" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.DataStaysText}" TextWrapping="Wrap" />
+
+            <TextBlock Text="Have an idea for a new feature? That's the way to get it built — the only legitimate path to new features." Style="{StaticResource SubtitleTextBlockStyle}" Margin="0,16,0,0" />
+            <HyperlinkButton Content="Request a feature" NavigateUri="https://github.com/aikman1890/stjohn-windows-apps/issues/new?template=feature_request.md&amp;title=%5BClaimPilot%5D%20" />
+            <HyperlinkButton Content="or email us instead" NavigateUri="mailto:aikman1892@gmail.com?subject=Feature%20request%20-%20ClaimPilot" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

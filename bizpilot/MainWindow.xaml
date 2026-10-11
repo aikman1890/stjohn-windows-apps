@@ -1,0 +1,52 @@
+<Window x:Uid="MainWindow_BizPilot"
+    x:Class="BizPilot.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="BizPilot">
+
+    <NavigationView
+        x:Name="NavView"
+        PaneTitle="BizPilot"
+        IsBackButtonVisible="Collapsed"
+        SelectionChanged="NavView_SelectionChanged">
+        <NavigationView.MenuItems>
+            <NavigationViewItem x:Uid="MainWindow_Dashboard" Tag="dashboard">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Home" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_Clients" Tag="clients">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="People" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_Invoices" Tag="invoices">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Document" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_Expenses" Tag="expenses">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Calculator" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_AITools" Tag="aitools">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE99A;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <!-- Windows Ink support: Ink Notes page (added 2026-10-10; own block to avoid merge conflicts with licensing work). -->
+            <NavigationViewItem x:Uid="MainWindow_InkNotes" Tag="inknotes">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Edit" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="MainWindow_Settings" Tag="settings">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Setting" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <Frame x:Name="ContentFrame" />
+    </NavigationView>
+</Window>

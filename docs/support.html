@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — St. John Pictures</title>
+<style>
+body{font-family:"Segoe UI",Arial,sans-serif;max-width:720px;margin:0 auto;padding:0 20px 40px;color:#1b1b1b;line-height:1.6}
+header{padding:36px 0 8px}header a{color:#0b5cad;text-decoration:none}
+h1{color:#0b5cad}
+form{background:#f4f6f8;border-radius:12px;padding:24px;margin:20px 0}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;box-sizing:border-box;padding:10px;border:1px solid #ccc;border-radius:6px;font:inherit}
+textarea{min-height:120px;resize:vertical}
+button{margin-top:16px;background:#0b5cad;color:#fff;padding:12px 28px;border:none;border-radius:8px;font:inherit;font-weight:600;cursor:pointer}
+button:hover{background:#094a8a}
+.note{font-size:.9em;color:#555}
+.faq{background:#f4f6f8;border-radius:8px;padding:16px 20px;margin:12px 0}
+.faq h3{margin:0 0 6px;font-size:1em}
+.faq p{margin:0;font-size:.95em;color:#444}
+footer{margin-top:40px;font-size:.85em;color:#666}footer a{color:#0b5cad}
+</style>
+</head>
+<body>
+<header><a href="index.html">← All apps</a></header>
+<h1>Support</h1>
+<p>Need help with DayPilot, BizPilot, wuse, or ClaimPilot? Fill out the form — it opens an email to our support team.</p>
+
+<form action="mailto:zerocoolok1983@gmail.com" method="post" enctype="text/plain">
+<label for="name">Your name</label>
+<input id="name" name="Name" type="text" required>
+
+<label for="email">Your email</label>
+<input id="email" name="Email" type="email" required>
+
+<label for="app">Which app?</label>
+<select id="app" name="App">
+<option>DayPilot</option>
+<option>BizPilot</option>
+<option>wuse</option>
+<option>ClaimPilot</option>
+</select>
+
+<label for="msg">What do you need help with?</label>
+<textarea id="msg" name="Message" required></textarea>
+
+<button type="submit">Send support request</button>
+<p class="note">This opens your email app with the message addressed to our support team.</p>
+</form>
+
+<div class="faq"><h3>The app won't start / shows an error on launch</h3><p>Make sure you're on Windows 10 version 1809 or later (Windows 11 recommended). Unzip the download fully before running — don't run it from inside the zip.</p></div>
+<div class="faq"><h3>Windows says the app is from an unknown publisher</h3><p>That's normal for apps downloaded outside the Microsoft Store. Click "More info" then "Run anyway".</p></div>
+<div class="faq"><h3>An AI button is grayed out</h3><p>On-device AI needs a PC with the Windows AI model available. The button disables itself with an explanation when it isn't — everything else keeps working.</p></div>
+<div class="faq"><h3>How do I cancel my DayPilot subscription?</h3><p>Use the form above with "cancel subscription" and we'll take care of it.</p></div>
+<div class="faq"><h3>Refunds</h3><p>Changed your mind within 14 days of purchase? Send us a message and we'll refund you, no questions asked.</p></div>
+
+<footer><br><a href="privacy/daypilot.html">Privacy Policy</a><br><br>&copy; 2026 St. John Pictures.</footer>
+</body>
+</html>

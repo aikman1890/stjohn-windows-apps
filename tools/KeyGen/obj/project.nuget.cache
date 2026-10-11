@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bmnm4b46Am0=",
+  "success": false,
+  "projectFilePath": "/home/hatch/workspace/windows-apps/tools/KeyGen/KeyGen.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    }
+  ]
+}

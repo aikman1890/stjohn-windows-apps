@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BizPilot — St. John Pictures</title>
+<style>
+body{font-family:"Segoe UI",Arial,sans-serif;max-width:720px;margin:0 auto;padding:0 20px 40px;color:#1b1b1b;line-height:1.6}
+header{padding:36px 0 8px}header a{color:#0b5cad;text-decoration:none}
+h1{color:#0b5cad}.price{font-size:1.2em;font-weight:700}
+ul{padding-left:20px}.cta{display:inline-block;margin-top:16px;background:#0b5cad;color:#fff;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:600}
+footer{margin-top:40px;font-size:.85em;color:#666}footer a{color:#0b5cad}
+</style>
+</head>
+<body>
+<header><a href="index.html">← All apps</a></header>
+<h1>BizPilot</h1>
+<p class="price">$9.99/month · Cancel anytime</p>
+<p>BizPilot is an offline-first toolkit for one-person businesses. Manage clients, create professional invoices and export them as PDFs, track expenses with receipt photos, and get help from on-device AI — without your data ever leaving your PC.</p>
+<ul>
+<li>Professional invoicing with line items, tax, and one-click PDF export</li>
+<li>Expense tracking with receipt photos and spending-by-category charts</li>
+<li>On-device AI that drafts client emails and summarizes meeting notes</li>
+<li>No account, no cloud, no subscriptions</li>
+</ul>
+<a class="cta" href="mailto:aikman1983@gmail.com?subject=BizPilot%20purchase">Get BizPilot</a>
+
+<h2>Verify your download</h2>
+<p>Official SHA-256 hashes for the current release, published automatically by our build:</p>
+<ul id="hashlist"><li>Loading official hashes&hellip;</li></ul>
+<p><strong>If the hash doesn't match, don't install it &mdash; <a href="index.html">get a clean copy here</a>.</strong></p>
+<script>
+(function(){
+  var app = "bizpilot";
+  fetch("hashes.json").then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(h){
+    var e = h[app]; if(!e || !e.zip || !e.setup) throw 0;
+    document.getElementById("hashlist").innerHTML =
+      "<li><code>" + e.zip.file + "</code><br>SHA-256: <code>" + e.zip.sha256 + "</code></li>" +
+      "<li><code>" + e.setup.file + "</code><br>SHA-256: <code>" + e.setup.sha256 + "</code></li>";
+  }).catch(function(){
+    document.getElementById("hashlist").innerHTML = "<li>Hashes publish automatically with the next release.</li>";
+  });
+})();
+</script>
+<footer><br><a href="privacy/bizpilot.html">Privacy Policy</a> · <a href="support.html">Support</a><br><br>&copy; 2026 St. John Pictures.</footer>
+</body>
+</html>

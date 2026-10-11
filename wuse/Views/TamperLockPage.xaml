@@ -1,0 +1,39 @@
+<Page
+    x:Class="Wuse.Views.TamperLockPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Spacing="12" Padding="32" MaxWidth="680"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="This installation was tampered with."
+                       Style="{StaticResource TitleTextBlockStyle}" TextWrapping="Wrap" />
+            <TextBlock TextWrapping="Wrap">
+                <Run Text="wuse detected that its app files and bundled voice data were modified, replaced, or reverse-engineered. The app is now locked to protect its owner's work and likeness." />
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap">
+                <Run Text="This software — including its code, files, voice likeness, and the voice likeness where present — is the exclusive property of " />
+                <Run Text="Shaun Nicholas St. John" FontWeight="SemiBold" />
+                <Run Text="." />
+            </TextBlock>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1" CornerRadius="8" Padding="16">
+                <TextBlock TextWrapping="Wrap">
+                    <Run Text="Unauthorized extraction, copying, modification, decompilation, reverse-engineering, patching, skinning, or redistribution of a modified copy carries liquidated damages of " />
+                    <Run Text="$25,000 per violation" FontWeight="SemiBold" />
+                    <Run Text=" under the license, plus any other remedies available by law, including liability under the Texas right-of-publicity statute where it applies." />
+                </TextBlock>
+            </Border>
+            <TextBlock TextWrapping="Wrap" Opacity="0.85">
+                <Run Text="Want something changed? Don't hack it — send a feature request instead. In a clean copy of the app, open Help " />
+                <Run Text="&#8594;" />
+                <Run Text=" Request a feature." />
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Opacity="0.85">
+                <Run Text="To use the app again, reinstall it from a clean copy. Your personal data on this PC is untouched." />
+            </TextBlock>
+            <Button Content="Close" Click="Close_Click" HorizontalAlignment="Left" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

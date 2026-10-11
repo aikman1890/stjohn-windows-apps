@@ -1,0 +1,280 @@
+name: Build Windows apps
+
+# Builds all four St. John Pictures apps on GitHub's free Windows runners and
+# uploads each as a ready-to-sell ZIP (self-contained EXE: download, unzip,
+# double-click — no installer, no certificates, no Microsoft Store needed).
+# Runs on every push to main that touches an app (or this workflow), plus manual dispatch.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'daypilot/**'
+      - 'bizpilot/**'
+      - 'wuse/**'
+      - 'claimpilot/**'
+      - '.github/workflows/build-and-publish.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - dir: daypilot
+            csproj: daypilot/DayPilot.csproj
+            entrypoint: DayPilot.App
+            exename: DayPilot
+          - dir: bizpilot
+            csproj: bizpilot/BizPilot.csproj
+            entrypoint: BizPilot.App
+            exename: BizPilot
+          - dir: wuse
+            csproj: wuse/Wuse.csproj
+            entrypoint: Wuse.App
+            exename: Wuse
+          - dir: claimpilot
+            csproj: claimpilot/ClaimPilot.csproj
+            entrypoint: ClaimPilot.App
+            exename: ClaimPilot
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # LicenseSecrets.cs is NEVER committed to the repo (it would let anyone
+      # mint license keys). It is generated here from the LICENSE_SECRETS
+      # repo secret (lines of name=hex: daypilot, bizpilot, wuse, claimpilot).
+      - name: Restore license secrets
+        shell: pwsh
+        env:
+          LICENSE_SECRETS: ${{ secrets.LICENSE_SECRETS }}
+        run: |
+          $map = @{}
+          foreach ($line in ($env:LICENSE_SECRETS -split "`r?`n")) {
+            $kv = $line -split '=', 2
+            if ($kv.Count -eq 2 -and $kv[0].Trim() -ne '') { $map[$kv[0].Trim().ToLower()] = $kv[1].Trim() }
+          }
+          foreach ($k in @('daypilot','bizpilot','wuse','wusebusiness','claimpilot')) {
+            if (-not $map.ContainsKey($k)) { throw "LICENSE_SECRETS repo secret is missing '$k'" }
+          }
+          $cs = "// Auto-generated at build time from the LICENSE_SECRETS repo secret.`n"
+          $cs += "// NEVER commit this file. See .github/workflows/README.md.`n"
+          $cs += "using System;`n`nnamespace StJohn.Licensing;`n`n"
+          $cs += "public static class LicenseSecrets`n{`n"
+          $cs += '    private const string DayPilotHex = "' + $map['daypilot'] + '";' + "`n"
+          $cs += '    private const string BizPilotHex = "' + $map['bizpilot'] + '";' + "`n"
+          $cs += '    private const string WuseHex = "' + $map['wuse'] + '";' + "`n"
+          $cs += '    private const string WuseBusinessHex = "' + $map['wusebusiness'] + '";' + "`n"
+          $cs += '    private const string ClaimPilotHex = "' + $map['claimpilot'] + '";' + "`n"
+          $cs += "    public static byte[] DayPilot => Convert.FromHexString(DayPilotHex);`n"
+          $cs += "    public static byte[] BizPilot => Convert.FromHexString(BizPilotHex);`n"
+          $cs += "    public static byte[] Wuse => Convert.FromHexString(WuseHex);`n"
+          $cs += "    public static byte[] WuseBusiness => Convert.FromHexString(WuseBusinessHex);`n"
+          $cs += "    public static byte[] ClaimPilot => Convert.FromHexString(ClaimPilotHex);`n"
+          $cs += "    public static byte[] ForProduct(StJohn.Licensing.ProductId product) => product switch`n"
+          $cs += "    {`n"
+          $cs += "        StJohn.Licensing.ProductId.DayPilot => DayPilot,`n"
+          $cs += "        StJohn.Licensing.ProductId.BizPilot => BizPilot,`n"
+          $cs += "        StJohn.Licensing.ProductId.Wuse => Wuse,`n"
+          $cs += "        StJohn.Licensing.ProductId.WuseBusiness => WuseBusiness,`n"
+          $cs += "        StJohn.Licensing.ProductId.ClaimPilot => ClaimPilot,`n"
+          $cs += "        StJohn.Licensing.ProductId.ClaimPilotPlus => ClaimPilot,`n"
+          $cs += "        StJohn.Licensing.ProductId.LegalMatters => ClaimPilot,`n"
+          $cs += "        _ => throw new ArgumentOutOfRangeException(nameof(product)),`n"
+          $cs += "    };`n}`n"
+          New-Item -ItemType Directory -Force -Path Licensing | Out-Null
+          Set-Content -Path Licensing/LicenseSecrets.cs -Value $cs -NoNewline
+          Write-Host "LicenseSecrets.cs generated."
+
+      - name: Publish self-contained EXE
+        run: dotnet publish ${{ matrix.csproj }} -r win-x64 -c Release --self-contained true -o ./publish/${{ matrix.dir }}
+
+      # Binary integrity: hash every published file and HMAC-SHA256-sign the
+      # manifest. Each app verifies this at startup (Release builds only) and
+      # locks itself if anything was modified. INTEGRITY_KEY is a repo secret
+      # (64 hex chars = 256 bits), stored next to LICENSE_SECRETS in the repo
+      # settings. The same key is obfuscated in each app's
+      # Services/IntegrityGuard.cs — keep the two in sync. The manifest itself
+      # is excluded from the file list (it is written by this step).
+      - name: Sign integrity manifest
+        shell: pwsh
+        env:
+          INTEGRITY_KEY: ${{ secrets.INTEGRITY_KEY }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:INTEGRITY_KEY)) { throw "INTEGRITY_KEY repo secret is missing" }
+          $app = "${{ matrix.dir }}"
+          $pub = "./publish/$app"
+          $key = [byte[]]::new($env:INTEGRITY_KEY.Length / 2)
+          for ($i = 0; $i -lt $key.Length; $i++) { $key[$i] = [Convert]::ToByte($env:INTEGRITY_KEY.Substring($i * 2, 2), 16) }
+          $lines = @()
+          Get-ChildItem $pub -Recurse -File |
+            Where-Object { $_.Name -ne 'integrity.manifest' } |
+            Sort-Object FullName |
+            ForEach-Object {
+              $rel = $_.FullName.Substring((Resolve-Path $pub).Path.Length + 1)
+              $hash = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
+              $lines += "$hash  $rel"
+            }
+          $body = ($lines -join "`n") + "`n"
+          $hmac = New-Object System.Security.Cryptography.HMACSHA256(,$key)
+          $sig = [BitConverter]::ToString($hmac.ComputeHash([Text.Encoding]::UTF8.GetBytes($body))).Replace('-', '').ToLower()
+          [Array]::Clear($key, 0, $key.Length)
+          Set-Content -Path "$pub/integrity.manifest" -Value ($body + "hmac:$sig`n") -NoNewline
+          Write-Host "integrity.manifest written ($($lines.Count) files)."
+
+      - name: Zip app
+        shell: pwsh
+        run: |
+          $app = "${{ matrix.dir }}"
+          $exe = "${{ matrix.exename }}"
+          $readme = "$app - St. John Pictures`r`n========================================`r`n1. Unzip this folder anywhere you like.`r`n2. Double-click $exe.exe to run. No installer needed.`r`n`r`nIf the app does not start, install the free Windows App SDK runtime once:`r`nhttps://aka.ms/windowsappsdk/1.8/latest/windowsappruntimeinstall-x64.exe`r`n"
+          Set-Content -Path "./publish/$app/README.txt" -Value $readme
+          Compress-Archive -Path ./publish/$app/* -DestinationPath ./$app-windows.zip
+
+      - name: Upload ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-windows
+          path: ./${{ matrix.dir }}-windows.zip
+
+      # Microsoft Store package. Runs only when the STORE_PUBLISHER repo secret
+      # exists (the exact Publisher CN from Partner Center). Partner Center
+      # re-signs on submission, so the unsigned MSIX uploads fine.
+      - name: Pack MSIX for Microsoft Store
+        if: ${{ secrets.STORE_PUBLISHER != '' }}
+        shell: pwsh
+        env:
+          STORE_PUBLISHER: ${{ secrets.STORE_PUBLISHER }}
+        run: |
+          $app = "${{ matrix.dir }}"
+          $pub = "./publish/$app"
+          Copy-Item "$app/Package.appxmanifest" "$pub/AppxManifest.xml"
+          if (Test-Path "$app/Assets") { Copy-Item "$app/Assets" "$pub/Assets" -Recurse }
+          $manifest = Get-Content "$pub/AppxManifest.xml" -Raw
+          $manifest = $manifest.Replace('$targetentrypoint$', '${{ matrix.entrypoint }}')
+          $manifest = $manifest.Replace('$targetnametoken$', '${{ matrix.exename }}')
+          $manifest = $manifest.Replace('CN=St. John Pictures', $env:STORE_PUBLISHER)
+          Set-Content "$pub/AppxManifest.xml" $manifest -NoNewline
+          $makeappx = Get-ChildItem "${env:ProgramFiles(x86)}\Windows Kits\10\bin" -Recurse -Filter makeappx.exe -ErrorAction SilentlyContinue | Select-Object -First 1
+          if (-not $makeappx) { throw "makeappx.exe not found (Windows SDK missing on runner)" }
+          & $makeappx.FullName pack /d $pub /p "./$app-store.msix" /nv
+
+      - name: Upload MSIX
+        if: ${{ secrets.STORE_PUBLISHER != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-store-msix
+          path: ./${{ matrix.dir }}-store.msix
+
+      # Real installer exe (Inno Setup, free). Silent install: /SILENT
+      # (progress bar, no prompts) or /VERYSILENT (fully silent).
+      - name: Build installer exe
+        shell: pwsh
+        run: |
+          $app = "${{ matrix.dir }}"
+          $exe = "${{ matrix.exename }}"
+          choco install innosetup -y --no-progress
+          $iss = "[Setup]`n"
+          $iss += "AppName=$exe`n"
+          $iss += "AppVersion=1.0.0`n"
+          $iss += "AppPublisher=St. John Pictures`n"
+          $iss += "AppPublisherURL=https://aikman1890.github.io/stjohn-windows-apps/`n"
+          $iss += "DefaultDirName={autopf}\St. John Pictures\$exe`n"
+          $iss += "OutputDir=.`n"
+          $iss += "OutputBaseFilename=$app-Setup`n"
+          $iss += "Compression=lzma2`n"
+          $iss += "SolidCompression=yes`n"
+          $iss += "WizardStyle=modern`n"
+          $iss += "PrivilegesRequired=lowest`n"
+          $iss += "[Files]`n"
+          $iss += "Source: ""publish\$app\*""; DestDir: ""{app}""; Flags: ignoreversion recursesubdirs createallsubdirs`n"
+          $iss += "[Icons]`n"
+          $iss += "Name: ""{autoprograms}\$exe""; Filename: ""{app}\$exe.exe""`n"
+          $iss += "[Run]`n"
+          $iss += "Filename: ""{app}\$exe.exe""; Description: ""Launch $exe""; Flags: nowait postinstall skipifsilent`n"
+          Set-Content -Path ./installer.iss -Value $iss -NoNewline
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" ./installer.iss
+
+      - name: Upload installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-setup-exe
+          path: ./${{ matrix.dir }}-Setup.exe
+
+      # Official SHA-256 hashes for the install files. CHECKSUMS.txt ships as
+      # an artifact next to the installers; the per-app JSON is merged into
+      # docs/hashes.json by the publish-hashes job so the website shows the
+      # official hash under each download.
+      - name: Write checksums
+        shell: pwsh
+        run: |
+          $app = "${{ matrix.dir }}"
+          $zipHash = (Get-FileHash "./$app-windows.zip" -Algorithm SHA256).Hash.ToLower()
+          $setupHash = (Get-FileHash "./$app-Setup.exe" -Algorithm SHA256).Hash.ToLower()
+          Set-Content -Path ./$app-CHECKSUMS.txt -Value "$zipHash  $app-windows.zip`n$setupHash  $app-Setup.exe`n" -NoNewline
+          @{ app = $app
+             zip = @{ file = "$app-windows.zip"; sha256 = $zipHash }
+             setup = @{ file = "$app-Setup.exe"; sha256 = $setupHash } } |
+            ConvertTo-Json -Depth 3 | Set-Content -Path ./hashes-$app.json -NoNewline
+          Write-Host "checksums written."
+
+      - name: Upload checksums
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-checksums
+          path: ./${{ matrix.dir }}-CHECKSUMS.txt
+
+      - name: Upload hashes json
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-hashes-json
+          path: ./hashes-${{ matrix.dir }}.json
+
+  # Merges the per-app hashes into docs/hashes.json and commits it so the
+  # GitHub Pages site can show the official SHA-256 under each download.
+  # Runs once after the whole matrix succeeds (avoids parallel-push races).
+  publish-hashes:
+    runs-on: windows-latest
+    needs: build
+    if: ${{ needs.build.result == 'success' }}
+    permissions:
+      contents: write
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Download hash files
+        uses: actions/download-artifact@v4
+        with:
+          pattern: '*-hashes-json'
+          path: ./hashparts
+          merge-multiple: true
+
+      - name: Merge and commit docs/hashes.json
+        shell: pwsh
+        run: |
+          $merged = @{}
+          Get-ChildItem ./hashparts -Filter 'hashes-*.json' | ForEach-Object {
+            $j = Get-Content $_.FullName -Raw | ConvertFrom-Json
+            $merged[$j.app] = @{
+              zip = @{ file = $j.zip.file; sha256 = $j.zip.sha256 }
+              setup = @{ file = $j.setup.file; sha256 = $j.setup.sha256 } }
+          }
+          $merged | ConvertTo-Json -Depth 4 | Set-Content -Path ./docs/hashes.json -NoNewline
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/hashes.json
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m 'Update installer hashes [skip ci]'
+            git push
+          } else {
+            Write-Host 'hashes.json unchanged.'
+          }

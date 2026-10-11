@@ -1,0 +1,87 @@
+<Page
+    x:Class="DayPilot.Views.BriefingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:DayPilot.Models">
+
+    <ScrollViewer Padding="32">
+        <StackPanel Spacing="16" MaxWidth="900">
+            <TextBlock x:Uid="BriefingPage_TodaySBriefing" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.TodayDate, Mode=OneWay}" Style="{StaticResource SubtitleTextBlockStyle}" />
+
+            <StackPanel Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                <Button x:Name="TalkButton" Click="TalkButton_Click"
+                        AutomationProperties.Name="Talk to DayPilot"
+                        ToolTipService.ToolTip="Speak to DayPilot: set reminders, take notes, manage tasks, or ask about your day">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <FontIcon Glyph="&#xE720;" FontSize="16" />
+                        <TextBlock Text="Talk to DayPilot" FontWeight="SemiBold" />
+                    </StackPanel>
+                </Button>
+                <TextBlock x:Name="TalkStatusText" VerticalAlignment="Center" Opacity="0.8" TextWrapping="Wrap" />
+            </StackPanel>
+
+            <Border x:Name="TalkPanel" CornerRadius="8" Padding="16" Visibility="Collapsed"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="You said" FontWeight="SemiBold" Opacity="0.7" FontSize="12" />
+                    <TextBlock x:Name="TalkHeardText" TextWrapping="Wrap" />
+                    <TextBlock Text="DayPilot" FontWeight="SemiBold" Opacity="0.7" FontSize="12" />
+                    <TextBlock x:Name="TalkReplyText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+
+            <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" CornerRadius="8" Padding="16"
+                        Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                        BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="{x:Bind ViewModel.NoteCount, Mode=OneWay}" FontSize="28" FontWeight="SemiBold" />
+                        <TextBlock x:Uid="BriefingPage_Notes" Opacity="0.7" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" CornerRadius="8" Padding="16"
+                        Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                        BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="{x:Bind ViewModel.DueTodayCount, Mode=OneWay}" FontSize="28" FontWeight="SemiBold" />
+                        <TextBlock x:Uid="BriefingPage_DueToday" Opacity="0.7" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" CornerRadius="8" Padding="16"
+                        Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                        BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="{x:Bind ViewModel.OverdueCount, Mode=OneWay}" FontSize="28" FontWeight="SemiBold" />
+                        <TextBlock x:Uid="BriefingPage_Overdue" Opacity="0.7" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <StackPanel Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                <TextBlock x:Uid="BriefingPage_UpcomingReminders" Style="{StaticResource SubtitleTextBlockStyle}" VerticalAlignment="Center" />
+                <Button x:Uid="BriefingPage_Refresh" Command="{x:Bind ViewModel.RefreshCommand}" />
+            </StackPanel>
+
+            <ListView ItemsSource="{x:Bind ViewModel.UpcomingReminders, Mode=OneWay}" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:ReminderItem">
+                        <StackPanel Padding="0,8">
+                            <TextBlock Text="{x:Bind Text}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                            <TextBlock Text="{x:Bind DueAt.ToString('g')}" Opacity="0.7" FontSize="12" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
