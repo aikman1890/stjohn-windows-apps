@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DayPilot MSI installer — WiX Toolset v5, per-user (no admin / no UAC).
+  Installs to %LOCALAPPDATA%\Programs\St. John Pictures\DayPilot.
+
+  The <ComponentGroupRef Id="AppFiles" /> below is satisfied by Files.wxs,
+  which the build workflow generates from publish\daypilot\\** (one component
+  per file, deterministic GUIDs) so EVERY published file ships in the MSI:
+  exe, dlls, Assets, resources.pri (100 languages), Assets\Voice\vd.dat
+  (wuse/DayPilot), integrity.manifest, License.txt.
+
+  Build (on Windows):
+    wix build daypilot.wxs Files.wxs -arch x64 -ext WixToolset.UI.wixext -o ..\..\daypilot-Setup.msi
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="DayPilot"
+           Language="1033"
+           Version="1.0.0"
+           Manufacturer="St. John Pictures"
+           ProductCode="4232B136-07E9-45AC-8C0E-953624953D52"
+           UpgradeCode="745C0E86-5A7B-4CC3-8B2E-B9E45147C1A5"
+           Scope="perUser">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of DayPilot is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <!-- Add/Remove Programs entries -->
+    <Property Id="ARPPRODUCTICON" Value="[INSTALLFOLDER]DayPilot.exe" />
+    <Property Id="ARPNOREPAIR" Value="1" />
+    <Property Id="ARPURLINFOABOUT" Value="https://aikman1890.github.io/stjohn-windows-apps/daypilot.html" />
+
+    <!-- Minimal wizard UI (welcome / progress / finish). Silent install: msiexec /i daypilot-Setup.msi /quiet -->
+    <ui:WixUI Id="WixUI_Minimal" />
+
+    <!-- Per-user install folder: %LOCALAPPDATA%\Programs\St. John Pictures\DayPilot -->
+    <StandardDirectory Id="LocalAppDataFolder">
+      <Directory Id="ProgramsDir" Name="Programs">
+        <Directory Id="CompanyDir" Name="St. John Pictures">
+          <Directory Id="INSTALLFOLDER" Name="DayPilot" />
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <!-- Start Menu shortcut (per-user, non-advertised) -->
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppShortcutsDir" Name="DayPilot">
+        <Component Id="StartMenuShortcut" Guid="242622ED-CFCE-4AE5-838C-EB4462DD8CE9" Bitness="always64">
+          <Shortcut Id="AppStartMenuShortcut"
+                    Name="DayPilot"
+                    Description="DayPilot — AI day planner for Windows"
+                    Target="[INSTALLFOLDER]DayPilot.exe"
+                    WorkingDirectory="INSTALLFOLDER" />
+          <RemoveFolder Id="RemoveAppShortcutsDir" Directory="AppShortcutsDir" On="uninstall" />
+          <RegistryValue Root="HKCU"
+                         Key="Software\St. John Pictures\DayPilot"
+                         Name="installed"
+                         Type="integer"
+                         Value="1"
+                         KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <Feature Id="Main" Title="DayPilot" Level="1">
+      <ComponentRef Id="StartMenuShortcut" />
+      <ComponentGroupRef Id="AppFiles" />
+    </Feature>
+  </Package>
+</Wix>

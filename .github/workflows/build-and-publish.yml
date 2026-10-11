@@ -217,6 +217,28 @@ jobs:
           name: ${{ matrix.dir }}-setup-exe
           path: ./${{ matrix.dir }}-Setup.exe
 
+      # MSI installer (WiX Toolset v5, per-user: no admin, no UAC prompt).
+      # Silent install: msiexec /i <app>-Setup.msi /quiet
+      # The .wxs is authored per app (<app>/Installer/<app>.wxs); the file list
+      # (Files.wxs) is generated from the publish output so every file ships.
+      - name: Build MSI installer
+        shell: pwsh
+        run: |
+          $app = "${{ matrix.dir }}"
+          & dotnet tool install --global wix --version 5.0.*
+          $wixExe = "$env:USERPROFILE\.dotnet\tools\wix.exe"
+          & $wixExe extension add WixToolset.UI.wixext --version 5.0.*
+          & ./tools/Build-MsiFiles.ps1 -AppDir "publish\$app" -OutWxs "$app\Installer\Files.wxs"
+          & $wixExe build "$app\Installer\$app.wxs" "$app\Installer\Files.wxs" -arch x64 -ext WixToolset.UI.wixext -o "./$app-Setup.msi"
+          if (-not (Test-Path "./$app-Setup.msi")) { throw "MSI was not produced" }
+          Write-Host "MSI built: ./$app-Setup.msi"
+
+      - name: Upload MSI installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-setup-msi
+          path: ./${{ matrix.dir }}-Setup.msi
+
       # Official SHA-256 hashes for the install files. CHECKSUMS.txt ships as
       # an artifact next to the installers; the per-app JSON is merged into
       # docs/hashes.json by the publish-hashes job so the website shows the
@@ -227,10 +249,12 @@ jobs:
           $app = "${{ matrix.dir }}"
           $zipHash = (Get-FileHash "./$app-windows.zip" -Algorithm SHA256).Hash.ToLower()
           $setupHash = (Get-FileHash "./$app-Setup.exe" -Algorithm SHA256).Hash.ToLower()
-          Set-Content -Path ./$app-CHECKSUMS.txt -Value "$zipHash  $app-windows.zip`n$setupHash  $app-Setup.exe`n" -NoNewline
+          $msiHash = (Get-FileHash "./$app-Setup.msi" -Algorithm SHA256).Hash.ToLower()
+          Set-Content -Path ./$app-CHECKSUMS.txt -Value "$zipHash  $app-windows.zip`n$setupHash  $app-Setup.exe`n$msiHash  $app-Setup.msi`n" -NoNewline
           @{ app = $app
              zip = @{ file = "$app-windows.zip"; sha256 = $zipHash }
-             setup = @{ file = "$app-Setup.exe"; sha256 = $setupHash } } |
+             setup = @{ file = "$app-Setup.exe"; sha256 = $setupHash }
+             msi = @{ file = "$app-Setup.msi"; sha256 = $msiHash } } |
             ConvertTo-Json -Depth 3 | Set-Content -Path ./hashes-$app.json -NoNewline
           Write-Host "checksums written."
 
@@ -274,7 +298,8 @@ jobs:
             $j = Get-Content $_.FullName -Raw | ConvertFrom-Json
             $merged[$j.app] = @{
               zip = @{ file = $j.zip.file; sha256 = $j.zip.sha256 }
-              setup = @{ file = $j.setup.file; sha256 = $j.setup.sha256 } }
+              setup = @{ file = $j.setup.file; sha256 = $j.setup.sha256 }
+              msi = @{ file = $j.msi.file; sha256 = $j.msi.sha256 } }
           }
           $merged | ConvertTo-Json -Depth 4 | Set-Content -Path ./docs/hashes.json -NoNewline
           git config user.name 'github-actions[bot]'
@@ -310,9 +335,11 @@ jobs:
             St. John Pictures Windows apps — self-contained builds.
             Download the ZIP, unzip anywhere, double-click to run. No installer or admin needed.
             The Setup.exe provides a classic installer (silent switch: /SILENT).
+            The Setup.msi is a per-user MSI (no admin needed; silent: msiexec /i Setup.msi /quiet).
             Verify with CHECKSUMS.txt before installing.
           files: |
             release-assets/*.zip
             release-assets/*-Setup.exe
+            release-assets/*-Setup.msi
             release-assets/*-CHECKSUMS.txt
           fail_on_unmatched_files: false

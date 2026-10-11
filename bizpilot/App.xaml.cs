@@ -23,7 +23,7 @@ public partial class App : Application
         if (Services.IntegrityGuard.IsTampered())
         {
             var lockWindow = new Window();
-            lockWindow.Content = new Views.TamperLockPage();
+            lockWindow.Content = new Microsoft.UI.Xaml.Controls.TextBlock { Text = "Tampered" };
             MainWindow = lockWindow;
             MainWindow.Activate();
             return;
