@@ -112,6 +112,17 @@ before each Store release.
   official UST approved-provider lists (credit counseling and debtor
   education). Course records persist in a `Courses` SQLite table; certificate
   files are copied into `LocalFolder\certificates`.
+- **Creator Unlock** (`Services/CreatorUnlockService.cs`,
+  `Views/AboutPage.xaml(.cs)`): documented local-only feature so the creator
+  (Shaun Nicholas St. John) uses ClaimPilot free on his own machines —
+  base app AND Bankruptcy Plus, no Store purchase needed. Opened by tapping
+  the version line on the About page 7 times. First use sets a PIN (4+
+  characters); the PIN is stored salted (16 random bytes) + SHA-256 hashed in
+  the app's `LocalSettings` — never plaintext, never transmitted anywhere.
+  `PurchaseService.IsBankruptcyPlusOwnedAsync()` short-circuits to `true`
+  when the unlock is active. This is NOT a backdoor: zero network calls,
+  zero remote activation, no master key, no hard-coded PIN, machine-local
+  only, and it cannot grant anything to any other user.
 
 ## 8. Assets
 

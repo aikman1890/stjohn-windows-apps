@@ -6,8 +6,34 @@
     <ScrollViewer>
         <StackPanel Padding="24" Spacing="12" MaxWidth="900">
             <TextBlock Text="{x:Bind ViewModel.AppName}" Style="{StaticResource TitleTextBlockStyle}" />
-            <TextBlock Text="{x:Bind ViewModel.VersionText}" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock x:Name="VersionTapTarget"
+                       Text="{x:Bind ViewModel.VersionText}"
+                       Style="{StaticResource SubtitleTextBlockStyle}"
+                       IsTapEnabled="True"
+                       Tapped="VersionTapTarget_Tapped" />
             <TextBlock Text="{x:Bind ViewModel.PublisherText}" Opacity="0.8" />
+
+            <!-- Creator panel: hidden until the version line is tapped 7 times. -->
+            <Border x:Name="CreatorPanel"
+                    Visibility="Collapsed"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Creator Unlock" Style="{StaticResource SubtitleTextBlockStyle}" />
+                    <TextBlock x:Name="CreatorHintText" TextWrapping="Wrap" Opacity="0.85" />
+                    <PasswordBox x:Name="CreatorPinBox"
+                                 PlaceholderText="Creator PIN (4+ characters)"
+                                 MaxLength="64" />
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Button x:Name="CreatorPrimaryButton" Click="CreatorPrimaryButton_Click" />
+                        <Button Content="Lock" Click="CreatorLockButton_Click" />
+                    </StackPanel>
+                    <TextBlock x:Name="CreatorStatusText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
 
             <TextBlock Text="Important Notice" Style="{StaticResource SubtitleTextBlockStyle}" />
             <Border

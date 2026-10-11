@@ -11,9 +11,20 @@ namespace ClaimPilot.Services;
 /// </summary>
 public static class PurchaseService
 {
-    /// <summary>True when the signed-in user owns the Bankruptcy Plus add-on.</summary>
+    /// <summary>
+    /// True when the signed-in user owns the Bankruptcy Plus add-on — or when
+    /// the local Creator Unlock is active (the creator uses everything free on
+    /// his own machines; see <see cref="CreatorUnlockService"/>).
+    /// </summary>
     public static async Task<bool> IsBankruptcyPlusOwnedAsync()
     {
+        // Creator Unlock short-circuits the Store check: local, PIN-gated,
+        // documented in BUILD.md. Not a bypass for anyone else.
+        if (CreatorUnlockService.IsUnlocked)
+        {
+            return true;
+        }
+
         try
         {
             var context = StoreContext.GetDefault();
