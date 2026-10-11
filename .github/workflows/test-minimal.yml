@@ -1,0 +1,12 @@
+name: Test Minimal Build
+on: [push]
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build minimal WinUI app
+        run: dotnet publish test-minimal/TestMinimal.csproj -r win-x64 -c Release --self-contained true -o ./publish/test-minimal
