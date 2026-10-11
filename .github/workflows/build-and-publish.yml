@@ -1,7 +1,9 @@
-name: Build and publish to Microsoft Store
+---
+name: Build Windows apps
 
-# Builds all four St. John Pictures apps with the winapp CLI on GitHub's free
-# Windows runners, packages each as MSIX, and submits to the Microsoft Store.
+# Builds all four St. John Pictures apps on GitHub's free Windows runners and
+# uploads each as a ready-to-sell ZIP (self-contained EXE: download, unzip,
+# double-click — no installer, no certificates, no Microsoft Store needed).
 # Runs on every push to main that touches an app (or this workflow), plus manual dispatch.
 
 on:
@@ -16,7 +18,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-publish:
+  build:
     runs-on: windows-latest
     strategy:
       fail-fast: false
@@ -24,16 +26,12 @@ jobs:
         include:
           - dir: daypilot
             csproj: daypilot/DayPilot.csproj
-            store_id_secret: DAYPILOT_STORE_ID
           - dir: bizpilot
             csproj: bizpilot/BizPilot.csproj
-            store_id_secret: BIZPILOT_STORE_ID
           - dir: wuse
             csproj: wuse/Wuse.csproj
-            store_id_secret: WUSE_STORE_ID
           - dir: claimpilot
             csproj: claimpilot/ClaimPilot.csproj
-            store_id_secret: CLAIMPILOT_STORE_ID
     steps:
       - name: Check out
         uses: actions/checkout@v4
@@ -43,17 +41,15 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Set up winapp CLI
-        uses: microsoft/setup-winapp@v1
+      - name: Publish self-contained EXE
+        run: dotnet publish ${{ matrix.csproj }} -r win-x64 -c Release --self-contained true -o ./publish/${{ matrix.dir }}
 
-      - name: Publish app
-        run: dotnet publish ${{ matrix.csproj }} -r win-x64 -c Release -o ./publish/${{ matrix.dir }}
+      - name: Zip app
+        run: Compress-Archive -Path ./publish/${{ matrix.dir }}/* -DestinationPath ./${{ matrix.dir }}-windows.zip
 
-      - name: Package MSIX (Store certificate via Partner Center association)
-        run: winapp pack ./publish/${{ matrix.dir }} --manifest ${{ matrix.dir }}/Package.appxmanifest --output ./${{ matrix.dir }}.msix
-
-      - name: Configure Store credentials
-        run: winapp store reconfigure --tenantId "${{ secrets.STORE_TENANT_ID }}" --sellerId "${{ secrets.STORE_SELLER_ID }}" --clientId "${{ secrets.STORE_CLIENT_ID }}" --clientSecret "${{ secrets.STORE_CLIENT_SECRET }}"
-
-      - name: Publish to Microsoft Store
-        run: winapp store publish ./${{ matrix.dir }}.msix --appId "${{ secrets[matrix.store_id_secret] }}"
+      - name: Upload ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-windows
+          path: ./${{ matrix.dir }}-windows.zip
+---
