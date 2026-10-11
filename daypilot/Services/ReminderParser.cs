@@ -166,19 +166,19 @@ public sealed class ReminderParser
             {
                 var numeric = Regex.Match(work, @"(?:\bon\s+)?\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b");
                 if (numeric.Success
-                    && int.TryParse(numeric.Groups[1].Value, out int month)
-                    && int.TryParse(numeric.Groups[2].Value, out int day)
-                    && month >= 1 && month <= 12 && day >= 1 && day <= 31)
+                    && int.TryParse(numeric.Groups[1].Value, out int m)
+                    && int.TryParse(numeric.Groups[2].Value, out int d)
+                    && m >= 1 && m <= 12 && d >= 1 && d <= 31)
                 {
                     if (numeric.Groups[3].Success && int.TryParse(numeric.Groups[3].Value, out int year))
                     {
                         if (year < 100)
                             year += 2000;
-                        explicitDate = SafeDate(year, month, day) ?? NextMonthDay(month, day);
+                        explicitDate = SafeDate(year, m, d) ?? NextMonthDay(m, d);
                     }
                     else
                     {
-                        explicitDate = NextMonthDay(month, day);
+                        explicitDate = NextMonthDay(m, d);
                     }
                     work = RemoveOnce(work, numeric);
                 }
