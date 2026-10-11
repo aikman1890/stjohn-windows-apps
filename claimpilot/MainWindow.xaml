@@ -43,19 +43,19 @@
             </NavigationViewItem>
             <NavigationViewItem x:Uid="MainWindow_Bankruptcy" Tag="bankruptcy">
                 <NavigationViewItem.Icon>
-                    <SymbolIcon Symbol="Bank" />
+                    <SymbolIcon Symbol="Library" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
             <NavigationViewItemSeparator />
             <NavigationViewItemHeader x:Uid="MainWindow_LegalMatters" />
             <NavigationViewItem x:Uid="MainWindow_TrafficTickets" Tag="traffictickets">
                 <NavigationViewItem.Icon>
-                    <SymbolIcon Symbol="Car" />
+                    <SymbolIcon Symbol="Map" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
             <NavigationViewItem x:Uid="MainWindow_CriminalCases" Tag="criminalcases">
                 <NavigationViewItem.Icon>
-                    <SymbolIcon Symbol="Shield" />
+                    <SymbolIcon Symbol="Protected" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
             <NavigationViewItem x:Uid="MainWindow_FederalMatters" Tag="federalmatters">

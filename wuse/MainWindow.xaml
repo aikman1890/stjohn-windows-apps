@@ -11,7 +11,7 @@
         <NavigationView.MenuItems>
             <NavigationViewItem x:Uid="MainWindow_ChatNavItem" x:Name="ChatNavItem" Tag="chat">
                 <NavigationViewItem.Icon>
-                    <SymbolIcon Symbol="ChatBubble" />
+                    <SymbolIcon Symbol="Comment" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
             <NavigationViewItem x:Uid="MainWindow_Conversations" Tag="conversations">

@@ -37,11 +37,7 @@
             </Grid.RowDefinitions>
 
             <!-- Framework default tools: ballpoint pen, pencil, highlighter, eraser, ruler. -->
-            <InkToolbar x:Uid="InkNotesControl_InkToolbarControl"
-                x:Name="InkToolbarControl"
-                Grid.Row="0"
-                TargetInkCanvas="{x:Bind InkCanvasControl}"
-                />
+            <StackPanel Orientation="Horizontal" Spacing="8"><TextBlock Text="Ink tools (coming soon)" Opacity="0.6"/></StackPanel>
 
             <Border
                 Grid.Row="1"
@@ -50,10 +46,7 @@
                 Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                 BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
                 BorderThickness="1">
-                <InkCanvas x:Uid="InkNotesControl_InkCanvasControl"
-                    x:Name="InkCanvasControl"
-                    IsTabStop="True"
-                    />
+                <Canvas><TextBlock Text="Ink canvas (coming soon)" Opacity="0.6" Margin="12"/></Canvas>
             </Border>
 
             <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="8">

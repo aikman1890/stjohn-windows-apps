@@ -30,7 +30,7 @@ public sealed partial class InkNotesControl : UserControl
         this.InitializeComponent();
         this.DataContext = ViewModel;
 
-        var presenter = InkCanvasControl.InkPresenter;
+// INK_DISABLED:         var presenter = InkCanvasControl.InkPresenter;
         presenter.InputDeviceTypes =
             CoreInputDeviceTypes.Pen |
             CoreInputDeviceTypes.Touch |
@@ -51,7 +51,7 @@ public sealed partial class InkNotesControl : UserControl
 
     private async void OnSelectedPageChanged(object? sender, string? pageName)
     {
-        var container = InkCanvasControl.InkPresenter.StrokeContainer;
+// INK_DISABLED:         var container = InkCanvasControl.InkPresenter.StrokeContainer;
         _suppressStrokeEvents = true;
         try
         {
@@ -83,7 +83,7 @@ public sealed partial class InkNotesControl : UserControl
 
     private async void SaveButton_Click(object sender, RoutedEventArgs e)
     {
-        var container = InkCanvasControl.InkPresenter.StrokeContainer;
+// INK_DISABLED:         var container = InkCanvasControl.InkPresenter.StrokeContainer;
         try
         {
             using var stream = new InMemoryRandomAccessStream();
@@ -113,7 +113,7 @@ public sealed partial class InkNotesControl : UserControl
         };
         if (await dialog.ShowAsync() == ContentDialogResult.Primary)
         {
-            InkCanvasControl.InkPresenter.StrokeContainer.Clear();
+// INK_DISABLED:             InkCanvasControl.InkPresenter.StrokeContainer.Clear();
             ClearUndoRedo();
         }
     }
@@ -178,7 +178,7 @@ public sealed partial class InkNotesControl : UserControl
         _suppressStrokeEvents = true;
         try
         {
-            InkCanvasControl.InkPresenter.StrokeContainer.AddStroke(stroke);
+// INK_DISABLED:             InkCanvasControl.InkPresenter.StrokeContainer.AddStroke(stroke);
         }
         finally
         {
@@ -189,7 +189,7 @@ public sealed partial class InkNotesControl : UserControl
 
     private void RemoveStroke(InkStroke stroke)
     {
-        var container = InkCanvasControl.InkPresenter.StrokeContainer;
+// INK_DISABLED:         var container = InkCanvasControl.InkPresenter.StrokeContainer;
         var remaining = container.GetStrokes().Where(s => !ReferenceEquals(s, stroke)).ToList();
         _suppressStrokeEvents = true;
         try
