@@ -1,0 +1,67 @@
+<Page
+    x:Class="Wuse.Views.ChatPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:Wuse.Models"
+    xmlns:converters="using:Wuse.Converters">
+
+    <Page.Resources>
+        <converters:ChatAlignmentConverter x:Key="ChatAlignmentConverter" />
+        <converters:ChatBackgroundConverter x:Key="ChatBackgroundConverter" />
+        <converters:ChatForegroundConverter x:Key="ChatForegroundConverter" />
+    </Page.Resources>
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto" Padding="16">
+        <CommandBar Grid.Row="0" DefaultLabelPosition="Right" Background="Transparent">
+            <AppBarButton Icon="Add" Label="New chat" Command="{x:Bind ViewModel.NewConversationCommand}" />
+        </CommandBar>
+
+        <InfoBar Grid.Row="1"
+                 Title="On-device AI unavailable"
+                 Message="{x:Bind ViewModel.AiStatusMessage, Mode=OneWay}"
+                 Severity="Warning"
+                 IsClosable="False"
+                 IsOpen="{x:Bind ViewModel.IsAiUnavailable, Mode=OneWay}"
+                 Margin="0,0,0,8" />
+
+        <ListView Grid.Row="2"
+                  x:Name="MessageList"
+                  ItemsSource="{x:Bind ViewModel.Messages, Mode=OneWay}"
+                  SelectionMode="None">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:ChatMessage">
+                    <Border HorizontalAlignment="{x:Bind Role, Converter={StaticResource ChatAlignmentConverter}, Mode=OneWay}"
+                            Background="{x:Bind Role, Converter={StaticResource ChatBackgroundConverter}, Mode=OneWay}"
+                            CornerRadius="12" Padding="12,8" Margin="8,4" MaxWidth="560">
+                        <StackPanel>
+                            <TextBlock Text="{x:Bind Text, Mode=OneWay}"
+                                       TextWrapping="WrapWholeWords"
+                                       Foreground="{x:Bind Role, Converter={StaticResource ChatForegroundConverter}, Mode=OneWay}" />
+                            <TextBlock Text='{x:Bind At.ToString("g"), Mode=OneWay}'
+                                       Opacity="0.6" FontSize="11" HorizontalAlignment="Right" Margin="0,4,0,0"
+                                       Foreground="{x:Bind Role, Converter={StaticResource ChatForegroundConverter}, Mode=OneWay}" />
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Grid Grid.Row="3" ColumnDefinitions="*,Auto,Auto" ColumnSpacing="8" Margin="0,8,0,0" VerticalAlignment="Center">
+            <TextBox x:Name="InputTextBox" Grid.Column="0"
+                     Text="{x:Bind ViewModel.InputText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     PlaceholderText="Ask wuse anything…"
+                     KeyDown="InputTextBox_KeyDown" />
+            <Button Grid.Column="1" Content="Send"
+                    Command="{x:Bind ViewModel.SendCommand}"
+                    Style="{StaticResource AccentButtonStyle}" />
+            <ProgressRing Grid.Column="2"
+                          IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}"
+                          Width="28" Height="28" />
+        </Grid>
+    </Grid>
+</Page>

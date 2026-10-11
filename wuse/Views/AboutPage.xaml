@@ -1,0 +1,28 @@
+<Page
+    x:Class="Wuse.Views.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Spacing="12" Padding="24" MaxWidth="720" HorizontalAlignment="Left">
+            <TextBlock Text="About wuse" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.AppVersion, Mode=OneWay}" Opacity="0.7" />
+
+            <TextBlock Text="wuse is a friendly assistant that lives entirely on your PC." TextWrapping="Wrap" />
+            <TextBlock Text="Runs 100% on-device. No cloud, no accounts, no tracking."
+                       TextWrapping="Wrap" Style="{StaticResource BodyStrongTextBlockStyle}" />
+
+            <TextBlock Text="What wuse can do" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock TextWrapping="Wrap">
+                <Run Text="• Chat with an on-device language model when your PC supports it, with graceful local fallbacks when it doesn't." /><LineBreak />
+                <Run Text="• Open apps, search the web, open folders, and report machine info — all from the chat box." /><LineBreak />
+                <Run Text="• Keep your conversations on this PC, remember facts about you (only if you ask), and respect your theme." />
+            </TextBlock>
+
+            <TextBlock Text="On-device AI status" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.AiStatus, Mode=OneWay}" TextWrapping="Wrap" Opacity="0.8" />
+
+            <TextBlock Text="Made by St. John Pictures." Opacity="0.7" Margin="0,24,0,0" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
