@@ -15,7 +15,7 @@ on:
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
-jobs:setup-winapp
+jobs:
   build-and-publish:
     runs-on: windows-latest
     strategy:
