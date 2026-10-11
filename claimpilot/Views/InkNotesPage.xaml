@@ -14,6 +14,6 @@
             Grid.Row="0"
             Style="{StaticResource TitleTextBlockStyle}"
             Margin="16,12,16,0" />
-        <views:InkNotesControl Grid.Row="1" />
+        <TextBlock Text="Ink notes (coming soon)" Opacity="0.6" Margin="12"/>
     </Grid>
 </Page>

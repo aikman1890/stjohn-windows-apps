@@ -86,7 +86,7 @@
             </Grid>
         </PivotItem>
         <PivotItem x:Uid="NotesPage_InkNotes">
-            <views:InkNotesControl />
+            <TextBlock Text="Ink notes (coming soon)" Opacity="0.6" Margin="12"/>
         </PivotItem>
     </Pivot>
 </Page>
