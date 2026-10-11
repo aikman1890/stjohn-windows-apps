@@ -30,7 +30,7 @@ public sealed partial class MainWindow : Window
             {
                 _activatedThisSession = true;
                 this.Closed -= OnClosedWhileLocked;
-                this.Content = _shellContent;
+                this.Content = (Microsoft.UI.Xaml.UIElement)_shellContent;
                 ShowMainShell();
             };
             this.Content = lockout;

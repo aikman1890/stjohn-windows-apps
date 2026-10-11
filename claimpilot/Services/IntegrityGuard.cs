@@ -86,7 +86,7 @@ public static class IntegrityGuard
             var body = string.Join("\n", lines, 0, lines.Length - 1) + "\n";
             var expected = sigLine.Substring(5).Trim().ToLowerInvariant();
             string actual;
-            var key = IntegrityKey();
+            var key = HKey();
             try
             {
                 using var hmac = new HMACSHA256(key);

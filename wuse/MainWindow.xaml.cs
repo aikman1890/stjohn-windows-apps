@@ -87,7 +87,7 @@ public sealed partial class MainWindow : Window
         _ = ShowFirstRunDialogIfNeededAsync();
     }
 
-    private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedArgs args)
+    private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
     {
         if (args.InvokedItemContainer is not NavigationViewItem item)
             return;

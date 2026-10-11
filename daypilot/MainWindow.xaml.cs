@@ -22,9 +22,9 @@ public sealed partial class MainWindow : Window
     private const uint WmHotkey = 0x0312;
     private const int SwRestore = 9;
 
-    private readonly nint _hwnd;
-    private readonly SUBCLASSPROC _subclassProc; // kept alive for the window's lifetime
-    private readonly Dictionary<string, NavigationViewItem> _navItems;
+    private nint _hwnd;
+    private SUBCLASSPROC _subclassProc; // kept alive for the window's lifetime
+    private Dictionary<string, NavigationViewItem> _navItems;
 
     [DllImport("user32.dll", SetLastError = true)]
     private static extern bool RegisterHotKey(nint hWnd, int id, uint fsModifiers, uint vk);
@@ -68,7 +68,7 @@ public sealed partial class MainWindow : Window
             {
                 _activatedThisSession = true;
                 this.Closed -= OnClosedWhileLocked;
-                this.Content = _shellContent;
+                this.Content = (Microsoft.UI.Xaml.UIElement)_shellContent;
                 ShowMainShell();
             };
             this.Content = lockout;

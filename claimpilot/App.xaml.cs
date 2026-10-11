@@ -37,7 +37,7 @@ public partial class App : Application
         }
 
         // QuestPDF Community license (see BUILD.md for license notes).
-        Settings.License = LicenseType.Community;
+        Settings.License = QuestPDF.Infrastructure.LicenseType.Community;
 
         _window = new MainWindow();
         MainWindow = _window;

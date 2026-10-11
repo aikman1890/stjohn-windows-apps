@@ -26,7 +26,7 @@ public partial class ProSeResourcesViewModel : ObservableObject
         "Use the district picker below to open a court's official website and look for its pro se resources.\n\n" +
         "Filing fees change — always check the court's website for the current fee schedule. ClaimPilot never hardcodes fee amounts.";
 
-    public ObservableCollection<DistrictInfo> Districts { get; } = new(Districts.All);
+    public ObservableCollection<DistrictInfo> Districts { get; } = new(Data.Districts.All);
 
     [ObservableProperty]
     private DistrictInfo? _selectedDistrict;

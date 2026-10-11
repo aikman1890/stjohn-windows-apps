@@ -16,7 +16,7 @@ public partial class DashboardViewModel : ObservableObject
         new NavCard("Lawsuit Worksheet", "Small-claims worksheet with a facts timeline, plus an educational federal-complaint checklist.", Symbol.Document, "worksheet"),
         new NavCard("Civil Rights", "Plain-English guides to six Section 1983 claim types, with honest notes on defenses and deadlines.", Symbol.People, "civilrights"),
         new NavCard("Court Finder", "All 94 U.S. federal district courts, searchable by state or territory, with official websites.", Symbol.Find, "courtfinder"),
-        new NavCard("Bankruptcy", "Chapter 7 & 13 guides, document checklists, deadline presets, and the required-courses tracker. Bankruptcy Plus unlock.", Symbol.Bank, "bankruptcy"),
+        new NavCard("Bankruptcy", "Chapter 7 & 13 guides, document checklists, deadline presets, and the required-courses tracker. Bankruptcy Plus unlock.", Symbol.Library, "bankruptcy"),
         new NavCard("Deadlines", "Track your deadlines on this PC with local toast reminders. Never miss a date.", Symbol.Calendar, "deadlines"),
         new NavCard("Evidence Vault", "Store evidence, build a date-sorted timeline, and export an organized evidence packet PDF.", Symbol.Folder, "vault"),
         new NavCard("About", "The full disclaimer, version info, and how your data is handled.", Symbol.Help, "about"),

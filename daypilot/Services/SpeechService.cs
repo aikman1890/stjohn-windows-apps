@@ -166,7 +166,7 @@ public sealed class SpeechService
                     HeardSomething = true,
                     Text = result.Text,
                 },
-                SpeechRecognitionResultStatus.NoMatch => new ListenOutcome
+                SpeechRecognitionResultStatus.TimeoutExceeded => new ListenOutcome
                 {
                     Message = "I didn't quite catch that — want to try once more?",
                 },
@@ -229,7 +229,7 @@ public sealed class SpeechService
                 EscapeSsml(text) +
                 "</prosody></speak>";
 
-            var stream = await synthesizer.SpeakSsmlAsync(ssml);
+            var stream = await synthesizer.SynthesizeSsmlToStreamAsync(ssml);
 
             // MediaPlayer must be created on the UI thread; callers are page
             // code-behind handlers, which run on the UI thread.

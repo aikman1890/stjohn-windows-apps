@@ -7,7 +7,7 @@ namespace DayPilot;
 /// </summary>
 public partial class App : Application
 {
-    private MainWindow? _window;
+    private Window? _window;
 
     public App()
     {
