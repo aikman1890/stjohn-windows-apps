@@ -15,7 +15,7 @@ on:
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
-jobs:
+jobs:setup-winapp
   build-and-publish:
     runs-on: windows-latest
     strategy:
@@ -44,7 +44,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Set up winapp CLI
-        uses: microsoft/setup-WinAppCli@v1
+        uses: microsoft/setup-winapp@v1
 
       - name: Publish app
         run: dotnet publish ${{ matrix.csproj }} -r win-x64 -c Release -o ./publish/${{ matrix.dir }}
