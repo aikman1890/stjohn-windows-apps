@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>AI ကိရိယာများ</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>ဖောက်သည်အီးမေးလ်မူကြမ်းရေးသူ</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>မူကြမ်း</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>အဓိကအချက်များရိုက်ပြီး လေသံရွေးပါ။ စက်ပေါ်ရှိမော်ဒယ်က အီးမေးလ်ရေးပေးမည် — သင့်ကွန်ပျူတာမှဘာမှမထွက်ပါ။</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>အီးမေးလ်ဖန်တီးရန်</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>အဓိကအချက်များ (တစ်ကြောင်းတစ်ခုစီ)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>အစည်းအဝေးမှတ်စုများ</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>အစည်းအဝေးမှတ်စုအကျဉ်းချုပ်</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>အစည်းအဝေးမှတ်စုအကြမ်းများကူးထည့်ပါ။ စက်ပေါ်ရှိမော်ဒယ်ကအကျဉ်းချုပ်ပေးမည် — သင့်ကွန်ပျူတာမှဘာမှမထွက်ပါ။</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>အကျဉ်းချုပ်ရန်</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>အကျဉ်းချုပ်</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>လေသံ</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>ဖောက်သည်များ</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>ကုမ္ပဏီ</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>ကုမ္ပဏီ (ရွေးချယ်နိုင်)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>ဖျက်ရန်</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>အီးမေးလ်</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>အမည်</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>အမည်အပြည့်အစုံ</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>ဖောက်သည်အသစ်</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>မှတ်စုများ</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>ဖုန်း</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>ဖောက်သည်သိမ်းရန်</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>ဖောက်သည်များ</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>ဒက်ရှ်ဘုတ်</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>ယခုလအသုံးစရိတ်</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>ပေးရန်ကျန်</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>ယခုလပေးပြီး</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>မကြာသေးမီပြေစာများ</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>အသုံးစရိတ်ထည့်ရန်</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>အသုံးစရိတ်ထည့်ရန်</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>ပမာဏ</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>ပြေစာပူးတွဲပါ</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>အမျိုးအစား</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>ရက်</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>ဖျက်ရန်</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>ဖော်ပြချက်</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>ဤအသုံးစရိတ်ဘာအတွက်လဲ။</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>အသုံးစရိတ်</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>အသုံးစရိတ်</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>အထွေထွေ</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>စျေးကွက်ရှာဖွေရေး</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>အစားအစာ</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>လ</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>လစုစုပေါင်း</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>အခြား</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>ငှားရမ်းခ</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>ဆော့ဖ်ဝဲ</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>အမျိုးအစားအလိုက်အသုံးစရိတ်</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>ထောက်ပံ့ပစ္စည်းများ</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>ခရီးသွားခြင်း</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>အသုံးဝင်မှုများ</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>နှစ်</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>စာမျက်နှာထည့်ရန်</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>ရှင်းလင်းရန်</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>မှင်ကင်းဗတ်ရှင်းလင်းရန်</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>စာမျက်နှာဖျက်ရန်</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>မှင်ကင်းဗတ်။ ဤနေရာတွင်ဘောပင်၊ စတိုင်လပ်၊ လက်ချောင်း သို့မဟုတ်မောက်စ်ဖြင့်ဆွဲပါ။</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>မှင်စာမျက်နှာများ</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>မှင်စာမျက်နှာများ</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>မှင်တူးလ်ဘား။ ဘောပင်၊ ခဲတံ၊ ဟိုက်လိုက်တာ သို့မဟုတ်ဖျက်စက်ရွေးပါ။</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>စာမျက်နှာအမည်အသစ်</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>အစည်းအဝေးမှတ်စုများ</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>ပြန်လုပ်ရန်</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>မျဉ်းပြန်ဆွဲရန်</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>သိမ်းရန်</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>မှင်စာမျက်နှာသိမ်းရန်</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>ပြန်ပြင်ရန်</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>နောက်ဆုံးမျဉ်းပြန်ပြင်ရန်</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>မှင်မှတ်စုများ</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>လိုင်းထည့်ရန်</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>ဖောက်သည်</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>ဖော်ပြချက်</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>နောက်ဆုံးရက်</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF ထုတ်ရန်</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>ပြေစာနံပါတ်</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>ပြေစာများ</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>ထုတ်ပေးသည့်ရက်</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>လိုင်းပစ္စည်းများ</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>ပေးပြီးသားအမှတ်ခြစ်ရန်</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>မပေးရသေးအမှတ်ခြစ်ရန်</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>ပြေစာအသစ်</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>မှတ်စုများ</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>ပေးပြီး</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>အရေအတွက်</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>ဖယ်ရှားရန်</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>ပြေစာသိမ်းရန်</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>အခြေအနေ</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>စုစုပေါင်းခွဲ:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>အခွန်:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>အခွန်နှုန်း</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>စုစုပေါင်း:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>တစ်ခုချင်းဈေး</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>မပေးရသေး</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>AI ကိရိယာများ</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>ဖောက်သည်များ</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>ဒက်ရှ်ဘုတ်</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>အသုံးစရိတ်</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>မှင်မှတ်စုများ</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>ပြေစာများ</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>ဆက်တင်များ</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>လိပ်စာ</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>လုပ်ငန်းအမည်</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>လုပ်ငန်းပရိုဖိုင်</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>AI အခြေအနေစစ်ဆေးပါ</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>မူလအခွန်နှုန်း</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>အီးမေးလ်</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>စက်ပေါ် AI</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>ဖုန်း</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>ပရိုဖိုင်သိမ်းရန်</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>ဆက်တင်များ</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>ဤအချက်အလက်သည်သင်ထုတ်သောပြေစာ PDF တိုင်းတွင်ပေါ်မည်။</value>
+  </data>
+</root>

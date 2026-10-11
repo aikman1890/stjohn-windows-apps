@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>Par wuse</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• Tērzējiet ar ierīces valodas modeli, ja dators to atbalsta, citādi ar vietējo rezerves variantu.</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• Glabājiet savas sarunas šajā datorā, atcerieties faktus par jums (tikai pēc pieprasījuma) un cieniet savu tēmu.</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>Izveidoja St. John Pictures.</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>MI statuss ierīcē</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• Atveriet lietotnes, meklējiet tīmeklī, atveriet mapes un ziņojiet par iekārtas informāciju — viss no sarunas lodziņa.</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>Darbojas 100% ierīcē. Nav mākoņa, nav konta, nav izsekošanas.</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>Ko wuse var darīt</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>Wuse ir draudzīgs asistents, kas pilnībā dzīvo jūsu datorā.</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>Jautājiet wuse jebko…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>Jauna saruna</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>MI ierīcē nav pieejams</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>Sūtīt</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>Sarunas</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>Jauna saruna</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>Atvērt</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>Pārdēvēt</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Pievienot lapu</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Notīrīt</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Notīrīt tintes audeklu</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Dzēst lapu</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tintes audekls. Zīmējiet šeit ar pildspalvu, irbuli, pirkstu vai peli.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Tintes lapas</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tintes lapas</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tintes rīkjosla. Izvēlieties pildspalvu, zīmuli, marķieri vai dzēšgumiju.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Jaunās lapas nosaukums</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Sapulces piezīmes</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Atkārtot</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zīmēt vēlreiz</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Saglabāt tintes lapu</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Atsaukt</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Atsaukt pēdējo vilcienu</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Tintes piezīmes</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>Par</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>Saruna</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>Sarunas</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Tintes piezīmes</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>Ātrās darbības</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>Pievienot</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>Asistenta vārds</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>piem. Mana suņa vārds ir Biscuit</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>Atceries mani</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>Noņemt</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>Tēma</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>Lietas, kas jāatceras</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>Tā wuse sevi sauc sarunā.</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>Kad ieslēgts, zemāk pievienotie fakti tiek iekļauti asistenta norādījumos.</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>Kopēt starpliktuvē</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>Atvērt</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>Atvērt lietotnes</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>Atvērt pārlūku</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>Atvērt kalkulatoru</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>Atvērt failu pārlūku</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>Atvērt mapi</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>Atvērt Notepad</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>Atvērt Paint</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>Atvērt Iestatījumus</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>Atvērt Veikalu</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>Atvērt Termināli</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>Ātrās darbības</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>Atsvaidzināt informāciju</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>Meklēt</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>Meklēt tīmeklī…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>Lietas, ko wuse šajā datorā var darīt bez MI — un bez interneta, izņemot tīmekļa meklēšanu.</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>Šis dators</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>Tīmekļa meklēšana</value>
+  </data>
+</root>

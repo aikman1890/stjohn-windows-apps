@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>Wuse barada</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• PC-iňiz goldasa, enjamdaky dil modeli bilen söhbetdeş boluň, bolmasa ýerli ätiýaç bilen.</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• Söhbetleriňizi bu PC-de saklaň, özüňiz baradaky faktlary ýatda saklaň (diňe sorasaňyz), mowzugyňyza hormat ediň.</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>St. John Pictures tarapyndan döredildi.</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>Enjamda AI ýagdaýy</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• Programmalary açyň, webi gözleň, papkalary açyň we maşyn maglumatyny habar beriň — hemmesi söhbet gutusyndan.</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>100% enjamda işleýär. Bulut ýok, hasap ýok, yzarlama ýok.</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>Wuse näme edip biler</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>Wuse PC-iňizde doly ýaşaýan dostlukly kömekçidir.</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>Wuse-den islendik zady sora…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>Täze söhbet</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>Enjamda AI elýeterli däl</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>Iber</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>Söhbetler</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>Poz</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>Täze söhbet</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>Täzeden atlandyr</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Sahypa goş</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Arassala</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Syýa kanwasyny arassala</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Sahypany poz</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Syýa kanwasy. Bu ýerde galam, stilus, barmak ýa-da syçan bilen çyzyň.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Syýa sahypalary</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Syýa sahypalary</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Syýa gurallar paneli. Galam, karandaş, marker ýa-da pozujy saýlaň.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Täze sahypa ady</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Duşuşyk bellikleri</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Gaýtala</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Täzeden çyz</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Sakla</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Syýa sahypasyny sakla</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Ýatyr</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Soňky çyzygy ýatyr</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Syýa bellikleri</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>Barada</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>Söhbet</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>Söhbetler</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Syýa bellikleri</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>Saýlamalar</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>Çalt hereketler</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>Goş</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>Kömekçi ady</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>mys. Itimiň ady Biscuit</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>Saýlamalar</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>Meni ýatda sakla</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>Aýyr</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>Mowzuk</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>Ýatda saklanmaly zatlar</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>Wuse söhbetde özüni şeýle atlandyrýar.</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>Açyk bolanda, aşakda goşan faktlaryňyz kömekçi görkezmelerine girýär.</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>Bufera göçür</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>Programmalary aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>Brauzeri aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>Kalkulýatory aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>Faýl gözlegçisini aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>Papkany aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>Notepad aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>Paint aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>Sazlamalary aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>Dükany aç</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>Terminaly aç</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>Çalt hereketler</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>Maglumaty täzele</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>Gözle</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>Webde gözle…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>Wuse-niň bu PC-de AIsyz edip biljek zatlary — we web gözleginden başga internetsiz.</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>Bu PC</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>Web gözlegi</value>
+  </data>
+</root>

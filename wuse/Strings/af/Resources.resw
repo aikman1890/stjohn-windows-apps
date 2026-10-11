@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>Omtrent wuse</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• Klets met 'n taalmodel op die toestel wanneer jou rekenaar dit ondersteun, met plaaslike terugval wanneer nie.</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• Hou jou gesprekke op hierdie rekenaar, onthou feite oor jou (slegs as jy vra), en respekteer jou tema.</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>Gemaak deur St. John Pictures.</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>KI-status op toestel</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• Maak programme oop, soek die web, maak vouers oop en rapporteer masjieninligting — alles uit die kletsboks.</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>Werk 100% op die toestel. Geen wolk, geen rekeninge, geen dopgehou nie.</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>Wat wuse kan doen</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>wuse is 'n vriendelike assistent wat heeltemal op jou rekenaar woon.</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>Vra wuse enigiets…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>Nuwe klets</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>KI op toestel nie beskikbaar nie</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>Stuur</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>Gesprekke</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>Vee uit</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>Nuwe klets</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>Maak oop</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>Hernoem</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Voeg bladsy by</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Maak skoon</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maak inkdoek skoon</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Vee bladsy uit</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Inkdoek. Teken hier met 'n pen, stylus, vinger of muis.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Inkbladsye</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Inkbladsye</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Inknutsbalk. Kies 'n pen, potlood, merkpen of uitveër.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Nuwe bladsynaam</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Vergaderingnotas</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Herdoen</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Herdoen streep</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Stoor</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stoor inkbladsy</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Ontdoen</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ontdoen laaste streep</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Inknotas</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>Omtrent</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>Klets</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>Gesprekke</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Inknotas</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>Voorkeure</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>Vinnige aksies</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>Voeg by</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>Assistentnaam</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>bv. My hond se naam is Biscuit</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>Voorkeure</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>Onthou van my</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>Verwyder</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>Dinge om te onthou</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>Dit is wat wuse homself in klets noem.</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>Wanneer aan, word die feite wat jy hieronder byvoeg by die assistent se instruksies ingesluit.</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>Kopieer na knipbord</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>Maak oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>Maak programme oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>Maak blaaier oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>Maak sakrekenaar oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>Maak Lêerverkenner oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>Maak vouer oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>Maak Notaboek oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>Maak Paint oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>Maak Instellings oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>Maak Winkel oop</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>Maak Terminaal oop</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>Vinnige aksies</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>Verfris inligting</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>Soek</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>Soek die web vir…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>Dinge wat wuse op hierdie rekenaar kan doen sonder enige KI — en sonder die internet, behalwe websoektog.</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>Hierdie rekenaar</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>Websoektog</value>
+  </data>
+</root>

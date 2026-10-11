@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>Maidir le wuse</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• Déan comhrá le samhail teanga ar an ngléas nuair a thacaíonn do ríomhaire leis, le hathruithe áitiúla caolchúiseacha nuair nach dtacaíonn.</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• Coinnigh do chomhráite ar an ríomhaire seo, cuimhnigh fíricí fút (ach má iarrann tú), agus urramaigh do théama.</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>Déanta ag St. John Pictures.</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>Stádas na hintleachta saorga ar an ngléas</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• Oscail aipeanna, cuardaigh an gréasán, oscail fillteáin, agus tuairiscigh eolas meaisín — go léir ón mbosca comhrá.</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>Ag rith 100% ar an ngléas. Gan scamall, gan cuntais, gan rianú.</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>Cad is féidir le wuse a dhéanamh</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>Is cúntóir cairdiúil é wuse a chónaíonn go hiomlán ar do ríomhaire.</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>Fiafraigh rud ar bith de wuse…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>Comhrá nua</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>Intleacht shaorga ar an ngléas nach bhfuil ar fáil</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>Seol</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>Comhráite</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>Scrios</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>Comhrá nua</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>Oscail</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>Athainmnigh</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Cuir leathanach leis</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Glan</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Glan an canbhás dúigh</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Scrios an leathanach</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Canbhás dúigh. Tarraing anseo le peann, stílis, méar nó luch.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Leathanaigh dúigh</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Leathanaigh dúigh</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Barra uirlisí dúigh. Roghnaigh peann, peann luaidhe, aibhsitheoir nó scriosán.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Ainm an leathanaigh nua</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Nótaí cruinnithe</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Athdhéan</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Athdhéan an stróc</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Sábháil</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sábháil an leathanach dúigh</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Cealaigh</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cealaigh an stróc deireanach</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Nótaí dúigh</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>Maidir le</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>Comhrá</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>Comhráite</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Nótaí dúigh</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>Sainroghanna</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>Gníomhartha meara</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>Cuir leis</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>Ainm an chúntóra</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>m.sh. Biscuit is ainm do mo mhadra</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>Sainroghanna</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>Cuimhnigh fúm</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>Bain</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>Téama</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>Rudaí le cuimhneamh</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>Seo mar a thugann wuse air féin sa chomhrá.</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>Nuair atá sé ar siúl, áirítear na fíricí a chuireann tú thíos i dtreoracha an chúntóra.</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>Cóipeáil go dtí an ghearrthaisce</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>Oscail</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>Oscail aipeanna</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>Oscail an brabhsálaí</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>Oscail an t-áireamhán</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>Oscail an taiscéalaí comhad</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>Oscail an fillteán</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>Oscail Notepad</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>Oscail Paint</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>Oscail Socruithe</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>Oscail an Siopa</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>Oscail an Teirminéal</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>Gníomhartha meara</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>Athnuaigh an t-eolas</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>Cuardaigh</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>Cuardaigh an gréasán le haghaidh…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>Rudaí is féidir le wuse a dhéanamh ar an ríomhaire seo gan intleacht shaorga ar bith — agus gan an t-idirlíon, seachas cuardach gréasáin.</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>An ríomhaire seo</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>Cuardach gréasáin</value>
+  </data>
+</root>

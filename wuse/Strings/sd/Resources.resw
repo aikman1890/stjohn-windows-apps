@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>wuse بابت</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• جڏهن توهانجو PC سهڪار ڪري ته ڊوائس تي ٻولي ماڊل سان ڳالهايو، نه ته مقامي متبادل سان۔</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• پنهنجون ڳالهيون هن PC تي رکو، پنهنجي باري ۾ حقيقتون ياد رکو (صرف توهان چئو ته)، ۽ پنهنجي ٿيم جو احترام ڪريو۔</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>St. John Pictures ٺاهيو۔</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>ڊوائس تي AI حيثيت</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• ايپس کوليو، ويب ڳوليو، فولڊر کوليو، ۽ مشين ڄاڻ ڏيو — سڀ چيٽ باڪس مان۔</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>100٪ ڊوائس تي هلي ٿو۔ ڪو به ڪلائوڊ ناهي، ڪو به کاتو ناهي، ڪو به ٽريڪنگ ناهي۔</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>wuse ڇا ڪري سگهي ٿو</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>wuse هڪ دوست مددگار آهي جيڪو مڪمل طور تي توهانجي PC تي رهي ٿو۔</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>wuse کان ڪجهه به پڇو…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>نئين ڳالهه ٻولهه</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>ڊوائس تي AI دستياب ناهي</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>موڪليو</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>ڳالهيون ٻوليون</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>ڊيليٽ ڪريو</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>نئين ڳالهه ٻولهه</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>کوليو</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>ٻيهر نالو ڏيو</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>صفحو شامل ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>صاف ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس ڪينواس صاف ڪريو</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>صفحو ڊيليٽ ڪريو</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس ڪينواس۔ هتي قلم، اسٽائلس، آڱر يا مائوس سان ٺاهيو۔</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>مس صفحا</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس صفحا</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس ٽول بار۔ قلم، پينسل، هائي لائٽر يا ربر چونڊيو۔</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>نئين صفحي جو نالو</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>گڏجاڻي نوٽس</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>ٻيهر ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>اسٽروڪ ٻيهر ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>محفوظ ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس صفحو محفوظ ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>واپس وٺو</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>آخري اسٽروڪ واپس وٺو</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>مس نوٽس</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>بابت</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>ڳالهه ٻولهه</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>ڳالهيون ٻوليون</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>مس نوٽس</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>ترجيحون</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>تڪڙا عمل</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>شامل ڪريو</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>مددگار جو نالو</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>مثال منهنجي ڪتي جو نالو Biscuit آهي</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>ترجيحون</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>منهنجي باري ۾ ياد رکو</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>هٽايو</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>ٿيم</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>ياد رکڻ جون شيون</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>ڳالهه ٻولهه ۾ wuse پاڻ کي اهڙي طرح سڏي ٿو۔</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>جڏهن آن هجي، هيٺ شامل ڪيل حقيقتون مددگار جي هدايتن ۾ شامل ٿين ٿيون۔</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>ڪلپ بورڊ تي ڪاپي ڪريو</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>ايپس کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>برائوزر کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>ڪيلڪيوليٽر کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>فائل ايڪسپلورر کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>فولڊر کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>نوٽ پيڊ کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>پينٽ کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>سيٽنگس کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>اسٽور کوليو</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>ٽرمينل کوليو</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>تڪڙا عمل</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>ڄاڻ تازي ڪريو</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>ڳوليو</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>ويب تي ڳوليو…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>هن PC تي wuse بغير ڪنهن AI جي ڪري سگهي ٿو اهي شيون — ۽ انٽرنيٽ کان سواءِ، ويب ڳولا کان علاوه۔</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>هي PC</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>ويب ڳولا</value>
+  </data>
+</root>

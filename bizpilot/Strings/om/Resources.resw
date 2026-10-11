@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>Meeshaalee AI</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>Uumaa duraa imeelii maamilaa</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>Dura</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>Qabxiilee murteessoo barreessi, sagalee filadhu. Moodeelni keessa deeba'aa imeelii qopheessa — homaayyuu PC kee keessaa hin ba'u.</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>Imeelii hojjadhu</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>Qabxiilee murteessoo (tokko sararaatti)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>Yaadannootee walga'ii</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>Gabaaba yaadannootee walga'ii</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>Yaadannootee walga'ii hin qophoofne maxxansi. Moodeelni keessa deeba'aa gabaaba gabaabaa kenna — homaayyuu PC kee keessaa hin ba'u.</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>Gabaabsi</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>Gabaaba</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>Sagalee</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>Maamiloota</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>Dhaabbata</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>Dhaabbata (filannoo)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>Haqi</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>Imeelii</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>Maqaa</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>Maqaa guutuu</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>Maamila haaraa</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>Yaadannootee</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>Bilbila</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>Maamila kuusi</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>Maamiloota</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>Daashboord</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>Baasii ji'a kanaa</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>Hin kafalamne</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>Ji'a kana kafalame</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>Invoosiilee dhiyoo</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>Baasii dabali</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>Baasii dabali</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>Gatii</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>Rasiitii maxxansi</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>Ramaddii</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>Guyyaa</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>Haqi</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>Ibsa</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>Baasiin kun maaliif?</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>Baasii</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>Baasii</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>Waliigala</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>Gabaa</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>Nyaata</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>Ji'a</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>Ida'ama ji'aa</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>Kan biroo</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>Kiraa</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>Softiweer</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>Baasii gosaatiin</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>Meeshaalee</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>Imala</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>Tajaajiloota</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>Waggaa</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Fuula dabali</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Qulqulleessi</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kaambasii shaampuu qulqulleessi</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Haqi fuula</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kaambasii shaampuu. Asiin qalama, stylus, quba, ykn maawusiin kaasi.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Fuulota shaampuu</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fuulota shaampuu</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Baara meeshaa shaampuu. Qalama, qalama, highlighter, ykn haqaa filadhu.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Maqaa fuula haaraa</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Yaadannootee walga'ii</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Irra deebi'i</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Irra kaasi</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Kuusi</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fuula shaampuu kuusi</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Gole</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kaasii dhumaa gole</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Yaadannootee shaampuu</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>Sarara dabali</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>Maamila</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>Ibsa</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>Guyyaa murteessaa</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF alaan ergi</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>Lakkoofsa invoosii</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>Invoosiilee</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>Guyyaa ba'ii</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>Wantoota sararaa</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>Akkuma kafalame mallatteessi</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>Akkuma hin kafalamne mallatteessi</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>Invoosii haaraa</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>Yaadannootee</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>Kafalameera</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>Baay'ina</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>Kaasi</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>Invoosii kuusi</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>Haala</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>Ida'ama xiqqaa:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>Gibira:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>Gatii gibiraa</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>Ida'ama:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>Gatii yuunitii</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>Hin kafalamne</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>Meeshaalee AI</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>Maamiloota</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>Daashboord</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>Baasii</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Yaadannootee shaampuu</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>Invoosiilee</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>Qindaa'inoota</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>Teessoo</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>Maqaa daldalaa</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>Piroofaayilii daldalaa</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>Haala AI ilaali</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>Gatii gibiraa duraa</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>Imeelii</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>AI keessa deeba'aa</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>Bilbila</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>Piroofaayilii kuusi</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>Qindaa'inoota</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>Odeeffannoon kun invoosii PDF hunduma keessatti mul'ata ati alaan ergitu.</value>
+  </data>
+</root>

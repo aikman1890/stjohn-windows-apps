@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>wuse ବିଷୟରେ</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• ଆପଣଙ୍କ PC ସମର୍ଥନ କଲେ ଡିଭାଇସରେ ଭାଷା ମଡେଲ୍ ସହିତ ଚାଟ୍ କରନ୍ତୁ, ନହେଲେ ସ୍ଥାନୀୟ ବିକଳ୍ପ ସହିତ।</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• ଆପଣଙ୍କ କଥାବାର୍ତ୍ତା ଏହି PC ରେ ରଖନ୍ତୁ, ଆପଣଙ୍କ ବିଷୟରେ ତଥ୍ୟ ମନେ ରଖନ୍ତୁ (କେବଳ ଆପଣ କହିଲେ), ଏବଂ ଆପଣଙ୍କ ଥିମ୍‌କୁ ସମ୍ମାନ ଦିଅନ୍ତୁ।</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>St. John Pictures ଦ୍ୱାରା ନିର୍ମିତ।</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>ଡିଭାଇସରେ AI ସ୍ଥିତି</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• ଆପ୍‌ଗୁଡ଼ିକ ଖୋଲନ୍ତୁ, ୱେବ୍ ଖୋଜନ୍ତୁ, ଫୋଲଡର୍ ଖୋଲନ୍ତୁ, ଏବଂ ମେସିନ୍ ସୂଚନା ରିପୋର୍ଟ କରନ୍ତୁ — ସବୁ ଚାଟ୍ ବାକ୍ସରୁ।</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>100% ଡିଭାଇସରେ ଚାଲେ। କ୍ଲାଉଡ୍ ନାହିଁ, ଖାତା ନାହିଁ, ଟ୍ରାକିଂ ନାହିଁ।</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>wuse କ'ଣ କରିପାରିବ</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>wuse ଏକ ବନ୍ଧୁତ୍ୱପୂର୍ଣ୍ଣ ସହାୟକ ଯିଏ ସମ୍ପୂର୍ଣ୍ଣ ଆପଣଙ୍କ PC ରେ ବାସ କରନ୍ତି।</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>wuse କୁ କିଛି ପଚାରନ୍ତୁ…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>ନୂଆ କଥାବାର୍ତ୍ତା</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>ଡିଭାଇସରେ AI ଉପଲବ୍ଧ ନାହିଁ</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>ପଠାନ୍ତୁ</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>କଥାବାର୍ତ୍ତାଗୁଡ଼ିକ</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>ଡିଲିଟ୍ କରନ୍ତୁ</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>ନୂଆ କଥାବାର୍ତ୍ତା</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>ପୁନଃନାମକରଣ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>ପୃଷ୍ଠା ଯୋଗ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>ସଫା କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>କାଳି କ୍ୟାନଭାସ୍ ସଫା କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>ପୃଷ୍ଠା ଡିଲିଟ୍ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>କାଳି କ୍ୟାନଭାସ୍। ଏଠାରେ କଲମ, ଷ୍ଟାଇଲସ୍, ଆଙ୍ଗୁଠି କିମ୍ବା ମାଉସ୍‌ରେ ଆଙ୍କନ୍ତୁ।</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>କାଳି ପୃଷ୍ଠା</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>କାଳି ପୃଷ୍ଠା</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>କାଳି ଟୁଲ୍‌ବାର୍। କଲମ, ପେନସିଲ୍, ହାଇଲାଇଟର୍ କିମ୍ବା ରବର ବାଛନ୍ତୁ।</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>ନୂଆ ପୃଷ୍ଠାର ନାମ</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>ବୈଠକ ନୋଟ୍</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>ପୁନଃ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ଷ୍ଟ୍ରୋକ୍ ପୁନଃ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>ସଂରକ୍ଷଣ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>କାଳି ପୃଷ୍ଠା ସଂରକ୍ଷଣ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>ପୂର୍ବବତ୍ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ଶେଷ ଷ୍ଟ୍ରୋକ୍ ପୂର୍ବବତ୍ କରନ୍ତୁ</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>କାଳି ନୋଟ୍</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>ବିଷୟରେ</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>କଥାବାର୍ତ୍ତା</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>କଥାବାର୍ତ୍ତାଗୁଡ଼ିକ</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>କାଳି ନୋଟ୍</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>ପସନ୍ଦ</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>ଦ୍ରୁତ କାର୍ଯ୍ୟ</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>ଯୋଗ କରନ୍ତୁ</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>ସହାୟକଙ୍କ ନାମ</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>ଯଥା. ମୋ କୁକୁରର ନାମ Biscuit</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>ପସନ୍ଦ</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>ମୋ ବିଷୟରେ ମନେ ରଖନ୍ତୁ</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>ଅପସାରଣ କରନ୍ତୁ</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>ଥିମ୍</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>ମନେ ରଖିବା ବିଷୟ</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>କଥାବାର୍ତ୍ତାରେ wuse ନିଜକୁ ଏହିପରି କହେ।</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>ଚାଲୁ ଥିଲେ, ତଳେ ଯୋଗ କରାଯାଇଥିବା ତଥ୍ୟ ସହାୟକଙ୍କ ନିର୍ଦ୍ଦେଶରେ ଅନ୍ତର୍ଭୁକ୍ତ ହୁଏ।</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>କ୍ଲିପବୋର୍ଡକୁ କପି କରନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>ଆପ୍‌ଗୁଡ଼ିକ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>ବ୍ରାଉଜର୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>କାଲକୁଲେଟର୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>ଫାଇଲ୍ ଏକ୍ସପ୍ଲୋରର୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>ଫୋଲଡର୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>ନୋଟପ୍ୟାଡ୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>ପେଣ୍ଟ୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>ସେଟିଂସ୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>ଷ୍ଟୋର୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>ଟର୍ମିନାଲ୍ ଖୋଲନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>ଦ୍ରୁତ କାର୍ଯ୍ୟ</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>ସୂଚନା ସତେଜ କରନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>ଖୋଜନ୍ତୁ</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>ୱେବରେ ଖୋଜନ୍ତୁ…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>ଏହି PC ରେ wuse କୌଣସି AI ବିନା କରିପାରୁଥିବା ବିଷୟ — ଏବଂ ୱେବ୍ ସନ୍ଧାନ ବ୍ୟତୀତ ଇଣ୍ଟରନେଟ୍ ବିନା।</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>ଏହି PC</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>ୱେବ୍ ସନ୍ଧାନ</value>
+  </data>
+</root>

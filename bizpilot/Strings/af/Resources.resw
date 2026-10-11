@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>KI-nutsmiddels</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>Kliënt-e-posopsteller</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>Konsep</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>Tik die kernpunte en kies 'n toon. Die KI op die toestel stel die e-pos op — niks verlaat jou rekenaar nie.</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>Genereer e-pos</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>Kernpunte (een per lyn)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>Vergaderingnotas</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>Vergaderingnota-opsommer</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>Plak rou vergaderingnotas. Die KI op die toestel gee 'n bondige opsomming — niks verlaat jou rekenaar nie.</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>Som op</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>Opsomming</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>Toon</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>Kliënte</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>Maatskappy</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>Maatskappy (opsioneel)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>Vee uit</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>E-pos</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>Volle naam</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>Nuwe kliënt</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>Foon</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>Stoor kliënt</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>Kliënte</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>Paneelbord</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>Uitgawes hierdie maand</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>Uitstaande</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>Hierdie maand betaal</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>Onlangse fakture</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>Voeg uitgawe by</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>Voeg uitgawe by</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>Bedrag</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>Heg kwitansie aan</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>Vee uit</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>Beskrywing</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>Waarvoor was hierdie uitgawe?</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>Uitgawes</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>Uitgawes</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>Bemarking</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>Etes</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>Maand</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>Maandtotaal</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>Ander</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>Huur</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>Sagteware</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>Besteding volgens kategorie</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>Voorrade</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>Reis</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>Nutsdienste</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>Jaar</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Voeg bladsy by</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Maak skoon</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maak inkdoek skoon</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Vee bladsy uit</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Inkdoek. Teken hier met 'n pen, stylus, vinger of muis.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Inkbladsye</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Inkbladsye</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Inknutsbalk. Kies 'n pen, potlood, merkpen of uitveër.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Nuwe bladsynaam</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Vergaderingnotas</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Herdoen</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Herdoen streep</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Stoor</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stoor inkbladsy</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Ontdoen</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ontdoen laaste streep</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Inknotas</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>Voeg lyn by</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>Kliënt</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>Beskrywing</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>Vervaldatum</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>Voer PDF uit</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>Faktuurnommer</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>Fakture</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>Uitreikingsdatum</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>Lynitems</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>Merk betaal</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>Merk onbetaald</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>Nuwe faktuur</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>Betaal</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>Verwyder</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>Stoor faktuur</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>Subtotaal:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>Belasting:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>Belastingkoers</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>Totaal:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>Eenheidsprys</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>Onbetaald</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>KI-nutsmiddels</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>Kliënte</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>Paneelbord</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>Uitgawes</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Inknotas</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>Fakture</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>Besigheidsnaam</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>Besigheidsprofiel</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>Gaan KI-status na</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>Verstek belastingkoers</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>E-pos</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>KI op toestel</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>Foon</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>Stoor profiel</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>Hierdie inligting verskyn op elke faktuur-PDF wat jy uitvoer.</value>
+  </data>
+</root>

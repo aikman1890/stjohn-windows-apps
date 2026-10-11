@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>AI хэрэгслүүд</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>Үйлчлүүлэгчийн имэйл ноорог бүтээгч</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>Ноорог</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>Гол санаануудаа бичиж өнгө аясаа сонгоно уу. Төхөөрөмж дээрх загвар имэйл бэлтгэнэ — таны РС-ээс юу ч гарахгүй.</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>Имэйл үүсгэх</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>Гол санаанууд (мөр бүрт нэг)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>Хурлын тэмдэглэл</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>Хурлын тэмдэглэлийн хураангуй</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>Боловсруулаагүй хурлын тэмдэглэлээ буулгана уу. Төхөөрөмж дээрх загвар товч хураангуй өгнө — таны РС-ээс юу ч гарахгүй.</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>Хураангуйлах</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>Хураангуй</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>Өнгө аяс</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>Үйлчлүүлэгчид</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>Компани</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>Компани (сонголттой)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>Устгах</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>Имэйл</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>Нэр</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>Бүтэн нэр</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>Шинэ үйлчлүүлэгч</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>Тэмдэглэлүүд</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>Утас</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>Үйлчлүүлэгчийг хадгалах</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>Үйлчлүүлэгчид</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>Хяналтын самбар</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>Энэ сарын зардал</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>Төлөгдөөгүй</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>Энэ сард төлөгдсөн</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>Сүүлийн нэхэмжлэлүүд</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>Зардал нэмэх</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>Зардал нэмэх</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>Дүн</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>Баримт хавсаргах</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>Ангилал</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>Огноо</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>Устгах</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>Тайлбар</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>Энэ зардал юунд зориулагдсан бэ?</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>Зардал</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>Зардал</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>Ерөнхий</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>Маркетинг</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>Хоол</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>Сар</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>Сарын нийт</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>Бусад</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>Түрээс</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>Програм хангамж</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>Ангиллаар зардал</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>Хангамж</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>Аялал</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>Нийтийн аж ахуй</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>Жил</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Хуудас нэмэх</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Цэвэрлэх</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Бэхэн зотонг цэвэрлэх</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Хуудсыг устгах</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Бэхэн зотон. Энд үзэг стилус хуруу эсвэл хулганаар зур.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Бэхэн хуудсууд</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Бэхэн хуудсууд</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Бэхэн хэрэгслийн самбар. Үзэг харандаа тодруулагч эсвэл баллуур сонгоно уу.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Шинэ хуудасны нэр</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Хурлын тэмдэглэл</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Давтах</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дахин зурах</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Хадгалах</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Бэхэн хуудсыг хадгалах</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Буцаах</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сүүлийн зурлагаа буцаах</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Бэхэн тэмдэглэл</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>Мөр нэмэх</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>Үйлчлүүлэгч</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>Тайлбар</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>Эцсийн хугацаа</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF экспортлох</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>Нэхэмжлэлийн дугаар</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>Нэхэмжлэлүүд</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>Гаргасан огноо</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>Мөрийн зүйлс</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>Төлбөр төлөгдсөн гэж тэмдэглэх</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>Төлбөр төлөгдөөгүй гэж тэмдэглэх</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>Шинэ нэхэмжлэл</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>Тэмдэглэлүүд</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>Төлөгдсөн</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>Тоо хэмжээ</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>Хасах</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>Нэхэмжлэлийг хадгалах</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>Төлөв</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>Дэд нийт:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>Татвар:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>Татварын хувь</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>Нийт:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>Нэгжийн үнэ</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>Төлөгдөөгүй</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>AI хэрэгслүүд</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>Үйлчлүүлэгчид</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>Хяналтын самбар</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>Зардал</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Бэхэн тэмдэглэл</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>Нэхэмжлэлүүд</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>Тохиргоо</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>Хаяг</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>Бизнесийн нэр</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>Бизнесийн профайл</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>AI төлөвийг шалгах</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>Анхдагч татварын хувь</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>Имэйл</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>Төхөөрөмж дээрх AI</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>Утас</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>Профайлыг хадгалах</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>Тохиргоо</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>Энэ мэдээлэл таны экспортолсон нэхэмжлэл бүрийн PDF-д харагдана.</value>
+  </data>
+</root>

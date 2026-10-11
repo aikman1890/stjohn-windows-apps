@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>AI اوزار</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>گراهڪ اي ميل مسودو ٺاهيندڙ</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>مسودو</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>مکيه نڪتا لکو ۽ ٽون چونڊيو۔ ڊوائس تي ماڊل اي ميل تيار ڪري ٿو — توهانجي PC تان ڪجهه نٿو وڃي۔</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>اي ميل ٺاهيو</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>مکيه نڪتا (هر لڪير ۾ هڪ)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>گڏجاڻي نوٽس</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>گڏجاڻي نوٽس جو خلاصو</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>ڪچا گڏجاڻي نوٽس پيسٽ ڪريو۔ ڊوائس تي ماڊل مختصر خلاصو ڏئي ٿو — توهانجي PC تان ڪجهه نٿو وڃي۔</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>خلاصو ڏيو</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>خلاصو</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>ٽون</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>گراهڪ</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>ڪمپني</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>ڪمپني (اختياري)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>ڊيليٽ ڪريو</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>اي ميل</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>نالو</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>پورو نالو</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>نئون گراهڪ</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>نوٽس</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>فون</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>گراهڪ محفوظ ڪريو</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>گراهڪ</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>ڊيش بورڊ</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>هن مهيني جا خرچ</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>بقايا</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>هن مهيني ادا ڪيل</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>تازا بل</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>خرچ شامل ڪريو</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>خرچ شامل ڪريو</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>رسيد ڳنڍيو</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>زمرو</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>ڊيليٽ ڪريو</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>وضاحت</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>هي خرچ ڇالاءِ هو؟</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>خرچ</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>خرچ</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>مارڪيٽنگ</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>کاڌو</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>مهينو</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>مهيني جو ڪل</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>ٻيا</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>ڪرايو</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>سافٽ ويئر</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>زمري موجب خرچ</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>سامان</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>سفر</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>سهولتون</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>سال</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>صفحو شامل ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>صاف ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس ڪينواس صاف ڪريو</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>صفحو ڊيليٽ ڪريو</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس ڪينواس۔ هتي قلم، اسٽائلس، آڱر يا مائوس سان ٺاهيو۔</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>مس صفحا</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس صفحا</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس ٽول بار۔ قلم، پينسل، هائي لائٽر يا ربر چونڊيو۔</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>نئين صفحي جو نالو</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>گڏجاڻي نوٽس</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>ٻيهر ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>اسٽروڪ ٻيهر ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>محفوظ ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مس صفحو محفوظ ڪريو</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>واپس وٺو</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>آخري اسٽروڪ واپس وٺو</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>مس نوٽس</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>لڪير شامل ڪريو</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>گراهڪ</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>وضاحت</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>آخري تاريخ</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF ايڪسپورٽ ڪريو</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>بل نمبر</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>بل</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>جاري ڪرڻ جي تاريخ</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>لڪير شيون</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>ادا ڪيل طور نشان لڳايو</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>اڻ ادا طور نشان لڳايو</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>نئون بل</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>نوٽس</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>ادا ڪيل</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>مقدار</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>هٽايو</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>بل محفوظ ڪريو</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>حيثيت</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>ذيلي ڪل:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>ٽيڪس:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>ٽيڪس جي شرح</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>ڪل:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>اڪائي قيمت</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>اڻ ادا</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>AI اوزار</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>گراهڪ</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>ڊيش بورڊ</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>خرچ</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>مس نوٽس</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>بل</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>سيٽنگس</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>پتو</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>ڪاروبار جو نالو</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>ڪاروبار پروفائل</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>AI حيثيت چيڪ ڪريو</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>ڊفالٽ ٽيڪس جي شرح</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>اي ميل</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>ڊوائس تي AI</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>فون</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>پروفائل محفوظ ڪريو</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>سيٽنگس</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>هي ڄاڻ هر بل PDF تي ظاهر ٿئي ٿي جيڪا توهان ايڪسپورٽ ڪريو ٿا۔</value>
+  </data>
+</root>

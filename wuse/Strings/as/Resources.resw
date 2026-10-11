@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>wuse বিষয়ে</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• আপোনাৰ PC য়ে সমৰ্থন কৰিলে ডিভাইচৰ ভাষা মডেলৰ সৈতে কথা পাতক, নকৰিলে স্থানীয় বিকল্পৰ সৈতে।</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• আপোনাৰ কথা-বতৰা এই PC ত ৰাখক, আপোনাৰ বিষয়ে তথ্য মনত ৰাখক (কেৱল আপুনি ক'লে), আৰু আপোনাৰ থীমক সন্মান কৰক।</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>St. John Pictures য়ে নিৰ্মাণ কৰিছে।</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>ডিভাইচত AI অৱস্থা</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• এপ খোলক, ৱেব বিচাৰক, ফ'ল্ডাৰ খোলক, আৰু মেচিন তথ্য দিয়ক — সকলো চাট বাকচৰ পৰা।</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>100% ডিভাইচত চলে। ক্লাউড নাই, একাউণ্ট নাই, ট্ৰেকিং নাই।</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>wuse য়ে কি কৰিব পাৰে</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>wuse এজন বন্ধুত্বপূৰ্ণ সহায়ক যি সম্পূৰ্ণ আপোনাৰ PC ত থাকে।</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>wuse ক যিকোনো সোধক…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>নতুন কথা-বতৰা</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>ডিভাইচত AI উপলব্ধ নহয়</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>পঠাওক</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>কথা-বতৰাবোৰ</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>মচক</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>নতুন কথা-বতৰা</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>খোলক</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>পুনৰ নাম দিয়ক</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>পৃষ্ঠা যোগ কৰক</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>চাফা কৰক</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>চিয়াঁহী কেনভাছ চাফা কৰক</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>পৃষ্ঠা মচক</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>চিয়াঁহী কেনভাছ। ইয়াত কলম, ষ্টাইলাছ, আঙুলি বা মাউছেৰে আঁকক।</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>চিয়াঁহী পৃষ্ঠা</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>চিয়াঁহী পৃষ্ঠা</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>চিয়াঁহী সঁজুলি দণ্ড। কলম, পেঞ্চিল, হাইলাইটাৰ বা ৰবৰ বাছক।</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>নতুন পৃষ্ঠাৰ নাম</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>বৈঠক টোকা</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>আকৌ কৰক</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ষ্ট্ৰোক আকৌ কৰক</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>সংৰক্ষণ কৰক</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>চিয়াঁহী পৃষ্ঠা সংৰক্ষণ কৰক</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>বাতিল কৰক</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>শেহৰ ষ্ট্ৰোক বাতিল কৰক</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>চিয়াঁহী টোকা</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>বিষয়ে</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>কথা-বতৰা</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>কথা-বতৰাবোৰ</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>চিয়াঁহী টোকা</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>পছন্দ</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>দ্ৰুত কাৰ্য্য</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>যোগ কৰক</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>সহায়কৰ নাম</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>যেনে. মোৰ কুকুৰৰ নাম Biscuit</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>পছন্দ</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>মোৰ বিষয়ে মনত ৰাখক</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>আঁতৰাওক</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>থীম</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>মনত ৰাখিবলগীয়া কথা</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>কথা-বতৰাত wuse য়ে নিজকে এনেকৈয়ে কয়।</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>অন কৰিলে, তলত যোগ কৰা তথ্য সহায়কৰ নিৰ্দেশনাত অন্তৰ্ভুক্ত হয়।</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>ক্লিপব'ৰ্ডলৈ কপি কৰক</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>এপবোৰ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>ব্ৰাউজাৰ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>কেলকুলেটৰ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>ফাইল এক্সপ্ল'ৰাৰ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>ফ'ল্ডাৰ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>নোটপেড খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>পেইণ্ট খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>ছেটিংছ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>ষ্ট'ৰ খোলক</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>টাৰ্মিনেল খোলক</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>দ্ৰুত কাৰ্য্য</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>তথ্য সতেজ কৰক</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>বিচাৰক</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>ৱেবত বিচাৰক…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>এই PC ত wuse য়ে কোনো AI নোহোৱাকৈ কৰিব পৰা কথা — আৰু ৱেব সন্ধান বাদে ইণ্টাৰনেট নোহোৱাকৈ।</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>এই PC</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>ৱেব সন্ধান</value>
+  </data>
+</root>

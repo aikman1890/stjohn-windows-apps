@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_ImportantNotice.Text" xml:space="preserve">
+    <value>Mikilvæg tilkynning</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoes.Text" xml:space="preserve">
+    <value>Hvað ClaimPilot gerir</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoesNotDo.Text" xml:space="preserve">
+    <value>Hvað ClaimPilot gerir ekki</value>
+  </data>
+  <data name="AboutPage_YourData.Text" xml:space="preserve">
+    <value>Gögnin þín</value>
+  </data>
+  <data name="BankruptcyPage_180DayCreditCounselingCalcul.Text" xml:space="preserve">
+    <value>180 daga reiknivél fyrir lánaráðgjöf</value>
+  </data>
+  <data name="BankruptcyPage_AddBankruptcyDeadlinesToThe.Text" xml:space="preserve">
+    <value>Bæta við gjaldþrotsfrestum í rekjarann</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter13Deadlines.Content" xml:space="preserve">
+    <value>Bæta við frestum 13. kafla</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter7Deadlines.Content" xml:space="preserve">
+    <value>Bæta við frestum 7. kafla</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot.Text" xml:space="preserve">
+    <value>Skipulagsgátlisti — ekki lögfræðiráðgjöf. Umboðsmaður þinn eða lögfræðingur gæti beðið um meira.</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot_2.Text" xml:space="preserve">
+    <value>Skipulagsgátlisti — ekki lögfræðiráðgjöf. Umboðsmaður þinn eða lögfræðingur gæti beðið um meira.</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage.Content" xml:space="preserve">
+    <value>Hengja við vottorð (PDF/mynd)</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage_2.Content" xml:space="preserve">
+    <value>Hengja við vottorð (PDF/mynd)</value>
+  </data>
+  <data name="BankruptcyPage_BankruptcyChapters713.Text" xml:space="preserve">
+    <value>Gjaldþrot — 7. og 13. kafli</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13Courses.Text" xml:space="preserve">
+    <value>Námskeið 13. kafla</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13DocumentChecklist.Text" xml:space="preserve">
+    <value>Skjalagátlisti 13. kafla</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7Courses.Text" xml:space="preserve">
+    <value>Námskeið 7. kafla</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7DocumentChecklist.Text" xml:space="preserve">
+    <value>Skjalagátlisti 7. kafla</value>
+  </data>
+  <data name="BankruptcyPage_Completed" xml:space="preserve">
+    <value>Lokið</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate.Header" xml:space="preserve">
+    <value>Dagsetning lokið</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate_2.Header" xml:space="preserve">
+    <value>Dagsetning lokið</value>
+  </data>
+  <data name="BankruptcyPage_Completed_2" xml:space="preserve">
+    <value>Lokið</value>
+  </data>
+  <data name="BankruptcyPage_FilingDate.Text" xml:space="preserve">
+    <value>Skiladagur:</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted" xml:space="preserve">
+    <value>Ekki hafið</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted_2" xml:space="preserve">
+    <value>Ekki hafið</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedCreditCo.Content" xml:space="preserve">
+    <value>Opinber listi: samþykktar lánaráðgjafastofnanir (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedDebtorEd.Content" xml:space="preserve">
+    <value>Opinber listi: samþykktir fræðsluaðilar skuldara (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate.Content" xml:space="preserve">
+    <value>Opna vottorð</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate_2.Content" xml:space="preserve">
+    <value>Opna vottorð</value>
+  </data>
+  <data name="BankruptcyPage_PickYourFilingDateThen.Text" xml:space="preserve">
+    <value>Veldu skiladag, bættu síðan við stöðluðum frestum kafla. Þeir lenda í Frestir-hlutanum með áminningum. Forsetningar eru áætlanir — staðfestu hverja dagsetningu við raunverulegt mál þitt.</value>
+  </data>
+  <data name="BankruptcyPage_PlannedFilingDate.Text" xml:space="preserve">
+    <value>Áætlaður skiladagur:</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU.Header" xml:space="preserve">
+    <value>Nafn þjónustuaðila (verður að vera samþykktur af U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU_2.Header" xml:space="preserve">
+    <value>Nafn þjónustuaðila (verður að vera samþykktur af U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>Lestu þetta fyrst — heiðarlegar athugasemdir</value>
+  </data>
+  <data name="BankruptcyPage_RequiredCoursesTracker.Text" xml:space="preserve">
+    <value>Rekjar þvingaðra námskeiða</value>
+  </data>
+  <data name="BankruptcyPage_Reset.Content" xml:space="preserve">
+    <value>Endurstilla</value>
+  </data>
+  <data name="BankruptcyPage_Reset_2.Content" xml:space="preserve">
+    <value>Endurstilla</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled" xml:space="preserve">
+    <value>Áætlað</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate.Header" xml:space="preserve">
+    <value>Áætlaður dagur</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate_2.Header" xml:space="preserve">
+    <value>Áætlaður dagur</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled_2" xml:space="preserve">
+    <value>Áætlað</value>
+  </data>
+  <data name="BankruptcyPage_Status.Header" xml:space="preserve">
+    <value>Staða</value>
+  </data>
+  <data name="BankruptcyPage_Status_2.Header" xml:space="preserve">
+    <value>Staða</value>
+  </data>
+  <data name="CaseBuilderPage_AddClaim.Content" xml:space="preserve">
+    <value>Bæta við kröfu</value>
+  </data>
+  <data name="CaseBuilderPage_AddDeadline.Content" xml:space="preserve">
+    <value>Bæta við fresti</value>
+  </data>
+  <data name="CaseBuilderPage_AddEvent.Content" xml:space="preserve">
+    <value>Bæta við viðburði</value>
+  </data>
+  <data name="CaseBuilderPage_AddItem.Content" xml:space="preserve">
+    <value>Bæta við atriði</value>
+  </data>
+  <data name="CaseBuilderPage_AddParty.Content" xml:space="preserve">
+    <value>Bæta við aðila</value>
+  </data>
+  <data name="CaseBuilderPage_CaseBuilder.Text" xml:space="preserve">
+    <value>Málasmiður</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.Header" xml:space="preserve">
+    <value>Nafn máls</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.PlaceholderText" xml:space="preserve">
+    <value>t.d. Smith gegn Acme Collections</value>
+  </data>
+  <data name="CaseBuilderPage_CaseType.Header" xml:space="preserve">
+    <value>Tegund máls</value>
+  </data>
+  <data name="CaseBuilderPage_ClaimsIssues.Text" xml:space="preserve">
+    <value>Kröfur / mál</value>
+  </data>
+  <data name="CaseBuilderPage_ClearCaseFile.Content" xml:space="preserve">
+    <value>Hreinsa málaskrá</value>
+  </data>
+  <data name="CaseBuilderPage_Date.Header" xml:space="preserve">
+    <value>Dagsetning</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.Header" xml:space="preserve">
+    <value>Titill frests</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.PlaceholderText" xml:space="preserve">
+    <value>t.d. Svar á gjalddaga</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlinesAlsoSavedToThe.Text" xml:space="preserve">
+    <value>Frestir (einnig vistaðir í frestarekjaranum)</value>
+  </data>
+  <data name="CaseBuilderPage_Details.Header" xml:space="preserve">
+    <value>Nánar</value>
+  </data>
+  <data name="CaseBuilderPage_Details.PlaceholderText" xml:space="preserve">
+    <value>Hvað gerðist, hverjir voru þar</value>
+  </data>
+  <data name="CaseBuilderPage_DueDate.Header" xml:space="preserve">
+    <value>Gjalddagi</value>
+  </data>
+  <data name="CaseBuilderPage_EGCopyOfThe.PlaceholderText" xml:space="preserve">
+    <value>t.d. Afrit af innheimtubréfinu</value>
+  </data>
+  <data name="CaseBuilderPage_EGFDCPAViolationFalse.PlaceholderText" xml:space="preserve">
+    <value>t.d. FDCPA-brot — röng fullyrðing</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.Header" xml:space="preserve">
+    <value>Titill viðburðar</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.PlaceholderText" xml:space="preserve">
+    <value>t.d. Innheimtubréf móttekið</value>
+  </data>
+  <data name="CaseBuilderPage_EvidenceChecklist.Text" xml:space="preserve">
+    <value>Gátlisti sönnunargagna</value>
+  </data>
+  <data name="CaseBuilderPage_PartiesInvolved.Text" xml:space="preserve">
+    <value>Aðilar máls</value>
+  </data>
+  <data name="CaseBuilderPage_PersonCompanyOrAgency.PlaceholderText" xml:space="preserve">
+    <value>Einstaklingur, fyrirtæki eða stofnun</value>
+  </data>
+  <data name="CaseBuilderPage_Remove.Content" xml:space="preserve">
+    <value>Fjarlægja</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_2.Content" xml:space="preserve">
+    <value>Fjarlægja</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_3.Content" xml:space="preserve">
+    <value>Fjarlægja</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_4.Content" xml:space="preserve">
+    <value>Fjarlægja</value>
+  </data>
+  <data name="CaseBuilderPage_TheCase.Text" xml:space="preserve">
+    <value>Málið</value>
+  </data>
+  <data name="CaseBuilderPage_TimelineOfEvents.Text" xml:space="preserve">
+    <value>Tímalína atburða</value>
+  </data>
+  <data name="ClaimGuidesPage_AIGeneratedPlainEnglishExpla.Text" xml:space="preserve">
+    <value>Gervigreindarskýring á mannamáli. Almennar upplýsingar eingöngu — ekki lögfræðiráðgjöf. Íhugaðu að tala við lögfræðing.</value>
+  </data>
+  <data name="ClaimGuidesPage_CivilRightsSection1983Guides.Text" xml:space="preserve">
+    <value>Borgaraleg réttindi — leiðbeiningar 1983. greinar</value>
+  </data>
+  <data name="ClaimGuidesPage_ClaimGuides.Text" xml:space="preserve">
+    <value>Leiðbeiningar krafna</value>
+  </data>
+  <data name="ClaimGuidesPage_CommonDefenses.Text" xml:space="preserve">
+    <value>Algengar varnir</value>
+  </data>
+  <data name="ClaimGuidesPage_ExplainThisInPlainEnglish.Content" xml:space="preserve">
+    <value>Útskýrðu þetta á mannamáli</value>
+  </data>
+  <data name="ClaimGuidesPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>Lestu þetta fyrst — heiðarlegar athugasemdir</value>
+  </data>
+  <data name="ClaimGuidesPage_WhatAPlaintiffMustGenerally.Text" xml:space="preserve">
+    <value>Hvað stefnandi verður yfirleitt að sýna fram á</value>
+  </data>
+  <data name="CourtFinderPage_CourtFinder.Text" xml:space="preserve">
+    <value>Dómstóla leit</value>
+  </data>
+  <data name="CourtFinderPage_CourtLocations.Text" xml:space="preserve">
+    <value>Staðsetningar dómstóla:</value>
+  </data>
+  <data name="CourtFinderPage_OfficialCourtWebsite.Content" xml:space="preserve">
+    <value>Opinber vefsíða dómstóls</value>
+  </data>
+  <data name="CourtFinderPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Leita eftir ríki, landsvæði eða umdæmisnafni…</value>
+  </data>
+  <data name="CourtGuidePage_CourtGuideCountyMunicipalDis.Text" xml:space="preserve">
+    <value>Dómstólaleiðbeiningar — sýslu-, bæjar- og héraðsdómstólar</value>
+  </data>
+  <data name="CriminalCasesPage_CriminalCases.Text" xml:space="preserve">
+    <value>Sakamál</value>
+  </data>
+  <data name="DashboardPage_ClaimPilot.Text" xml:space="preserve">
+    <value>ClaimPilot</value>
+  </data>
+  <data name="DeadlinesPage_AddADeadline.Text" xml:space="preserve">
+    <value>Bæta við fresti</value>
+  </data>
+  <data name="DeadlinesPage_Category.Header" xml:space="preserve">
+    <value>Flokkur</value>
+  </data>
+  <data name="DeadlinesPage_Deadlines.Text" xml:space="preserve">
+    <value>Frestir</value>
+  </data>
+  <data name="DeadlinesPage_Delete.Content" xml:space="preserve">
+    <value>Eyða</value>
+  </data>
+  <data name="DeadlinesPage_DueDate.Header" xml:space="preserve">
+    <value>Gjalddagi</value>
+  </data>
+  <data name="DeadlinesPage_MarkDone.Content" xml:space="preserve">
+    <value>Merkja lokið</value>
+  </data>
+  <data name="DeadlinesPage_Notes.Header" xml:space="preserve">
+    <value>Glósur</value>
+  </data>
+  <data name="DeadlinesPage_OVERDUE.Text" xml:space="preserve">
+    <value>GJALDDAGI LIÐINN</value>
+  </data>
+  <data name="DeadlinesPage_SaveDeadline.Content" xml:space="preserve">
+    <value>Vista frest</value>
+  </data>
+  <data name="DeadlinesPage_Title.Header" xml:space="preserve">
+    <value>Titill</value>
+  </data>
+  <data name="DeadlinesPage_YourDeadlinesSortedByDue.Text" xml:space="preserve">
+    <value>Frestirnir þínir (raðað eftir gjalddaga)</value>
+  </data>
+  <data name="EvidenceVaultPage_AIGeneratedSummaryGeneralInf.Text" xml:space="preserve">
+    <value>Gervigreindarsamantekt. Almennar upplýsingar eingöngu — ekki lögfræðiráðgjöf.</value>
+  </data>
+  <data name="EvidenceVaultPage_AddIncidentToTimeline.Content" xml:space="preserve">
+    <value>Bæta við atviki á tímalínu</value>
+  </data>
+  <data name="EvidenceVaultPage_AddTimelineEvent.Content" xml:space="preserve">
+    <value>Bæta við tímalínuviðburði</value>
+  </data>
+  <data name="EvidenceVaultPage_AttachFileSave.Content" xml:space="preserve">
+    <value>Hengja við skrá og vista</value>
+  </data>
+  <data name="EvidenceVaultPage_Category.Header" xml:space="preserve">
+    <value>Flokkur</value>
+  </data>
+  <data name="EvidenceVaultPage_Category_2.Header" xml:space="preserve">
+    <value>Flokkur</value>
+  </data>
+  <data name="EvidenceVaultPage_CivilRightsIncidentTemplate.Text" xml:space="preserve">
+    <value>Sniðmát borgaralegs atviks</value>
+  </data>
+  <data name="EvidenceVaultPage_ComplaintReportNumbers.Header" xml:space="preserve">
+    <value>Númer kvartana / skýrslna</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete.Content" xml:space="preserve">
+    <value>Eyða</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete_2.Content" xml:space="preserve">
+    <value>Eyða</value>
+  </data>
+  <data name="EvidenceVaultPage_Description.Header" xml:space="preserve">
+    <value>Lýsing</value>
+  </data>
+  <data name="EvidenceVaultPage_Details.Header" xml:space="preserve">
+    <value>Nánar</value>
+  </data>
+  <data name="EvidenceVaultPage_EventDate.Header" xml:space="preserve">
+    <value>Dagsetning viðburðar</value>
+  </data>
+  <data name="EvidenceVaultPage_EventTitle.Header" xml:space="preserve">
+    <value>Titill viðburðar</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceItems.Text" xml:space="preserve">
+    <value>Sönnunargagnaatriði</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceVault.Text" xml:space="preserve">
+    <value>Sönnunargagnageymsla</value>
+  </data>
+  <data name="EvidenceVaultPage_ExportEvidencePacketPDF.Content" xml:space="preserve">
+    <value>Flytja út sönnunargagnapakka (PDF)</value>
+  </data>
+  <data name="EvidenceVaultPage_IncidentDate.Header" xml:space="preserve">
+    <value>Dagsetning atviks</value>
+  </data>
+  <data name="EvidenceVaultPage_Location.Header" xml:space="preserve">
+    <value>Staðsetning</value>
+  </data>
+  <data name="EvidenceVaultPage_OfficersInvolvedNamesBadgeNu.Header" xml:space="preserve">
+    <value>Fulltrúar sem tóku þátt (nöfn / skjöldunúmer)</value>
+  </data>
+  <data name="EvidenceVaultPage_SummarizeMyTimelineAI.Content" xml:space="preserve">
+    <value>Draga saman tímalínuna mína (gervigreind)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSortedByDate.Text" xml:space="preserve">
+    <value>Tímalína (raðað eftir dagsetningu)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSummaryOnDeviceAI.Text" xml:space="preserve">
+    <value>Samantekt tímalínu (gervigreind á tæki)</value>
+  </data>
+  <data name="EvidenceVaultPage_Title.Header" xml:space="preserve">
+    <value>Titill</value>
+  </data>
+  <data name="EvidenceVaultPage_WitnessesNamesContactInfo.Header" xml:space="preserve">
+    <value>Vottar (nöfn / samskiptaupplýsingar)</value>
+  </data>
+  <data name="FederalMattersPage_FederalMatters.Text" xml:space="preserve">
+    <value>Alríkismál</value>
+  </data>
+  <data name="FederalMattersPage_OpenThe94DistrictCourt.Content" xml:space="preserve">
+    <value>Opna leit 94 alríkisumdæma</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Bæta við síðu</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Hreinsa</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hreinsa blekstriga</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Eyða síðu</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blekstrigi. Teiknaðu hér með penna, pennastrik, fingri eða mús.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Bleksíður</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bleksíður</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blektorvastika. Veldu penna, blýant, áherslupenna eða strokleður.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Nafn nýrrar síðu</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Fundarglósur</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Endurtaka</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Endurtaka strok</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vista bleksíðu</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Afturkalla</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afturkalla síðasta strok</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Blekskrifur</value>
+  </data>
+  <data name="LetterBuilderPage_AccountNumber.Header" xml:space="preserve">
+    <value>Reikningsnúmer</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauAddre.Header" xml:space="preserve">
+    <value>Heimilisfang innheimtuaðila / lánveitanda / lánastofnunar</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauName.Header" xml:space="preserve">
+    <value>Nafn innheimtuaðila / lánveitanda / lánastofnunar</value>
+  </data>
+  <data name="LetterBuilderPage_Copy.Content" xml:space="preserve">
+    <value>Afrita</value>
+  </data>
+  <data name="LetterBuilderPage_ExportPDF.Content" xml:space="preserve">
+    <value>Flytja út PDF</value>
+  </data>
+  <data name="LetterBuilderPage_GenerateLetter.Content" xml:space="preserve">
+    <value>Búa til bréf</value>
+  </data>
+  <data name="LetterBuilderPage_LetterBuilder.Text" xml:space="preserve">
+    <value>Bréfasmiður</value>
+  </data>
+  <data name="LetterBuilderPage_Preview.Text" xml:space="preserve">
+    <value>Forskoðun</value>
+  </data>
+  <data name="LetterBuilderPage_SaveAsTXT.Content" xml:space="preserve">
+    <value>Vista sem TXT</value>
+  </data>
+  <data name="LetterBuilderPage_Template.Header" xml:space="preserve">
+    <value>Sniðmát</value>
+  </data>
+  <data name="LetterBuilderPage_YourAddress.Header" xml:space="preserve">
+    <value>Heimilisfangið þitt</value>
+  </data>
+  <data name="LetterBuilderPage_YourName.Header" xml:space="preserve">
+    <value>Nafnið þitt</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>Um</value>
+  </data>
+  <data name="MainWindow_Bankruptcy.Content" xml:space="preserve">
+    <value>Gjaldþrot</value>
+  </data>
+  <data name="MainWindow_CaseBuilder.Content" xml:space="preserve">
+    <value>Málasmiður</value>
+  </data>
+  <data name="MainWindow_CivilRights.Content" xml:space="preserve">
+    <value>Borgaraleg réttindi</value>
+  </data>
+  <data name="MainWindow_CourtFinder.Content" xml:space="preserve">
+    <value>Dómstóla leit</value>
+  </data>
+  <data name="MainWindow_CourtGuide.Content" xml:space="preserve">
+    <value>Dómstólaleiðbeiningar</value>
+  </data>
+  <data name="MainWindow_CriminalCases.Content" xml:space="preserve">
+    <value>Sakamál</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>Stjórnborð</value>
+  </data>
+  <data name="MainWindow_Deadlines.Content" xml:space="preserve">
+    <value>Frestir</value>
+  </data>
+  <data name="MainWindow_EvidenceVault.Content" xml:space="preserve">
+    <value>Sönnunargagnageymsla</value>
+  </data>
+  <data name="MainWindow_FederalMatters.Content" xml:space="preserve">
+    <value>Alríkismál</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Blekskrifur</value>
+  </data>
+  <data name="MainWindow_LawsuitWorksheet.Content" xml:space="preserve">
+    <value>Vinnublað máls</value>
+  </data>
+  <data name="MainWindow_LegalMatters.Content" xml:space="preserve">
+    <value>Lögfræðileg málefni</value>
+  </data>
+  <data name="MainWindow_LetterBuilder.Content" xml:space="preserve">
+    <value>Bréfasmiður</value>
+  </data>
+  <data name="MainWindow_TrafficTickets.Content" xml:space="preserve">
+    <value>Umferðarsektir</value>
+  </data>
+  <data name="MainWindow_ViolationSpotter.Content" xml:space="preserve">
+    <value>Brotaleitari</value>
+  </data>
+  <data name="ProSeResourcesPage_ChooseAFederalDistrict.PlaceholderText" xml:space="preserve">
+    <value>Veldu alríkisumdæmi…</value>
+  </data>
+  <data name="ProSeResourcesPage_FindYourCourtSWebsite.Text" xml:space="preserve">
+    <value>Finndu vefsíðu dómstólsins þíns</value>
+  </data>
+  <data name="ProSeResourcesPage_OpenTheSelectedCourtS.Content" xml:space="preserve">
+    <value>Opna opinbera vefsíðu valins dómstóls</value>
+  </data>
+  <data name="ProSeResourcesPage_ProSeResources.Text" xml:space="preserve">
+    <value>Pro Se úrræði</value>
+  </data>
+  <data name="ProSeResourcesPage_UscourtsGovCourtLocator.Content" xml:space="preserve">
+    <value>uscourts.gov dómstólaleit</value>
+  </data>
+  <data name="TrafficTicketsPage_TrafficTickets.Text" xml:space="preserve">
+    <value>Umferðarsektir</value>
+  </data>
+  <data name="ViolationSpotterPage_AddedFeesINeverAgreed.Content" xml:space="preserve">
+    <value>Gjöld bætt við sem ég samþykkti aldrei</value>
+  </data>
+  <data name="ViolationSpotterPage_Analyze.Content" xml:space="preserve">
+    <value>Greina</value>
+  </data>
+  <data name="ViolationSpotterPage_CallsBefore800A.Content" xml:space="preserve">
+    <value>Símtöl fyrir kl. 8:00 eða eftir kl. 21:00 að mínum tíma</value>
+  </data>
+  <data name="ViolationSpotterPage_ContactedMyEmployerOrFamily.Content" xml:space="preserve">
+    <value>Hafði samband við vinnuveitanda minn eða fjölskyldu vegna skuldarinnar</value>
+  </data>
+  <data name="ViolationSpotterPage_ContinuedCollectionAfterIDis.Content" xml:space="preserve">
+    <value>Hélt áfram innheimtu eftir að ég mótmælti skriflega</value>
+  </data>
+  <data name="ViolationSpotterPage_FalseOrInflatedAmountsWrong.Content" xml:space="preserve">
+    <value>Rangar eða uppblásnar upphæðir (röng staða, skuldin er ekki mín)</value>
+  </data>
+  <data name="ViolationSpotterPage_NeverSentTheRequiredWritten.Content" xml:space="preserve">
+    <value>Sendi aldrei tilskilda skriflega staðfestingartilkynningu</value>
+  </data>
+  <data name="ViolationSpotterPage_ThreatsOfArrestViolenceOr.Content" xml:space="preserve">
+    <value>Hótanir um handtöku, ofbeldi eða skaða</value>
+  </data>
+  <data name="ViolationSpotterPage_ViolationSpotter.Text" xml:space="preserve">
+    <value>Brotaleitari</value>
+  </data>
+  <data name="WorksheetPage_AddTimelineRow.Content" xml:space="preserve">
+    <value>Bæta við tímalínuröð</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.Header" xml:space="preserve">
+    <value>Upphæð krafist</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.PlaceholderText" xml:space="preserve">
+    <value>t.d. 2.500,00</value>
+  </data>
+  <data name="WorksheetPage_Date.Header" xml:space="preserve">
+    <value>Dagsetning</value>
+  </data>
+  <data name="WorksheetPage_Date.PlaceholderText" xml:space="preserve">
+    <value>2026-01-15</value>
+  </data>
+  <data name="WorksheetPage_DefendantAddress.Header" xml:space="preserve">
+    <value>Heimilisfang stefnda</value>
+  </data>
+  <data name="WorksheetPage_DefendantName.Header" xml:space="preserve">
+    <value>Nafn stefnda</value>
+  </data>
+  <data name="WorksheetPage_ExportWorksheetPDF.Content" xml:space="preserve">
+    <value>Flytja út vinnublað sem PDF</value>
+  </data>
+  <data name="WorksheetPage_FactsTimeline.Text" xml:space="preserve">
+    <value>Staðreyndatímalína</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintChecklist.Header" xml:space="preserve">
+    <value>Gátlisti alríkiskvörtunar</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintEducationalC.Text" xml:space="preserve">
+    <value>Alríkiskvörtun — fræðslugátlisti</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffAddress.Header" xml:space="preserve">
+    <value>Heimilisfang stefnanda</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffNameYou.Header" xml:space="preserve">
+    <value>Nafn stefnanda (þú)</value>
+  </data>
+  <data name="WorksheetPage_Remove.Content" xml:space="preserve">
+    <value>Fjarlægja</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet.Header" xml:space="preserve">
+    <value>Vinnublað smákrafna</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet_2.Text" xml:space="preserve">
+    <value>Vinnublað smákrafna</value>
+  </data>
+  <data name="WorksheetPage_WhatAPetitionGenerallyInclud.Text" xml:space="preserve">
+    <value>Hvað beiðni inniheldur yfirleitt</value>
+  </data>
+  <data name="WorksheetPage_WhatHappened.Header" xml:space="preserve">
+    <value>Hvað gerðist</value>
+  </data>
+</root>

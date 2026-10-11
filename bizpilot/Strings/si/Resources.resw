@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>AI මෙවලම්</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>පාරිභෝගික ඊමේල් කටු සටහන්කරු</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>කටු සටහන</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>ප්‍රධාන කරුණු ලියා ස්වරය තෝරන්න. උපාංගයේ ආකෘතිය ඊමේල් සකසයි — ඔබේ PC යෙන් කිසිවක් පිටතට නොයයි.</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>ඊමේල් සාදන්න</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>ප්‍රධාන කරුණු (එක් පේළියකට එකක්)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>රැස්වීම් සටහන්</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>රැස්වීම් සටහන් සාරාංශය</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>අමු රැස්වීම් සටහන් අලවන්න. උපාංගයේ ආකෘතිය සංක්ෂිප්ත සාරාංශයක් දෙයි — ඔබේ PC යෙන් කිසිවක් පිටතට නොයයි.</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>සාරාංශ කරන්න</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>සාරාංශය</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>ස්වරය</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>පාරිභෝගිකයන්</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>සමාගම</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>සමාගම (වෛකල්පිත)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>මකන්න</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>ඊමේල්</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>නම</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>සම්පූර්ණ නම</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>නව පාරිභෝගික</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>සටහන්</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>දුරකථනය</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>පාරිභෝගික සුරකින්න</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>පාරිභෝගිකයන්</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>උපකරණ පුවරුව</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>මේ මාසයේ වියදම්</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>ගෙවීමට ඇති</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>මේ මාසයේ ගෙවා ඇත</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>මෑත ඉන්වොයිස්</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>වියදම එකතු කරන්න</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>වියදම එකතු කරන්න</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>මුදල</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>ලදුපත අමුණන්න</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>කාණ්ඩය</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>දිනය</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>මකන්න</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>විස්තරය</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>මේ වියදම මොකටද?</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>වියදම්</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>වියදම්</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>සාමාන්‍ය</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>අලෙවිකරණය</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>ආහාර</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>මාසය</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>මාසයේ එකතුව</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>වෙනත්</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>කුලිය</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>මෘදුකාංග</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>කාණ්ඩය අනුව වියදම</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>සැපයුම්</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>සංචාරය</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>උපයෝගිතා</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>වර්ෂය</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>පිටුව එකතු කරන්න</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>හිස් කරන්න</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>තීන්ත කැන්වසය හිස් කරන්න</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>පිටුව මකන්න</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>තීන්ත කැන්වසය. මෙහි පෑන, ස්ටයිලස්, ඇඟිල්ල හෝ මූසිකයෙන් අඳින්න.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>තීන්ත පිටු</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>තීන්ත පිටු</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>තීන්ත මෙවලම් තීරුව. පෑන, පැන්සල, හයිලයිටරය හෝ මකනය තෝරන්න.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>නව පිටුවේ නම</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>රැස්වීම් සටහන්</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>නැවත කරන්න</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>පහර නැවත කරන්න</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>සුරකින්න</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>තීන්ත පිටුව සුරකින්න</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>අහෝසි කරන්න</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>අවසන් පහර අහෝසි කරන්න</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>තීන්ත සටහන්</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>පේළිය එකතු කරන්න</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>පාරිභෝගික</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>විස්තරය</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>අවසන් දිනය</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF නිර්යාත කරන්න</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>ඉන්වොයිස් අංකය</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>ඉන්වොයිස්</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>නිකුත් කළ දිනය</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>පේළි අයිතම</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>ගෙවා ඇති ලෙස සලකුණු කරන්න</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>නොගෙවා ඇති ලෙස සලකුණු කරන්න</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>නව ඉන්වොයිසය</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>සටහන්</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>ගෙවා ඇත</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>ප්‍රමාණය</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>ඉවත් කරන්න</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>ඉන්වොයිසය සුරකින්න</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>තත්ත්වය</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>උප-එකතුව:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>බද්ද:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>බදු අනුපාතය</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>එකතුව:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>ඒකක මිල</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>නොගෙවා</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>AI මෙවලම්</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>පාරිභෝගිකයන්</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>උපකරණ පුවරුව</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>වියදම්</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>තීන්ත සටහන්</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>ඉන්වොයිස්</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>සැකසුම්</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>ලිපිනය</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>ව්‍යාපාරයේ නම</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>ව්‍යාපාර පැතිකඩ</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>AI තත්ත්වය පරීක්ෂා කරන්න</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>පෙරනිමි බදු අනුපාතය</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>ඊමේල්</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>උපාංගයේ AI</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>දුරකථනය</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>පැතිකඩ සුරකින්න</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>සැකසුම්</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>ඔබ නිර්යාත කරන සෑම ඉන්වොයිස් PDF එකකම මෙම තොරතුරු දිස්වේ.</value>
+  </data>
+</root>

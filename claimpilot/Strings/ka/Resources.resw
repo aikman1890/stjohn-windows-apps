@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_ImportantNotice.Text" xml:space="preserve">
+    <value>მნიშვნელოვანი შეტყობინება</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoes.Text" xml:space="preserve">
+    <value>რას აკეთებს ClaimPilot</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoesNotDo.Text" xml:space="preserve">
+    <value>რას არ აკეთებს ClaimPilot</value>
+  </data>
+  <data name="AboutPage_YourData.Text" xml:space="preserve">
+    <value>თქვენი მონაცემები</value>
+  </data>
+  <data name="BankruptcyPage_180DayCreditCounselingCalcul.Text" xml:space="preserve">
+    <value>180-დღიანი საკრედიტო კონსულტაციის კალკულატორი</value>
+  </data>
+  <data name="BankruptcyPage_AddBankruptcyDeadlinesToThe.Text" xml:space="preserve">
+    <value>გაკოტრების ვადების დამატება ტრეკერში</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter13Deadlines.Content" xml:space="preserve">
+    <value>მე-13 თავის ვადების დამატება</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter7Deadlines.Content" xml:space="preserve">
+    <value>მე-7 თავის ვადების დამატება</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot.Text" xml:space="preserve">
+    <value>ორგანიზაციული საკონტროლო სია — არაა იურიდიული რჩევა. თქვენმა მეურვემ ან ადვოკატმა შეიძლება მეტი მოითხოვოს.</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot_2.Text" xml:space="preserve">
+    <value>ორგანიზაციული საკონტროლო სია — არაა იურიდიული რჩევა. თქვენმა მეურვემ ან ადვოკატმა შეიძლება მეტი მოითხოვოს.</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage.Content" xml:space="preserve">
+    <value>სერტიფიკატის მიმაგრება (PDF/სურათი)</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage_2.Content" xml:space="preserve">
+    <value>სერტიფიკატის მიმაგრება (PDF/სურათი)</value>
+  </data>
+  <data name="BankruptcyPage_BankruptcyChapters713.Text" xml:space="preserve">
+    <value>გაკოტრება — თავები 7 &amp; 13</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13Courses.Text" xml:space="preserve">
+    <value>მე-13 თავის კურსები</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13DocumentChecklist.Text" xml:space="preserve">
+    <value>მე-13 თავის დოკუმენტების საკონტროლო სია</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7Courses.Text" xml:space="preserve">
+    <value>მე-7 თავის კურსები</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7DocumentChecklist.Text" xml:space="preserve">
+    <value>მე-7 თავის დოკუმენტების საკონტროლო სია</value>
+  </data>
+  <data name="BankruptcyPage_Completed" xml:space="preserve">
+    <value>დასრულებულია</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate.Header" xml:space="preserve">
+    <value>დასრულების თარიღი</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate_2.Header" xml:space="preserve">
+    <value>დასრულების თარიღი</value>
+  </data>
+  <data name="BankruptcyPage_Completed_2" xml:space="preserve">
+    <value>დასრულებულია</value>
+  </data>
+  <data name="BankruptcyPage_FilingDate.Text" xml:space="preserve">
+    <value>შეტანის თარიღი:</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted" xml:space="preserve">
+    <value>არ დაწყებულა</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted_2" xml:space="preserve">
+    <value>არ დაწყებულა</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedCreditCo.Content" xml:space="preserve">
+    <value>ოფიციალური სია: დამტკიცებული საკრედიტო საკონსულტაციო სააგენტოები (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedDebtorEd.Content" xml:space="preserve">
+    <value>ოფიციალური სია: დამტკიცებული მოვალის საგანმანათლებლო პროვაიდერები (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate.Content" xml:space="preserve">
+    <value>სერტიფიკატის გახსნა</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate_2.Content" xml:space="preserve">
+    <value>სერტიფიკატის გახსნა</value>
+  </data>
+  <data name="BankruptcyPage_PickYourFilingDateThen.Text" xml:space="preserve">
+    <value>აირჩიეთ თქვენი შეტანის თარიღი, შემდეგ დაამატეთ სტანდარტული ვადები თავისთვის. ისინი შეხსენებებთან ერთად ვადების განყოფილებაში მოხვდებიან. წინასწარი პარამეტრები შეფასებითია — თითოეული თარიღი თქვენს რეალურ საქმესთან შეამოწმეთ.</value>
+  </data>
+  <data name="BankruptcyPage_PlannedFilingDate.Text" xml:space="preserve">
+    <value>დაგეგმილი შეტანის თარიღი:</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU.Header" xml:space="preserve">
+    <value>პროვაიდერის სახელი (U.S. Trustee-მ უნდა დაამტკიცოს)</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU_2.Header" xml:space="preserve">
+    <value>პროვაიდერის სახელი (U.S. Trustee-მ უნდა დაამტკიცოს)</value>
+  </data>
+  <data name="BankruptcyPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>ჯერ ეს წაიკითხეთ — გულწრფელი ჩანაწერები</value>
+  </data>
+  <data name="BankruptcyPage_RequiredCoursesTracker.Text" xml:space="preserve">
+    <value>საჭირო კურსების ტრეკერი</value>
+  </data>
+  <data name="BankruptcyPage_Reset.Content" xml:space="preserve">
+    <value>გადატვირთვა</value>
+  </data>
+  <data name="BankruptcyPage_Reset_2.Content" xml:space="preserve">
+    <value>გადატვირთვა</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled" xml:space="preserve">
+    <value>დაგეგმილია</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate.Header" xml:space="preserve">
+    <value>დაგეგმილი თარიღი</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate_2.Header" xml:space="preserve">
+    <value>დაგეგმილი თარიღი</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled_2" xml:space="preserve">
+    <value>დაგეგმილია</value>
+  </data>
+  <data name="BankruptcyPage_Status.Header" xml:space="preserve">
+    <value>სტატუსი</value>
+  </data>
+  <data name="BankruptcyPage_Status_2.Header" xml:space="preserve">
+    <value>სტატუსი</value>
+  </data>
+  <data name="CaseBuilderPage_AddClaim.Content" xml:space="preserve">
+    <value>სარჩელის დამატება</value>
+  </data>
+  <data name="CaseBuilderPage_AddDeadline.Content" xml:space="preserve">
+    <value>ვადის დამატება</value>
+  </data>
+  <data name="CaseBuilderPage_AddEvent.Content" xml:space="preserve">
+    <value>მოვლენის დამატება</value>
+  </data>
+  <data name="CaseBuilderPage_AddItem.Content" xml:space="preserve">
+    <value>ელემენტის დამატება</value>
+  </data>
+  <data name="CaseBuilderPage_AddParty.Content" xml:space="preserve">
+    <value>მხარის დამატება</value>
+  </data>
+  <data name="CaseBuilderPage_CaseBuilder.Text" xml:space="preserve">
+    <value>საქმის შემქმნელი</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.Header" xml:space="preserve">
+    <value>საქმის სახელი</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.PlaceholderText" xml:space="preserve">
+    <value>მაგ. Smith v. Acme Collections</value>
+  </data>
+  <data name="CaseBuilderPage_CaseType.Header" xml:space="preserve">
+    <value>საქმის ტიპი</value>
+  </data>
+  <data name="CaseBuilderPage_ClaimsIssues.Text" xml:space="preserve">
+    <value>სარჩელები / საკითხები</value>
+  </data>
+  <data name="CaseBuilderPage_ClearCaseFile.Content" xml:space="preserve">
+    <value>საქმის ფაილის გასუფთავება</value>
+  </data>
+  <data name="CaseBuilderPage_Date.Header" xml:space="preserve">
+    <value>თარიღი</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.Header" xml:space="preserve">
+    <value>ვადის სათაური</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.PlaceholderText" xml:space="preserve">
+    <value>მაგ. პასუხის ვადა</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlinesAlsoSavedToThe.Text" xml:space="preserve">
+    <value>ვადები (ასევე შენახულია ვადების ტრეკერში)</value>
+  </data>
+  <data name="CaseBuilderPage_Details.Header" xml:space="preserve">
+    <value>დეტალები</value>
+  </data>
+  <data name="CaseBuilderPage_Details.PlaceholderText" xml:space="preserve">
+    <value>რა მოხდა, ვინ იყო იქ</value>
+  </data>
+  <data name="CaseBuilderPage_DueDate.Header" xml:space="preserve">
+    <value>ვადა</value>
+  </data>
+  <data name="CaseBuilderPage_EGCopyOfThe.PlaceholderText" xml:space="preserve">
+    <value>მაგ. აკრეფის წერილის ასლი</value>
+  </data>
+  <data name="CaseBuilderPage_EGFDCPAViolationFalse.PlaceholderText" xml:space="preserve">
+    <value>მაგ. FDCPA დარღვევა — ყალბი წარმომადგენლობა</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.Header" xml:space="preserve">
+    <value>მოვლენის სათაური</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.PlaceholderText" xml:space="preserve">
+    <value>მაგ. აკრეფის წერილი მიღებულია</value>
+  </data>
+  <data name="CaseBuilderPage_EvidenceChecklist.Text" xml:space="preserve">
+    <value>მტკიცებულებათა საკონტროლო სია</value>
+  </data>
+  <data name="CaseBuilderPage_PartiesInvolved.Text" xml:space="preserve">
+    <value>ჩართული მხარეები</value>
+  </data>
+  <data name="CaseBuilderPage_PersonCompanyOrAgency.PlaceholderText" xml:space="preserve">
+    <value>პირი, კომპანია ან სააგენტო</value>
+  </data>
+  <data name="CaseBuilderPage_Remove.Content" xml:space="preserve">
+    <value>მოშორება</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_2.Content" xml:space="preserve">
+    <value>მოშორება</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_3.Content" xml:space="preserve">
+    <value>მოშორება</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_4.Content" xml:space="preserve">
+    <value>მოშორება</value>
+  </data>
+  <data name="CaseBuilderPage_TheCase.Text" xml:space="preserve">
+    <value>საქმე</value>
+  </data>
+  <data name="CaseBuilderPage_TimelineOfEvents.Text" xml:space="preserve">
+    <value>მოვლენათა ქრონოლოგია</value>
+  </data>
+  <data name="ClaimGuidesPage_AIGeneratedPlainEnglishExpla.Text" xml:space="preserve">
+    <value>AI-ის მიერ შექმნილი მკაფიო ახსნა. მხოლოდ ზოგადი ინფორმაცია — არაა იურიდიული რჩევა. გაითვალისწინეთ ადვოკატთან საუბარი.</value>
+  </data>
+  <data name="ClaimGuidesPage_CivilRightsSection1983Guides.Text" xml:space="preserve">
+    <value>სამოქალაქო უფლებები — 1983-ე მუხლის სახელმძღვანელო</value>
+  </data>
+  <data name="ClaimGuidesPage_ClaimGuides.Text" xml:space="preserve">
+    <value>სარჩელის სახელმძღვანელო</value>
+  </data>
+  <data name="ClaimGuidesPage_CommonDefenses.Text" xml:space="preserve">
+    <value>ზოგადი დაცვები</value>
+  </data>
+  <data name="ClaimGuidesPage_ExplainThisInPlainEnglish.Content" xml:space="preserve">
+    <value>ეს გასაგებ ქართულად ახსენით</value>
+  </data>
+  <data name="ClaimGuidesPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>ჯერ ეს წაიკითხეთ — გულწრფელი ჩანაწერები</value>
+  </data>
+  <data name="ClaimGuidesPage_WhatAPlaintiffMustGenerally.Text" xml:space="preserve">
+    <value>რა უნდა დაამტკიცოს ჩვეულებრივ მოსარჩელემ</value>
+  </data>
+  <data name="CourtFinderPage_CourtFinder.Text" xml:space="preserve">
+    <value>სასამართლოს მაძიებელი</value>
+  </data>
+  <data name="CourtFinderPage_CourtLocations.Text" xml:space="preserve">
+    <value>სასამართლოს მდებარეობები:</value>
+  </data>
+  <data name="CourtFinderPage_OfficialCourtWebsite.Content" xml:space="preserve">
+    <value>სასამართლოს ოფიციალური ვებსაიტი</value>
+  </data>
+  <data name="CourtFinderPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>ძიება შტატის, ტერიტორიის ან ოლქის სახელით…</value>
+  </data>
+  <data name="CourtGuidePage_CourtGuideCountyMunicipalDis.Text" xml:space="preserve">
+    <value>სასამართლოს სახელმძღვანელო — ოლქის, ქალაქის და რაიონის სასამართლოები</value>
+  </data>
+  <data name="CriminalCasesPage_CriminalCases.Text" xml:space="preserve">
+    <value>სისხლის სამართლის საქმეები</value>
+  </data>
+  <data name="DashboardPage_ClaimPilot.Text" xml:space="preserve">
+    <value>ClaimPilot</value>
+  </data>
+  <data name="DeadlinesPage_AddADeadline.Text" xml:space="preserve">
+    <value>ვადის დამატება</value>
+  </data>
+  <data name="DeadlinesPage_Category.Header" xml:space="preserve">
+    <value>კატეგორია</value>
+  </data>
+  <data name="DeadlinesPage_Deadlines.Text" xml:space="preserve">
+    <value>ვადები</value>
+  </data>
+  <data name="DeadlinesPage_Delete.Content" xml:space="preserve">
+    <value>წაშლა</value>
+  </data>
+  <data name="DeadlinesPage_DueDate.Header" xml:space="preserve">
+    <value>ვადა</value>
+  </data>
+  <data name="DeadlinesPage_MarkDone.Content" xml:space="preserve">
+    <value>დასრულებულად მონიშვნა</value>
+  </data>
+  <data name="DeadlinesPage_Notes.Header" xml:space="preserve">
+    <value>ჩანაწერები</value>
+  </data>
+  <data name="DeadlinesPage_OVERDUE.Text" xml:space="preserve">
+    <value>ვადა ამოიწურა</value>
+  </data>
+  <data name="DeadlinesPage_SaveDeadline.Content" xml:space="preserve">
+    <value>ვადის შენახვა</value>
+  </data>
+  <data name="DeadlinesPage_Title.Header" xml:space="preserve">
+    <value>სათაური</value>
+  </data>
+  <data name="DeadlinesPage_YourDeadlinesSortedByDue.Text" xml:space="preserve">
+    <value>თქვენი ვადები (ვადით დალაგებული)</value>
+  </data>
+  <data name="EvidenceVaultPage_AIGeneratedSummaryGeneralInf.Text" xml:space="preserve">
+    <value>AI-ის მიერ შექმნილი შეჯამება. მხოლოდ ზოგადი ინფორმაცია — არაა იურიდიული რჩევა.</value>
+  </data>
+  <data name="EvidenceVaultPage_AddIncidentToTimeline.Content" xml:space="preserve">
+    <value>მოვლენის დამატება ქრონოლოგიაში</value>
+  </data>
+  <data name="EvidenceVaultPage_AddTimelineEvent.Content" xml:space="preserve">
+    <value>ქრონოლოგიის მოვლენის დამატება</value>
+  </data>
+  <data name="EvidenceVaultPage_AttachFileSave.Content" xml:space="preserve">
+    <value>ფაილის მიმაგრება და შენახვა</value>
+  </data>
+  <data name="EvidenceVaultPage_Category.Header" xml:space="preserve">
+    <value>კატეგორია</value>
+  </data>
+  <data name="EvidenceVaultPage_Category_2.Header" xml:space="preserve">
+    <value>კატეგორია</value>
+  </data>
+  <data name="EvidenceVaultPage_CivilRightsIncidentTemplate.Text" xml:space="preserve">
+    <value>სამოქალაქო უფლების ინციდენტის შაბლონი</value>
+  </data>
+  <data name="EvidenceVaultPage_ComplaintReportNumbers.Header" xml:space="preserve">
+    <value>საჩივრის / ანგარიშის ნომრები</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete.Content" xml:space="preserve">
+    <value>წაშლა</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete_2.Content" xml:space="preserve">
+    <value>წაშლა</value>
+  </data>
+  <data name="EvidenceVaultPage_Description.Header" xml:space="preserve">
+    <value>აღწერა</value>
+  </data>
+  <data name="EvidenceVaultPage_Details.Header" xml:space="preserve">
+    <value>დეტალები</value>
+  </data>
+  <data name="EvidenceVaultPage_EventDate.Header" xml:space="preserve">
+    <value>მოვლენის თარიღი</value>
+  </data>
+  <data name="EvidenceVaultPage_EventTitle.Header" xml:space="preserve">
+    <value>მოვლენის სათაური</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceItems.Text" xml:space="preserve">
+    <value>მტკიცებულებათა ელემენტები</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceVault.Text" xml:space="preserve">
+    <value>მტკიცებულებათა საცავი</value>
+  </data>
+  <data name="EvidenceVaultPage_ExportEvidencePacketPDF.Content" xml:space="preserve">
+    <value>მტკიცებულებათა პაკეტის ექსპორტი (PDF)</value>
+  </data>
+  <data name="EvidenceVaultPage_IncidentDate.Header" xml:space="preserve">
+    <value>შემთხვევის თარიღი</value>
+  </data>
+  <data name="EvidenceVaultPage_Location.Header" xml:space="preserve">
+    <value>მდებარეობა</value>
+  </data>
+  <data name="EvidenceVaultPage_OfficersInvolvedNamesBadgeNu.Header" xml:space="preserve">
+    <value>ჩართული ოფიცრები (სახელი / სამკერდე ნომერი)</value>
+  </data>
+  <data name="EvidenceVaultPage_SummarizeMyTimelineAI.Content" xml:space="preserve">
+    <value>ჩემი ქრონოლოგიის შეჯამება (AI)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSortedByDate.Text" xml:space="preserve">
+    <value>ქრონოლოგია (თარიღით დალაგებული)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSummaryOnDeviceAI.Text" xml:space="preserve">
+    <value>ქრონოლოგიის შეჯამება (AI მოწყობილობაზე)</value>
+  </data>
+  <data name="EvidenceVaultPage_Title.Header" xml:space="preserve">
+    <value>სათაური</value>
+  </data>
+  <data name="EvidenceVaultPage_WitnessesNamesContactInfo.Header" xml:space="preserve">
+    <value>მოწმეები (სახელი / საკონტაქტო ინფორმაცია)</value>
+  </data>
+  <data name="FederalMattersPage_FederalMatters.Text" xml:space="preserve">
+    <value>ფედერალური საკითხები</value>
+  </data>
+  <data name="FederalMattersPage_OpenThe94DistrictCourt.Content" xml:space="preserve">
+    <value>94 ოლქის სასამართლოს მაძიებლის გახსნა</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>გვერდის დამატება</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>გასუფთავება</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>მელნის ტილოს გასუფთავება</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>გვერდის წაშლა</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>მელნის ტილო. დახატეთ აქ კალმით, სტილუსით, თითით ან მაუსით.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>მელნის გვერდები</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>მელნის გვერდები</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>მელნის ხელსაწყოთა პანელი. აირჩიეთ კალამი, ფანქარი, მარკერი ან საშლელი.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>ახალი გვერდის სახელი</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>შეხვედრის ჩანაწერები</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>გამეორება</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ხელახლა დახატვა</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>შენახვა</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>მელნის გვერდის შენახვა</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>გაუქმება</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ბოლო ხაზის გაუქმება</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>მელნის ჩანაწერები</value>
+  </data>
+  <data name="LetterBuilderPage_AccountNumber.Header" xml:space="preserve">
+    <value>ანგარიშის ნომერი</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauAddre.Header" xml:space="preserve">
+    <value>აკრეფის / კრედიტორის / ბიუროს მისამართი</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauName.Header" xml:space="preserve">
+    <value>აკრეფის / კრედიტორის / ბიუროს სახელი</value>
+  </data>
+  <data name="LetterBuilderPage_Copy.Content" xml:space="preserve">
+    <value>კოპირება</value>
+  </data>
+  <data name="LetterBuilderPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF-ის ექსპორტი</value>
+  </data>
+  <data name="LetterBuilderPage_GenerateLetter.Content" xml:space="preserve">
+    <value>წერილის შექმნა</value>
+  </data>
+  <data name="LetterBuilderPage_LetterBuilder.Text" xml:space="preserve">
+    <value>წერილის შემქმნელი</value>
+  </data>
+  <data name="LetterBuilderPage_Preview.Text" xml:space="preserve">
+    <value>წინასწარი ნახვა</value>
+  </data>
+  <data name="LetterBuilderPage_SaveAsTXT.Content" xml:space="preserve">
+    <value>TXT-დ შენახვა</value>
+  </data>
+  <data name="LetterBuilderPage_Template.Header" xml:space="preserve">
+    <value>შაბლონი</value>
+  </data>
+  <data name="LetterBuilderPage_YourAddress.Header" xml:space="preserve">
+    <value>თქვენი მისამართი</value>
+  </data>
+  <data name="LetterBuilderPage_YourName.Header" xml:space="preserve">
+    <value>თქვენი სახელი</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>შესახებ</value>
+  </data>
+  <data name="MainWindow_Bankruptcy.Content" xml:space="preserve">
+    <value>გაკოტრება</value>
+  </data>
+  <data name="MainWindow_CaseBuilder.Content" xml:space="preserve">
+    <value>საქმის შემქმნელი</value>
+  </data>
+  <data name="MainWindow_CivilRights.Content" xml:space="preserve">
+    <value>სამოქალაქო უფლებები</value>
+  </data>
+  <data name="MainWindow_CourtFinder.Content" xml:space="preserve">
+    <value>სასამართლოს მაძიებელი</value>
+  </data>
+  <data name="MainWindow_CourtGuide.Content" xml:space="preserve">
+    <value>სასამართლოს სახელმძღვანელო</value>
+  </data>
+  <data name="MainWindow_CriminalCases.Content" xml:space="preserve">
+    <value>სისხლის სამართლის საქმეები</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>მართვის პანელი</value>
+  </data>
+  <data name="MainWindow_Deadlines.Content" xml:space="preserve">
+    <value>ვადები</value>
+  </data>
+  <data name="MainWindow_EvidenceVault.Content" xml:space="preserve">
+    <value>მტკიცებულებათა საცავი</value>
+  </data>
+  <data name="MainWindow_FederalMatters.Content" xml:space="preserve">
+    <value>ფედერალური საკითხები</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>მელნის ჩანაწერები</value>
+  </data>
+  <data name="MainWindow_LawsuitWorksheet.Content" xml:space="preserve">
+    <value>საქმის სამუშაო ფურცელი</value>
+  </data>
+  <data name="MainWindow_LegalMatters.Content" xml:space="preserve">
+    <value>სამართლებრივი საკითხები</value>
+  </data>
+  <data name="MainWindow_LetterBuilder.Content" xml:space="preserve">
+    <value>წერილის შემქმნელი</value>
+  </data>
+  <data name="MainWindow_TrafficTickets.Content" xml:space="preserve">
+    <value>საგზაო ბილეთები</value>
+  </data>
+  <data name="MainWindow_ViolationSpotter.Content" xml:space="preserve">
+    <value>დარღვევის მაძიებელი</value>
+  </data>
+  <data name="ProSeResourcesPage_ChooseAFederalDistrict.PlaceholderText" xml:space="preserve">
+    <value>აირჩიეთ ფედერალური ოლქი…</value>
+  </data>
+  <data name="ProSeResourcesPage_FindYourCourtSWebsite.Text" xml:space="preserve">
+    <value>მოძებნეთ თქვენი სასამართლოს ვებსაიტი</value>
+  </data>
+  <data name="ProSeResourcesPage_OpenTheSelectedCourtS.Content" xml:space="preserve">
+    <value>არჩეული სასამართლოს ოფიციალური ვებსაიტის გახსნა</value>
+  </data>
+  <data name="ProSeResourcesPage_ProSeResources.Text" xml:space="preserve">
+    <value>Pro Se რესურსები</value>
+  </data>
+  <data name="ProSeResourcesPage_UscourtsGovCourtLocator.Content" xml:space="preserve">
+    <value>uscourts.gov სასამართლოს მაძიებელი</value>
+  </data>
+  <data name="TrafficTicketsPage_TrafficTickets.Text" xml:space="preserve">
+    <value>საგზაო ბილეთები</value>
+  </data>
+  <data name="ViolationSpotterPage_AddedFeesINeverAgreed.Content" xml:space="preserve">
+    <value>დამატებულია საკომისიოები, რომლებსაც არასოდეს დავთანხმებულვარ</value>
+  </data>
+  <data name="ViolationSpotterPage_Analyze.Content" xml:space="preserve">
+    <value>ანალიზი</value>
+  </data>
+  <data name="ViolationSpotterPage_CallsBefore800A.Content" xml:space="preserve">
+    <value>ზარები დილის 8:00-მდე ან საღამოს 9:00-ის შემდეგ ჩემი დროით</value>
+  </data>
+  <data name="ViolationSpotterPage_ContactedMyEmployerOrFamily.Content" xml:space="preserve">
+    <value>ჩემს დამსაქმებელს ან ოჯახს ვალის შესახებ დაუკავშირდა</value>
+  </data>
+  <data name="ViolationSpotterPage_ContinuedCollectionAfterIDis.Content" xml:space="preserve">
+    <value>წერილობითი წინააღმდეგობის შემდეგ აკრეფა გააგრძელა</value>
+  </data>
+  <data name="ViolationSpotterPage_FalseOrInflatedAmountsWrong.Content" xml:space="preserve">
+    <value>ყალბი ან გაზვიადებული თანხა (არასწორი ბალანსი, ვალი ჩემი არ არის)</value>
+  </data>
+  <data name="ViolationSpotterPage_NeverSentTheRequiredWritten.Content" xml:space="preserve">
+    <value>საჭირო წერილობითი დადასტურების შეტყობინება არასოდეს გაგზავნილა</value>
+  </data>
+  <data name="ViolationSpotterPage_ThreatsOfArrestViolenceOr.Content" xml:space="preserve">
+    <value>დაპატიმრების, ძალადობის ან ზიანის მუქარა</value>
+  </data>
+  <data name="ViolationSpotterPage_ViolationSpotter.Text" xml:space="preserve">
+    <value>დარღვევის მაძიებელი</value>
+  </data>
+  <data name="WorksheetPage_AddTimelineRow.Content" xml:space="preserve">
+    <value>ქრონოლოგიის ხაზის დამატება</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.Header" xml:space="preserve">
+    <value>მოთხოვნილი თანხა</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.PlaceholderText" xml:space="preserve">
+    <value>მაგ. 2,500.00</value>
+  </data>
+  <data name="WorksheetPage_Date.Header" xml:space="preserve">
+    <value>თარიღი</value>
+  </data>
+  <data name="WorksheetPage_Date.PlaceholderText" xml:space="preserve">
+    <value>2026-01-15</value>
+  </data>
+  <data name="WorksheetPage_DefendantAddress.Header" xml:space="preserve">
+    <value>მოპასუხის მისამართი</value>
+  </data>
+  <data name="WorksheetPage_DefendantName.Header" xml:space="preserve">
+    <value>მოპასუხის სახელი</value>
+  </data>
+  <data name="WorksheetPage_ExportWorksheetPDF.Content" xml:space="preserve">
+    <value>სამუშაო ფურცლის PDF-ის ექსპორტი</value>
+  </data>
+  <data name="WorksheetPage_FactsTimeline.Text" xml:space="preserve">
+    <value>ფაქტების ქრონოლოგია</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintChecklist.Header" xml:space="preserve">
+    <value>ფედერალური საჩივრის საკონტროლო სია</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintEducationalC.Text" xml:space="preserve">
+    <value>ფედერალური საჩივარი — საგანმანათლებლო საკონტროლო სია</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffAddress.Header" xml:space="preserve">
+    <value>მოსარჩელის მისამართი</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffNameYou.Header" xml:space="preserve">
+    <value>მოსარჩელის სახელი (თქვენ)</value>
+  </data>
+  <data name="WorksheetPage_Remove.Content" xml:space="preserve">
+    <value>მოშორება</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet.Header" xml:space="preserve">
+    <value>მცირე სარჩელის სამუშაო ფურცელი</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet_2.Text" xml:space="preserve">
+    <value>მცირე სარჩელის სამუშაო ფურცელი</value>
+  </data>
+  <data name="WorksheetPage_WhatAPetitionGenerallyInclud.Text" xml:space="preserve">
+    <value>რა არის ჩვეულებრივ პეტიციაში</value>
+  </data>
+  <data name="WorksheetPage_WhatHappened.Header" xml:space="preserve">
+    <value>რა მოხდა</value>
+  </data>
+</root>
