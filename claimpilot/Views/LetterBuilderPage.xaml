@@ -1,0 +1,52 @@
+<Page
+    x:Class="ClaimPilot.Views.LetterBuilderPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12" MaxWidth="900">
+            <TextBlock Text="Letter Builder" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.IntroText}" TextWrapping="Wrap" />
+
+            <TextBox Header="Your name" Text="{x:Bind ViewModel.UserName, Mode=TwoWay}" />
+            <TextBox Header="Your address" Text="{x:Bind ViewModel.UserAddress, Mode=TwoWay}" TextWrapping="Wrap" AcceptsReturn="True" />
+            <TextBox Header="Collector / creditor / bureau name" Text="{x:Bind ViewModel.RecipientName, Mode=TwoWay}" />
+            <TextBox Header="Collector / creditor / bureau address" Text="{x:Bind ViewModel.RecipientAddress, Mode=TwoWay}" TextWrapping="Wrap" AcceptsReturn="True" />
+            <TextBox Header="Account number" Text="{x:Bind ViewModel.AccountNumber, Mode=TwoWay}" />
+
+            <ComboBox
+                Header="Template"
+                ItemsSource="{x:Bind ViewModel.TemplateNames, Mode=OneWay}"
+                SelectedIndex="{x:Bind ViewModel.SelectedTemplateIndex, Mode=TwoWay}"
+                MinWidth="320" />
+
+            <Button Content="Generate letter" Command="{x:Bind ViewModel.GenerateLetterCommand}" Style="{StaticResource AccentButtonStyle}" />
+
+            <TextBlock Text="Preview" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBox
+                Text="{x:Bind ViewModel.GeneratedLetter, Mode=OneWay}"
+                IsReadOnly="True"
+                TextWrapping="Wrap"
+                AcceptsReturn="True"
+                MinHeight="320"
+                FontFamily="Consolas" />
+
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Button Content="Save as TXT" Command="{x:Bind ViewModel.SaveTxtCommand}" />
+                <Button Content="Export PDF" Command="{x:Bind ViewModel.ExportPdfCommand}" />
+                <Button Content="Copy" Command="{x:Bind ViewModel.CopyLetterCommand}" />
+            </StackPanel>
+
+            <TextBlock Text="{x:Bind ViewModel.StatusMessage, Mode=OneWay}" TextWrapping="Wrap" FontStyle="Italic" />
+
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16">
+                <TextBlock Text="{x:Bind ViewModel.DisclaimerText}" TextWrapping="Wrap" />
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

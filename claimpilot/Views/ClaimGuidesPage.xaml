@@ -1,0 +1,93 @@
+<Page
+    x:Class="ClaimPilot.Views.ClaimGuidesPage"
+    x:Name="PageRoot"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:ClaimPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12" MaxWidth="980">
+            <TextBlock Text="Civil Rights — Section 1983 Guides" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Text="{x:Bind ViewModel.IntroText}" TextWrapping="Wrap" />
+
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16">
+                <TextBlock Text="{x:Bind ViewModel.DisclaimerText}" TextWrapping="Wrap" />
+            </Border>
+
+            <TextBlock Text="Read this first — honest notes" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <ListView ItemsSource="{x:Bind ViewModel.HonestNotes, Mode=OneWay}" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:HonestNote">
+                        <Border
+                            Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                            BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            Padding="16"
+                            Margin="0,6">
+                            <StackPanel Spacing="6">
+                                <TextBlock Text="{x:Bind Title}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                                <TextBlock Text="{x:Bind Body}" TextWrapping="Wrap" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <TextBlock Text="Claim guides" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <ListView ItemsSource="{x:Bind ViewModel.Guides, Mode=OneWay}" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:ClaimGuide">
+                        <Border
+                            Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                            BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            Padding="16"
+                            Margin="0,6">
+                            <StackPanel Spacing="8">
+                                <TextBlock Text="{x:Bind Title}" Style="{StaticResource SubtitleTextBlockStyle}" TextWrapping="Wrap" />
+                                <TextBlock Text="{x:Bind WhatItIs}" TextWrapping="Wrap" />
+                                <TextBlock Text="What a plaintiff must generally show" FontWeight="SemiBold" />
+                                <TextBlock Text="{x:Bind WhatPlaintiffMustShow}" TextWrapping="Wrap" />
+                                <TextBlock Text="Common defenses" FontWeight="SemiBold" />
+                                <TextBlock Text="{x:Bind CommonDefenses}" TextWrapping="Wrap" />
+                                <Button
+                                    Content="Explain this in plain English"
+                                    Click="ExplainButton_Click"
+                                    IsEnabled="{Binding ViewModel.IsAiAvailable, ElementName=PageRoot}">
+                                    <ToolTipService.ToolTip>
+                                        <ToolTip Content="{Binding ViewModel.AiButtonTooltip, ElementName=PageRoot}" />
+                                    </ToolTipService.ToolTip>
+                                </Button>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Border
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="16"
+                Visibility="{x:Bind ViewModel.ExplanationVisibility, Mode=OneWay}">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="{x:Bind ViewModel.ExplanationTitle, Mode=OneWay}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                    <TextBlock Text="{x:Bind ViewModel.ExplanationText, Mode=OneWay}" TextWrapping="Wrap" />
+                    <TextBlock
+                        Text="AI-generated plain-English explanation. General information only — not legal advice. Consider talking to an attorney."
+                        TextWrapping="Wrap"
+                        FontStyle="Italic"
+                        Opacity="0.85" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
