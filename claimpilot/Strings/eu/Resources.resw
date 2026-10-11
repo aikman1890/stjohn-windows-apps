@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_ImportantNotice.Text" xml:space="preserve">
+    <value>Ohar garrantzitsua</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoes.Text" xml:space="preserve">
+    <value>Zer egiten du ClaimPilot-ek</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoesNotDo.Text" xml:space="preserve">
+    <value>Zer ez du egiten ClaimPilot-ek</value>
+  </data>
+  <data name="AboutPage_YourData.Text" xml:space="preserve">
+    <value>Zure datuak</value>
+  </data>
+  <data name="BankruptcyPage_180DayCreditCounselingCalcul.Text" xml:space="preserve">
+    <value>180 eguneko kreditu-aholkularitzako kalkulagailua</value>
+  </data>
+  <data name="BankruptcyPage_AddBankruptcyDeadlinesToThe.Text" xml:space="preserve">
+    <value>Gehitu porrot-epeak jarraitzaileari</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter13Deadlines.Content" xml:space="preserve">
+    <value>Gehitu 13. kapituluko epeak</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter7Deadlines.Content" xml:space="preserve">
+    <value>Gehitu 7. kapituluko epeak</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot.Text" xml:space="preserve">
+    <value>Antolakuntza-egiaztapen zerrenda — ez da aholku juridikoa. Zure sindikoak edo abokatuak gehiago eska dezake.</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot_2.Text" xml:space="preserve">
+    <value>Antolakuntza-egiaztapen zerrenda — ez da aholku juridikoa. Zure sindikoak edo abokatuak gehiago eska dezake.</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage.Content" xml:space="preserve">
+    <value>Erantsi ziurtagiria (PDF/irudia)</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage_2.Content" xml:space="preserve">
+    <value>Erantsi ziurtagiria (PDF/irudia)</value>
+  </data>
+  <data name="BankruptcyPage_BankruptcyChapters713.Text" xml:space="preserve">
+    <value>Porrota — 7. eta 13. kapituluak</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13Courses.Text" xml:space="preserve">
+    <value>13. kapituluko ikastaroak</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13DocumentChecklist.Text" xml:space="preserve">
+    <value>13. kapituluko dokumentuen egiaztapen zerrenda</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7Courses.Text" xml:space="preserve">
+    <value>7. kapituluko ikastaroak</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7DocumentChecklist.Text" xml:space="preserve">
+    <value>7. kapituluko dokumentuen egiaztapen zerrenda</value>
+  </data>
+  <data name="BankruptcyPage_Completed" xml:space="preserve">
+    <value>Eginda</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate.Header" xml:space="preserve">
+    <value>Egindako data</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate_2.Header" xml:space="preserve">
+    <value>Egindako data</value>
+  </data>
+  <data name="BankruptcyPage_Completed_2" xml:space="preserve">
+    <value>Eginda</value>
+  </data>
+  <data name="BankruptcyPage_FilingDate.Text" xml:space="preserve">
+    <value>Aurkezpen-data:</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted" xml:space="preserve">
+    <value>Hasi gabe</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted_2" xml:space="preserve">
+    <value>Hasi gabe</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedCreditCo.Content" xml:space="preserve">
+    <value>Zerrenda ofiziala: onartutako kreditu-aholkularitza agentziak (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedDebtorEd.Content" xml:space="preserve">
+    <value>Zerrenda ofiziala: onartutako zordun-hezkuntza hornitzaileak (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate.Content" xml:space="preserve">
+    <value>Ireki ziurtagiria</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate_2.Content" xml:space="preserve">
+    <value>Ireki ziurtagiria</value>
+  </data>
+  <data name="BankruptcyPage_PickYourFilingDateThen.Text" xml:space="preserve">
+    <value>Aukeratu aurkezpen-data, gero gehitu kapituluaren epe estandarrak. Epeak atalean agertuko dira abisuekin. Lehenetsitakoak estimazioak dira — egiaztatu data bakoitza zure benetako kasuarekin.</value>
+  </data>
+  <data name="BankruptcyPage_PlannedFilingDate.Text" xml:space="preserve">
+    <value>Aurreikusitako aurkezpen-data:</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU.Header" xml:space="preserve">
+    <value>Hornitzailearen izena (U.S. Trustee-k onartua izan behar du)</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU_2.Header" xml:space="preserve">
+    <value>Hornitzailearen izena (U.S. Trustee-k onartua izan behar du)</value>
+  </data>
+  <data name="BankruptcyPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>Irakurri hau lehenik — ohar zintzoak</value>
+  </data>
+  <data name="BankruptcyPage_RequiredCoursesTracker.Text" xml:space="preserve">
+    <value>Beharrezko ikastaroen jarraitzailea</value>
+  </data>
+  <data name="BankruptcyPage_Reset.Content" xml:space="preserve">
+    <value>Berrezarri</value>
+  </data>
+  <data name="BankruptcyPage_Reset_2.Content" xml:space="preserve">
+    <value>Berrezarri</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled" xml:space="preserve">
+    <value>Antolatuta</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate.Header" xml:space="preserve">
+    <value>Antolatutako data</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate_2.Header" xml:space="preserve">
+    <value>Antolatutako data</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled_2" xml:space="preserve">
+    <value>Antolatuta</value>
+  </data>
+  <data name="BankruptcyPage_Status.Header" xml:space="preserve">
+    <value>Egoera</value>
+  </data>
+  <data name="BankruptcyPage_Status_2.Header" xml:space="preserve">
+    <value>Egoera</value>
+  </data>
+  <data name="CaseBuilderPage_AddClaim.Content" xml:space="preserve">
+    <value>Gehitu erreklamazioa</value>
+  </data>
+  <data name="CaseBuilderPage_AddDeadline.Content" xml:space="preserve">
+    <value>Gehitu epea</value>
+  </data>
+  <data name="CaseBuilderPage_AddEvent.Content" xml:space="preserve">
+    <value>Gehitu gertaera</value>
+  </data>
+  <data name="CaseBuilderPage_AddItem.Content" xml:space="preserve">
+    <value>Gehitu elementua</value>
+  </data>
+  <data name="CaseBuilderPage_AddParty.Content" xml:space="preserve">
+    <value>Gehitu alderdia</value>
+  </data>
+  <data name="CaseBuilderPage_CaseBuilder.Text" xml:space="preserve">
+    <value>Kasu-sortzailea</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.Header" xml:space="preserve">
+    <value>Kasuaren izena</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.PlaceholderText" xml:space="preserve">
+    <value>adib. Smith v. Acme Collections</value>
+  </data>
+  <data name="CaseBuilderPage_CaseType.Header" xml:space="preserve">
+    <value>Kasu mota</value>
+  </data>
+  <data name="CaseBuilderPage_ClaimsIssues.Text" xml:space="preserve">
+    <value>Erreklamazioak / gaiak</value>
+  </data>
+  <data name="CaseBuilderPage_ClearCaseFile.Content" xml:space="preserve">
+    <value>Garbitu kasuaren fitxategia</value>
+  </data>
+  <data name="CaseBuilderPage_Date.Header" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.Header" xml:space="preserve">
+    <value>Epearen izenburua</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.PlaceholderText" xml:space="preserve">
+    <value>adib. Erantzuna muga-egunean</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlinesAlsoSavedToThe.Text" xml:space="preserve">
+    <value>Epeak (epe-jarraitzailean ere gordeta)</value>
+  </data>
+  <data name="CaseBuilderPage_Details.Header" xml:space="preserve">
+    <value>Xehetasunak</value>
+  </data>
+  <data name="CaseBuilderPage_Details.PlaceholderText" xml:space="preserve">
+    <value>Zer gertatu zen, nor zegoen han</value>
+  </data>
+  <data name="CaseBuilderPage_DueDate.Header" xml:space="preserve">
+    <value>Muga-eguna</value>
+  </data>
+  <data name="CaseBuilderPage_EGCopyOfThe.PlaceholderText" xml:space="preserve">
+    <value>adib. Kobrantza-gutunaren kopia</value>
+  </data>
+  <data name="CaseBuilderPage_EGFDCPAViolationFalse.PlaceholderText" xml:space="preserve">
+    <value>adib. FDCPA arau-haustea — adierazpen faltsua</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.Header" xml:space="preserve">
+    <value>Gertaeraren izenburua</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.PlaceholderText" xml:space="preserve">
+    <value>adib. Kobrantza-gutuna jaso da</value>
+  </data>
+  <data name="CaseBuilderPage_EvidenceChecklist.Text" xml:space="preserve">
+    <value>Froga-egiaztapen zerrenda</value>
+  </data>
+  <data name="CaseBuilderPage_PartiesInvolved.Text" xml:space="preserve">
+    <value>Inplikatutako alderdiak</value>
+  </data>
+  <data name="CaseBuilderPage_PersonCompanyOrAgency.PlaceholderText" xml:space="preserve">
+    <value>Pertsona, enpresa edo agentzia</value>
+  </data>
+  <data name="CaseBuilderPage_Remove.Content" xml:space="preserve">
+    <value>Kendu</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_2.Content" xml:space="preserve">
+    <value>Kendu</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_3.Content" xml:space="preserve">
+    <value>Kendu</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_4.Content" xml:space="preserve">
+    <value>Kendu</value>
+  </data>
+  <data name="CaseBuilderPage_TheCase.Text" xml:space="preserve">
+    <value>Kasua</value>
+  </data>
+  <data name="CaseBuilderPage_TimelineOfEvents.Text" xml:space="preserve">
+    <value>Gertaeren denbora-lerroa</value>
+  </data>
+  <data name="ClaimGuidesPage_AIGeneratedPlainEnglishExpla.Text" xml:space="preserve">
+    <value>AAk sortutako azalpen argia. Informazio orokorra soilik — ez da aholku juridikoa. Demagun abokatu batekin hitz egitea.</value>
+  </data>
+  <data name="ClaimGuidesPage_CivilRightsSection1983Guides.Text" xml:space="preserve">
+    <value>Eskubide Zibilak — 1983. Ataleko gidak</value>
+  </data>
+  <data name="ClaimGuidesPage_ClaimGuides.Text" xml:space="preserve">
+    <value>Erreklamazio-gidak</value>
+  </data>
+  <data name="ClaimGuidesPage_CommonDefenses.Text" xml:space="preserve">
+    <value>Defentsa arruntak</value>
+  </data>
+  <data name="ClaimGuidesPage_ExplainThisInPlainEnglish.Content" xml:space="preserve">
+    <value>Azaldu hau euskara argian</value>
+  </data>
+  <data name="ClaimGuidesPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>Irakurri hau lehenik — ohar zintzoak</value>
+  </data>
+  <data name="ClaimGuidesPage_WhatAPlaintiffMustGenerally.Text" xml:space="preserve">
+    <value>Zer frogatu behar du demandatzaileak normalean</value>
+  </data>
+  <data name="CourtFinderPage_CourtFinder.Text" xml:space="preserve">
+    <value>Epaitegi-bilatzailea</value>
+  </data>
+  <data name="CourtFinderPage_CourtLocations.Text" xml:space="preserve">
+    <value>Epaitegien kokapenak:</value>
+  </data>
+  <data name="CourtFinderPage_OfficialCourtWebsite.Content" xml:space="preserve">
+    <value>Epaitegiaren webgune ofiziala</value>
+  </data>
+  <data name="CourtFinderPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Bilatu estatu, lurralde edo barruti izenaren arabera…</value>
+  </data>
+  <data name="CourtGuidePage_CourtGuideCountyMunicipalDis.Text" xml:space="preserve">
+    <value>Epaitegi-gida — Konderri, Udal eta Barrutiko epaitegiak</value>
+  </data>
+  <data name="CriminalCasesPage_CriminalCases.Text" xml:space="preserve">
+    <value>Zigor-kasuak</value>
+  </data>
+  <data name="DashboardPage_ClaimPilot.Text" xml:space="preserve">
+    <value>ClaimPilot</value>
+  </data>
+  <data name="DeadlinesPage_AddADeadline.Text" xml:space="preserve">
+    <value>Gehitu epea</value>
+  </data>
+  <data name="DeadlinesPage_Category.Header" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="DeadlinesPage_Deadlines.Text" xml:space="preserve">
+    <value>Epeak</value>
+  </data>
+  <data name="DeadlinesPage_Delete.Content" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="DeadlinesPage_DueDate.Header" xml:space="preserve">
+    <value>Muga-eguna</value>
+  </data>
+  <data name="DeadlinesPage_MarkDone.Content" xml:space="preserve">
+    <value>Markatu eginda</value>
+  </data>
+  <data name="DeadlinesPage_Notes.Header" xml:space="preserve">
+    <value>Oharrak</value>
+  </data>
+  <data name="DeadlinesPage_OVERDUE.Text" xml:space="preserve">
+    <value>ATZERATUTA</value>
+  </data>
+  <data name="DeadlinesPage_SaveDeadline.Content" xml:space="preserve">
+    <value>Gorde epea</value>
+  </data>
+  <data name="DeadlinesPage_Title.Header" xml:space="preserve">
+    <value>Izenburua</value>
+  </data>
+  <data name="DeadlinesPage_YourDeadlinesSortedByDue.Text" xml:space="preserve">
+    <value>Zure epeak (muga-egunaren arabera ordenatuta)</value>
+  </data>
+  <data name="EvidenceVaultPage_AIGeneratedSummaryGeneralInf.Text" xml:space="preserve">
+    <value>AAk sortutako laburpena. Informazio orokorra soilik — ez da aholku juridikoa.</value>
+  </data>
+  <data name="EvidenceVaultPage_AddIncidentToTimeline.Content" xml:space="preserve">
+    <value>Gehitu gertaera denbora-lerroari</value>
+  </data>
+  <data name="EvidenceVaultPage_AddTimelineEvent.Content" xml:space="preserve">
+    <value>Gehitu denbora-lerroko gertaera</value>
+  </data>
+  <data name="EvidenceVaultPage_AttachFileSave.Content" xml:space="preserve">
+    <value>Erantsi fitxategia eta gorde</value>
+  </data>
+  <data name="EvidenceVaultPage_Category.Header" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="EvidenceVaultPage_Category_2.Header" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="EvidenceVaultPage_CivilRightsIncidentTemplate.Text" xml:space="preserve">
+    <value>Eskubide zibilen gertaera-txantiloia</value>
+  </data>
+  <data name="EvidenceVaultPage_ComplaintReportNumbers.Header" xml:space="preserve">
+    <value>Kexa / txosten zenbakiak</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete.Content" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete_2.Content" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="EvidenceVaultPage_Description.Header" xml:space="preserve">
+    <value>Deskribapena</value>
+  </data>
+  <data name="EvidenceVaultPage_Details.Header" xml:space="preserve">
+    <value>Xehetasunak</value>
+  </data>
+  <data name="EvidenceVaultPage_EventDate.Header" xml:space="preserve">
+    <value>Gertaeraren data</value>
+  </data>
+  <data name="EvidenceVaultPage_EventTitle.Header" xml:space="preserve">
+    <value>Gertaeraren izenburua</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceItems.Text" xml:space="preserve">
+    <value>Froga-elementuak</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceVault.Text" xml:space="preserve">
+    <value>Froga-kutxa</value>
+  </data>
+  <data name="EvidenceVaultPage_ExportEvidencePacketPDF.Content" xml:space="preserve">
+    <value>Esportatu froga-paketea (PDF)</value>
+  </data>
+  <data name="EvidenceVaultPage_IncidentDate.Header" xml:space="preserve">
+    <value>Gertaeraren data</value>
+  </data>
+  <data name="EvidenceVaultPage_Location.Header" xml:space="preserve">
+    <value>Kokapena</value>
+  </data>
+  <data name="EvidenceVaultPage_OfficersInvolvedNamesBadgeNu.Header" xml:space="preserve">
+    <value>Inplikatutako agenteak (izenak / plaka zenbakiak)</value>
+  </data>
+  <data name="EvidenceVaultPage_SummarizeMyTimelineAI.Content" xml:space="preserve">
+    <value>Laburbildu nire denbora-lerroa (AA)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSortedByDate.Text" xml:space="preserve">
+    <value>Denbora-lerroa (dataren arabera ordenatuta)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSummaryOnDeviceAI.Text" xml:space="preserve">
+    <value>Denbora-lerroaren laburpena (gailuko AA)</value>
+  </data>
+  <data name="EvidenceVaultPage_Title.Header" xml:space="preserve">
+    <value>Izenburua</value>
+  </data>
+  <data name="EvidenceVaultPage_WitnessesNamesContactInfo.Header" xml:space="preserve">
+    <value>Lekukoak (izenak / kontaktu informazioa)</value>
+  </data>
+  <data name="FederalMattersPage_FederalMatters.Text" xml:space="preserve">
+    <value>Gai federalak</value>
+  </data>
+  <data name="FederalMattersPage_OpenThe94DistrictCourt.Content" xml:space="preserve">
+    <value>Ireki 94 Barrutiko Epaitegi-bilatzailea</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Gehitu orria</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Garbitu</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Garbitu tinta-mihisea</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Ezabatu orria</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tinta-mihisea. Marraztu hemen boligrafo, arkatz digital, hatz edo saguarekin.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Tinta-orriak</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tinta-orriak</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tinta-tresna barra. Aukeratu boligrafo, arkatza, nabarmentzailea edo borragoma.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Orri berriaren izena</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Bilera-oharrak</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Berregin</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Berregin trazoa</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Gorde</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gorde tinta-orria</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Desegin</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Desegin azken trazoa</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>Tinta-oharrak</value>
+  </data>
+  <data name="LetterBuilderPage_AccountNumber.Header" xml:space="preserve">
+    <value>Kontu zenbakia</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauAddre.Header" xml:space="preserve">
+    <value>Kobratzaile / hartzekodun / bulego helbidea</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauName.Header" xml:space="preserve">
+    <value>Kobratzaile / hartzekodun / bulego izena</value>
+  </data>
+  <data name="LetterBuilderPage_Copy.Content" xml:space="preserve">
+    <value>Kopiatu</value>
+  </data>
+  <data name="LetterBuilderPage_ExportPDF.Content" xml:space="preserve">
+    <value>Esportatu PDFa</value>
+  </data>
+  <data name="LetterBuilderPage_GenerateLetter.Content" xml:space="preserve">
+    <value>Sortu gutuna</value>
+  </data>
+  <data name="LetterBuilderPage_LetterBuilder.Text" xml:space="preserve">
+    <value>Gutun-sortzailea</value>
+  </data>
+  <data name="LetterBuilderPage_Preview.Text" xml:space="preserve">
+    <value>Aurrebista</value>
+  </data>
+  <data name="LetterBuilderPage_SaveAsTXT.Content" xml:space="preserve">
+    <value>Gorde TXT gisa</value>
+  </data>
+  <data name="LetterBuilderPage_Template.Header" xml:space="preserve">
+    <value>Txantiloia</value>
+  </data>
+  <data name="LetterBuilderPage_YourAddress.Header" xml:space="preserve">
+    <value>Zure helbidea</value>
+  </data>
+  <data name="LetterBuilderPage_YourName.Header" xml:space="preserve">
+    <value>Zure izena</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>Honi buruz</value>
+  </data>
+  <data name="MainWindow_Bankruptcy.Content" xml:space="preserve">
+    <value>Porrota</value>
+  </data>
+  <data name="MainWindow_CaseBuilder.Content" xml:space="preserve">
+    <value>Kasu-sortzailea</value>
+  </data>
+  <data name="MainWindow_CivilRights.Content" xml:space="preserve">
+    <value>Eskubide zibilak</value>
+  </data>
+  <data name="MainWindow_CourtFinder.Content" xml:space="preserve">
+    <value>Epaitegi-bilatzailea</value>
+  </data>
+  <data name="MainWindow_CourtGuide.Content" xml:space="preserve">
+    <value>Epaitegi-gida</value>
+  </data>
+  <data name="MainWindow_CriminalCases.Content" xml:space="preserve">
+    <value>Zigor-kasuak</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>Aginte-panela</value>
+  </data>
+  <data name="MainWindow_Deadlines.Content" xml:space="preserve">
+    <value>Epeak</value>
+  </data>
+  <data name="MainWindow_EvidenceVault.Content" xml:space="preserve">
+    <value>Froga-kutxa</value>
+  </data>
+  <data name="MainWindow_FederalMatters.Content" xml:space="preserve">
+    <value>Gai federalak</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>Tinta-oharrak</value>
+  </data>
+  <data name="MainWindow_LawsuitWorksheet.Content" xml:space="preserve">
+    <value>Kasuaren lan-orria</value>
+  </data>
+  <data name="MainWindow_LegalMatters.Content" xml:space="preserve">
+    <value>Gai juridikoak</value>
+  </data>
+  <data name="MainWindow_LetterBuilder.Content" xml:space="preserve">
+    <value>Gutun-sortzailea</value>
+  </data>
+  <data name="MainWindow_TrafficTickets.Content" xml:space="preserve">
+    <value>Trafiko-isunak</value>
+  </data>
+  <data name="MainWindow_ViolationSpotter.Content" xml:space="preserve">
+    <value>Ara-hausteen bilatzailea</value>
+  </data>
+  <data name="ProSeResourcesPage_ChooseAFederalDistrict.PlaceholderText" xml:space="preserve">
+    <value>Aukeratu barruti federala…</value>
+  </data>
+  <data name="ProSeResourcesPage_FindYourCourtSWebsite.Text" xml:space="preserve">
+    <value>Bilatu zure epaitegiaren webgunea</value>
+  </data>
+  <data name="ProSeResourcesPage_OpenTheSelectedCourtS.Content" xml:space="preserve">
+    <value>Ireki hautatutako epaitegiaren webgune ofiziala</value>
+  </data>
+  <data name="ProSeResourcesPage_ProSeResources.Text" xml:space="preserve">
+    <value>Pro Se baliabideak</value>
+  </data>
+  <data name="ProSeResourcesPage_UscourtsGovCourtLocator.Content" xml:space="preserve">
+    <value>uscourts.gov epaitegi-bilatzailea</value>
+  </data>
+  <data name="TrafficTicketsPage_TrafficTickets.Text" xml:space="preserve">
+    <value>Trafiko-isunak</value>
+  </data>
+  <data name="ViolationSpotterPage_AddedFeesINeverAgreed.Content" xml:space="preserve">
+    <value>Inoiz onartu ez nituen kuotak gehitu ziren</value>
+  </data>
+  <data name="ViolationSpotterPage_Analyze.Content" xml:space="preserve">
+    <value>Aztertu</value>
+  </data>
+  <data name="ViolationSpotterPage_CallsBefore800A.Content" xml:space="preserve">
+    <value>Deiak 8:00ak baino lehen edo 21:00ak ondoren nire orduan</value>
+  </data>
+  <data name="ViolationSpotterPage_ContactedMyEmployerOrFamily.Content" xml:space="preserve">
+    <value>Nire enplegatzailearekin edo familiarekin harremanetan jarri zen zorragatik</value>
+  </data>
+  <data name="ViolationSpotterPage_ContinuedCollectionAfterIDis.Content" xml:space="preserve">
+    <value>Kobratzen jarraitu zuen idatziz aurka egin ondoren</value>
+  </data>
+  <data name="ViolationSpotterPage_FalseOrInflatedAmountsWrong.Content" xml:space="preserve">
+    <value>Zenbateko faltsuak edo puztuak (saldo okerra, zorra ez da nirea)</value>
+  </data>
+  <data name="ViolationSpotterPage_NeverSentTheRequiredWritten.Content" xml:space="preserve">
+    <value>Ez du inoiz bidali beharrezko baliozkotze-jakinarazpen idatzia</value>
+  </data>
+  <data name="ViolationSpotterPage_ThreatsOfArrestViolenceOr.Content" xml:space="preserve">
+    <value>Atxiloketa, indarkeria edo kalte mehatxuak</value>
+  </data>
+  <data name="ViolationSpotterPage_ViolationSpotter.Text" xml:space="preserve">
+    <value>Ara-hausteen bilatzailea</value>
+  </data>
+  <data name="WorksheetPage_AddTimelineRow.Content" xml:space="preserve">
+    <value>Gehitu denbora-lerroko errenkada</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.Header" xml:space="preserve">
+    <value>Eskatutako zenbatekoa</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.PlaceholderText" xml:space="preserve">
+    <value>adib. 2.500,00</value>
+  </data>
+  <data name="WorksheetPage_Date.Header" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="WorksheetPage_Date.PlaceholderText" xml:space="preserve">
+    <value>2026-01-15</value>
+  </data>
+  <data name="WorksheetPage_DefendantAddress.Header" xml:space="preserve">
+    <value>Demandatuaren helbidea</value>
+  </data>
+  <data name="WorksheetPage_DefendantName.Header" xml:space="preserve">
+    <value>Demandatuaren izena</value>
+  </data>
+  <data name="WorksheetPage_ExportWorksheetPDF.Content" xml:space="preserve">
+    <value>Esportatu lan-orria PDF gisa</value>
+  </data>
+  <data name="WorksheetPage_FactsTimeline.Text" xml:space="preserve">
+    <value>Gertaeren denbora-lerroa</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintChecklist.Header" xml:space="preserve">
+    <value>Kexa federalaren egiaztapen zerrenda</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintEducationalC.Text" xml:space="preserve">
+    <value>Kexa Federala — hezkuntza egiaztapen zerrenda</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffAddress.Header" xml:space="preserve">
+    <value>Demandatzailearen helbidea</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffNameYou.Header" xml:space="preserve">
+    <value>Demandatzailearen izena (zu)</value>
+  </data>
+  <data name="WorksheetPage_Remove.Content" xml:space="preserve">
+    <value>Kendu</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet.Header" xml:space="preserve">
+    <value>Erreklamazio txikien lan-orria</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet_2.Text" xml:space="preserve">
+    <value>Erreklamazio txikien lan-orria</value>
+  </data>
+  <data name="WorksheetPage_WhatAPetitionGenerallyInclud.Text" xml:space="preserve">
+    <value>Zer izaten du eskaerak normalean</value>
+  </data>
+  <data name="WorksheetPage_WhatHappened.Header" xml:space="preserve">
+    <value>Zer gertatu zen</value>
+  </data>
+</root>

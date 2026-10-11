@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_ImportantNotice.Text" xml:space="preserve">
+    <value>중요 공지</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoes.Text" xml:space="preserve">
+    <value>ClaimPilot이 하는 일</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoesNotDo.Text" xml:space="preserve">
+    <value>ClaimPilot이 하지 않는 일</value>
+  </data>
+  <data name="AboutPage_YourData.Text" xml:space="preserve">
+    <value>내 데이터</value>
+  </data>
+  <data name="BankruptcyPage_180DayCreditCounselingCalcul.Text" xml:space="preserve">
+    <value>180일 신용 상담 계산기</value>
+  </data>
+  <data name="BankruptcyPage_AddBankruptcyDeadlinesToThe.Text" xml:space="preserve">
+    <value>파산 마감일을 트래커에 추가</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter13Deadlines.Content" xml:space="preserve">
+    <value>챕터 13 마감일 추가</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter7Deadlines.Content" xml:space="preserve">
+    <value>챕터 7 마감일 추가</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot.Text" xml:space="preserve">
+    <value>정리용 체크리스트이며 법률 자문이 아닙니다. 관재인이나 변호사가 추가를 요구할 수 있습니다.</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot_2.Text" xml:space="preserve">
+    <value>정리용 체크리스트이며 법률 자문이 아닙니다. 관재인이나 변호사가 추가를 요구할 수 있습니다.</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage.Content" xml:space="preserve">
+    <value>인증서 첨부 (PDF/이미지)</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage_2.Content" xml:space="preserve">
+    <value>인증서 첨부 (PDF/이미지)</value>
+  </data>
+  <data name="BankruptcyPage_BankruptcyChapters713.Text" xml:space="preserve">
+    <value>파산 — 챕터 7 &amp; 13</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13Courses.Text" xml:space="preserve">
+    <value>챕터 13 과정</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13DocumentChecklist.Text" xml:space="preserve">
+    <value>챕터 13 서류 체크리스트</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7Courses.Text" xml:space="preserve">
+    <value>챕터 7 과정</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7DocumentChecklist.Text" xml:space="preserve">
+    <value>챕터 7 서류 체크리스트</value>
+  </data>
+  <data name="BankruptcyPage_Completed" xml:space="preserve">
+    <value>완료됨</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate.Header" xml:space="preserve">
+    <value>완료일</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate_2.Header" xml:space="preserve">
+    <value>완료일</value>
+  </data>
+  <data name="BankruptcyPage_Completed_2" xml:space="preserve">
+    <value>완료됨</value>
+  </data>
+  <data name="BankruptcyPage_FilingDate.Text" xml:space="preserve">
+    <value>제출일:</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted" xml:space="preserve">
+    <value>시작 안 함</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted_2" xml:space="preserve">
+    <value>시작 안 함</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedCreditCo.Content" xml:space="preserve">
+    <value>공식 목록: 승인된 신용 상담 기관 (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedDebtorEd.Content" xml:space="preserve">
+    <value>공식 목록: 승인된 채무자 교육 제공자 (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate.Content" xml:space="preserve">
+    <value>인증서 열기</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate_2.Content" xml:space="preserve">
+    <value>인증서 열기</value>
+  </data>
+  <data name="BankruptcyPage_PickYourFilingDateThen.Text" xml:space="preserve">
+    <value>제출일을 선택하고 챕터의 표준 마감일을 추가하세요. 미리 알림과 함께 마감일에 들어갑니다. 추정치이며 실제 사건과 각 날짜를 확인하세요.</value>
+  </data>
+  <data name="BankruptcyPage_PlannedFilingDate.Text" xml:space="preserve">
+    <value>제출 예정일:</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU.Header" xml:space="preserve">
+    <value>제공자 이름 (U.S. Trustee 승인 필수)</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU_2.Header" xml:space="preserve">
+    <value>제공자 이름 (U.S. Trustee 승인 필수)</value>
+  </data>
+  <data name="BankruptcyPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>먼저 읽어보세요 — 솔직한 메모</value>
+  </data>
+  <data name="BankruptcyPage_RequiredCoursesTracker.Text" xml:space="preserve">
+    <value>필수 과정 트래커</value>
+  </data>
+  <data name="BankruptcyPage_Reset.Content" xml:space="preserve">
+    <value>재설정</value>
+  </data>
+  <data name="BankruptcyPage_Reset_2.Content" xml:space="preserve">
+    <value>재설정</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled" xml:space="preserve">
+    <value>예정됨</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate.Header" xml:space="preserve">
+    <value>예정일</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate_2.Header" xml:space="preserve">
+    <value>예정일</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled_2" xml:space="preserve">
+    <value>예정됨</value>
+  </data>
+  <data name="BankruptcyPage_Status.Header" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="BankruptcyPage_Status_2.Header" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="CaseBuilderPage_AddClaim.Content" xml:space="preserve">
+    <value>클레임 추가</value>
+  </data>
+  <data name="CaseBuilderPage_AddDeadline.Content" xml:space="preserve">
+    <value>마감일 추가</value>
+  </data>
+  <data name="CaseBuilderPage_AddEvent.Content" xml:space="preserve">
+    <value>이벤트 추가</value>
+  </data>
+  <data name="CaseBuilderPage_AddItem.Content" xml:space="preserve">
+    <value>항목 추가</value>
+  </data>
+  <data name="CaseBuilderPage_AddParty.Content" xml:space="preserve">
+    <value>당사자 추가</value>
+  </data>
+  <data name="CaseBuilderPage_CaseBuilder.Text" xml:space="preserve">
+    <value>사건 빌더</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.Header" xml:space="preserve">
+    <value>사건 이름</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.PlaceholderText" xml:space="preserve">
+    <value>예: Smith 대 Acme Collections</value>
+  </data>
+  <data name="CaseBuilderPage_CaseType.Header" xml:space="preserve">
+    <value>사건 유형</value>
+  </data>
+  <data name="CaseBuilderPage_ClaimsIssues.Text" xml:space="preserve">
+    <value>클레임/사안</value>
+  </data>
+  <data name="CaseBuilderPage_ClearCaseFile.Content" xml:space="preserve">
+    <value>사건 파일 지우기</value>
+  </data>
+  <data name="CaseBuilderPage_Date.Header" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.Header" xml:space="preserve">
+    <value>마감일 제목</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.PlaceholderText" xml:space="preserve">
+    <value>예: 답변 기한</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlinesAlsoSavedToThe.Text" xml:space="preserve">
+    <value>마감일 (마감일 트래커에도 저장됨)</value>
+  </data>
+  <data name="CaseBuilderPage_Details.Header" xml:space="preserve">
+    <value>세부 정보</value>
+  </data>
+  <data name="CaseBuilderPage_Details.PlaceholderText" xml:space="preserve">
+    <value>무슨 일이 있었고 누가 있었나</value>
+  </data>
+  <data name="CaseBuilderPage_DueDate.Header" xml:space="preserve">
+    <value>마감일</value>
+  </data>
+  <data name="CaseBuilderPage_EGCopyOfThe.PlaceholderText" xml:space="preserve">
+    <value>예: 추심 서신 사본</value>
+  </data>
+  <data name="CaseBuilderPage_EGFDCPAViolationFalse.PlaceholderText" xml:space="preserve">
+    <value>예: FDCPA 위반 — 허위 진술</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.Header" xml:space="preserve">
+    <value>이벤트 제목</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.PlaceholderText" xml:space="preserve">
+    <value>예: 추심 서신 수령</value>
+  </data>
+  <data name="CaseBuilderPage_EvidenceChecklist.Text" xml:space="preserve">
+    <value>증거 체크리스트</value>
+  </data>
+  <data name="CaseBuilderPage_PartiesInvolved.Text" xml:space="preserve">
+    <value>관련 당사자</value>
+  </data>
+  <data name="CaseBuilderPage_PersonCompanyOrAgency.PlaceholderText" xml:space="preserve">
+    <value>개인, 회사 또는 기관</value>
+  </data>
+  <data name="CaseBuilderPage_Remove.Content" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_2.Content" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_3.Content" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_4.Content" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="CaseBuilderPage_TheCase.Text" xml:space="preserve">
+    <value>사건</value>
+  </data>
+  <data name="CaseBuilderPage_TimelineOfEvents.Text" xml:space="preserve">
+    <value>이벤트 타임라인</value>
+  </data>
+  <data name="ClaimGuidesPage_AIGeneratedPlainEnglishExpla.Text" xml:space="preserve">
+    <value>AI 생성 쉬운 설명. 일반 정보일 뿐 법률 자문이 아닙니다. 변호사와 상담하세요.</value>
+  </data>
+  <data name="ClaimGuidesPage_CivilRightsSection1983Guides.Text" xml:space="preserve">
+    <value>시민권 — 섹션 1983 가이드</value>
+  </data>
+  <data name="ClaimGuidesPage_ClaimGuides.Text" xml:space="preserve">
+    <value>클레임 가이드</value>
+  </data>
+  <data name="ClaimGuidesPage_CommonDefenses.Text" xml:space="preserve">
+    <value>일반적인 항변</value>
+  </data>
+  <data name="ClaimGuidesPage_ExplainThisInPlainEnglish.Content" xml:space="preserve">
+    <value>쉬운 말로 설명</value>
+  </data>
+  <data name="ClaimGuidesPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>먼저 읽어보세요 — 솔직한 메모</value>
+  </data>
+  <data name="ClaimGuidesPage_WhatAPlaintiffMustGenerally.Text" xml:space="preserve">
+    <value>원고가 일반적으로 입증해야 하는 것</value>
+  </data>
+  <data name="CourtFinderPage_CourtFinder.Text" xml:space="preserve">
+    <value>법원 찾기</value>
+  </data>
+  <data name="CourtFinderPage_CourtLocations.Text" xml:space="preserve">
+    <value>법원 위치:</value>
+  </data>
+  <data name="CourtFinderPage_OfficialCourtWebsite.Content" xml:space="preserve">
+    <value>법원 공식 웹사이트</value>
+  </data>
+  <data name="CourtFinderPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>주, 준주, 지구 이름으로 검색…</value>
+  </data>
+  <data name="CourtGuidePage_CourtGuideCountyMunicipalDis.Text" xml:space="preserve">
+    <value>법원 안내 — 카운티, 시 및 지방법원</value>
+  </data>
+  <data name="CriminalCasesPage_CriminalCases.Text" xml:space="preserve">
+    <value>형사 사건</value>
+  </data>
+  <data name="DashboardPage_ClaimPilot.Text" xml:space="preserve">
+    <value>ClaimPilot</value>
+  </data>
+  <data name="DeadlinesPage_AddADeadline.Text" xml:space="preserve">
+    <value>마감일 추가</value>
+  </data>
+  <data name="DeadlinesPage_Category.Header" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="DeadlinesPage_Deadlines.Text" xml:space="preserve">
+    <value>마감일</value>
+  </data>
+  <data name="DeadlinesPage_Delete.Content" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DeadlinesPage_DueDate.Header" xml:space="preserve">
+    <value>마감일</value>
+  </data>
+  <data name="DeadlinesPage_MarkDone.Content" xml:space="preserve">
+    <value>완료로 표시</value>
+  </data>
+  <data name="DeadlinesPage_Notes.Header" xml:space="preserve">
+    <value>노트</value>
+  </data>
+  <data name="DeadlinesPage_OVERDUE.Text" xml:space="preserve">
+    <value>기한 초과</value>
+  </data>
+  <data name="DeadlinesPage_SaveDeadline.Content" xml:space="preserve">
+    <value>마감일 저장</value>
+  </data>
+  <data name="DeadlinesPage_Title.Header" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="DeadlinesPage_YourDeadlinesSortedByDue.Text" xml:space="preserve">
+    <value>내 마감일 (마감일순)</value>
+  </data>
+  <data name="EvidenceVaultPage_AIGeneratedSummaryGeneralInf.Text" xml:space="preserve">
+    <value>AI 생성 요약. 일반 정보일 뿐 법률 자문이 아닙니다.</value>
+  </data>
+  <data name="EvidenceVaultPage_AddIncidentToTimeline.Content" xml:space="preserve">
+    <value>타임라인에 사건 추가</value>
+  </data>
+  <data name="EvidenceVaultPage_AddTimelineEvent.Content" xml:space="preserve">
+    <value>타임라인 이벤트 추가</value>
+  </data>
+  <data name="EvidenceVaultPage_AttachFileSave.Content" xml:space="preserve">
+    <value>파일 첨부 및 저장</value>
+  </data>
+  <data name="EvidenceVaultPage_Category.Header" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="EvidenceVaultPage_Category_2.Header" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="EvidenceVaultPage_CivilRightsIncidentTemplate.Text" xml:space="preserve">
+    <value>시민권 사건 템플릿</value>
+  </data>
+  <data name="EvidenceVaultPage_ComplaintReportNumbers.Header" xml:space="preserve">
+    <value>민원/보고서 번호</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete.Content" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete_2.Content" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="EvidenceVaultPage_Description.Header" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="EvidenceVaultPage_Details.Header" xml:space="preserve">
+    <value>세부 정보</value>
+  </data>
+  <data name="EvidenceVaultPage_EventDate.Header" xml:space="preserve">
+    <value>이벤트 날짜</value>
+  </data>
+  <data name="EvidenceVaultPage_EventTitle.Header" xml:space="preserve">
+    <value>이벤트 제목</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceItems.Text" xml:space="preserve">
+    <value>증거 항목</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceVault.Text" xml:space="preserve">
+    <value>증거 보관소</value>
+  </data>
+  <data name="EvidenceVaultPage_ExportEvidencePacketPDF.Content" xml:space="preserve">
+    <value>증거 패키지 내보내기 (PDF)</value>
+  </data>
+  <data name="EvidenceVaultPage_IncidentDate.Header" xml:space="preserve">
+    <value>사건 발생일</value>
+  </data>
+  <data name="EvidenceVaultPage_Location.Header" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="EvidenceVaultPage_OfficersInvolvedNamesBadgeNu.Header" xml:space="preserve">
+    <value>관련 직원 (이름/배지 번호)</value>
+  </data>
+  <data name="EvidenceVaultPage_SummarizeMyTimelineAI.Content" xml:space="preserve">
+    <value>내 타임라인 요약 (AI)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSortedByDate.Text" xml:space="preserve">
+    <value>타임라인 (날짜순)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSummaryOnDeviceAI.Text" xml:space="preserve">
+    <value>타임라인 요약 (온디바이스 AI)</value>
+  </data>
+  <data name="EvidenceVaultPage_Title.Header" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="EvidenceVaultPage_WitnessesNamesContactInfo.Header" xml:space="preserve">
+    <value>목격자 (이름/연락처)</value>
+  </data>
+  <data name="FederalMattersPage_FederalMatters.Text" xml:space="preserve">
+    <value>연방 사건</value>
+  </data>
+  <data name="FederalMattersPage_OpenThe94DistrictCourt.Content" xml:space="preserve">
+    <value>94개 지방법원 찾기 열기</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>페이지 추가</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>지우기</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>잉크 캔버스 지우기</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>페이지 삭제</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>잉크 캔버스. 펜, 스타일러스, 손가락, 마우스로 그리세요.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>잉크 페이지</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>잉크 페이지</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>잉크 도구 모음. 펜, 연필, 형광펜, 지우개를 선택하세요.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>새 페이지 이름</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>회의 노트</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>다시 실행</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>스트로크 다시 실행</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>잉크 페이지 저장</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>스트로크 실행 취소</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>잉크 노트</value>
+  </data>
+  <data name="LetterBuilderPage_AccountNumber.Header" xml:space="preserve">
+    <value>계좌 번호</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauAddre.Header" xml:space="preserve">
+    <value>추심인/채권자/신용기관 주소</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauName.Header" xml:space="preserve">
+    <value>추심인/채권자/신용기관 이름</value>
+  </data>
+  <data name="LetterBuilderPage_Copy.Content" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="LetterBuilderPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF 내보내기</value>
+  </data>
+  <data name="LetterBuilderPage_GenerateLetter.Content" xml:space="preserve">
+    <value>서신 생성</value>
+  </data>
+  <data name="LetterBuilderPage_LetterBuilder.Text" xml:space="preserve">
+    <value>서신 작성기</value>
+  </data>
+  <data name="LetterBuilderPage_Preview.Text" xml:space="preserve">
+    <value>미리 보기</value>
+  </data>
+  <data name="LetterBuilderPage_SaveAsTXT.Content" xml:space="preserve">
+    <value>TXT로 저장</value>
+  </data>
+  <data name="LetterBuilderPage_Template.Header" xml:space="preserve">
+    <value>템플릿</value>
+  </data>
+  <data name="LetterBuilderPage_YourAddress.Header" xml:space="preserve">
+    <value>내 주소</value>
+  </data>
+  <data name="LetterBuilderPage_YourName.Header" xml:space="preserve">
+    <value>내 이름</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="MainWindow_Bankruptcy.Content" xml:space="preserve">
+    <value>파산</value>
+  </data>
+  <data name="MainWindow_CaseBuilder.Content" xml:space="preserve">
+    <value>사건 빌더</value>
+  </data>
+  <data name="MainWindow_CivilRights.Content" xml:space="preserve">
+    <value>시민권</value>
+  </data>
+  <data name="MainWindow_CourtFinder.Content" xml:space="preserve">
+    <value>법원 찾기</value>
+  </data>
+  <data name="MainWindow_CourtGuide.Content" xml:space="preserve">
+    <value>법원 안내</value>
+  </data>
+  <data name="MainWindow_CriminalCases.Content" xml:space="preserve">
+    <value>형사 사건</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>대시보드</value>
+  </data>
+  <data name="MainWindow_Deadlines.Content" xml:space="preserve">
+    <value>마감일</value>
+  </data>
+  <data name="MainWindow_EvidenceVault.Content" xml:space="preserve">
+    <value>증거 보관소</value>
+  </data>
+  <data name="MainWindow_FederalMatters.Content" xml:space="preserve">
+    <value>연방 사건</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>잉크 노트</value>
+  </data>
+  <data name="MainWindow_LawsuitWorksheet.Content" xml:space="preserve">
+    <value>소송 워크시트</value>
+  </data>
+  <data name="MainWindow_LegalMatters.Content" xml:space="preserve">
+    <value>법률 문제</value>
+  </data>
+  <data name="MainWindow_LetterBuilder.Content" xml:space="preserve">
+    <value>서신 작성기</value>
+  </data>
+  <data name="MainWindow_TrafficTickets.Content" xml:space="preserve">
+    <value>교통 위반 딱지</value>
+  </data>
+  <data name="MainWindow_ViolationSpotter.Content" xml:space="preserve">
+    <value>위반 탐지기</value>
+  </data>
+  <data name="ProSeResourcesPage_ChooseAFederalDistrict.PlaceholderText" xml:space="preserve">
+    <value>연방 지구 선택…</value>
+  </data>
+  <data name="ProSeResourcesPage_FindYourCourtSWebsite.Text" xml:space="preserve">
+    <value>법원 웹사이트 찾기</value>
+  </data>
+  <data name="ProSeResourcesPage_OpenTheSelectedCourtS.Content" xml:space="preserve">
+    <value>선택한 법원의 공식 웹사이트 열기</value>
+  </data>
+  <data name="ProSeResourcesPage_ProSeResources.Text" xml:space="preserve">
+    <value>셀프 소송 자료</value>
+  </data>
+  <data name="ProSeResourcesPage_UscourtsGovCourtLocator.Content" xml:space="preserve">
+    <value>uscourts.gov 법원 찾기</value>
+  </data>
+  <data name="TrafficTicketsPage_TrafficTickets.Text" xml:space="preserve">
+    <value>교통 위반 딱지</value>
+  </data>
+  <data name="ViolationSpotterPage_AddedFeesINeverAgreed.Content" xml:space="preserve">
+    <value>동의하지 않은 수수료가 추가됨</value>
+  </data>
+  <data name="ViolationSpotterPage_Analyze.Content" xml:space="preserve">
+    <value>분석</value>
+  </data>
+  <data name="ViolationSpotterPage_CallsBefore800A.Content" xml:space="preserve">
+    <value>내 시간 기준 오전 8시 이전 또는 오후 9시 이후 전화</value>
+  </data>
+  <data name="ViolationSpotterPage_ContactedMyEmployerOrFamily.Content" xml:space="preserve">
+    <value>채무에 대해 고용주나 가족에게 연락함</value>
+  </data>
+  <data name="ViolationSpotterPage_ContinuedCollectionAfterIDis.Content" xml:space="preserve">
+    <value>서면으로 이의를 제기한 후에도 추심을 계속함</value>
+  </data>
+  <data name="ViolationSpotterPage_FalseOrInflatedAmountsWrong.Content" xml:space="preserve">
+    <value>허위 또는 부풀려진 금액 (잔액 오류, 내 채무 아님)</value>
+  </data>
+  <data name="ViolationSpotterPage_NeverSentTheRequiredWritten.Content" xml:space="preserve">
+    <value>요구되는 서면 검증 통지를 한 번도 보내지 않음</value>
+  </data>
+  <data name="ViolationSpotterPage_ThreatsOfArrestViolenceOr.Content" xml:space="preserve">
+    <value>체포, 폭력 또는 위해 협박</value>
+  </data>
+  <data name="ViolationSpotterPage_ViolationSpotter.Text" xml:space="preserve">
+    <value>위반 탐지기</value>
+  </data>
+  <data name="WorksheetPage_AddTimelineRow.Content" xml:space="preserve">
+    <value>타임라인 행 추가</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.Header" xml:space="preserve">
+    <value>청구 금액</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.PlaceholderText" xml:space="preserve">
+    <value>e.g. 2,500.00</value>
+  </data>
+  <data name="WorksheetPage_Date.Header" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="WorksheetPage_Date.PlaceholderText" xml:space="preserve">
+    <value>2026-01-15</value>
+  </data>
+  <data name="WorksheetPage_DefendantAddress.Header" xml:space="preserve">
+    <value>피고 주소</value>
+  </data>
+  <data name="WorksheetPage_DefendantName.Header" xml:space="preserve">
+    <value>피고 이름</value>
+  </data>
+  <data name="WorksheetPage_ExportWorksheetPDF.Content" xml:space="preserve">
+    <value>워크시트 PDF 내보내기</value>
+  </data>
+  <data name="WorksheetPage_FactsTimeline.Text" xml:space="preserve">
+    <value>사실 타임라인</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintChecklist.Header" xml:space="preserve">
+    <value>연방 소송 체크리스트</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintEducationalC.Text" xml:space="preserve">
+    <value>연방 소송 — 교육용 체크리스트</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffAddress.Header" xml:space="preserve">
+    <value>원고 주소</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffNameYou.Header" xml:space="preserve">
+    <value>원고 이름 (본인)</value>
+  </data>
+  <data name="WorksheetPage_Remove.Content" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet.Header" xml:space="preserve">
+    <value>소액 소송 워크시트</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet_2.Text" xml:space="preserve">
+    <value>소액 소송 워크시트</value>
+  </data>
+  <data name="WorksheetPage_WhatAPetitionGenerallyInclud.Text" xml:space="preserve">
+    <value>소장에 일반적으로 포함되는 내용</value>
+  </data>
+  <data name="WorksheetPage_WhatHappened.Header" xml:space="preserve">
+    <value>무슨 일이 있었나</value>
+  </data>
+</root>

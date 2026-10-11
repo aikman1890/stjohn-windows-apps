@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_AboutWuse.Text" xml:space="preserve">
+    <value>អំពី wuse</value>
+  </data>
+  <data name="AboutPage_ChatWithAnOnDevice.Text" xml:space="preserve">
+    <value>• ជជែកជាមួយម៉ូដែលភាសានៅលើឧបករណ៍នៅពេលកុំព្យូទ័ររបស់អ្នកគាំទ្រ ជាមួយជម្រើសក្នុងស្រុកនៅពេលមិនគាំទ្រ។</value>
+  </data>
+  <data name="AboutPage_KeepYourConversationsOnThis.Text" xml:space="preserve">
+    <value>• រក្សាការសន្ទនារបស់អ្នកនៅលើកុំព្យូទ័រនេះ ចងចាំការពិតអំពីអ្នក (តែបើអ្នកសួរ) និងគោរពរូបរាងរបស់អ្នក។</value>
+  </data>
+  <data name="AboutPage_MadeByStJohnPictures.Text" xml:space="preserve">
+    <value>បង្កើតដោយ St. John Pictures។</value>
+  </data>
+  <data name="AboutPage_OnDeviceAIStatus.Text" xml:space="preserve">
+    <value>ស្ថានភាព AI នៅលើឧបករណ៍</value>
+  </data>
+  <data name="AboutPage_OpenAppsSearchTheWeb.Text" xml:space="preserve">
+    <value>• បើកកម្មវិធី ស្វែងរកបណ្តាញ បើកថត និងរាយការណ៍ព័ត៌មានម៉ាស៊ីន — ទាំងអស់ពីប្រអប់ជជែក។</value>
+  </data>
+  <data name="AboutPage_Runs100OnDeviceNo.Text" xml:space="preserve">
+    <value>ដំណើរការ ១០០% នៅលើឧបករណ៍។ គ្មានពពក គ្មានគណនី គ្មានការតាមដាន។</value>
+  </data>
+  <data name="AboutPage_WhatWuseCanDo.Text" xml:space="preserve">
+    <value>តើ wuse អាចធ្វើអ្វី</value>
+  </data>
+  <data name="AboutPage_WuseIsAFriendlyAssistant.Text" xml:space="preserve">
+    <value>wuse គឺជាអ្នកជំនួយរួសរាយរាក់ទាក់ដែលរស់នៅទាំងស្រុងនៅលើកុំព្យូទ័ររបស់អ្នក។</value>
+  </data>
+  <data name="ChatPage_InputTextBox.PlaceholderText" xml:space="preserve">
+    <value>សួរ wuse អ្វីក៏បាន…</value>
+  </data>
+  <data name="ChatPage_NewChat.Label" xml:space="preserve">
+    <value>ការសន្ទនាថ្មី</value>
+  </data>
+  <data name="ChatPage_OnDeviceAIUnavailable.Title" xml:space="preserve">
+    <value>AI នៅលើឧបករណ៍មិនមាន</value>
+  </data>
+  <data name="ChatPage_Send.Content" xml:space="preserve">
+    <value>ផ្ញើ</value>
+  </data>
+  <data name="ConversationsPage_Conversations.Text" xml:space="preserve">
+    <value>ការសន្ទនា</value>
+  </data>
+  <data name="ConversationsPage_Delete.Content" xml:space="preserve">
+    <value>លុប</value>
+  </data>
+  <data name="ConversationsPage_NewChat.Content" xml:space="preserve">
+    <value>ការសន្ទនាថ្មី</value>
+  </data>
+  <data name="ConversationsPage_Open.Content" xml:space="preserve">
+    <value>បើក</value>
+  </data>
+  <data name="ConversationsPage_Rename.Content" xml:space="preserve">
+    <value>ប្តូរឈ្មោះ</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>បន្ថែមទំព័រ</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>សម្អាត</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>សម្អាតផ្ទាំងទឹកខ្មៅ</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>លុបទំព័រ</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ផ្ទាំងទឹកខ្មៅ។ គូរនៅទីនេះដោយប៊ិច ប៉ាកកាឌីជីថល ម្រាមដៃ ឬម៉ៅស៍។</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>ទំព័រទឹកខ្មៅ</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ទំព័រទឹកខ្មៅ</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>របារឧបករណ៍ទឹកខ្មៅ។ ជ្រើសរើសប៊ិច ខ្មៅដៃ ប៉ាកកាគូស ឬជ័រលុប។</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>ឈ្មោះទំព័រថ្មី</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>កំណត់ត្រាប្រជុំ</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>ធ្វើម្តងទៀត</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>គូសម្តងទៀត</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>រក្សាទុក</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>រក្សាទុកទំព័រទឹកខ្មៅ</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>មិនធ្វើវិញ</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>មិនធ្វើវិញខ្សែចុងក្រោយ</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>កំណត់ត្រាទឹកខ្មៅ</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>អំពី</value>
+  </data>
+  <data name="MainWindow_ChatNavItem.Content" xml:space="preserve">
+    <value>ការសន្ទនា</value>
+  </data>
+  <data name="MainWindow_Conversations.Content" xml:space="preserve">
+    <value>ការសន្ទនា</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>កំណត់ត្រាទឹកខ្មៅ</value>
+  </data>
+  <data name="MainWindow_Preferences.Content" xml:space="preserve">
+    <value>ចំណូលចិត្ត</value>
+  </data>
+  <data name="MainWindow_QuickActions.Content" xml:space="preserve">
+    <value>សកម្មភាពរហ័ស</value>
+  </data>
+  <data name="PreferencesPage_Add.Content" xml:space="preserve">
+    <value>បន្ថែម</value>
+  </data>
+  <data name="PreferencesPage_AssistantName.Text" xml:space="preserve">
+    <value>ឈ្មោះអ្នកជំនួយ</value>
+  </data>
+  <data name="PreferencesPage_NewFactTextBox.PlaceholderText" xml:space="preserve">
+    <value>ឧ. ឆ្កែរបស់ខ្ញុំឈ្មោះ Biscuit</value>
+  </data>
+  <data name="PreferencesPage_Preferences.Text" xml:space="preserve">
+    <value>ចំណូលចិត្ត</value>
+  </data>
+  <data name="PreferencesPage_RememberAboutMe.Header" xml:space="preserve">
+    <value>ចងចាំអំពីខ្ញុំ</value>
+  </data>
+  <data name="PreferencesPage_Remove.Content" xml:space="preserve">
+    <value>ដកចេញ</value>
+  </data>
+  <data name="PreferencesPage_Theme.Text" xml:space="preserve">
+    <value>រូបរាង</value>
+  </data>
+  <data name="PreferencesPage_ThingsToRemember.Text" xml:space="preserve">
+    <value>រឿងត្រូវចងចាំ</value>
+  </data>
+  <data name="PreferencesPage_ThisIsWhatWuseCalls.Text" xml:space="preserve">
+    <value>នេះជាអ្វីដែល wuse ហៅខ្លួនឯងនៅក្នុងការសន្ទនា។</value>
+  </data>
+  <data name="PreferencesPage_WhenOnTheFactsYou.Text" xml:space="preserve">
+    <value>នៅពេលបើក ការពិតដែលអ្នកបន្ថែមខាងក្រោមត្រូវបានបញ្ចូលក្នុងការណែនាំរបស់អ្នកជំនួយ។</value>
+  </data>
+  <data name="PreferencesPage_Wuse.PlaceholderText" xml:space="preserve">
+    <value>wuse</value>
+  </data>
+  <data name="QuickActionsPage_CUsers.PlaceholderText" xml:space="preserve">
+    <value>C:\Users\…</value>
+  </data>
+  <data name="QuickActionsPage_CopyToClipboard.Content" xml:space="preserve">
+    <value>ចម្លងទៅក្តារតម្បៀត</value>
+  </data>
+  <data name="QuickActionsPage_Open.Content" xml:space="preserve">
+    <value>បើក</value>
+  </data>
+  <data name="QuickActionsPage_OpenApps.Text" xml:space="preserve">
+    <value>បើកកម្មវិធី</value>
+  </data>
+  <data name="QuickActionsPage_OpenBrowser.Content" xml:space="preserve">
+    <value>បើកកម្មវិធីរុករក</value>
+  </data>
+  <data name="QuickActionsPage_OpenCalculator.Content" xml:space="preserve">
+    <value>បើកម៉ាស៊ីនគណនា</value>
+  </data>
+  <data name="QuickActionsPage_OpenFileExplorer.Content" xml:space="preserve">
+    <value>បើកកម្មវិធីរុករកឯកសារ</value>
+  </data>
+  <data name="QuickActionsPage_OpenFolder.Text" xml:space="preserve">
+    <value>បើកថត</value>
+  </data>
+  <data name="QuickActionsPage_OpenNotepad.Content" xml:space="preserve">
+    <value>បើក Notepad</value>
+  </data>
+  <data name="QuickActionsPage_OpenPaint.Content" xml:space="preserve">
+    <value>បើក Paint</value>
+  </data>
+  <data name="QuickActionsPage_OpenSettings.Content" xml:space="preserve">
+    <value>បើកការកំណត់</value>
+  </data>
+  <data name="QuickActionsPage_OpenStore.Content" xml:space="preserve">
+    <value>បើកហាង</value>
+  </data>
+  <data name="QuickActionsPage_OpenTerminal.Content" xml:space="preserve">
+    <value>បើកស្ថានីយ</value>
+  </data>
+  <data name="QuickActionsPage_QuickActions.Text" xml:space="preserve">
+    <value>សកម្មភាពរហ័ស</value>
+  </data>
+  <data name="QuickActionsPage_RefreshInfo.Content" xml:space="preserve">
+    <value>ធ្វើឱ្យព័ត៌មានស្រស់</value>
+  </data>
+  <data name="QuickActionsPage_Search.Content" xml:space="preserve">
+    <value>ស្វែងរក</value>
+  </data>
+  <data name="QuickActionsPage_SearchTheWebFor.PlaceholderText" xml:space="preserve">
+    <value>ស្វែងរកលើបណ្តាញ…</value>
+  </data>
+  <data name="QuickActionsPage_ThingsWuseCanDoOn.Text" xml:space="preserve">
+    <value>រឿងដែល wuse អាចធ្វើនៅលើកុំព្យូទ័រនេះដោយគ្មាន AI — និងគ្មានអ៊ីនធឺណិត លើកលែងតែការស្វែងរកបណ្តាញ។</value>
+  </data>
+  <data name="QuickActionsPage_ThisPC.Text" xml:space="preserve">
+    <value>កុំព្យូទ័រនេះ</value>
+  </data>
+  <data name="QuickActionsPage_WebSearch.Text" xml:space="preserve">
+    <value>ការស្វែងរកបណ្តាញ</value>
+  </data>
+</root>

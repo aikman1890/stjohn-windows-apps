@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_ImportantNotice.Text" xml:space="preserve">
+    <value>重要なお知らせ</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoes.Text" xml:space="preserve">
+    <value>ClaimPilotのできること</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoesNotDo.Text" xml:space="preserve">
+    <value>ClaimPilotのできないこと</value>
+  </data>
+  <data name="AboutPage_YourData.Text" xml:space="preserve">
+    <value>あなたのデータ</value>
+  </data>
+  <data name="BankruptcyPage_180DayCreditCounselingCalcul.Text" xml:space="preserve">
+    <value>180日クレジットカウンセリング計算機</value>
+  </data>
+  <data name="BankruptcyPage_AddBankruptcyDeadlinesToThe.Text" xml:space="preserve">
+    <value>破産期限をトラッカーに追加</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter13Deadlines.Content" xml:space="preserve">
+    <value>チャプター13の期限を追加</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter7Deadlines.Content" xml:space="preserve">
+    <value>チャプター7の期限を追加</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot.Text" xml:space="preserve">
+    <value>整理用チェックリストです。法的助言ではありません。管財人や弁護士から追加を求められる場合があります。</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot_2.Text" xml:space="preserve">
+    <value>整理用チェックリストです。法的助言ではありません。管財人や弁護士から追加を求められる場合があります。</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage.Content" xml:space="preserve">
+    <value>証明書を添付 (PDF/画像)</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage_2.Content" xml:space="preserve">
+    <value>証明書を添付 (PDF/画像)</value>
+  </data>
+  <data name="BankruptcyPage_BankruptcyChapters713.Text" xml:space="preserve">
+    <value>破産 — チャプター7 &amp; 13</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13Courses.Text" xml:space="preserve">
+    <value>チャプター13コース</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13DocumentChecklist.Text" xml:space="preserve">
+    <value>チャプター13書類チェックリスト</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7Courses.Text" xml:space="preserve">
+    <value>チャプター7コース</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7DocumentChecklist.Text" xml:space="preserve">
+    <value>チャプター7書類チェックリスト</value>
+  </data>
+  <data name="BankruptcyPage_Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate.Header" xml:space="preserve">
+    <value>完了日</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate_2.Header" xml:space="preserve">
+    <value>完了日</value>
+  </data>
+  <data name="BankruptcyPage_Completed_2" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="BankruptcyPage_FilingDate.Text" xml:space="preserve">
+    <value>申立日:</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted" xml:space="preserve">
+    <value>未開始</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted_2" xml:space="preserve">
+    <value>未開始</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedCreditCo.Content" xml:space="preserve">
+    <value>公式リスト: 認定クレジットカウンセリング機関 (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedDebtorEd.Content" xml:space="preserve">
+    <value>公式リスト: 認定債務者教育プロバイダー (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate.Content" xml:space="preserve">
+    <value>証明書を開く</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate_2.Content" xml:space="preserve">
+    <value>証明書を開く</value>
+  </data>
+  <data name="BankruptcyPage_PickYourFilingDateThen.Text" xml:space="preserve">
+    <value>申立日を選び、チャプターの標準期限を追加。リマインダー付きで期限セクションに入ります。目安です。実際の事件で各日付を確認してください。</value>
+  </data>
+  <data name="BankruptcyPage_PlannedFilingDate.Text" xml:space="preserve">
+    <value>申立予定日:</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU.Header" xml:space="preserve">
+    <value>プロバイダー名（U.S. Trustee認定必須）</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU_2.Header" xml:space="preserve">
+    <value>プロバイダー名（U.S. Trustee認定必須）</value>
+  </data>
+  <data name="BankruptcyPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>最初にお読みください — 正直なメモ</value>
+  </data>
+  <data name="BankruptcyPage_RequiredCoursesTracker.Text" xml:space="preserve">
+    <value>必須コース追跡</value>
+  </data>
+  <data name="BankruptcyPage_Reset.Content" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="BankruptcyPage_Reset_2.Content" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled" xml:space="preserve">
+    <value>予定済み</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate.Header" xml:space="preserve">
+    <value>予定日</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate_2.Header" xml:space="preserve">
+    <value>予定日</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled_2" xml:space="preserve">
+    <value>予定済み</value>
+  </data>
+  <data name="BankruptcyPage_Status.Header" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="BankruptcyPage_Status_2.Header" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="CaseBuilderPage_AddClaim.Content" xml:space="preserve">
+    <value>クレームを追加</value>
+  </data>
+  <data name="CaseBuilderPage_AddDeadline.Content" xml:space="preserve">
+    <value>期限を追加</value>
+  </data>
+  <data name="CaseBuilderPage_AddEvent.Content" xml:space="preserve">
+    <value>イベントを追加</value>
+  </data>
+  <data name="CaseBuilderPage_AddItem.Content" xml:space="preserve">
+    <value>項目を追加</value>
+  </data>
+  <data name="CaseBuilderPage_AddParty.Content" xml:space="preserve">
+    <value>当事者を追加</value>
+  </data>
+  <data name="CaseBuilderPage_CaseBuilder.Text" xml:space="preserve">
+    <value>事件ビルダー</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.Header" xml:space="preserve">
+    <value>事件名</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.PlaceholderText" xml:space="preserve">
+    <value>例： Smith対Acme Collections</value>
+  </data>
+  <data name="CaseBuilderPage_CaseType.Header" xml:space="preserve">
+    <value>事件種別</value>
+  </data>
+  <data name="CaseBuilderPage_ClaimsIssues.Text" xml:space="preserve">
+    <value>クレーム/問題</value>
+  </data>
+  <data name="CaseBuilderPage_ClearCaseFile.Content" xml:space="preserve">
+    <value>事件ファイルをクリア</value>
+  </data>
+  <data name="CaseBuilderPage_Date.Header" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.Header" xml:space="preserve">
+    <value>期限タイトル</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.PlaceholderText" xml:space="preserve">
+    <value>例： 回答期限</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlinesAlsoSavedToThe.Text" xml:space="preserve">
+    <value>期限（期限トラッカーにも保存）</value>
+  </data>
+  <data name="CaseBuilderPage_Details.Header" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="CaseBuilderPage_Details.PlaceholderText" xml:space="preserve">
+    <value>何が起き、誰がいたか</value>
+  </data>
+  <data name="CaseBuilderPage_DueDate.Header" xml:space="preserve">
+    <value>期限</value>
+  </data>
+  <data name="CaseBuilderPage_EGCopyOfThe.PlaceholderText" xml:space="preserve">
+    <value>例： 取立書面の写し</value>
+  </data>
+  <data name="CaseBuilderPage_EGFDCPAViolationFalse.PlaceholderText" xml:space="preserve">
+    <value>例： FDCPA違反 — 虚偽表示</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.Header" xml:space="preserve">
+    <value>イベント名</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.PlaceholderText" xml:space="preserve">
+    <value>例： 取立書面を受領</value>
+  </data>
+  <data name="CaseBuilderPage_EvidenceChecklist.Text" xml:space="preserve">
+    <value>証拠チェックリスト</value>
+  </data>
+  <data name="CaseBuilderPage_PartiesInvolved.Text" xml:space="preserve">
+    <value>関係者</value>
+  </data>
+  <data name="CaseBuilderPage_PersonCompanyOrAgency.PlaceholderText" xml:space="preserve">
+    <value>人物、会社、機関</value>
+  </data>
+  <data name="CaseBuilderPage_Remove.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_2.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_3.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_4.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CaseBuilderPage_TheCase.Text" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="CaseBuilderPage_TimelineOfEvents.Text" xml:space="preserve">
+    <value>イベントタイムライン</value>
+  </data>
+  <data name="ClaimGuidesPage_AIGeneratedPlainEnglishExpla.Text" xml:space="preserve">
+    <value>AI生成のわかりやすい説明。一般情報のみであり、法的助言ではありません。弁護士への相談をご検討ください。</value>
+  </data>
+  <data name="ClaimGuidesPage_CivilRightsSection1983Guides.Text" xml:space="preserve">
+    <value>公民権 — セクション1983ガイド</value>
+  </data>
+  <data name="ClaimGuidesPage_ClaimGuides.Text" xml:space="preserve">
+    <value>クレームガイド</value>
+  </data>
+  <data name="ClaimGuidesPage_CommonDefenses.Text" xml:space="preserve">
+    <value>一般的な抗弁</value>
+  </data>
+  <data name="ClaimGuidesPage_ExplainThisInPlainEnglish.Content" xml:space="preserve">
+    <value>わかりやすく説明して</value>
+  </data>
+  <data name="ClaimGuidesPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>最初にお読みください — 正直なメモ</value>
+  </data>
+  <data name="ClaimGuidesPage_WhatAPlaintiffMustGenerally.Text" xml:space="preserve">
+    <value>原告が通常示すべきこと</value>
+  </data>
+  <data name="CourtFinderPage_CourtFinder.Text" xml:space="preserve">
+    <value>裁判所ファインダー</value>
+  </data>
+  <data name="CourtFinderPage_CourtLocations.Text" xml:space="preserve">
+    <value>裁判所所在地:</value>
+  </data>
+  <data name="CourtFinderPage_OfficialCourtWebsite.Content" xml:space="preserve">
+    <value>裁判所公式サイト</value>
+  </data>
+  <data name="CourtFinderPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>州、準州、地区名で検索…</value>
+  </data>
+  <data name="CourtGuidePage_CourtGuideCountyMunicipalDis.Text" xml:space="preserve">
+    <value>裁判所ガイド — 郡・市・地区裁判所</value>
+  </data>
+  <data name="CriminalCasesPage_CriminalCases.Text" xml:space="preserve">
+    <value>刑事事件</value>
+  </data>
+  <data name="DashboardPage_ClaimPilot.Text" xml:space="preserve">
+    <value>ClaimPilot</value>
+  </data>
+  <data name="DeadlinesPage_AddADeadline.Text" xml:space="preserve">
+    <value>期限を追加</value>
+  </data>
+  <data name="DeadlinesPage_Category.Header" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="DeadlinesPage_Deadlines.Text" xml:space="preserve">
+    <value>期限</value>
+  </data>
+  <data name="DeadlinesPage_Delete.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeadlinesPage_DueDate.Header" xml:space="preserve">
+    <value>期限</value>
+  </data>
+  <data name="DeadlinesPage_MarkDone.Content" xml:space="preserve">
+    <value>完了にする</value>
+  </data>
+  <data name="DeadlinesPage_Notes.Header" xml:space="preserve">
+    <value>メモ</value>
+  </data>
+  <data name="DeadlinesPage_OVERDUE.Text" xml:space="preserve">
+    <value>期限切れ</value>
+  </data>
+  <data name="DeadlinesPage_SaveDeadline.Content" xml:space="preserve">
+    <value>期限を保存</value>
+  </data>
+  <data name="DeadlinesPage_Title.Header" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="DeadlinesPage_YourDeadlinesSortedByDue.Text" xml:space="preserve">
+    <value>あなたの期限（期限日順）</value>
+  </data>
+  <data name="EvidenceVaultPage_AIGeneratedSummaryGeneralInf.Text" xml:space="preserve">
+    <value>AI生成の要約。一般情報のみであり、法的助言ではありません。</value>
+  </data>
+  <data name="EvidenceVaultPage_AddIncidentToTimeline.Content" xml:space="preserve">
+    <value>インシデントをタイムラインに追加</value>
+  </data>
+  <data name="EvidenceVaultPage_AddTimelineEvent.Content" xml:space="preserve">
+    <value>タイムラインイベントを追加</value>
+  </data>
+  <data name="EvidenceVaultPage_AttachFileSave.Content" xml:space="preserve">
+    <value>ファイルを添付して保存</value>
+  </data>
+  <data name="EvidenceVaultPage_Category.Header" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="EvidenceVaultPage_Category_2.Header" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="EvidenceVaultPage_CivilRightsIncidentTemplate.Text" xml:space="preserve">
+    <value>公民権インシデントテンプレート</value>
+  </data>
+  <data name="EvidenceVaultPage_ComplaintReportNumbers.Header" xml:space="preserve">
+    <value>苦情/報告書番号</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete_2.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="EvidenceVaultPage_Description.Header" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="EvidenceVaultPage_Details.Header" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="EvidenceVaultPage_EventDate.Header" xml:space="preserve">
+    <value>イベント日</value>
+  </data>
+  <data name="EvidenceVaultPage_EventTitle.Header" xml:space="preserve">
+    <value>イベント名</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceItems.Text" xml:space="preserve">
+    <value>証拠品目</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceVault.Text" xml:space="preserve">
+    <value>証拠保管庫</value>
+  </data>
+  <data name="EvidenceVaultPage_ExportEvidencePacketPDF.Content" xml:space="preserve">
+    <value>証拠パッケージをエクスポート (PDF)</value>
+  </data>
+  <data name="EvidenceVaultPage_IncidentDate.Header" xml:space="preserve">
+    <value>インシデント日</value>
+  </data>
+  <data name="EvidenceVaultPage_Location.Header" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="EvidenceVaultPage_OfficersInvolvedNamesBadgeNu.Header" xml:space="preserve">
+    <value>関与した職員（氏名/バッジ番号）</value>
+  </data>
+  <data name="EvidenceVaultPage_SummarizeMyTimelineAI.Content" xml:space="preserve">
+    <value>タイムラインを要約 (AI)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSortedByDate.Text" xml:space="preserve">
+    <value>タイムライン（日付順）</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSummaryOnDeviceAI.Text" xml:space="preserve">
+    <value>タイムライン要約（デバイス上AI）</value>
+  </data>
+  <data name="EvidenceVaultPage_Title.Header" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="EvidenceVaultPage_WitnessesNamesContactInfo.Header" xml:space="preserve">
+    <value>証人（氏名/連絡先）</value>
+  </data>
+  <data name="FederalMattersPage_FederalMatters.Text" xml:space="preserve">
+    <value>連邦事件</value>
+  </data>
+  <data name="FederalMattersPage_OpenThe94DistrictCourt.Content" xml:space="preserve">
+    <value>94地区裁判所ファインダーを開く</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>ページを追加</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>インクキャンバスをクリア</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>ページを削除</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>インクキャンバス。ペン、スタイラス、指、マウスで描画できます。</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>手書きページ</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>手書きページ</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>インクツールバー。ペン、鉛筆、蛍光ペン、消しゴムを選択。</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>新しいページ名</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>会議メモ</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ストロークをやり直し</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>手書きページを保存</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ストロークを元に戻す</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>手書きメモ</value>
+  </data>
+  <data name="LetterBuilderPage_AccountNumber.Header" xml:space="preserve">
+    <value>口座番号</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauAddre.Header" xml:space="preserve">
+    <value>取立人/債権者/信用局の住所</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauName.Header" xml:space="preserve">
+    <value>取立人/債権者/信用局の名前</value>
+  </data>
+  <data name="LetterBuilderPage_Copy.Content" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="LetterBuilderPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDFをエクスポート</value>
+  </data>
+  <data name="LetterBuilderPage_GenerateLetter.Content" xml:space="preserve">
+    <value>レターを生成</value>
+  </data>
+  <data name="LetterBuilderPage_LetterBuilder.Text" xml:space="preserve">
+    <value>レタービルダー</value>
+  </data>
+  <data name="LetterBuilderPage_Preview.Text" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="LetterBuilderPage_SaveAsTXT.Content" xml:space="preserve">
+    <value>TXTで保存</value>
+  </data>
+  <data name="LetterBuilderPage_Template.Header" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="LetterBuilderPage_YourAddress.Header" xml:space="preserve">
+    <value>あなたの住所</value>
+  </data>
+  <data name="LetterBuilderPage_YourName.Header" xml:space="preserve">
+    <value>あなたの名前</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="MainWindow_Bankruptcy.Content" xml:space="preserve">
+    <value>破産</value>
+  </data>
+  <data name="MainWindow_CaseBuilder.Content" xml:space="preserve">
+    <value>事件ビルダー</value>
+  </data>
+  <data name="MainWindow_CivilRights.Content" xml:space="preserve">
+    <value>公民権</value>
+  </data>
+  <data name="MainWindow_CourtFinder.Content" xml:space="preserve">
+    <value>裁判所ファインダー</value>
+  </data>
+  <data name="MainWindow_CourtGuide.Content" xml:space="preserve">
+    <value>裁判所ガイド</value>
+  </data>
+  <data name="MainWindow_CriminalCases.Content" xml:space="preserve">
+    <value>刑事事件</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="MainWindow_Deadlines.Content" xml:space="preserve">
+    <value>期限</value>
+  </data>
+  <data name="MainWindow_EvidenceVault.Content" xml:space="preserve">
+    <value>証拠保管庫</value>
+  </data>
+  <data name="MainWindow_FederalMatters.Content" xml:space="preserve">
+    <value>連邦事件</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>手書きメモ</value>
+  </data>
+  <data name="MainWindow_LawsuitWorksheet.Content" xml:space="preserve">
+    <value>訴訟ワークシート</value>
+  </data>
+  <data name="MainWindow_LegalMatters.Content" xml:space="preserve">
+    <value>法律問題</value>
+  </data>
+  <data name="MainWindow_LetterBuilder.Content" xml:space="preserve">
+    <value>レタービルダー</value>
+  </data>
+  <data name="MainWindow_TrafficTickets.Content" xml:space="preserve">
+    <value>交通違反切符</value>
+  </data>
+  <data name="MainWindow_ViolationSpotter.Content" xml:space="preserve">
+    <value>違反検出</value>
+  </data>
+  <data name="ProSeResourcesPage_ChooseAFederalDistrict.PlaceholderText" xml:space="preserve">
+    <value>連邦地区を選択…</value>
+  </data>
+  <data name="ProSeResourcesPage_FindYourCourtSWebsite.Text" xml:space="preserve">
+    <value>裁判所のウェブサイトを探す</value>
+  </data>
+  <data name="ProSeResourcesPage_OpenTheSelectedCourtS.Content" xml:space="preserve">
+    <value>選択した裁判所の公式サイトを開く</value>
+  </data>
+  <data name="ProSeResourcesPage_ProSeResources.Text" xml:space="preserve">
+    <value>プロセ資料</value>
+  </data>
+  <data name="ProSeResourcesPage_UscourtsGovCourtLocator.Content" xml:space="preserve">
+    <value>uscourts.gov裁判所検索</value>
+  </data>
+  <data name="TrafficTicketsPage_TrafficTickets.Text" xml:space="preserve">
+    <value>交通違反切符</value>
+  </data>
+  <data name="ViolationSpotterPage_AddedFeesINeverAgreed.Content" xml:space="preserve">
+    <value>同意していない手数料が追加された</value>
+  </data>
+  <data name="ViolationSpotterPage_Analyze.Content" xml:space="preserve">
+    <value>分析</value>
+  </data>
+  <data name="ViolationSpotterPage_CallsBefore800A.Content" xml:space="preserve">
+    <value>私の時間で午前8時前または午後9時以降の着信</value>
+  </data>
+  <data name="ViolationSpotterPage_ContactedMyEmployerOrFamily.Content" xml:space="preserve">
+    <value>債務について雇用主や家族に連絡した</value>
+  </data>
+  <data name="ViolationSpotterPage_ContinuedCollectionAfterIDis.Content" xml:space="preserve">
+    <value>書面で争った後も取立てを継続した</value>
+  </data>
+  <data name="ViolationSpotterPage_FalseOrInflatedAmountsWrong.Content" xml:space="preserve">
+    <value>虚偽または水増しされた金額（残高の誤り、身に覚えのない債務）</value>
+  </data>
+  <data name="ViolationSpotterPage_NeverSentTheRequiredWritten.Content" xml:space="preserve">
+    <value>必要な書面による検証通知が一度も送られなかった</value>
+  </data>
+  <data name="ViolationSpotterPage_ThreatsOfArrestViolenceOr.Content" xml:space="preserve">
+    <value>逮捕・暴力・危害の脅迫</value>
+  </data>
+  <data name="ViolationSpotterPage_ViolationSpotter.Text" xml:space="preserve">
+    <value>違反検出</value>
+  </data>
+  <data name="WorksheetPage_AddTimelineRow.Content" xml:space="preserve">
+    <value>タイムライン行を追加</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.Header" xml:space="preserve">
+    <value>請求額</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.PlaceholderText" xml:space="preserve">
+    <value>e.g. 2,500.00</value>
+  </data>
+  <data name="WorksheetPage_Date.Header" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="WorksheetPage_Date.PlaceholderText" xml:space="preserve">
+    <value>2026-01-15</value>
+  </data>
+  <data name="WorksheetPage_DefendantAddress.Header" xml:space="preserve">
+    <value>被告の住所</value>
+  </data>
+  <data name="WorksheetPage_DefendantName.Header" xml:space="preserve">
+    <value>被告名</value>
+  </data>
+  <data name="WorksheetPage_ExportWorksheetPDF.Content" xml:space="preserve">
+    <value>ワークシートPDFをエクスポート</value>
+  </data>
+  <data name="WorksheetPage_FactsTimeline.Text" xml:space="preserve">
+    <value>事実タイムライン</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintChecklist.Header" xml:space="preserve">
+    <value>連邦訴訟チェックリスト</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintEducationalC.Text" xml:space="preserve">
+    <value>連邦訴訟 — 学習用チェックリスト</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffAddress.Header" xml:space="preserve">
+    <value>原告の住所</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffNameYou.Header" xml:space="preserve">
+    <value>原告名（あなた）</value>
+  </data>
+  <data name="WorksheetPage_Remove.Content" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet.Header" xml:space="preserve">
+    <value>少額訴訟ワークシート</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet_2.Text" xml:space="preserve">
+    <value>少額訴訟ワークシート</value>
+  </data>
+  <data name="WorksheetPage_WhatAPetitionGenerallyInclud.Text" xml:space="preserve">
+    <value>申立書に通常含まれるもの</value>
+  </data>
+  <data name="WorksheetPage_WhatHappened.Header" xml:space="preserve">
+    <value>何が起きたか</value>
+  </data>
+</root>

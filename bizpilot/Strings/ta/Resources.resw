@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AiToolsPage_AITools.Text" xml:space="preserve">
+    <value>AI கருவிகள்</value>
+  </data>
+  <data name="AiToolsPage_ClientEmailDrafter.Text" xml:space="preserve">
+    <value>வாடிக்கையாளர் மின்னஞ்சல் வரைவு</value>
+  </data>
+  <data name="AiToolsPage_Draft.Header" xml:space="preserve">
+    <value>வரைவு</value>
+  </data>
+  <data name="AiToolsPage_EnterTheKeyPointsAnd.Text" xml:space="preserve">
+    <value>முக்கிய அம்சங்களை உள்ளிட்டு தொனியைத் தேர்ந்தெடுக்கவும். சாதன மாதிரி மின்னஞ்சலை எழுதும் — உங்கள் PC-யை விட்டு எதுவும் வெளியேறாது.</value>
+  </data>
+  <data name="AiToolsPage_GenerateEmail.Content" xml:space="preserve">
+    <value>மின்னஞ்சல் உருவாக்கு</value>
+  </data>
+  <data name="AiToolsPage_KeyPointsOnePerLine.Header" xml:space="preserve">
+    <value>முக்கிய அம்சங்கள் (வரிக்கு ஒன்று)</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotes.Header" xml:space="preserve">
+    <value>கூட்டக் குறிப்புகள்</value>
+  </data>
+  <data name="AiToolsPage_MeetingNotesSummarizer.Text" xml:space="preserve">
+    <value>கூட்டக் குறிப்புச் சுருக்கி</value>
+  </data>
+  <data name="AiToolsPage_PasteRawMeetingNotesThe.Text" xml:space="preserve">
+    <value>மூல கூட்டக் குறிப்புகளை ஒட்டவும். சாதன மாதிரி சுருக்கமான சுருக்கத்தைத் தரும் — உங்கள் PC-யை விட்டு எதுவும் வெளியேறாது.</value>
+  </data>
+  <data name="AiToolsPage_Summarize.Content" xml:space="preserve">
+    <value>சுருக்கு</value>
+  </data>
+  <data name="AiToolsPage_Summary.Header" xml:space="preserve">
+    <value>சுருக்கம்</value>
+  </data>
+  <data name="AiToolsPage_Tone.Header" xml:space="preserve">
+    <value>தொனி</value>
+  </data>
+  <data name="ClientsPage_Clients.Text" xml:space="preserve">
+    <value>வாடிக்கையாளர்கள்</value>
+  </data>
+  <data name="ClientsPage_Company.Header" xml:space="preserve">
+    <value>நிறுவனம்</value>
+  </data>
+  <data name="ClientsPage_Company.PlaceholderText" xml:space="preserve">
+    <value>நிறுவனம் (விருப்பம்)</value>
+  </data>
+  <data name="ClientsPage_Delete.Content" xml:space="preserve">
+    <value>நீக்கு</value>
+  </data>
+  <data name="ClientsPage_Email.Header" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="ClientsPage_Email.PlaceholderText" xml:space="preserve">
+    <value>name@example.com</value>
+  </data>
+  <data name="ClientsPage_Name.Header" xml:space="preserve">
+    <value>பெயர்</value>
+  </data>
+  <data name="ClientsPage_Name.PlaceholderText" xml:space="preserve">
+    <value>முழுப் பெயர்</value>
+  </data>
+  <data name="ClientsPage_NewClient.Content" xml:space="preserve">
+    <value>புதிய வாடிக்கையாளர்</value>
+  </data>
+  <data name="ClientsPage_Notes.Header" xml:space="preserve">
+    <value>குறிப்புகள்</value>
+  </data>
+  <data name="ClientsPage_Phone.Header" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="ClientsPage_Phone.PlaceholderText" xml:space="preserve">
+    <value>(555) 000-0000</value>
+  </data>
+  <data name="ClientsPage_SaveClient.Content" xml:space="preserve">
+    <value>வாடிக்கையாளரைச் சேமி</value>
+  </data>
+  <data name="DashboardPage_Clients.Text" xml:space="preserve">
+    <value>வாடிக்கையாளர்கள்</value>
+  </data>
+  <data name="DashboardPage_Dashboard.Text" xml:space="preserve">
+    <value>டாஷ்போர்டு</value>
+  </data>
+  <data name="DashboardPage_ExpensesThisMonth.Text" xml:space="preserve">
+    <value>இந்த மாதச் செலவுகள்</value>
+  </data>
+  <data name="DashboardPage_Outstanding.Text" xml:space="preserve">
+    <value>நிலுவை</value>
+  </data>
+  <data name="DashboardPage_PaidThisMonth.Text" xml:space="preserve">
+    <value>இந்த மாதம் செலுத்தப்பட்டது</value>
+  </data>
+  <data name="DashboardPage_RecentInvoices.Text" xml:space="preserve">
+    <value>சமீபத்திய விலைப்பட்டியல்கள்</value>
+  </data>
+  <data name="ExpensesPage_AddExpense.Text" xml:space="preserve">
+    <value>செலவைச் சேர்</value>
+  </data>
+  <data name="ExpensesPage_AddExpense_2.Content" xml:space="preserve">
+    <value>செலவைச் சேர்</value>
+  </data>
+  <data name="ExpensesPage_Amount.Header" xml:space="preserve">
+    <value>தொகை</value>
+  </data>
+  <data name="ExpensesPage_AttachReceipt.Content" xml:space="preserve">
+    <value>ரசீதை இணை</value>
+  </data>
+  <data name="ExpensesPage_Category.Header" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="ExpensesPage_Date.Header" xml:space="preserve">
+    <value>தேதி</value>
+  </data>
+  <data name="ExpensesPage_Delete.Content" xml:space="preserve">
+    <value>நீக்கு</value>
+  </data>
+  <data name="ExpensesPage_Description.Header" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="ExpensesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>இந்தச் செலவு எதற்காக?</value>
+  </data>
+  <data name="ExpensesPage_Expenses.Text" xml:space="preserve">
+    <value>செலவுகள்</value>
+  </data>
+  <data name="ExpensesPage_Expenses_2.Text" xml:space="preserve">
+    <value>செலவுகள்</value>
+  </data>
+  <data name="ExpensesPage_General" xml:space="preserve">
+    <value>பொது</value>
+  </data>
+  <data name="ExpensesPage_Marketing" xml:space="preserve">
+    <value>சந்தைப்படுத்தல்</value>
+  </data>
+  <data name="ExpensesPage_Meals" xml:space="preserve">
+    <value>உணவு</value>
+  </data>
+  <data name="ExpensesPage_Month.Header" xml:space="preserve">
+    <value>மாதம்</value>
+  </data>
+  <data name="ExpensesPage_MonthTotal.Text" xml:space="preserve">
+    <value>மாத மொத்தம்</value>
+  </data>
+  <data name="ExpensesPage_Other" xml:space="preserve">
+    <value>மற்றவை</value>
+  </data>
+  <data name="ExpensesPage_Rent" xml:space="preserve">
+    <value>வாடகை</value>
+  </data>
+  <data name="ExpensesPage_Software" xml:space="preserve">
+    <value>மென்பொருள்</value>
+  </data>
+  <data name="ExpensesPage_SpendingByCategory.Text" xml:space="preserve">
+    <value>வகை வாரியாகச் செலவு</value>
+  </data>
+  <data name="ExpensesPage_Supplies" xml:space="preserve">
+    <value>பொருட்கள்</value>
+  </data>
+  <data name="ExpensesPage_Travel" xml:space="preserve">
+    <value>பயணம்</value>
+  </data>
+  <data name="ExpensesPage_Utilities" xml:space="preserve">
+    <value>பயன்பாடுகள்</value>
+  </data>
+  <data name="ExpensesPage_Year.Header" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>பக்கத்தைச் சேர்</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>அழி</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மை திரையை அழி</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>பக்கத்தை நீக்கு</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மை திரை. இங்கே பேனா, ஸ்டைலஸ், விரல் அல்லது மவுஸ் மூலம் வரையவும்.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>மை பக்கங்கள்</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மை பக்கங்கள்</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மை கருவிப்பட்டி. பேனா, பென்சில், ஹைலைட்டர் அல்லது அழிப்பானைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>புதிய பக்கப் பெயர்</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>கூட்டக் குறிப்புகள்</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>மீண்டும் செய்</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கோட்டை மீண்டும் வரை</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மை பக்கத்தைச் சேமி</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>செயல்தவிர்</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கடைசிக் கோட்டைச் செயல்தவிர்</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>மை குறிப்புகள்</value>
+  </data>
+  <data name="InvoicesPage_AddLine.Content" xml:space="preserve">
+    <value>வரியைச் சேர்</value>
+  </data>
+  <data name="InvoicesPage_Client.Header" xml:space="preserve">
+    <value>வாடிக்கையாளர்</value>
+  </data>
+  <data name="InvoicesPage_Description.PlaceholderText" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="InvoicesPage_DueDate.Header" xml:space="preserve">
+    <value>கெடு</value>
+  </data>
+  <data name="InvoicesPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF ஏற்றுமதி</value>
+  </data>
+  <data name="InvoicesPage_InvoiceNumber.Header" xml:space="preserve">
+    <value>விலைப்பட்டியல் எண்</value>
+  </data>
+  <data name="InvoicesPage_Invoices.Text" xml:space="preserve">
+    <value>விலைப்பட்டியல்கள்</value>
+  </data>
+  <data name="InvoicesPage_IssueDate.Header" xml:space="preserve">
+    <value>வெளியீட்டு தேதி</value>
+  </data>
+  <data name="InvoicesPage_LineItems.Text" xml:space="preserve">
+    <value>வரி உருப்படிகள்</value>
+  </data>
+  <data name="InvoicesPage_MarkPaid.Content" xml:space="preserve">
+    <value>செலுத்தியதாகக் குறி</value>
+  </data>
+  <data name="InvoicesPage_MarkUnpaid.Content" xml:space="preserve">
+    <value>செலுத்தாததாகக் குறி</value>
+  </data>
+  <data name="InvoicesPage_NewInvoice.Content" xml:space="preserve">
+    <value>புதிய விலைப்பட்டியல்</value>
+  </data>
+  <data name="InvoicesPage_Notes.Header" xml:space="preserve">
+    <value>குறிப்புகள்</value>
+  </data>
+  <data name="InvoicesPage_Paid" xml:space="preserve">
+    <value>செலுத்தப்பட்டது</value>
+  </data>
+  <data name="InvoicesPage_Qty.Header" xml:space="preserve">
+    <value>எண்ணிக்கை</value>
+  </data>
+  <data name="InvoicesPage_Remove.Content" xml:space="preserve">
+    <value>அகற்று</value>
+  </data>
+  <data name="InvoicesPage_SaveInvoice.Content" xml:space="preserve">
+    <value>விலைப்பட்டியலைச் சேமி</value>
+  </data>
+  <data name="InvoicesPage_Status.Header" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="InvoicesPage_Subtotal.Text" xml:space="preserve">
+    <value>இடைத்தொகை:</value>
+  </data>
+  <data name="InvoicesPage_Tax.Text" xml:space="preserve">
+    <value>வரி:</value>
+  </data>
+  <data name="InvoicesPage_TaxRate.Header" xml:space="preserve">
+    <value>வரி விகிதம்</value>
+  </data>
+  <data name="InvoicesPage_Total.Text" xml:space="preserve">
+    <value>மொத்தம்:</value>
+  </data>
+  <data name="InvoicesPage_UnitPrice.Header" xml:space="preserve">
+    <value>அலகு விலை</value>
+  </data>
+  <data name="InvoicesPage_Unpaid" xml:space="preserve">
+    <value>செலுத்தப்படவில்லை</value>
+  </data>
+  <data name="MainWindow_AITools.Content" xml:space="preserve">
+    <value>AI கருவிகள்</value>
+  </data>
+  <data name="MainWindow_BizPilot.Title" xml:space="preserve">
+    <value>BizPilot</value>
+  </data>
+  <data name="MainWindow_Clients.Content" xml:space="preserve">
+    <value>வாடிக்கையாளர்கள்</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>டாஷ்போர்டு</value>
+  </data>
+  <data name="MainWindow_Expenses.Content" xml:space="preserve">
+    <value>செலவுகள்</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>மை குறிப்புகள்</value>
+  </data>
+  <data name="MainWindow_Invoices.Content" xml:space="preserve">
+    <value>விலைப்பட்டியல்கள்</value>
+  </data>
+  <data name="MainWindow_Settings.Content" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="SettingsPage_Address.Header" xml:space="preserve">
+    <value>முகவரி</value>
+  </data>
+  <data name="SettingsPage_BusinessName.Header" xml:space="preserve">
+    <value>வணிகப் பெயர்</value>
+  </data>
+  <data name="SettingsPage_BusinessProfile.Text" xml:space="preserve">
+    <value>வணிகச் சுயவிவரம்</value>
+  </data>
+  <data name="SettingsPage_CheckAIStatus.Content" xml:space="preserve">
+    <value>AI நிலையைச் சரிபார்</value>
+  </data>
+  <data name="SettingsPage_DefaultTaxRate.Header" xml:space="preserve">
+    <value>இயல்புநிலை வரி விகிதம்</value>
+  </data>
+  <data name="SettingsPage_Email.Header" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>சாதன AI</value>
+  </data>
+  <data name="SettingsPage_Phone.Header" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="SettingsPage_SaveProfile.Content" xml:space="preserve">
+    <value>சுயவிவரத்தைச் சேமி</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="SettingsPage_ThisInformationAppearsOnEver.Text" xml:space="preserve">
+    <value>நீங்கள் ஏற்றுமதி செய்யும் ஒவ்வொரு விலைப்பட்டியல் PDF-லும் இந்தத் தகவல் இருக்கும்.</value>
+  </data>
+</root>

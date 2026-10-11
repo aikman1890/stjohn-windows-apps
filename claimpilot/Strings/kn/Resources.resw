@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AboutPage_ImportantNotice.Text" xml:space="preserve">
+    <value>ಪ್ರಮುಖ ಸೂಚನೆ</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoes.Text" xml:space="preserve">
+    <value>ClaimPilot ಏನು ಮಾಡುತ್ತದೆ</value>
+  </data>
+  <data name="AboutPage_WhatClaimPilotDoesNotDo.Text" xml:space="preserve">
+    <value>ClaimPilot ಏನು ಮಾಡುವುದಿಲ್ಲ</value>
+  </data>
+  <data name="AboutPage_YourData.Text" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಡೇಟಾ</value>
+  </data>
+  <data name="BankruptcyPage_180DayCreditCounselingCalcul.Text" xml:space="preserve">
+    <value>180 ದಿನಗಳ ಕ್ರೆಡಿಟ್ ಕೌನ್ಸೆಲಿಂಗ್ ಕ್ಯಾಲ್ಕುಲೇಟರ್</value>
+  </data>
+  <data name="BankruptcyPage_AddBankruptcyDeadlinesToThe.Text" xml:space="preserve">
+    <value>ದಿವಾಳಿತನ ಗಡುವುಗಳನ್ನು ಟ್ರ್ಯಾಕರ್‌ಗೆ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter13Deadlines.Content" xml:space="preserve">
+    <value>ಅಧ್ಯಾಯ 13 ಗಡುವುಗಳನ್ನು ಸೇರಿಸಿ</value>
+  </data>
+  <data name="BankruptcyPage_AddChapter7Deadlines.Content" xml:space="preserve">
+    <value>ಅಧ್ಯಾಯ 7 ಗಡುವುಗಳನ್ನು ಸೇರಿಸಿ</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot.Text" xml:space="preserve">
+    <value>ಸಾಂಸ್ಥಿಕ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ — ಕಾನೂನು ಸಲಹೆಯಲ್ಲ. ನಿಮ್ಮ ಟ್ರಸ್ಟಿ ಅಥವಾ ವಕೀಲರು ಹೆಚ್ಚಿನದನ್ನು ಕೇಳಬಹುದು.</value>
+  </data>
+  <data name="BankruptcyPage_AnOrganizationalChecklistNot_2.Text" xml:space="preserve">
+    <value>ಸಾಂಸ್ಥಿಕ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ — ಕಾನೂನು ಸಲಹೆಯಲ್ಲ. ನಿಮ್ಮ ಟ್ರಸ್ಟಿ ಅಥವಾ ವಕೀಲರು ಹೆಚ್ಚಿನದನ್ನು ಕೇಳಬಹುದು.</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage.Content" xml:space="preserve">
+    <value>ಪ್ರಮಾಣಪತ್ರ ಲಗತ್ತಿಸಿ (PDF/ಚಿತ್ರ)</value>
+  </data>
+  <data name="BankruptcyPage_AttachCertificatePDFImage_2.Content" xml:space="preserve">
+    <value>ಪ್ರಮಾಣಪತ್ರ ಲಗತ್ತಿಸಿ (PDF/ಚಿತ್ರ)</value>
+  </data>
+  <data name="BankruptcyPage_BankruptcyChapters713.Text" xml:space="preserve">
+    <value>ದಿವಾಳಿತನ — ಅಧ್ಯಾಯಗಳು 7 &amp; 13</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13Courses.Text" xml:space="preserve">
+    <value>ಅಧ್ಯಾಯ 13 ಕೋರ್ಸ್‌ಗಳು</value>
+  </data>
+  <data name="BankruptcyPage_Chapter13DocumentChecklist.Text" xml:space="preserve">
+    <value>ಅಧ್ಯಾಯ 13 ದಾಖಲೆ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7Courses.Text" xml:space="preserve">
+    <value>ಅಧ್ಯಾಯ 7 ಕೋರ್ಸ್‌ಗಳು</value>
+  </data>
+  <data name="BankruptcyPage_Chapter7DocumentChecklist.Text" xml:space="preserve">
+    <value>ಅಧ್ಯಾಯ 7 ದಾಖಲೆ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ</value>
+  </data>
+  <data name="BankruptcyPage_Completed" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡಿದೆ</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate.Header" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡ ದಿನಾಂಕ</value>
+  </data>
+  <data name="BankruptcyPage_CompletedDate_2.Header" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡ ದಿನಾಂಕ</value>
+  </data>
+  <data name="BankruptcyPage_Completed_2" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡಿದೆ</value>
+  </data>
+  <data name="BankruptcyPage_FilingDate.Text" xml:space="preserve">
+    <value>ಸಲ್ಲಿಸಿದ ದಿನಾಂಕ:</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted" xml:space="preserve">
+    <value>ಪ್ರಾರಂಭಿಸಿಲ್ಲ</value>
+  </data>
+  <data name="BankruptcyPage_NotStarted_2" xml:space="preserve">
+    <value>ಪ್ರಾರಂಭಿಸಿಲ್ಲ</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedCreditCo.Content" xml:space="preserve">
+    <value>ಅಧಿಕೃತ ಪಟ್ಟಿ: ಅನುಮೋದಿತ ಕ್ರೆಡಿಟ್ ಕೌನ್ಸೆಲಿಂಗ್ ಏಜೆನ್ಸಿಗಳು (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OfficialListApprovedDebtorEd.Content" xml:space="preserve">
+    <value>ಅಧಿಕೃತ ಪಟ್ಟಿ: ಅನುಮೋದಿತ ಸಾಲಗಾರ ಶಿಕ್ಷಣ ಪೂರೈಕೆದಾರರು (U.S. Trustee)</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate.Content" xml:space="preserve">
+    <value>ಪ್ರಮಾಣಪತ್ರ ತೆರೆಯಿರಿ</value>
+  </data>
+  <data name="BankruptcyPage_OpenCertificate_2.Content" xml:space="preserve">
+    <value>ಪ್ರಮಾಣಪತ್ರ ತೆರೆಯಿರಿ</value>
+  </data>
+  <data name="BankruptcyPage_PickYourFilingDateThen.Text" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಸಲ್ಲಿಕೆ ದಿನಾಂಕ ಆಯ್ಕೆಮಾಡಿ, ನಂತರ ಅಧ್ಯಾಯಕ್ಕೆ ಪ್ರಮಾಣಿತ ಗಡುವುಗಳನ್ನು ಸೇರಿಸಿ. ಅವು ಜ್ಞಾಪನೆಗಳೊಂದಿಗೆ ಗಡುವು ವಿಭಾಗಕ್ಕೆ ಹೋಗುತ್ತವೆ. ಪೂರ್ವನಿಗದಿಗಳು ಅಂದಾಜುಗಳು — ಪ್ರತಿ ದಿನಾಂಕವನ್ನು ನಿಮ್ಮ ನೈಜ ಪ್ರಕರಣದೊಂದಿಗೆ ಪರಿಶೀಲಿಸಿ.</value>
+  </data>
+  <data name="BankruptcyPage_PlannedFilingDate.Text" xml:space="preserve">
+    <value>ಯೋಜಿತ ಸಲ್ಲಿಕೆ ದಿನಾಂಕ:</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU.Header" xml:space="preserve">
+    <value>ಪೂರೈಕೆದಾರರ ಹೆಸರು (U.S. Trustee-ಅನುಮೋದಿತವಾಗಿರಬೇಕು)</value>
+  </data>
+  <data name="BankruptcyPage_ProviderNameMustBeU_2.Header" xml:space="preserve">
+    <value>ಪೂರೈಕೆದಾರರ ಹೆಸರು (U.S. Trustee-ಅನುಮೋದಿತವಾಗಿರಬೇಕು)</value>
+  </data>
+  <data name="BankruptcyPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>ಮೊದಲು ಇದನ್ನು ಓದಿ — ಪ್ರಾಮಾಣಿಕ ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="BankruptcyPage_RequiredCoursesTracker.Text" xml:space="preserve">
+    <value>ಅಗತ್ಯ ಕೋರ್ಸ್ ಟ್ರ್ಯಾಕರ್</value>
+  </data>
+  <data name="BankruptcyPage_Reset.Content" xml:space="preserve">
+    <value>ಮರುಹೊಂದಿಸಿ</value>
+  </data>
+  <data name="BankruptcyPage_Reset_2.Content" xml:space="preserve">
+    <value>ಮರುಹೊಂದಿಸಿ</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled" xml:space="preserve">
+    <value>ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate.Header" xml:space="preserve">
+    <value>ನಿಗದಿತ ದಿನಾಂಕ</value>
+  </data>
+  <data name="BankruptcyPage_ScheduledDate_2.Header" xml:space="preserve">
+    <value>ನಿಗದಿತ ದಿನಾಂಕ</value>
+  </data>
+  <data name="BankruptcyPage_Scheduled_2" xml:space="preserve">
+    <value>ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="BankruptcyPage_Status.Header" xml:space="preserve">
+    <value>ಸ್ಥಿತಿ</value>
+  </data>
+  <data name="BankruptcyPage_Status_2.Header" xml:space="preserve">
+    <value>ಸ್ಥಿತಿ</value>
+  </data>
+  <data name="CaseBuilderPage_AddClaim.Content" xml:space="preserve">
+    <value>ಹಕ್ಕು ಸೇರಿಸಿ</value>
+  </data>
+  <data name="CaseBuilderPage_AddDeadline.Content" xml:space="preserve">
+    <value>ಗಡುವು ಸೇರಿಸಿ</value>
+  </data>
+  <data name="CaseBuilderPage_AddEvent.Content" xml:space="preserve">
+    <value>ಕಾರ್ಯಕ್ರಮ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="CaseBuilderPage_AddItem.Content" xml:space="preserve">
+    <value>ಅಂಶ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="CaseBuilderPage_AddParty.Content" xml:space="preserve">
+    <value>ಪಕ್ಷ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="CaseBuilderPage_CaseBuilder.Text" xml:space="preserve">
+    <value>ಪ್ರಕರಣ ನಿರ್ಮಾಪಕ</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.Header" xml:space="preserve">
+    <value>ಪ್ರಕರಣದ ಹೆಸರು</value>
+  </data>
+  <data name="CaseBuilderPage_CaseName.PlaceholderText" xml:space="preserve">
+    <value>ಉದಾ. Smith v. Acme Collections</value>
+  </data>
+  <data name="CaseBuilderPage_CaseType.Header" xml:space="preserve">
+    <value>ಪ್ರಕರಣದ ಪ್ರಕಾರ</value>
+  </data>
+  <data name="CaseBuilderPage_ClaimsIssues.Text" xml:space="preserve">
+    <value>ಹಕ್ಕುಗಳು / ಸಮಸ್ಯೆಗಳು</value>
+  </data>
+  <data name="CaseBuilderPage_ClearCaseFile.Content" xml:space="preserve">
+    <value>ಪ್ರಕರಣ ಫೈಲ್ ತೆರವುಗೊಳಿಸಿ</value>
+  </data>
+  <data name="CaseBuilderPage_Date.Header" xml:space="preserve">
+    <value>ದಿನಾಂಕ</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.Header" xml:space="preserve">
+    <value>ಗಡುವು ಶೀರ್ಷಿಕೆ</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlineTitle.PlaceholderText" xml:space="preserve">
+    <value>ಉದಾ. ಉತ್ತರ ಅಂತಿಮ</value>
+  </data>
+  <data name="CaseBuilderPage_DeadlinesAlsoSavedToThe.Text" xml:space="preserve">
+    <value>ಗಡುವುಗಳು (ಗಡುವು ಟ್ರ್ಯಾಕರ್‌ನಲ್ಲಿಯೂ ಉಳಿಸಲಾಗಿದೆ)</value>
+  </data>
+  <data name="CaseBuilderPage_Details.Header" xml:space="preserve">
+    <value>ವಿವರಗಳು</value>
+  </data>
+  <data name="CaseBuilderPage_Details.PlaceholderText" xml:space="preserve">
+    <value>ಏನಾಯಿತು, ಯಾರಿದ್ದರು</value>
+  </data>
+  <data name="CaseBuilderPage_DueDate.Header" xml:space="preserve">
+    <value>ಅಂತಿಮ ದಿನಾಂಕ</value>
+  </data>
+  <data name="CaseBuilderPage_EGCopyOfThe.PlaceholderText" xml:space="preserve">
+    <value>ಉದಾ. ವಸೂಲಿ ಪತ್ರದ ಪ್ರತಿ</value>
+  </data>
+  <data name="CaseBuilderPage_EGFDCPAViolationFalse.PlaceholderText" xml:space="preserve">
+    <value>ಉದಾ. FDCPA ಉಲ್ಲಂಘನೆ — ಸುಳ್ಳು ನಿರೂಪಣೆ</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.Header" xml:space="preserve">
+    <value>ಕಾರ್ಯಕ್ರಮದ ಶೀರ್ಷಿಕೆ</value>
+  </data>
+  <data name="CaseBuilderPage_EventTitle.PlaceholderText" xml:space="preserve">
+    <value>ಉದಾ. ವಸೂಲಿ ಪತ್ರ ಸ್ವೀಕರಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="CaseBuilderPage_EvidenceChecklist.Text" xml:space="preserve">
+    <value>ಸಾಕ್ಷ್ಯ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ</value>
+  </data>
+  <data name="CaseBuilderPage_PartiesInvolved.Text" xml:space="preserve">
+    <value>ಭಾಗಿಯಾದ ಪಕ್ಷಗಳು</value>
+  </data>
+  <data name="CaseBuilderPage_PersonCompanyOrAgency.PlaceholderText" xml:space="preserve">
+    <value>ವ್ಯಕ್ತಿ, ಕಂಪನಿ ಅಥವಾ ಸಂಸ್ಥೆ</value>
+  </data>
+  <data name="CaseBuilderPage_Remove.Content" xml:space="preserve">
+    <value>ತೆಗೆದುಹಾಕಿ</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_2.Content" xml:space="preserve">
+    <value>ತೆಗೆದುಹಾಕಿ</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_3.Content" xml:space="preserve">
+    <value>ತೆಗೆದುಹಾಕಿ</value>
+  </data>
+  <data name="CaseBuilderPage_Remove_4.Content" xml:space="preserve">
+    <value>ತೆಗೆದುಹಾಕಿ</value>
+  </data>
+  <data name="CaseBuilderPage_TheCase.Text" xml:space="preserve">
+    <value>ಪ್ರಕರಣ</value>
+  </data>
+  <data name="CaseBuilderPage_TimelineOfEvents.Text" xml:space="preserve">
+    <value>ಘಟನೆಗಳ ಕಾಲರೇಖೆ</value>
+  </data>
+  <data name="ClaimGuidesPage_AIGeneratedPlainEnglishExpla.Text" xml:space="preserve">
+    <value>AI-ರಚಿತ ಸ್ಪಷ್ಟ ವಿವರಣೆ. ಸಾಮಾನ್ಯ ಮಾಹಿತಿ ಮಾತ್ರ — ಕಾನೂನು ಸಲಹೆಯಲ್ಲ. ವಕೀಲರೊಂದಿಗೆ ಮಾತನಾಡುವುದನ್ನು ಪರಿಗಣಿಸಿ.</value>
+  </data>
+  <data name="ClaimGuidesPage_CivilRightsSection1983Guides.Text" xml:space="preserve">
+    <value>ನಾಗರಿಕ ಹಕ್ಕುಗಳು — ವಿಭಾಗ 1983 ಮಾರ್ಗದರ್ಶಿಗಳು</value>
+  </data>
+  <data name="ClaimGuidesPage_ClaimGuides.Text" xml:space="preserve">
+    <value>ಹಕ್ಕು ಮಾರ್ಗದರ್ಶಿಗಳು</value>
+  </data>
+  <data name="ClaimGuidesPage_CommonDefenses.Text" xml:space="preserve">
+    <value>ಸಾಮಾನ್ಯ ರಕ್ಷಣೆಗಳು</value>
+  </data>
+  <data name="ClaimGuidesPage_ExplainThisInPlainEnglish.Content" xml:space="preserve">
+    <value>ಇದನ್ನು ಸರಳ ಕನ್ನಡದಲ್ಲಿ ವಿವರಿಸಿ</value>
+  </data>
+  <data name="ClaimGuidesPage_ReadThisFirstHonestNotes.Text" xml:space="preserve">
+    <value>ಮೊದಲು ಇದನ್ನು ಓದಿ — ಪ್ರಾಮಾಣಿಕ ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="ClaimGuidesPage_WhatAPlaintiffMustGenerally.Text" xml:space="preserve">
+    <value>ವಾದಿ ಸಾಮಾನ್ಯವಾಗಿ ಏನು ತೋರಿಸಬೇಕು</value>
+  </data>
+  <data name="CourtFinderPage_CourtFinder.Text" xml:space="preserve">
+    <value>ನ್ಯಾಯಾಲಯ ಶೋಧಕ</value>
+  </data>
+  <data name="CourtFinderPage_CourtLocations.Text" xml:space="preserve">
+    <value>ನ್ಯಾಯಾಲಯ ಸ್ಥಳಗಳು:</value>
+  </data>
+  <data name="CourtFinderPage_OfficialCourtWebsite.Content" xml:space="preserve">
+    <value>ನ್ಯಾಯಾಲಯದ ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್</value>
+  </data>
+  <data name="CourtFinderPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>ರಾಜ್ಯ, ಪ್ರದೇಶ ಅಥವಾ ಜಿಲ್ಲಾ ಹೆಸರಿನಿಂದ ಹುಡುಕಿ…</value>
+  </data>
+  <data name="CourtGuidePage_CourtGuideCountyMunicipalDis.Text" xml:space="preserve">
+    <value>ನ್ಯಾಯಾಲಯ ಮಾರ್ಗದರ್ಶಿ — ಕೌಂಟಿ, ಮುನಿಸಿಪಲ್ ಮತ್ತು ಜಿಲ್ಲಾ ನ್ಯಾಯಾಲಯಗಳು</value>
+  </data>
+  <data name="CriminalCasesPage_CriminalCases.Text" xml:space="preserve">
+    <value>ಕ್ರಿಮಿನಲ್ ಪ್ರಕರಣಗಳು</value>
+  </data>
+  <data name="DashboardPage_ClaimPilot.Text" xml:space="preserve">
+    <value>ClaimPilot</value>
+  </data>
+  <data name="DeadlinesPage_AddADeadline.Text" xml:space="preserve">
+    <value>ಗಡುವು ಸೇರಿಸಿ</value>
+  </data>
+  <data name="DeadlinesPage_Category.Header" xml:space="preserve">
+    <value>ವರ್ಗ</value>
+  </data>
+  <data name="DeadlinesPage_Deadlines.Text" xml:space="preserve">
+    <value>ಗಡುವುಗಳು</value>
+  </data>
+  <data name="DeadlinesPage_Delete.Content" xml:space="preserve">
+    <value>ಅಳಿಸಿ</value>
+  </data>
+  <data name="DeadlinesPage_DueDate.Header" xml:space="preserve">
+    <value>ಅಂತಿಮ ದಿನಾಂಕ</value>
+  </data>
+  <data name="DeadlinesPage_MarkDone.Content" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡಿದೆ ಎಂದು ಗುರುತಿಸಿ</value>
+  </data>
+  <data name="DeadlinesPage_Notes.Header" xml:space="preserve">
+    <value>ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="DeadlinesPage_OVERDUE.Text" xml:space="preserve">
+    <value>ಅವಧಿ ಮೀರಿದೆ</value>
+  </data>
+  <data name="DeadlinesPage_SaveDeadline.Content" xml:space="preserve">
+    <value>ಗಡುವು ಉಳಿಸಿ</value>
+  </data>
+  <data name="DeadlinesPage_Title.Header" xml:space="preserve">
+    <value>ಶೀರ್ಷಿಕೆ</value>
+  </data>
+  <data name="DeadlinesPage_YourDeadlinesSortedByDue.Text" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಗಡುವುಗಳು (ಅಂತಿಮ ದಿನಾಂಕದಂತೆ ವಿಂಗಡಿಸಲಾಗಿದೆ)</value>
+  </data>
+  <data name="EvidenceVaultPage_AIGeneratedSummaryGeneralInf.Text" xml:space="preserve">
+    <value>AI-ರಚಿತ ಸಾರಾಂಶ. ಸಾಮಾನ್ಯ ಮಾಹಿತಿ ಮಾತ್ರ — ಕಾನೂನು ಸಲಹೆಯಲ್ಲ.</value>
+  </data>
+  <data name="EvidenceVaultPage_AddIncidentToTimeline.Content" xml:space="preserve">
+    <value>ಘಟನೆಯನ್ನು ಕಾಲರೇಖೆಗೆ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="EvidenceVaultPage_AddTimelineEvent.Content" xml:space="preserve">
+    <value>ಕಾಲರೇಖೆ ಕಾರ್ಯಕ್ರಮ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="EvidenceVaultPage_AttachFileSave.Content" xml:space="preserve">
+    <value>ಫೈಲ್ ಲಗತ್ತಿಸಿ ಮತ್ತು ಉಳಿಸಿ</value>
+  </data>
+  <data name="EvidenceVaultPage_Category.Header" xml:space="preserve">
+    <value>ವರ್ಗ</value>
+  </data>
+  <data name="EvidenceVaultPage_Category_2.Header" xml:space="preserve">
+    <value>ವರ್ಗ</value>
+  </data>
+  <data name="EvidenceVaultPage_CivilRightsIncidentTemplate.Text" xml:space="preserve">
+    <value>ನಾಗರಿಕ ಹಕ್ಕುಗಳ ಘಟನೆ ಟೆಂಪ್ಲೇಟ್</value>
+  </data>
+  <data name="EvidenceVaultPage_ComplaintReportNumbers.Header" xml:space="preserve">
+    <value>ದೂರು / ವರದಿ ಸಂಖ್ಯೆಗಳು</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete.Content" xml:space="preserve">
+    <value>ಅಳಿಸಿ</value>
+  </data>
+  <data name="EvidenceVaultPage_Delete_2.Content" xml:space="preserve">
+    <value>ಅಳಿಸಿ</value>
+  </data>
+  <data name="EvidenceVaultPage_Description.Header" xml:space="preserve">
+    <value>ವಿವರಣೆ</value>
+  </data>
+  <data name="EvidenceVaultPage_Details.Header" xml:space="preserve">
+    <value>ವಿವರಗಳು</value>
+  </data>
+  <data name="EvidenceVaultPage_EventDate.Header" xml:space="preserve">
+    <value>ಕಾರ್ಯಕ್ರಮದ ದಿನಾಂಕ</value>
+  </data>
+  <data name="EvidenceVaultPage_EventTitle.Header" xml:space="preserve">
+    <value>ಕಾರ್ಯಕ್ರಮದ ಶೀರ್ಷಿಕೆ</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceItems.Text" xml:space="preserve">
+    <value>ಸಾಕ್ಷ್ಯ ಅಂಶಗಳು</value>
+  </data>
+  <data name="EvidenceVaultPage_EvidenceVault.Text" xml:space="preserve">
+    <value>ಸಾಕ್ಷ್ಯ ಖಜಾನೆ</value>
+  </data>
+  <data name="EvidenceVaultPage_ExportEvidencePacketPDF.Content" xml:space="preserve">
+    <value>ಸಾಕ್ಷ್ಯ ಪ್ಯಾಕೇಜ್ ರಫ್ತು ಮಾಡಿ (PDF)</value>
+  </data>
+  <data name="EvidenceVaultPage_IncidentDate.Header" xml:space="preserve">
+    <value>ಘಟನೆಯ ದಿನಾಂಕ</value>
+  </data>
+  <data name="EvidenceVaultPage_Location.Header" xml:space="preserve">
+    <value>ಸ್ಥಳ</value>
+  </data>
+  <data name="EvidenceVaultPage_OfficersInvolvedNamesBadgeNu.Header" xml:space="preserve">
+    <value>ಭಾಗಿಯಾದ ಅಧಿಕಾರಿಗಳು (ಹೆಸರುಗಳು / ಬ್ಯಾಡ್ಜ್ ಸಂಖ್ಯೆಗಳು)</value>
+  </data>
+  <data name="EvidenceVaultPage_SummarizeMyTimelineAI.Content" xml:space="preserve">
+    <value>ನನ್ನ ಕಾಲರೇಖೆ ಸಾರಾಂಶ ನೀಡಿ (AI)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSortedByDate.Text" xml:space="preserve">
+    <value>ಕಾಲರೇಖೆ (ದಿನಾಂಕದಂತೆ ವಿಂಗಡಿಸಲಾಗಿದೆ)</value>
+  </data>
+  <data name="EvidenceVaultPage_TimelineSummaryOnDeviceAI.Text" xml:space="preserve">
+    <value>ಕಾಲರೇಖೆ ಸಾರಾಂಶ (ಸಾಧನದಲ್ಲಿ AI)</value>
+  </data>
+  <data name="EvidenceVaultPage_Title.Header" xml:space="preserve">
+    <value>ಶೀರ್ಷಿಕೆ</value>
+  </data>
+  <data name="EvidenceVaultPage_WitnessesNamesContactInfo.Header" xml:space="preserve">
+    <value>ಸಾಕ್ಷಿಗಳು (ಹೆಸರುಗಳು / ಸಂಪರ್ಕ ಮಾಹಿತಿ)</value>
+  </data>
+  <data name="FederalMattersPage_FederalMatters.Text" xml:space="preserve">
+    <value>ಫೆಡರಲ್ ವಿಷಯಗಳು</value>
+  </data>
+  <data name="FederalMattersPage_OpenThe94DistrictCourt.Content" xml:space="preserve">
+    <value>94-ಜಿಲ್ಲಾ ನ್ಯಾಯಾಲಯ ಶೋಧಕ ತೆರೆಯಿರಿ</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>ಪುಟ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>ತೆರವುಗೊಳಿಸಿ</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಶಾಯಿ ಕ್ಯಾನ್ವಾಸ್ ತೆರವುಗೊಳಿಸಿ</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>ಪುಟವನ್ನು ಅಳಿಸಿ</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಶಾಯಿ ಕ್ಯಾನ್ವಾಸ್. ಇಲ್ಲಿ ಪೆನ್, ಸ್ಟೈಲಸ್, ಬೆರಳು ಅಥವಾ ಮೌಸ್‌ನಿಂದ ಬರೆಯಿರಿ.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>ಶಾಯಿ ಪುಟಗಳು</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಶಾಯಿ ಪುಟಗಳು</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಶಾಯಿ ಟೂಲ್‌ಬಾರ್. ಪೆನ್, ಪೆನ್ಸಿಲ್, ಹೈಲೈಟರ್ ಅಥವಾ ಅಳಿಸುವ ಸಾಧನ ಆಯ್ಕೆಮಾಡಿ.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>ಹೊಸ ಪುಟದ ಹೆಸರು</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>ಸಭೆ ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>ಮತ್ತೆ ಮಾಡಿ</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಸ್ಟ್ರೋಕ್ ಮತ್ತೆ ಮಾಡಿ</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>ಉಳಿಸಿ</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಶಾಯಿ ಪುಟ ಉಳಿಸಿ</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>ರದ್ದುಮಾಡಿ</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ಕೊನೆಯ ಸ್ಟ್ರೋಕ್ ರದ್ದುಮಾಡಿ</value>
+  </data>
+  <data name="InkNotesPage_InkNotes.Text" xml:space="preserve">
+    <value>ಶಾಯಿ ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="LetterBuilderPage_AccountNumber.Header" xml:space="preserve">
+    <value>ಖಾತೆ ಸಂಖ್ಯೆ</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauAddre.Header" xml:space="preserve">
+    <value>ವಸೂಲಿದಾರ / ಸಾಲದಾತ / ಬ್ಯೂರೋ ವಿಳಾಸ</value>
+  </data>
+  <data name="LetterBuilderPage_CollectorCreditorBureauName.Header" xml:space="preserve">
+    <value>ವಸೂಲಿದಾರ / ಸಾಲದಾತ / ಬ್ಯೂರೋ ಹೆಸರು</value>
+  </data>
+  <data name="LetterBuilderPage_Copy.Content" xml:space="preserve">
+    <value>ನಕಲಿಸಿ</value>
+  </data>
+  <data name="LetterBuilderPage_ExportPDF.Content" xml:space="preserve">
+    <value>PDF ರಫ್ತು ಮಾಡಿ</value>
+  </data>
+  <data name="LetterBuilderPage_GenerateLetter.Content" xml:space="preserve">
+    <value>ಪತ್ರ ರಚಿಸಿ</value>
+  </data>
+  <data name="LetterBuilderPage_LetterBuilder.Text" xml:space="preserve">
+    <value>ಪತ್ರ ನಿರ್ಮಾಪಕ</value>
+  </data>
+  <data name="LetterBuilderPage_Preview.Text" xml:space="preserve">
+    <value>ಮುನ್ನೋಟ</value>
+  </data>
+  <data name="LetterBuilderPage_SaveAsTXT.Content" xml:space="preserve">
+    <value>TXT ಆಗಿ ಉಳಿಸಿ</value>
+  </data>
+  <data name="LetterBuilderPage_Template.Header" xml:space="preserve">
+    <value>ಟೆಂಪ್ಲೇಟ್</value>
+  </data>
+  <data name="LetterBuilderPage_YourAddress.Header" xml:space="preserve">
+    <value>ನಿಮ್ಮ ವಿಳಾಸ</value>
+  </data>
+  <data name="LetterBuilderPage_YourName.Header" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಹೆಸರು</value>
+  </data>
+  <data name="MainWindow_About.Content" xml:space="preserve">
+    <value>ಬಗ್ಗೆ</value>
+  </data>
+  <data name="MainWindow_Bankruptcy.Content" xml:space="preserve">
+    <value>ದಿವಾಳಿತನ</value>
+  </data>
+  <data name="MainWindow_CaseBuilder.Content" xml:space="preserve">
+    <value>ಪ್ರಕರಣ ನಿರ್ಮಾಪಕ</value>
+  </data>
+  <data name="MainWindow_CivilRights.Content" xml:space="preserve">
+    <value>ನಾಗರಿಕ ಹಕ್ಕುಗಳು</value>
+  </data>
+  <data name="MainWindow_CourtFinder.Content" xml:space="preserve">
+    <value>ನ್ಯಾಯಾಲಯ ಶೋಧಕ</value>
+  </data>
+  <data name="MainWindow_CourtGuide.Content" xml:space="preserve">
+    <value>ನ್ಯಾಯಾಲಯ ಮಾರ್ಗದರ್ಶಿ</value>
+  </data>
+  <data name="MainWindow_CriminalCases.Content" xml:space="preserve">
+    <value>ಕ್ರಿಮಿನಲ್ ಪ್ರಕರಣಗಳು</value>
+  </data>
+  <data name="MainWindow_Dashboard.Content" xml:space="preserve">
+    <value>ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</value>
+  </data>
+  <data name="MainWindow_Deadlines.Content" xml:space="preserve">
+    <value>ಗಡುವುಗಳು</value>
+  </data>
+  <data name="MainWindow_EvidenceVault.Content" xml:space="preserve">
+    <value>ಸಾಕ್ಷ್ಯ ಖಜಾನೆ</value>
+  </data>
+  <data name="MainWindow_FederalMatters.Content" xml:space="preserve">
+    <value>ಫೆಡರಲ್ ವಿಷಯಗಳು</value>
+  </data>
+  <data name="MainWindow_InkNotes.Content" xml:space="preserve">
+    <value>ಶಾಯಿ ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="MainWindow_LawsuitWorksheet.Content" xml:space="preserve">
+    <value>ಪ್ರಕರಣ ವರ್ಕ್‌ಶೀಟ್</value>
+  </data>
+  <data name="MainWindow_LegalMatters.Content" xml:space="preserve">
+    <value>ಕಾನೂನು ವಿಷಯಗಳು</value>
+  </data>
+  <data name="MainWindow_LetterBuilder.Content" xml:space="preserve">
+    <value>ಪತ್ರ ನಿರ್ಮಾಪಕ</value>
+  </data>
+  <data name="MainWindow_TrafficTickets.Content" xml:space="preserve">
+    <value>ಟ್ರಾಫಿಕ್ ಟಿಕೆಟ್‌ಗಳು</value>
+  </data>
+  <data name="MainWindow_ViolationSpotter.Content" xml:space="preserve">
+    <value>ಉಲ್ಲಂಘನೆ ಪತ್ತೆಕಾರ</value>
+  </data>
+  <data name="ProSeResourcesPage_ChooseAFederalDistrict.PlaceholderText" xml:space="preserve">
+    <value>ಫೆಡರಲ್ ಜಿಲ್ಲೆ ಆಯ್ಕೆಮಾಡಿ…</value>
+  </data>
+  <data name="ProSeResourcesPage_FindYourCourtSWebsite.Text" xml:space="preserve">
+    <value>ನಿಮ್ಮ ನ್ಯಾಯಾಲಯದ ವೆಬ್‌ಸೈಟ್ ಹುಡುಕಿ</value>
+  </data>
+  <data name="ProSeResourcesPage_OpenTheSelectedCourtS.Content" xml:space="preserve">
+    <value>ಆಯ್ದ ನ್ಯಾಯಾಲಯದ ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್ ತೆರೆಯಿರಿ</value>
+  </data>
+  <data name="ProSeResourcesPage_ProSeResources.Text" xml:space="preserve">
+    <value>Pro Se ಸಂಪನ್ಮೂಲಗಳು</value>
+  </data>
+  <data name="ProSeResourcesPage_UscourtsGovCourtLocator.Content" xml:space="preserve">
+    <value>uscourts.gov ನ್ಯಾಯಾಲಯ ಶೋಧಕ</value>
+  </data>
+  <data name="TrafficTicketsPage_TrafficTickets.Text" xml:space="preserve">
+    <value>ಟ್ರಾಫಿಕ್ ಟಿಕೆಟ್‌ಗಳು</value>
+  </data>
+  <data name="ViolationSpotterPage_AddedFeesINeverAgreed.Content" xml:space="preserve">
+    <value>ನಾನು ಎಂದಿಗೂ ಒಪ್ಪದ ಶುಲ್ಕಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="ViolationSpotterPage_Analyze.Content" xml:space="preserve">
+    <value>ವಿಶ್ಲೇಷಿಸಿ</value>
+  </data>
+  <data name="ViolationSpotterPage_CallsBefore800A.Content" xml:space="preserve">
+    <value>ನನ್ನ ಸಮಯದಂತೆ ಬೆಳಿಗ್ಗೆ 8:00 ಕ್ಕಿಂತ ಮೊದಲು ಅಥವಾ ರಾತ್ರಿ 9:00 ನಂತರ ಕರೆಗಳು</value>
+  </data>
+  <data name="ViolationSpotterPage_ContactedMyEmployerOrFamily.Content" xml:space="preserve">
+    <value>ಸಾಲದ ಬಗ್ಗೆ ನನ್ನ ಉದ್ಯೋಗದಾತ ಅಥವಾ ಕುಟುಂಬವನ್ನು ಸಂಪರ್ಕಿಸಿದರು</value>
+  </data>
+  <data name="ViolationSpotterPage_ContinuedCollectionAfterIDis.Content" xml:space="preserve">
+    <value>ನಾನು ಲಿಖಿತವಾಗಿ ಆಕ್ಷೇಪಿಸಿದ ನಂತರವೂ ವಸೂಲಿ ಮುಂದುವರಿಸಿದರು</value>
+  </data>
+  <data name="ViolationSpotterPage_FalseOrInflatedAmountsWrong.Content" xml:space="preserve">
+    <value>ಸುಳ್ಳು ಅಥವಾ ಉಬ್ಬಿಸಿದ ಮೊತ್ತಗಳು (ತಪ್ಪು ಬಾಕಿ, ಸಾಲ ನನ್ನದಲ್ಲ)</value>
+  </data>
+  <data name="ViolationSpotterPage_NeverSentTheRequiredWritten.Content" xml:space="preserve">
+    <value>ಅಗತ್ಯವಿರುವ ಲಿಖಿತ ಮೌಲ್ಯಮಾಪನ ಸೂಚನೆಯನ್ನು ಎಂದಿಗೂ ಕಳುಹಿಸಲಿಲ್ಲ</value>
+  </data>
+  <data name="ViolationSpotterPage_ThreatsOfArrestViolenceOr.Content" xml:space="preserve">
+    <value>ಬಂಧನ, ಹಿಂಸೆ ಅಥವಾ ಹಾನಿಯ ಬೆದರಿಕೆಗಳು</value>
+  </data>
+  <data name="ViolationSpotterPage_ViolationSpotter.Text" xml:space="preserve">
+    <value>ಉಲ್ಲಂಘನೆ ಪತ್ತೆಕಾರ</value>
+  </data>
+  <data name="WorksheetPage_AddTimelineRow.Content" xml:space="preserve">
+    <value>ಕಾಲರೇಖೆ ಸಾಲು ಸೇರಿಸಿ</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.Header" xml:space="preserve">
+    <value>ಕೋರಿದ ಮೊತ್ತ</value>
+  </data>
+  <data name="WorksheetPage_AmountSought.PlaceholderText" xml:space="preserve">
+    <value>ಉದಾ. 2,500.00</value>
+  </data>
+  <data name="WorksheetPage_Date.Header" xml:space="preserve">
+    <value>ದಿನಾಂಕ</value>
+  </data>
+  <data name="WorksheetPage_Date.PlaceholderText" xml:space="preserve">
+    <value>2026-01-15</value>
+  </data>
+  <data name="WorksheetPage_DefendantAddress.Header" xml:space="preserve">
+    <value>ಪ್ರತಿವಾದಿಯ ವಿಳಾಸ</value>
+  </data>
+  <data name="WorksheetPage_DefendantName.Header" xml:space="preserve">
+    <value>ಪ್ರತಿವಾದಿಯ ಹೆಸರು</value>
+  </data>
+  <data name="WorksheetPage_ExportWorksheetPDF.Content" xml:space="preserve">
+    <value>ವರ್ಕ್‌ಶೀಟ್ PDF ರಫ್ತು ಮಾಡಿ</value>
+  </data>
+  <data name="WorksheetPage_FactsTimeline.Text" xml:space="preserve">
+    <value>ಸತ್ಯಗಳ ಕಾಲರೇಖೆ</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintChecklist.Header" xml:space="preserve">
+    <value>ಫೆಡರಲ್ ದೂರು ಪರಿಶೀಲನಾ ಪಟ್ಟಿ</value>
+  </data>
+  <data name="WorksheetPage_FederalComplaintEducationalC.Text" xml:space="preserve">
+    <value>ಫೆಡರಲ್ ದೂರು — ಶೈಕ್ಷಣಿಕ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffAddress.Header" xml:space="preserve">
+    <value>ವಾದಿಯ ವಿಳಾಸ</value>
+  </data>
+  <data name="WorksheetPage_PlaintiffNameYou.Header" xml:space="preserve">
+    <value>ವಾದಿಯ ಹೆಸರು (ನೀವು)</value>
+  </data>
+  <data name="WorksheetPage_Remove.Content" xml:space="preserve">
+    <value>ತೆಗೆದುಹಾಕಿ</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet.Header" xml:space="preserve">
+    <value>ಸಣ್ಣ ಹಕ್ಕು ವರ್ಕ್‌ಶೀಟ್</value>
+  </data>
+  <data name="WorksheetPage_SmallClaimsWorksheet_2.Text" xml:space="preserve">
+    <value>ಸಣ್ಣ ಹಕ್ಕು ವರ್ಕ್‌ಶೀಟ್</value>
+  </data>
+  <data name="WorksheetPage_WhatAPetitionGenerallyInclud.Text" xml:space="preserve">
+    <value>ಅರ್ಜಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಏನಿರುತ್ತದೆ</value>
+  </data>
+  <data name="WorksheetPage_WhatHappened.Header" xml:space="preserve">
+    <value>ಏನಾಯಿತು</value>
+  </data>
+</root>
