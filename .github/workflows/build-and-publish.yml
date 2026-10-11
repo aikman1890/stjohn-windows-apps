@@ -148,7 +148,7 @@ jobs:
       # exists (the exact Publisher CN from Partner Center). Partner Center
       # re-signs on submission, so the unsigned MSIX uploads fine.
       - name: Pack MSIX for Microsoft Store
-        if: ${{ secrets.STORE_PUBLISHER != '' }}
+        if: ${{ env.STORE_PUBLISHER != '' }}
         shell: pwsh
         env:
           STORE_PUBLISHER: ${{ secrets.STORE_PUBLISHER }}
@@ -167,8 +167,10 @@ jobs:
           & $makeappx.FullName pack /d $pub /p "./$app-store.msix" /nv
 
       - name: Upload MSIX
-        if: ${{ secrets.STORE_PUBLISHER != '' }}
+        if: ${{ env.STORE_PUBLISHER != '' }}
         uses: actions/upload-artifact@v4
+        env:
+          STORE_PUBLISHER: ${{ secrets.STORE_PUBLISHER }}
         with:
           name: ${{ matrix.dir }}-store-msix
           path: ./${{ matrix.dir }}-store.msix
