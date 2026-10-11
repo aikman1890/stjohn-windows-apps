@@ -55,7 +55,7 @@
             </NavigationViewItem>
             <NavigationViewItem x:Uid="MainWindow_CriminalCases" Tag="criminalcases">
                 <NavigationViewItem.Icon>
-                    <SymbolIcon Symbol="Protected" />
+                    <SymbolIcon Symbol="Accept" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
             <NavigationViewItem x:Uid="MainWindow_FederalMatters" Tag="federalmatters">
