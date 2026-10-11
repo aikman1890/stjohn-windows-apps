@@ -94,7 +94,14 @@ jobs:
           Write-Host "LicenseSecrets.cs generated."
 
       - name: Publish self-contained EXE
-        run: dotnet publish ${{ matrix.csproj }} -r win-x64 -c Release --self-contained true -o ./publish/${{ matrix.dir }}
+        run: dotnet publish ${{ matrix.csproj }} -r win-x64 -c Release --self-contained true -o ./publish/${{ matrix.dir }} -bl:./${{ matrix.dir }}.binlog
+
+      - name: Upload binlog on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.dir }}-binlog
+          path: ./${{ matrix.dir }}.binlog
 
       # Binary integrity: hash every published file and HMAC-SHA256-sign the
       # manifest. Each app verifies this at startup (Release builds only) and
