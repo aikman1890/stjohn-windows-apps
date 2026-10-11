@@ -9,12 +9,12 @@ namespace Wuse.Converters;
 /// </summary>
 internal static class ThemeHelper
 {
-    internal static bool TryGetThemeColor(string key, out Color color)
+    internal static bool TryGetThemeColor(string key, out Microsoft.UI.Color color)
     {
         color = default;
         try
         {
-            if (Application.Current?.Resources.TryGetValue(key, out var value) == true && value is Color c)
+            if (Application.Current?.Resources.TryGetValue(key, out var value) == true && value is Microsoft.UI.Color c)
             {
                 color = c;
                 return true;

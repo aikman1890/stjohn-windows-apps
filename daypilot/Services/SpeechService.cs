@@ -8,6 +8,17 @@ using Windows.Storage;
 namespace DayPilot.Services;
 
 /// <summary>
+/// Swappable voice-output seam.
+/// </summary>
+public interface IVoiceProvider
+{
+    Task SpeakAsync(string text);
+    void Stop();
+}
+
+
+
+/// <summary>
 /// Outcome of one listening turn.
 /// </summary>
 public sealed class ListenOutcome

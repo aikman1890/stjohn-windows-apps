@@ -28,7 +28,7 @@ public sealed class ClipboardService
         }
     }
 
-    public async Task CopyTextAsync(string text, bool autoClearAfterSeconds = 0)
+    public async Task CopyTextAsync(string text, bool autoClearAfterSeconds = false)
     {
         var package = new DataPackage();
         package.SetText(text ?? string.Empty);

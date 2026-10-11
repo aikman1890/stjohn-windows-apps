@@ -13,7 +13,7 @@ public sealed partial class CourtFinderPage : Page
         InitializeComponent();
     }
 
-    private void SearchBox_TextChanged(object sender, TextBoxTextChangedEventArgs e)
+    private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
     {
         ViewModel.SetSearchText(SearchBox.Text);
     }
