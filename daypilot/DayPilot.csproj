@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
-  </ItemGroup>
-
-  <ItemGroup>
     <!-- Shared offline-licensing code (single source of truth). -->
     <Compile Include="..\Licensing\LicenseCore.cs" Link="Licensing\LicenseCore.cs" />
     <Compile Include="..\Licensing\LicenseSecrets.cs" Link="Licensing\LicenseSecrets.cs" />
