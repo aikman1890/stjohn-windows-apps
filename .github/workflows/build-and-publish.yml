@@ -280,3 +280,32 @@ jobs:
           } else {
             Write-Host 'hashes.json unchanged.'
           }
+
+  release:
+    runs-on: windows-latest
+    needs: build
+    if: ${{ needs.build.result == 'success' }}
+    permissions:
+      contents: write
+    steps:
+      - name: Download all build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: ./release-assets
+          merge-multiple: true
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Release v${{ github.run_number }}
+          body: |
+            St. John Pictures Windows apps — self-contained builds.
+            Download the ZIP, unzip anywhere, double-click to run. No installer or admin needed.
+            The Setup.exe provides a classic installer (silent switch: /SILENT).
+            Verify with CHECKSUMS.txt before installing.
+          files: |
+            release-assets/*.zip
+            release-assets/*-Setup.exe
+            release-assets/*-CHECKSUMS.txt
+          fail_on_unmatched_files: false
