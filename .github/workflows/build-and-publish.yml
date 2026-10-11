@@ -18,7 +18,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
     strategy:
       fail-fast: false
       matrix:
@@ -274,7 +274,7 @@ jobs:
   # GitHub Pages site can show the official SHA-256 under each download.
   # Runs once after the whole matrix succeeds (avoids parallel-push races).
   publish-hashes:
-    runs-on: windows-latest
+    runs-on: windows-2022
     needs: build
     if: ${{ needs.build.result == 'success' }}
     permissions:
@@ -314,7 +314,7 @@ jobs:
           }
 
   release:
-    runs-on: windows-latest
+    runs-on: windows-2022
     needs: build
     if: ${{ needs.build.result == 'success' }}
     permissions:

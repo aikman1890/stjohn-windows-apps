@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.251106002" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260921001" />
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
     <!-- Wave 2: email + calendar + secure token storage -->
     <PackageReference Include="Google.Apis.Gmail.v1" Version="1.68.0" />
