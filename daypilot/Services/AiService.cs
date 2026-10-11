@@ -82,7 +82,7 @@ public sealed partial class AiService : ObservableObject
             return StatusMessage;
         try
         {
-            using var summarizer = new TextSummarizer(_model);
+            var summarizer = new TextSummarizer(_model);
             var result = await summarizer.SummarizeAsync(text);
             return result.Text;
         }
