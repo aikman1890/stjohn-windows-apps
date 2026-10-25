@@ -1,0 +1,30 @@
+<Page
+    x:Class="GalleryPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12">
+            <TextBlock x:Name="TitleText" Text="Dashboard" FontSize="26" FontWeight="SemiBold" />
+            <TextBlock Text="Sorted by clock pressure. Records tool only - GalleryPilot offers no appraisal, authentication, or valuation opinions." Opacity="0.75" TextWrapping="Wrap" />
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Consignment terms" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="ConsignText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Artists owed &amp; loans out" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="MoneyText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Record gaps" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="GapsText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

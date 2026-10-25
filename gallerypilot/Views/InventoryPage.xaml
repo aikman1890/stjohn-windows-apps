@@ -1,0 +1,90 @@
+<Page
+    x:Class="GalleryPilot.Views.InventoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:GalleryPilot.Models">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,16,0">
+            <TextBlock Text="Inventory" FontSize="22" FontWeight="SemiBold" />
+            <ListView x:Name="WorkList" SelectionChanged="WorkList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Artwork">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="NewButton" Content="New work" Click="NewButton_Click" HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Work record" FontSize="19" FontWeight="SemiBold" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="ArtistBox" Grid.Row="0" Grid.Column="0" Header="Artist" Margin="0,0,8,8" />
+                    <TextBox x:Name="TitleBox" Grid.Row="0" Grid.Column="1" Header="Title" Margin="0,0,0,8" />
+                    <TextBox x:Name="YearBox" Grid.Row="1" Grid.Column="0" Header="Year" Margin="0,0,8,8" />
+                    <TextBox x:Name="MediumBox" Grid.Row="1" Grid.Column="1" Header="Medium" Margin="0,0,0,8" />
+                    <TextBox x:Name="DimsBox" Grid.Row="2" Grid.Column="0" Header="Dimensions" Margin="0,0,8,8" />
+                    <TextBox x:Name="EditionBox" Grid.Row="2" Grid.Column="1" Header="Edition (if any)" Margin="0,0,0,8" />
+                    <ComboBox x:Name="LocationBox" Grid.Row="3" Grid.Column="0" Header="Location" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                    <ComboBox x:Name="StatusBox" Grid.Row="3" Grid.Column="1" Header="Status" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                    <TextBox x:Name="PriceBox" Grid.Row="4" Grid.Column="0" Header="Asking price" Margin="0,0,8,8" />
+                    <TextBox x:Name="CurrencyBox" Grid.Row="4" Grid.Column="1" Header="Currency" Margin="0,0,0,8" />
+                </Grid>
+                <ComboBox x:Name="ConsignmentBox" Header="Consignment (whose terms cover this work)" HorizontalAlignment="Stretch" />
+                <TextBox x:Name="ImageBox" Header="Image reference (local path only)" />
+                <TextBox x:Name="NotesBox" Header="Notes" AcceptsReturn="True" TextWrapping="Wrap" Height="48" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save work" Click="SaveButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+
+                <TextBlock Text="Provenance, history &amp; condition (append-only record)" FontSize="16" FontWeight="SemiBold" Margin="0,10,0,0" />
+                <TextBlock Text="Entries are dated and kept as written - a condition report not written at intake becomes an argument at return." Opacity="0.7" TextWrapping="Wrap" />
+                <ListView x:Name="RecordList" SelectionMode="None" MaxHeight="200">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:RecordEntry">
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="KindBox" Grid.Row="0" Grid.Column="0" Header="Entry kind" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                    <ComboBox x:Name="MomentBox" Grid.Row="0" Grid.Column="1" Header="Condition moment (condition entries)" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                    <TextBox x:Name="DetailBox" Grid.Row="1" Grid.Column="0" Header="Detail" Margin="0,0,8,8" />
+                    <TextBox x:Name="PhotoBox" Grid.Row="1" Grid.Column="1" Header="Photo reference (path)" Margin="0,0,0,8" />
+                </Grid>
+                <Button x:Name="AddEntryButton" Content="Add record entry" Click="AddEntryButton_Click" HorizontalAlignment="Left" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

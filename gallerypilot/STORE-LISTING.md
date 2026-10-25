@@ -1,0 +1,11 @@
+# GalleryPilot — Gumroad listing (stub)
+
+**Price:** $29.99/month membership — flat, all artists and works included.
+
+**Tagline:** The records core of gallery software — inventory, provenance, consignment clocks, artist payables — without the $200-a-month suite wrapped around it.
+
+**What it is:** Gallery platforms start at $119–$205 a month and climb to $409, priced on a bundle — website, viewing rooms, marketing email — that a one-to-three-person gallery mostly doesn't use, while the records it cannot afford to get wrong live in a spreadsheet, a shared drive of condition photos, and the owner's memory. GalleryPilot is the core alone: artwork inventory with location and status; append-only provenance, exhibition, and condition records (a condition report not written at intake becomes an argument at return — here it's a dated entry with a photo reference); a consignment ledger whose term-end clocks turn orange at 30 days and red at lapse, because a lapsed term means you're storing and insuring work you may no longer have the right to sell; a sales ledger that snapshots the split at sale time and computes the artist's share — never typed, so it can't be wrong in the gallery's favor by accident — with a payment-due clock per payable and a one-screen view of every artist currently owed and for how long; exhibitions and outgoing loans that cannot be marked closed until both condition entries (out and in) exist; a collector book with interests and viewing/purchase history; and per-consignor statements exported instead of assembled — the document that ends "what do you owe me?" phone calls. Seeded with a fictional sample gallery: four works, one consignment ending in 12 days, one unpaid artist payable due in 5, and one museum loan out.
+
+**What it is not — stated plainly:** no website, no online viewing rooms, no e-commerce, no marketing email or campaigns, no payments, no accounting integration — and no valuation, appraisal, or authentication opinions: it records provenance as you enter it and certifies nothing.
+
+**Private by design:** collector identities and prices are the gallery's crown jewels, and they never leave the building — local JSON, no account, no cloud, no telemetry, fully offline in 100 languages.
