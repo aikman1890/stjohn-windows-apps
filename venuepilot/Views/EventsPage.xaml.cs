@@ -121,7 +121,7 @@ public sealed partial class EventsPage : Page
         item.Email = EmailBox.Text.Trim();
         item.Space = SpacePicker.SelectedItem as string ?? string.Empty;
         item.EventType = TypeCombo.Text.Trim();
-        item.EventDate = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.EventDate = DatePickerCtl.Date;
         item.Status = StatusCombo.SelectedItem as string ?? "Inquiry";
         item.HoldExpiry = item.Status == "Hold" ? HoldPicker.Date : null;
         item.PackageName = PackagePicker.SelectedItem as string ?? string.Empty;

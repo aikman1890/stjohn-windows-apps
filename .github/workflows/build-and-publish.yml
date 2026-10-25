@@ -41,6 +41,7 @@ on:
       - 'wheelpilot/**'
       - 'entitypilot/**'
       - 'yachtpilot/**'
+      - 'charterpilot/**'
       - 'farewellpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
@@ -180,6 +181,10 @@ jobs:
             csproj: yachtpilot/YachtPilot.csproj
             entrypoint: YachtPilot.App
             exename: YachtPilot
+          - dir: charterpilot
+            csproj: charterpilot/CharterPilot.csproj
+            entrypoint: CharterPilot.App
+            exename: CharterPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4

@@ -67,7 +67,7 @@ public sealed partial class BurialsPage : Page
         item.DecedentName = NameBox.Text.Trim();
         item.BirthDate = BirthCheck.IsChecked == true ? BirthPicker.Date : null;
         item.DeathDate = DeathCheck.IsChecked == true ? DeathPicker.Date : null;
-        item.IntermentDate = InterPicker.Date ?? DateTimeOffset.Now;
+        item.IntermentDate = InterPicker.Date;
         item.FuneralHome = FuneralBox.Text.Trim();
         item.MarkerNotes = MarkerBox.Text.Trim();
         item.Veteran = VeteranCheck.IsChecked == true;

@@ -45,7 +45,7 @@ public sealed partial class WorkLogPage : Page
     private async void SaveButton_Click(object sender, RoutedEventArgs e)
     {
         var item = _selected ?? new WorkLogEntry();
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         item.Kind = KindCombo.SelectedItem as string ?? "Other";
         item.SpaceLabel = SpaceBox.Text.Trim();
         item.Note = NoteBox.Text.Trim();

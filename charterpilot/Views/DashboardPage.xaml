@@ -1,0 +1,24 @@
+<Page
+    x:Class="CharterPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12">
+            <TextBlock x:Name="TitleText" Text="Dashboard" FontSize="26" FontWeight="SemiBold" />
+            <TextBlock Text="Sorted by what expires first. In this business the money is lost in the follow-up, not the flying. Records and reminders only - flight operations and safety remain the operator's responsibility." Opacity="0.75" TextWrapping="Wrap" />
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Follow-ups that will die today" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="FollowText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Trips &amp; money" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="TripsText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

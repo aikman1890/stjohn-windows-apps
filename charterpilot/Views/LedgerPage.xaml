@@ -1,0 +1,44 @@
+<Page
+    x:Class="CharterPilot.Views.LedgerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Margin ledger &amp; lost-quote register" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Margins are computed from the records, never typed - the ledger cannot disagree with itself. The lost register shows your real loss pattern instead of your impression of it." Opacity="0.7" TextWrapping="Wrap" />
+            <TextBlock Text="Margin by client (completed trips)" FontSize="17" FontWeight="SemiBold" Margin="0,6,0,0" />
+            <ListView x:Name="ClientList" SelectionMode="None" MaxHeight="170">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Margin by operator" FontSize="17" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <ListView x:Name="OperatorList" SelectionMode="None" MaxHeight="150">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Margin by month" FontSize="17" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <ListView x:Name="MonthList" SelectionMode="None" MaxHeight="150">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Lost &amp; expired quotes, by reason" FontSize="17" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="LostList" SelectionMode="None" MaxHeight="220">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

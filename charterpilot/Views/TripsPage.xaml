@@ -1,0 +1,65 @@
+<Page
+    x:Class="CharterPilot.Views.TripsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:CharterPilot.Models">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="470" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,16,0">
+            <TextBlock Text="Trip files" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="A trip is not called ready while any checklist item is unlogged. No exceptions, no vibes." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="TripList" SelectionChanged="TripList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:TripFile">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Trip file" FontSize="19" FontWeight="SemiBold" />
+                <TextBlock x:Name="ReadyText" FontWeight="SemiBold" TextWrapping="Wrap" />
+                <TextBlock x:Name="RouteText" Opacity="0.85" TextWrapping="Wrap" />
+                <TextBlock Text="Document &amp; readiness checklist" FontWeight="SemiBold" Margin="0,6,0,0" />
+                <CheckBox x:Name="AgreementCheck" Content="Signed charter agreement" />
+                <CheckBox x:Name="OperatorCheck" Content="Operator confirmation received" />
+                <CheckBox x:Name="PaxCheck" Content="Passenger list received" />
+                <CheckBox x:Name="CateringCheck" Content="Catering ordered" />
+                <CheckBox x:Name="GroundCheck" Content="Ground transport booked" />
+                <CheckBox x:Name="PaymentCheck" Content="Payment received" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="PriceBox" Grid.Row="0" Grid.Column="0" Header="Final price" Margin="0,0,8,8" />
+                    <TextBox x:Name="CostBox" Grid.Row="0" Grid.Column="1" Header="Final operator cost" Margin="0,0,0,8" />
+                    <TextBox x:Name="OtherBox" Grid.Row="1" Grid.Column="0" Header="Other costs" Margin="0,0,8,8" />
+                    <TextBox x:Name="CurrencyBox" Grid.Row="1" Grid.Column="1" Header="Currency" Margin="0,0,0,8" />
+                </Grid>
+                <TextBlock x:Name="MarginText" FontWeight="SemiBold" />
+                <TextBox x:Name="NotesBox" Header="Notes" AcceptsReturn="True" TextWrapping="Wrap" Height="52" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save trip file" Click="SaveButton_Click" />
+                    <Button x:Name="ExportButton" Content="Export trip summary (HTML)" Click="ExportButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="StatusText" Opacity="0.8" TextWrapping="Wrap" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
