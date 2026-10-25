@@ -1,0 +1,11 @@
+# WellPilot — Gumroad listing (stub)
+
+**Price:** $19.99/month membership
+
+**Tagline:** The micro-operator's monthly close — decks, JIB, and revenue distribution with math that shows its work — on your own machine, at a tenth of the industry floor.
+
+**What it is:** QuickBooks can't do joint-interest billing, revenue distribution, or division orders, so 1–30-well operators rent industry suites at an estimated $200–$1,200 a month or build spreadsheets that break every month-end. WellPilot is the layer between: well and lease files; interest decks per well with 8-decimal precision and plain-language validation when a deck doesn't sum to 1.00000000; deck changes that are dated and versioned — never edited in place — so last month's distribution is always reproducible from last month's deck; monthly production and revenue entry from purchaser statements; an expense book by LOE category; a distribution engine that credits revenue by deck decimal and allocates expenses across working-interest owners pro-rata to their WI share, with half-even rounding and the remainder rule (largest interest absorbs it) printed on every statement; per-owner JIB and distribution statements and a full close packet (production, expenses, the exact deck snapshot used, every line) that reproduces the month exactly; suspense tracking with your own reason notes, where a held balance never silently disappears; an owner ledger across every property; and a user-maintained compliance calendar with the line's countdown colors. Seeded with a fictional sample operator — 3 wells, 6 owners, one complete month with a finished distribution run — so you can watch a full close before entering a real deck.
+
+**What it is not:** no general ledger or double-entry accounting (QuickBooks stays your books; WellPilot does the industry layer it can't), no e-filing or portal integration, no price feeds, no AFE or decline-curve engineering, and no tax advice — severance figures are entered by you from statements and must be verified against current state requirements. What it promises is reproducible, documented math: your decks, your machine.
+
+**Private by design:** local JSON storage on your PC. Ownership data — who owns what share of which well — never leaves your office. No account, no cloud, no telemetry, works fully offline in 100 languages.

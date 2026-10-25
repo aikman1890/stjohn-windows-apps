@@ -1,0 +1,39 @@
+<Page
+    x:Class="WellPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="WellPilot" FontSize="28" FontWeight="SemiBold" />
+            <TextBlock x:Name="OperatorText" Opacity="0.8" TextWrapping="Wrap" />
+            <Grid Margin="0,8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="16" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Wells &amp; last close" FontWeight="SemiBold" Opacity="0.75" />
+                        <TextBlock x:Name="WellText" FontSize="15" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Owners &amp; suspense" FontWeight="SemiBold" Opacity="0.75" />
+                        <TextBlock x:Name="OwnerText" FontSize="15" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+            <TextBlock Text="Compliance dates coming up" FontSize="18" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="DueList" SelectionMode="None" MaxHeight="220">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding DisplayLine}" Foreground="{Binding DueBrush}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

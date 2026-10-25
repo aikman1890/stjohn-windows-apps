@@ -33,6 +33,7 @@ on:
       - 'agreementpilot/**'
       - 'movepilot/**'
       - 'shoppilot/**'
+      - 'wellpilot/**'
       - 'farewellpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
