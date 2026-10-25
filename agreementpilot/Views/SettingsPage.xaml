@@ -1,0 +1,23 @@
+<Page
+    x:Class="AgreementPilot.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10" MaxWidth="640" HorizontalAlignment="Left">
+            <TextBlock Text="Settings" FontSize="24" FontWeight="SemiBold" />
+            <TextBox x:Name="ShopBox" Header="Shop name (prints on renewal packets)" />
+            <TextBox x:Name="AddressBox" Header="Shop address" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+            <TextBox x:Name="PhoneBox" Header="Shop phone" />
+            <TextBox x:Name="OrangeBox" Header="Renewal turns orange within this many days (renewals need 30/60/90 horizons)" />
+            <TextBox x:Name="WatchBox" Header="Replacement watch age (years - a unit this old or older is flagged)" />
+            <TextBlock Text="Plan names (one per line)" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <TextBox x:Name="PlansBox" AcceptsReturn="True" TextWrapping="Wrap" Height="70" />
+            <TextBlock Text="Equipment types (one per line)" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <TextBox x:Name="TypesBox" AcceptsReturn="True" TextWrapping="Wrap" Height="90" />
+            <Button x:Name="SaveButton" Content="Save settings" Click="SaveButton_Click" HorizontalAlignment="Left" />
+            <TextBlock x:Name="SavedText" Opacity="0.75" />
+            <TextBlock Text="Everything is stored locally in this app's folder - no account, no cloud, no telemetry." Opacity="0.6" TextWrapping="Wrap" Margin="0,12,0,0" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

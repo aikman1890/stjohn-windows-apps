@@ -1,0 +1,36 @@
+<Page
+    x:Class="AgreementPilot.Views.TuneUpsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Tune-ups owed" FontSize="24" FontWeight="SemiBold" />
+            <TextBlock Text="Visits owed under active agreements, grouped by the season of the renewal date - the slow-season call list builds itself. Spring (Mar-May) is the cooling window and fall (Sep-Nov) the heating window." Opacity="0.8" TextWrapping="Wrap" />
+            <TextBlock Text="Spring - cooling tune-ups" FontSize="17" FontWeight="SemiBold" Margin="0,10,0,0" />
+            <ListView x:Name="SpringList" SelectionMode="None" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Fall - heating tune-ups" FontSize="17" FontWeight="SemiBold" Margin="0,10,0,0" />
+            <ListView x:Name="FallList" SelectionMode="None" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Other seasons" FontSize="17" FontWeight="SemiBold" Margin="0,10,0,0" />
+            <ListView x:Name="OtherList" SelectionMode="None" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

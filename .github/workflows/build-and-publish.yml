@@ -30,6 +30,8 @@ on:
       - 'lienpilot/**'
       - 'remodelpilot/**'
       - 'farewellpilot/**'
+      - 'agreementpilot/**'
+      - 'farewellpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
