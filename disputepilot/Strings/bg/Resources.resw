@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="BriefingPage_DueToday.Text" xml:space="preserve">
+    <value>Днес изтича</value>
+  </data>
+  <data name="BriefingPage_Notes.Text" xml:space="preserve">
+    <value>Бележки</value>
+  </data>
+  <data name="BriefingPage_Overdue.Text" xml:space="preserve">
+    <value>Просрочено</value>
+  </data>
+  <data name="BriefingPage_Refresh.Content" xml:space="preserve">
+    <value>Опресняване</value>
+  </data>
+  <data name="BriefingPage_TodaySBriefing.Text" xml:space="preserve">
+    <value>Днешният брифинг</value>
+  </data>
+  <data name="BriefingPage_UpcomingReminders.Text" xml:space="preserve">
+    <value>Предстоящи напомняния</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Добавяне на страница</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Изчистване</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изчистване на мастиленото платно</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Изтриване на страница</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Мастилено платно. Рисувайте тук с писалка, стилус, пръст или мишка.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>Мастилени страници</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Мастилени страници</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Лента с мастилени инструменти. Изберете писалка, молив, маркер или гума.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Име на нова страница</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Бележки от среща</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Повтори</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Повтори щрих</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Запазване</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Запазване на мастилена страница</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Отмяна</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Отмяна на последния щрих</value>
+  </data>
+  <data name="MainWindow_BriefingNavItem.Content" xml:space="preserve">
+    <value>Брифинг</value>
+  </data>
+  <data name="MainWindow_DayPilot.Title" xml:space="preserve">
+    <value>DayPilot</value>
+  </data>
+  <data name="MainWindow_NotesNavItem.Content" xml:space="preserve">
+    <value>Бележки</value>
+  </data>
+  <data name="MainWindow_RemindersNavItem.Content" xml:space="preserve">
+    <value>Напомняния</value>
+  </data>
+  <data name="MainWindow_SettingsNavItem.Content" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="NotesPage_AIWorking.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>AI работи</value>
+  </data>
+  <data name="NotesPage_BodyBox.Header" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="NotesPage_BodyBox.PlaceholderText" xml:space="preserve">
+    <value>Напишете бележката си тук...</value>
+  </data>
+  <data name="NotesPage_Delete.Content" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="NotesPage_ExtractActionItems.Content" xml:space="preserve">
+    <value>Извличане на задачи</value>
+  </data>
+  <data name="NotesPage_InkNotes.Header" xml:space="preserve">
+    <value>Мастилени бележки</value>
+  </data>
+  <data name="NotesPage_NewNote.Content" xml:space="preserve">
+    <value>Нова бележка</value>
+  </data>
+  <data name="NotesPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>AI на устройството</value>
+  </data>
+  <data name="NotesPage_Rewrite.Content" xml:space="preserve">
+    <value>Пренаписване</value>
+  </data>
+  <data name="NotesPage_Save.Content" xml:space="preserve">
+    <value>Запазване</value>
+  </data>
+  <data name="NotesPage_Summarize.Content" xml:space="preserve">
+    <value>Обобщаване</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.Header" xml:space="preserve">
+    <value>Етикети (разделени със запетая)</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.PlaceholderText" xml:space="preserve">
+    <value>работа, идеи</value>
+  </data>
+  <data name="NotesPage_TextNotes.Header" xml:space="preserve">
+    <value>Текстови бележки</value>
+  </data>
+  <data name="NotesPage_TitleBox.Header" xml:space="preserve">
+    <value>Заглавие</value>
+  </data>
+  <data name="NotesPage_TitleBox.PlaceholderText" xml:space="preserve">
+    <value>Заглавие на бележката</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.Header" xml:space="preserve">
+    <value>Добавяне на напомняне с прости думи</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.PlaceholderText" xml:space="preserve">
+    <value>напомни ми да се обадя на мама утре в 15:00</value>
+  </data>
+  <data name="RemindersPage_AddReminder.Content" xml:space="preserve">
+    <value>Добавяне на напомняне</value>
+  </data>
+  <data name="RemindersPage_Delete.Content" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="RemindersPage_MarkReminderAsDone.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Маркиране на напомнянето като завършено</value>
+  </data>
+  <data name="RemindersPage_Reminders.Text" xml:space="preserve">
+    <value>Напомняния</value>
+  </data>
+  <data name="SettingsPage_About.Text" xml:space="preserve">
+    <value>Относно</value>
+  </data>
+  <data name="SettingsPage_CheckAgain.Content" xml:space="preserve">
+    <value>Провери отново</value>
+  </data>
+  <data name="SettingsPage_GlobalHotkey.Text" xml:space="preserve">
+    <value>Глобална бърза клавиша</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>AI на устройството</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.Content" xml:space="preserve">
+    <value>Добавяне на задача</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Добавяне на задача</value>
+  </data>
+  <data name="TasksPage_DeleteButton.Content" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="TasksPage_DeleteButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изтриване на задача</value>
+  </data>
+  <data name="TasksPage_DoneCheck.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Маркиране на задачата като завършена</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.Header" xml:space="preserve">
+    <value>Нова задача</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.PlaceholderText" xml:space="preserve">
+    <value>напр. полейте цветята</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Заглавие на нова задача</value>
+  </data>
+  <data name="TasksPage_TaskList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Списък със задачи</value>
+  </data>
+  <data name="TasksPage_Title.Text" xml:space="preserve">
+    <value>Задачи</value>
+  </data>
+</root>

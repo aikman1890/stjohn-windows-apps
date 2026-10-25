@@ -13,6 +13,9 @@ on:
       - 'bizpilot/**'
       - 'wuse/**'
       - 'claimpilot/**'
+      - 'disputepilot/**'
+      - 'jobpilot/**'
+      - 'healthpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -39,6 +42,18 @@ jobs:
             csproj: claimpilot/ClaimPilot.csproj
             entrypoint: ClaimPilot.App
             exename: ClaimPilot
+          - dir: disputepilot
+            csproj: disputepilot/DisputePilot.csproj
+            entrypoint: DisputePilot.App
+            exename: DisputePilot
+          - dir: jobpilot
+            csproj: jobpilot/JobPilot.csproj
+            entrypoint: JobPilot.App
+            exename: JobPilot
+          - dir: healthpilot
+            csproj: healthpilot/HealthPilot.csproj
+            entrypoint: HealthPilot.App
+            exename: HealthPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4

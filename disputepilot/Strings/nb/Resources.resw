@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="BriefingPage_DueToday.Text" xml:space="preserve">
+    <value>Forfaller i dag</value>
+  </data>
+  <data name="BriefingPage_Notes.Text" xml:space="preserve">
+    <value>Notater</value>
+  </data>
+  <data name="BriefingPage_Overdue.Text" xml:space="preserve">
+    <value>Forsinket</value>
+  </data>
+  <data name="BriefingPage_Refresh.Content" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="BriefingPage_TodaySBriefing.Text" xml:space="preserve">
+    <value>Dagens briefing</value>
+  </data>
+  <data name="BriefingPage_UpcomingReminders.Text" xml:space="preserve">
+    <value>Kommende påminnelser</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>Legg til side</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>Tøm</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tøm blekklerret</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>Fjern side</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blekklerret. Tegn med penn, pekepenn, finger eller mus.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>blekksider</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>blekksider</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blekkverktøylinje. Velg penn, blyant, markør eller viskelær.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>Navn på ny side</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>Møtenotater</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>Gjør om</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gjør om strek</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lagre blekkside</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>Angre</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Angre strek</value>
+  </data>
+  <data name="MainWindow_BriefingNavItem.Content" xml:space="preserve">
+    <value>Briefing</value>
+  </data>
+  <data name="MainWindow_DayPilot.Title" xml:space="preserve">
+    <value>DayPilot</value>
+  </data>
+  <data name="MainWindow_NotesNavItem.Content" xml:space="preserve">
+    <value>Notater</value>
+  </data>
+  <data name="MainWindow_RemindersNavItem.Content" xml:space="preserve">
+    <value>Påminnelser</value>
+  </data>
+  <data name="MainWindow_SettingsNavItem.Content" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="NotesPage_AIWorking.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>AI fungerer</value>
+  </data>
+  <data name="NotesPage_BodyBox.Header" xml:space="preserve">
+    <value>Brødtekst</value>
+  </data>
+  <data name="NotesPage_BodyBox.PlaceholderText" xml:space="preserve">
+    <value>Skriv notatet ditt her...</value>
+  </data>
+  <data name="NotesPage_Delete.Content" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="NotesPage_ExtractActionItems.Content" xml:space="preserve">
+    <value>Trekk ut handlingspunkter</value>
+  </data>
+  <data name="NotesPage_InkNotes.Header" xml:space="preserve">
+    <value>blekknotater</value>
+  </data>
+  <data name="NotesPage_NewNote.Content" xml:space="preserve">
+    <value>Nytt notat</value>
+  </data>
+  <data name="NotesPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>AI på enheten</value>
+  </data>
+  <data name="NotesPage_Rewrite.Content" xml:space="preserve">
+    <value>Skriv om</value>
+  </data>
+  <data name="NotesPage_Save.Content" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="NotesPage_Summarize.Content" xml:space="preserve">
+    <value>Oppsummer</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.Header" xml:space="preserve">
+    <value>Tagger (kommaseparert)</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.PlaceholderText" xml:space="preserve">
+    <value>arbeid, ideer</value>
+  </data>
+  <data name="NotesPage_TextNotes.Header" xml:space="preserve">
+    <value>Tekstnotater</value>
+  </data>
+  <data name="NotesPage_TitleBox.Header" xml:space="preserve">
+    <value>Tittel</value>
+  </data>
+  <data name="NotesPage_TitleBox.PlaceholderText" xml:space="preserve">
+    <value>Notattittel</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.Header" xml:space="preserve">
+    <value>Legg til påminnelse med naturlig språk</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.PlaceholderText" xml:space="preserve">
+    <value>remind me to call Mom tomorrow at 3pm</value>
+  </data>
+  <data name="RemindersPage_AddReminder.Content" xml:space="preserve">
+    <value>Legg til påminnelse</value>
+  </data>
+  <data name="RemindersPage_Delete.Content" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="RemindersPage_MarkReminderAsDone.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Merk påminnelse som fullført</value>
+  </data>
+  <data name="RemindersPage_Reminders.Text" xml:space="preserve">
+    <value>Påminnelser</value>
+  </data>
+  <data name="SettingsPage_About.Text" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="SettingsPage_CheckAgain.Content" xml:space="preserve">
+    <value>Sjekk igjen</value>
+  </data>
+  <data name="SettingsPage_GlobalHotkey.Text" xml:space="preserve">
+    <value>Global hurtigtast</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>AI på enheten</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.Content" xml:space="preserve">
+    <value>Legg til oppgave</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Legg til oppgave</value>
+  </data>
+  <data name="TasksPage_DeleteButton.Content" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="TasksPage_DeleteButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Slett oppgave</value>
+  </data>
+  <data name="TasksPage_DoneCheck.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Merk oppgave som fullført</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.Header" xml:space="preserve">
+    <value>Ny oppgave</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.PlaceholderText" xml:space="preserve">
+    <value>f.eks. vann blomstene</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tittel på ny oppgave</value>
+  </data>
+  <data name="TasksPage_TaskList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oppgaveliste</value>
+  </data>
+  <data name="TasksPage_Title.Text" xml:space="preserve">
+    <value>Oppgaver</value>
+  </data>
+</root>
