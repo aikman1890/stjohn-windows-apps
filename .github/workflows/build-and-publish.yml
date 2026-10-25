@@ -16,6 +16,12 @@ on:
       - 'disputepilot/**'
       - 'jobpilot/**'
       - 'healthpilot/**'
+      - 'casepilot/**'
+      - 'billpilot/**'
+      - 'clientpilot/**'
+      - 'sretoolbox/**'
+      - 'invoicepilot/**'
+      - 'gamevault/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -54,6 +60,30 @@ jobs:
             csproj: healthpilot/HealthPilot.csproj
             entrypoint: HealthPilot.App
             exename: HealthPilot
+          - dir: casepilot
+            csproj: casepilot/CasePilot.csproj
+            entrypoint: CasePilot.App
+            exename: CasePilot
+          - dir: billpilot
+            csproj: billpilot/BillPilot.csproj
+            entrypoint: BillPilot.App
+            exename: BillPilot
+          - dir: clientpilot
+            csproj: clientpilot/ClientPilot.csproj
+            entrypoint: ClientPilot.App
+            exename: ClientPilot
+          - dir: sretoolbox
+            csproj: sretoolbox/SreToolbox.csproj
+            entrypoint: SreToolbox.App
+            exename: SreToolbox
+          - dir: invoicepilot
+            csproj: invoicepilot/InvoicePilot.csproj
+            entrypoint: InvoicePilot.App
+            exename: InvoicePilot
+          - dir: gamevault
+            csproj: gamevault/GameVault.csproj
+            entrypoint: GameVault.App
+            exename: GameVault
     steps:
       - name: Check out
         uses: actions/checkout@v4
