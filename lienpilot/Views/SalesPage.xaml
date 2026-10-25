@@ -1,0 +1,65 @@
+<Page
+    x:Class="LienPilot.Views.SalesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="380" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" Padding="0,0,12,0">
+                <TextBlock Text="Sale-day worksheet" FontSize="20" FontWeight="SemiBold" />
+                <TextBlock Text="Cleared vs held, straight from the clock engine and the hold flags. A unit is only on the sell list when every required step is logged, the sale date is reached, and no hold stands." TextWrapping="Wrap" Opacity="0.75" FontSize="12" />
+                <TextBlock x:Name="ClearedText" TextWrapping="Wrap" FontWeight="SemiBold" />
+                <TextBlock Text="Record a sale" FontSize="16" FontWeight="SemiBold" Margin="0,8,0,0" />
+                <ComboBox x:Name="UnitPicker" Header="Unit sold" HorizontalAlignment="Stretch" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="PriceBox" Header="Sale price ($)" Width="130" />
+                    <TextBox x:Name="AppliedBox" Header="Applied to claim ($)" Width="150" />
+                </StackPanel>
+                <DatePicker x:Name="ExcessNoticePicker" Header="Excess-proceeds notice sent" />
+                <CheckBox x:Name="ExcessNoticeCheck" Content="Excess notice was sent" />
+                <DatePicker x:Name="ExcessClaimedPicker" Header="Excess claimed by tenant" />
+                <CheckBox x:Name="ExcessClaimedCheck" Content="Excess was claimed" />
+                <TextBox x:Name="NotesBox" Header="Notes" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="RecordButton" Content="Record sale" Click="RecordButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete selected record" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="StatusText" TextWrapping="Wrap" Opacity="0.8" FontSize="12" />
+                <TextBlock Text="Excess proceeds are the tenant's money until your law says otherwise - the log tracks held vs claimed so the question never depends on memory." TextWrapping="Wrap" Opacity="0.7" FontSize="12" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Column="2" Spacing="8">
+            <TextBlock Text="Cleared to sell" FontSize="16" FontWeight="SemiBold" />
+            <ListView x:Name="ClearedList" SelectionMode="None" MaxHeight="180">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Held back" FontSize="16" FontWeight="SemiBold" />
+            <ListView x:Name="HeldList" SelectionMode="None" MaxHeight="180">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Sale &amp; proceeds log" FontSize="16" FontWeight="SemiBold" />
+            <ListView x:Name="SalesList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding DisplayLine}" TextWrapping="Wrap" Padding="4,4" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>

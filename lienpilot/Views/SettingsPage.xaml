@@ -1,0 +1,64 @@
+<Page
+    x:Class="LienPilot.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="420" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" Padding="0,0,12,0">
+                <TextBlock Text="Facility &amp; fees" FontSize="20" FontWeight="SemiBold" />
+                <TextBox x:Name="FacilityBox" Header="Facility name" />
+                <TextBox x:Name="AddressBox" Header="Facility address" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+                <TextBox x:Name="PhoneBox" Header="Phone" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="LateFeeBox" Header="Late fee ($)" Width="100" />
+                    <TextBox x:Name="LienFeeBox" Header="Lien fee ($)" Width="100" />
+                    <TextBox x:Name="SaleFeeBox" Header="Sale fee ($)" Width="100" />
+                    <TextBox x:Name="LockFeeBox" Header="Lock cut ($)" Width="100" />
+                </StackPanel>
+                <Button x:Name="SaveFacilityButton" Content="Save facility &amp; fees" Click="SaveFacilityButton_Click" HorizontalAlignment="Left" />
+
+                <TextBlock Text="State profile" FontSize="20" FontWeight="SemiBold" Margin="0,12,0,0" />
+                <Border Background="#33FFA500" CornerRadius="6" Padding="10">
+                    <TextBlock TextWrapping="Wrap" FontSize="12"
+                               Text="LienPilot ships NO law. Enter your state's steps from your statute (or your counsel's checklist), then confirm. The seeded SAMPLE profile is unconfirmed on purpose - replace its numbers with yours. Dates computed from an unconfirmed profile always say so." />
+                </Border>
+                <TextBox x:Name="ProfileNameBox" Header="Profile name (e.g. Texas - verified 2026)" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="NoticeOffsetBox" Header="Lien notice due (days after default)" Width="190" />
+                    <TextBox x:Name="WaitBox" Header="Wait after notice (days, no-publication path)" Width="210" />
+                </StackPanel>
+                <CheckBox x:Name="PubCheck" Content="Publication / advertisement is required" />
+                <TextBox x:Name="PubDaysBox" Header="Earliest sale (days after FIRST publication)" />
+                <TextBox x:Name="StepsBox" Header="Required steps (one per line - the ledger uses these names)" AcceptsReturn="True" TextWrapping="Wrap" Height="90" />
+                <TextBox x:Name="ProfileNotesBox" Header="Profile notes (statute citation, counsel, date verified)" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+                <CheckBox x:Name="ConfirmCheck" Content="I confirm this profile matches my state's current lien law as I understand it with my counsel" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveProfileButton" Content="Add / Save profile" Click="SaveProfileButton_Click" />
+                    <Button x:Name="DeleteProfileButton" Content="Delete" Click="DeleteProfileButton_Click" />
+                    <Button x:Name="ClearProfileButton" Content="New" Click="ClearProfileButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="StatusText" TextWrapping="Wrap" Opacity="0.8" FontSize="12" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Column="2" Spacing="8">
+            <TextBlock Text="Profiles (tap to edit; the ACTIVE one drives every clock)" FontSize="16" FontWeight="SemiBold" />
+            <ListView x:Name="ProfilesList" SelectionChanged="ProfilesList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding DisplayLine}" TextWrapping="Wrap" Padding="4,4" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="ActivateButton" Content="Make selected profile ACTIVE" Click="ActivateButton_Click" HorizontalAlignment="Left" />
+            <TextBlock x:Name="ActiveText" TextWrapping="Wrap" Opacity="0.85" />
+        </StackPanel>
+    </Grid>
+</Page>

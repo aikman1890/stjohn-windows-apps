@@ -1,0 +1,30 @@
+LienPilot — License Agreement (plain English)
+St. John Pictures · https://aikman1890.github.io/stjohn-windows-apps/
+
+1. What you get
+   Your subscription lets you run LienPilot on your own Windows PCs for as
+   long as the subscription is active. Your data stays on your PC.
+
+2. What you may NOT do
+   - Modify, patch, decompile, disassemble, or reverse-engineer the app or
+     any of its files.
+   - "Skin," theme, rebrand, or redistribute a customized or modified copy.
+   - Extract, copy, reuse, or redistribute the bundled voice data.
+     The voice is the exclusive voice likeness and property of
+     Shaun Nicholas St. John.
+   The ONLY legitimate way to get a new feature or a change is to send a
+   feature request: in the app, open Help → Request a feature (or email
+   aikman1892@gmail.com with subject "Feature request — LienPilot").
+
+3. Tamper protection
+   The app verifies its own files every time it starts. If it detects any
+   tampering, it locks itself and writes a tamper report on your PC. A locked
+   app can only be restored by reinstalling from a clean copy.
+
+4. If you break these rules
+   Each violation carries liquidated damages of $25,000 (twenty-five
+   thousand US dollars), plus any other remedies available by law, including liability under the Texas right-of-publicity statute for misuse of the voice likeness.
+   The tamper log the app writes may be used as evidence of the violation.
+
+5. Questions
+   Email aikman1892@gmail.com.

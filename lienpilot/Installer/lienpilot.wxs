@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  LienPilot MSI installer - WiX Toolset v5, per-user (no admin / no UAC).
+  Installs to %LOCALAPPDATA%\Programs\St. John Pictures\LienPilot.
+  The <ComponentGroupRef Id="AppFiles" /> is satisfied by Files.wxs, which
+  the build workflow generates from the publish output.
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="LienPilot"
+           Language="1033"
+           Version="1.0.0"
+           Manufacturer="St. John Pictures"
+           ProductCode="237811C5-6D47-4AF9-9E3C-200612C7A4C8"
+           UpgradeCode="440FF8B6-6FC6-4B6D-86E3-3F7534327222"
+           Scope="perUser">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of LienPilot is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Property Id="ARPPRODUCTICON" Value="[INSTALLFOLDER]LienPilot.exe" />
+    <Property Id="ARPNOREPAIR" Value="1" />
+    <Property Id="ARPURLINFOABOUT" Value="https://aikman1890.github.io/stjohn-windows-apps/" />
+
+    <ui:WixUI Id="WixUI_Minimal" />
+
+    <StandardDirectory Id="LocalAppDataFolder">
+      <Directory Id="ProgramsDir" Name="Programs">
+        <Directory Id="CompanyDir" Name="St. John Pictures">
+          <Directory Id="INSTALLFOLDER" Name="LienPilot" />
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppShortcutsDir" Name="LienPilot">
+        <Component Id="StartMenuShortcut" Guid="D70CF3D8-43AF-4C89-8D90-1DA3BB5C5839" Bitness="always64">
+          <Shortcut Id="AppStartMenuShortcut"
+                    Name="LienPilot"
+                    Description="LienPilot - storage delinquency and lien-sale clock for Windows"
+                    Target="[INSTALLFOLDER]LienPilot.exe"
+                    WorkingDirectory="INSTALLFOLDER" />
+          <RemoveFolder Id="RemoveAppShortcutsDir" Directory="AppShortcutsDir" On="uninstall" />
+          <RegistryValue Root="HKCU"
+                         Key="Software\St. John Pictures\LienPilot"
+                         Name="installed"
+                         Type="integer"
+                         Value="1"
+                         KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <Feature Id="Main" Title="LienPilot" Level="1">
+      <ComponentRef Id="StartMenuShortcut" />
+      <ComponentGroupRef Id="AppFiles" />
+    </Feature>
+  </Package>
+</Wix>

@@ -27,6 +27,7 @@ on:
       - 'truckpilot/**'
       - 'kennelpilot/**'
       - 'platepilot/**'
+      - 'lienpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -109,6 +110,10 @@ jobs:
             csproj: platepilot/PlatePilot.csproj
             entrypoint: PlatePilot.App
             exename: PlatePilot
+          - dir: lienpilot
+            csproj: lienpilot/LienPilot.csproj
+            entrypoint: LienPilot.App
+            exename: LienPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4
