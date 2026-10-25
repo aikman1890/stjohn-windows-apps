@@ -1,0 +1,17 @@
+<Page
+    x:Class="HuntPilot.Views.LodgePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Guide &amp; lodge board" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Pick a day: who is in camp, which guide has them, which rooms are taken, and who is arriving when." Opacity="0.7" TextWrapping="Wrap" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <CalendarDatePicker x:Name="DayPicker" Header="Day" />
+                <Button x:Name="ShowButton" Content="Show the day" Click="ShowButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="BoardText" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

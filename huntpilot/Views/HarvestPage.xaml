@@ -1,0 +1,41 @@
+<Page
+    x:Class="HuntPilot.Views.HarvestPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:HuntPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Harvest log" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Each harvest lands its trophy fee on the hunt's balance and opens a trophy-chain case, so nothing harvested ever leaves the book." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="HarvestList" SelectionMode="None" MaxHeight="300">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Harvest">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="880" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ComboBox x:Name="HuntBox" Grid.Row="0" Grid.Column="0" Header="Hunt" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <ComboBox x:Name="SpeciesBox" Grid.Row="0" Grid.Column="1" Header="Species" HorizontalAlignment="Stretch" Margin="0,0,0,8" SelectionChanged="SpeciesBox_SelectionChanged" />
+                <TextBox x:Name="MeasureBox" Grid.Row="1" Grid.Column="0" Header="Measurements (as the ranch records them)" Margin="0,0,8,8" />
+                <TextBox x:Name="PhotoBox" Grid.Row="1" Grid.Column="1" Header="Photo (local path)" Margin="0,0,0,8" />
+                <TextBox x:Name="FeeBox" Grid.Row="2" Grid.Column="0" Header="Trophy fee (from the species book)" Margin="0,0,8,8" />
+                <ComboBox x:Name="DressedBox" Grid.Row="2" Grid.Column="1" Header="Field dressed" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                <TextBox x:Name="NotesBox" Grid.Row="3" Grid.Column="0" Header="Notes" Margin="0,0,8,0" />
+                <Button x:Name="AddButton" Grid.Row="3" Grid.Column="1" Content="Log harvest + open trophy case" Click="AddButton_Click" VerticalAlignment="Bottom" />
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

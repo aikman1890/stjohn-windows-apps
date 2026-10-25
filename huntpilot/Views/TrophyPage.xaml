@@ -1,0 +1,41 @@
+<Page
+    x:Class="HuntPilot.Views.TrophyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:HuntPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Trophy chain" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock x:Name="NormText" Text="Every harvested animal as a case: field dressed, processor, meat, taxidermist, mount, crate, ship, delivered - each stage with its own clock. Past the norm: orange. Past twice the norm: red. Nothing sits at a taxidermist forgotten for a year." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="CaseList" SelectionChanged="CaseList_SelectionChanged" MaxHeight="320">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:TrophyCase">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="880" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ComboBox x:Name="StageBox" Grid.Row="0" Grid.Column="0" Header="Move to stage" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <TextBox x:Name="ShipBox" Grid.Row="0" Grid.Column="1" Header="Shipping note (carrier / tracking as recorded)" Margin="0,0,0,8" />
+                <TextBox x:Name="ProcessorBox" Grid.Row="1" Grid.Column="0" Header="Processor + ticket #" Margin="0,0,8,8" />
+                <TextBox x:Name="TaxiBox" Grid.Row="1" Grid.Column="1" Header="Taxidermist + work order #" Margin="0,0,0,8" />
+                <TextBox x:Name="NotesBox" Grid.Row="2" Grid.Column="0" Header="Notes" Margin="0,0,8,0" />
+                <Button x:Name="MoveButton" Grid.Row="2" Grid.Column="1" Content="Move stage (restarts the clock)" Click="MoveButton_Click" VerticalAlignment="Bottom" />
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

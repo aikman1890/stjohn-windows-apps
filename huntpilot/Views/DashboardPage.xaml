@@ -1,0 +1,24 @@
+<Page
+    x:Class="HuntPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12">
+            <TextBlock x:Name="TitleText" Text="Follow-up list" FontSize="26" FontWeight="SemiBold" />
+            <TextBlock Text="Who do I call today: trophies sitting in a stage past the norm, balances to collect, deposits to confirm, and mounts nearing completion. Records tool, not legal or compliance advice - HuntPilot records the details the ranch enters and never interprets hunting regulations." Opacity="0.75" TextWrapping="Wrap" />
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Calls to make" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="CallsText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Money &amp; camp" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="MoneyText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

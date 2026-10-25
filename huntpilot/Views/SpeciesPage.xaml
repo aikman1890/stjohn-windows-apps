@@ -1,0 +1,46 @@
+<Page
+    x:Class="HuntPilot.Views.SpeciesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:HuntPilot.Models">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="430" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,16,0">
+            <TextBlock Text="Species &amp; season book" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="The ranch's own price book - your prices and season notes, maintained by you. Nothing here is scraped or shipped." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="SpeciesList" SelectionChanged="SpeciesList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:SpeciesEntry">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="NewButton" Content="New species" Click="NewButton_Click" HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Species file" FontSize="19" FontWeight="SemiBold" />
+                <TextBox x:Name="NameBox" Header="Species" />
+                <TextBox x:Name="FeeBox" Header="Trophy fee" />
+                <TextBox x:Name="SeasonBox" Header="Season notes (as the ranch records them)" AcceptsReturn="True" TextWrapping="Wrap" Height="52" />
+                <TextBox x:Name="MethodsBox" Header="Methods allowed" />
+                <TextBox x:Name="HerdBox" Header="Herd / population notes" AcceptsReturn="True" TextWrapping="Wrap" Height="52" />
+                <TextBox x:Name="PackageBox" Header="Daily / package / non-hunter rate notes" AcceptsReturn="True" TextWrapping="Wrap" Height="52" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save species" Click="SaveButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

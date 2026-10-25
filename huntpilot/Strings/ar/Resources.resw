@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="BriefingPage_DueToday.Text" xml:space="preserve">
+    <value>يستحق اليوم</value>
+  </data>
+  <data name="BriefingPage_Notes.Text" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="BriefingPage_Overdue.Text" xml:space="preserve">
+    <value>متأخر</value>
+  </data>
+  <data name="BriefingPage_Refresh.Content" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="BriefingPage_TodaySBriefing.Text" xml:space="preserve">
+    <value>موجز اليوم</value>
+  </data>
+  <data name="BriefingPage_UpcomingReminders.Text" xml:space="preserve">
+    <value>التذكيرات القادمة</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>إضافة صفحة</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مسح لوحة الحبر</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>حذف الصفحة</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>لوحة حبر. ارسم بالقلم أو القلم الرقمي أو الإصبع أو الفأرة.</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>صفحات حبرية</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>صفحات حبرية</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>شريط الحبر. اختر قلمًا أو قلم رصاص أو قلم تمييز أو ممحاة.</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>اسم الصفحة الجديدة</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>ملاحظات الاجتماع</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>إعادة</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>إعادة الحد</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>حفظ صفحة حبرية</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>تراجع</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>التراجع عن الحد</value>
+  </data>
+  <data name="MainWindow_BriefingNavItem.Content" xml:space="preserve">
+    <value>الموجز</value>
+  </data>
+  <data name="MainWindow_DayPilot.Title" xml:space="preserve">
+    <value>DayPilot</value>
+  </data>
+  <data name="MainWindow_NotesNavItem.Content" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="MainWindow_RemindersNavItem.Content" xml:space="preserve">
+    <value>التذكيرات</value>
+  </data>
+  <data name="MainWindow_SettingsNavItem.Content" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="NotesPage_AIWorking.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>الذكاء الاصطناعي يعمل</value>
+  </data>
+  <data name="NotesPage_BodyBox.Header" xml:space="preserve">
+    <value>المتن</value>
+  </data>
+  <data name="NotesPage_BodyBox.PlaceholderText" xml:space="preserve">
+    <value>اكتب ملاحظتك هنا...</value>
+  </data>
+  <data name="NotesPage_Delete.Content" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="NotesPage_ExtractActionItems.Content" xml:space="preserve">
+    <value>استخراج بنود العمل</value>
+  </data>
+  <data name="NotesPage_InkNotes.Header" xml:space="preserve">
+    <value>ملاحظات حبرية</value>
+  </data>
+  <data name="NotesPage_NewNote.Content" xml:space="preserve">
+    <value>ملاحظة جديدة</value>
+  </data>
+  <data name="NotesPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>ذكاء اصطناعي على الجهاز</value>
+  </data>
+  <data name="NotesPage_Rewrite.Content" xml:space="preserve">
+    <value>إعادة صياغة</value>
+  </data>
+  <data name="NotesPage_Save.Content" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="NotesPage_Summarize.Content" xml:space="preserve">
+    <value>تلخيص</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.Header" xml:space="preserve">
+    <value>الوسوم (مفصولة بفواصل)</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.PlaceholderText" xml:space="preserve">
+    <value>عمل، أفكار</value>
+  </data>
+  <data name="NotesPage_TextNotes.Header" xml:space="preserve">
+    <value>ملاحظات نصية</value>
+  </data>
+  <data name="NotesPage_TitleBox.Header" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="NotesPage_TitleBox.PlaceholderText" xml:space="preserve">
+    <value>عنوان الملاحظة</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.Header" xml:space="preserve">
+    <value>أضف تذكيرًا بلغة طبيعية</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.PlaceholderText" xml:space="preserve">
+    <value>remind me to call Mom tomorrow at 3pm</value>
+  </data>
+  <data name="RemindersPage_AddReminder.Content" xml:space="preserve">
+    <value>إضافة تذكير</value>
+  </data>
+  <data name="RemindersPage_Delete.Content" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="RemindersPage_MarkReminderAsDone.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>تعليم التذكير كمنجز</value>
+  </data>
+  <data name="RemindersPage_Reminders.Text" xml:space="preserve">
+    <value>التذكيرات</value>
+  </data>
+  <data name="SettingsPage_About.Text" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="SettingsPage_CheckAgain.Content" xml:space="preserve">
+    <value>إعادة التحقق</value>
+  </data>
+  <data name="SettingsPage_GlobalHotkey.Text" xml:space="preserve">
+    <value>اختصار عام</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>ذكاء اصطناعي على الجهاز</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.Content" xml:space="preserve">
+    <value>إضافة مهمة</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>إضافة مهمة</value>
+  </data>
+  <data name="TasksPage_DeleteButton.Content" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="TasksPage_DeleteButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>حذف المهمة</value>
+  </data>
+  <data name="TasksPage_DoneCheck.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>وضع علامة مكتملة على المهمة</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.Header" xml:space="preserve">
+    <value>مهمة جديدة</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.PlaceholderText" xml:space="preserve">
+    <value>مثلاً اسقِ النباتات</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>عنوان المهمة الجديدة</value>
+  </data>
+  <data name="TasksPage_TaskList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>قائمة المهام</value>
+  </data>
+  <data name="TasksPage_Title.Text" xml:space="preserve">
+    <value>المهام</value>
+  </data>
+</root>
