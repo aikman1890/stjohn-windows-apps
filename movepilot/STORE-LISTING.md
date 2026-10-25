@@ -1,0 +1,11 @@
+# MovePilot — Gumroad listing (stub)
+
+**Price:** $14.99/month membership
+
+**Tagline:** The mover's desk core — survey, estimate, approval, job sheet, and claim file with its clocks — on your own PC, instead of a $299/month platform built for van lines.
+
+**What it is:** SmartMoving starts at $299–$399/month and MoveitPro at $150/month, and both sell the connected layer — lead capture, dispatch, crew apps, portals. A one-to-three-truck mover's money and reputation actually move through three desk artifacts: the survey, the booked estimate, and the claim file. MovePilot is exactly those: a move file per customer with the full status pipeline; a room-by-room inventory with your own cubic-feet/weight presets, packing flags, special items, and access notes — totals that drive the estimate, and a survey that survives move day instead of going in the trash; an estimate builder on your own rate table (hourly, flat, or not-to-exceed, in your own terms) with versions preserved and an approval log recording who approved, when, and how — the record that ends delivery-day price arguments; a printed crew job sheet and final statement generated from the file; a claims ledger with valuation choice on record, every claim date (filed, acknowledged, inspected, offered, settled) counted against response clocks copied from your own claim paperwork, plus a proof trail of every letter and offer; a storage-lot book with monthly billing and balances; and a dashboard showing this week's moves, estimates awaiting approval (unsigned revenue), claims past their clocks, and storage owed. Seeded with a fictional two-bedroom move — approved estimate and one open claim — so the whole chain is visible before you enter anything real.
+
+**What it is not:** no dispatch, GPS, or crew app; no lead capture, marketing, or customer portal; no payment processing (payments are recorded, cards never touch the app); no tariff or van-line engine and no supplied prices — every rate is yours; and no claims legal advice — clocks come from your own paperwork, and the app organizes and counts down without opining on liability.
+
+**Private by design:** local JSON storage on your PC. No account, no cloud, no telemetry, works fully offline in 100 languages. Your customer list never leaves the office.

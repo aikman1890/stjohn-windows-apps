@@ -1,0 +1,64 @@
+<Page
+    x:Class="MovePilot.Views.ClaimsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="420" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" Padding="0,0,12,0">
+                <TextBlock Text="Claim file" FontSize="20" FontWeight="SemiBold" />
+                <TextBlock Text="Clocks come from YOUR claim paperwork - set the acknowledge days from your own forms (Settings default). The app counts down; it does not give legal advice." Opacity="0.75" TextWrapping="Wrap" />
+                <ComboBox x:Name="MovePicker" Header="Move" HorizontalAlignment="Stretch" />
+                <TextBox x:Name="ItemBox" Header="Item claimed" />
+                <TextBox x:Name="AmountBox" Header="Amount claimed ($)" InputScope="CurrencyAmount" />
+                <DatePicker x:Name="FiledPicker" Header="Date filed" />
+                <TextBox x:Name="ClockBox" Header="Acknowledge clock (days, from your paperwork)" />
+                <TextBox x:Name="AckText" Opacity="0.85" TextWrapping="Wrap" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="AckButton" Content="Mark acknowledged today" Click="AckButton_Click" />
+                    <Button x:Name="InspectButton" Content="Mark inspected today" Click="InspectButton_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="OfferBox" Header="Offer $" Width="140" />
+                    <Button x:Name="OfferButton" Content="Record offer today" Click="OfferButton_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="SettledBox" Header="Settled $" Width="140" />
+                    <Button x:Name="SettleButton" Content="Record settlement today" Click="SettleButton_Click" />
+                    <Button x:Name="DeclineButton" Content="Mark declined" Click="DeclineButton_Click" />
+                </StackPanel>
+                <ComboBox x:Name="StatusCombo" Header="Status" HorizontalAlignment="Stretch">
+                    <x:String>Open</x:String>
+                    <x:String>Acknowledged</x:String>
+                    <x:String>Inspected</x:String>
+                    <x:String>Offered</x:String>
+                    <x:String>Settled</x:String>
+                    <x:String>Declined</x:String>
+                </ComboBox>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Add / Save" Click="SaveButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                    <Button x:Name="ClearButton" Content="Clear" Click="ClearButton_Click" />
+                </StackPanel>
+                <TextBlock Text="Proof trail" FontSize="15" FontWeight="SemiBold" Margin="0,8,0,0" />
+                <TextBox x:Name="ProofBox" Header="New proof entry (letter sent, call made, photo taken...)" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+                <Button x:Name="ProofButton" Content="Append to proof trail" Click="ProofButton_Click" HorizontalAlignment="Left" />
+                <TextBlock x:Name="TrailText" TextWrapping="Wrap" Opacity="0.85" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <ListView x:Name="ItemsList" Grid.Column="2" SelectionChanged="ItemsList_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding DisplayLine}" Foreground="{Binding ClockBrush}" TextWrapping="Wrap" Padding="4,4" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

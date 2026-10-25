@@ -1,0 +1,24 @@
+<Page
+    x:Class="MovePilot.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10" MaxWidth="680" HorizontalAlignment="Left">
+            <TextBlock Text="Settings" FontSize="24" FontWeight="SemiBold" />
+            <TextBox x:Name="CompanyBox" Header="Company name (prints on job sheets &amp; statements)" />
+            <TextBox x:Name="AddressBox" Header="Company address" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+            <TextBox x:Name="PhoneBox" Header="Company phone" />
+            <TextBox x:Name="RateBox" Header="Default hourly rate ($)" />
+            <TextBox x:Name="CrewBox" Header="Default crew size" />
+            <TextBox x:Name="AckBox" Header="Default claim acknowledge clock (days - copy from YOUR claim paperwork)" />
+            <TextBlock Text="Inventory presets - one per line: Name|cubic feet|pounds (your own figures)" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <TextBox x:Name="PresetsBox" AcceptsReturn="True" TextWrapping="Wrap" Height="150" />
+            <TextBlock Text="Estimate terms presets (one per line)" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <TextBox x:Name="TermsBox" AcceptsReturn="True" TextWrapping="Wrap" Height="80" />
+            <Button x:Name="SaveButton" Content="Save settings" Click="SaveButton_Click" HorizontalAlignment="Left" />
+            <TextBlock x:Name="SavedText" Opacity="0.75" />
+            <TextBlock Text="Everything is stored locally in this app's folder - no account, no cloud, no telemetry." Opacity="0.6" TextWrapping="Wrap" Margin="0,12,0,0" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
