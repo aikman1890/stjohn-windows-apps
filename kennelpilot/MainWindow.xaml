@@ -1,0 +1,50 @@
+<Window
+    x:Class="KennelPilot.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="KennelPilot">
+
+    <Grid>
+        <NavigationView x:Name="Nav" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed"
+                        SelectionChanged="Nav_SelectionChanged">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Board" Tag="board">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Home" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Owners" Tag="owners">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Contact" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Pets" Tag="pets">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="List" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Care Log" Tag="care">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Document" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Vaccine Watch" Tag="vaccines">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Calendar" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Billing" Tag="billing">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Folder" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Settings" Tag="settings">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Setting" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+            <Frame x:Name="ContentFrame" />
+        </NavigationView>
+    </Grid>
+</Window>

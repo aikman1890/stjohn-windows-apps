@@ -25,6 +25,7 @@ on:
       - 'denialpilot/**'
       - 'baypilot/**'
       - 'truckpilot/**'
+      - 'kennelpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -99,6 +100,10 @@ jobs:
             csproj: truckpilot/TruckPilot.csproj
             entrypoint: TruckPilot.App
             exename: TruckPilot
+          - dir: kennelpilot
+            csproj: kennelpilot/KennelPilot.csproj
+            entrypoint: KennelPilot.App
+            exename: KennelPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4
