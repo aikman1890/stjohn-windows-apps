@@ -1,0 +1,31 @@
+<Page
+    x:Class="EntityPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12">
+            <TextBlock Text="Portfolio dashboard" FontSize="26" FontWeight="SemiBold" />
+            <TextBlock Text="The 'is anything about to dissolve?' screen. Statuses are what you last confirmed, with the date - EntityPilot never claims live state data." Opacity="0.75" TextWrapping="Wrap" />
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Portfolio" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="PortfolioText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Next deadlines across everything" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="DeadlineText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Needs attention" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="AttentionText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <TextBlock Text="Your whole structure, on your machine only. EINs are masked by default and never leave this PC." Opacity="0.6" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

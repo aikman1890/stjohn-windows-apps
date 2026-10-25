@@ -1,0 +1,103 @@
+<Page
+    x:Class="EntityPilot.Views.EntitiesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:EntityPilot.Models">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,16,0">
+            <TextBlock Text="Entities" FontSize="22" FontWeight="SemiBold" />
+            <ListView x:Name="EntityList" SelectionChanged="EntityList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:EntityRecord">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="NewButton" Content="New entity" Click="NewButton_Click" HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Entity file" FontSize="19" FontWeight="SemiBold" />
+                <TextBlock x:Name="StandingText" FontWeight="SemiBold" TextWrapping="Wrap" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Legal name" Margin="0,0,8,8" />
+                    <ComboBox x:Name="TypeBox" Grid.Row="0" Grid.Column="1" Header="Type" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                    <TextBox x:Name="StateBox" Grid.Row="1" Grid.Column="0" Header="State of formation" Margin="0,0,8,8" />
+                    <CalendarDatePicker x:Name="FormedPicker" Grid.Row="1" Grid.Column="1" Header="Formation date" Margin="0,0,0,8" />
+                    <TextBox x:Name="FileBox" Grid.Row="2" Grid.Column="0" Header="State entity / file number" Margin="0,0,8,8" />
+                    <TextBox x:Name="FyeBox" Grid.Row="2" Grid.Column="1" Header="Fiscal year end (MM-DD)" Margin="0,0,0,8" />
+                    <StackPanel Grid.Row="3" Grid.Column="0" Margin="0,0,8,8" Spacing="4">
+                        <TextBox x:Name="EinBox" Header="EIN (local only, masked by default)" />
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock x:Name="EinMaskedText" Opacity="0.8" VerticalAlignment="Center" />
+                            <Button x:Name="RevealButton" Content="Reveal / hide" Click="RevealButton_Click" />
+                        </StackPanel>
+                    </StackPanel>
+                    <ComboBox x:Name="StatusBox" Grid.Row="3" Grid.Column="1" Header="Status (as you last confirmed it)" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                    <CalendarDatePicker x:Name="ConfirmedPicker" Grid.Row="4" Grid.Column="0" Header="Status confirmed on" Margin="0,0,8,8" />
+                    <TextBox x:Name="NotesBox" Grid.Row="4" Grid.Column="1" Header="Notes" Margin="0,0,0,8" />
+                </Grid>
+                <TextBlock Text="Registered agent" FontSize="16" FontWeight="SemiBold" Margin="0,6,0,0" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="AgentBox" Grid.Row="0" Grid.Column="0" Header="Agent name" Margin="0,0,8,8" />
+                    <CalendarDatePicker x:Name="AgentRenewalPicker" Grid.Row="0" Grid.Column="1" Header="Agent renewal date" Margin="0,0,0,8" />
+                    <TextBox x:Name="AgentAddressBox" Grid.Row="1" Grid.Column="0" Header="Agent address" Margin="0,0,8,8" />
+                    <TextBox x:Name="AgentFeeBox" Grid.Row="1" Grid.Column="1" Header="Agent fee note" Margin="0,0,0,8" />
+                    <TextBox x:Name="PortalBox" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Header="Portal reference (site + username note ONLY - never a password)" Margin="0,0,0,8" />
+                </Grid>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save entity" Click="SaveButton_Click" />
+                    <Button x:Name="ConfirmButton" Content="Mark status confirmed today" Click="ConfirmButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+                <TextBlock Text="Agent correspondence log" FontSize="16" FontWeight="SemiBold" Margin="0,10,0,0" />
+                <ListView x:Name="MailList" SelectionMode="None" MaxHeight="140">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="ArrivedBox" Header="What arrived" Width="280" />
+                    <TextBox x:Name="ActionBox" Header="Action taken" Width="280" />
+                    <Button x:Name="MailButton" Content="Log" Click="MailButton_Click" VerticalAlignment="Bottom" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
