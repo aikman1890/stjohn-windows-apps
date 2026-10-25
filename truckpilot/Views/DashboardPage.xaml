@@ -1,0 +1,49 @@
+<Page
+    x:Class="TruckPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="TruckPilot" FontSize="28" FontWeight="SemiBold" />
+            <TextBlock x:Name="ProfileText" Opacity="0.8" TextWrapping="Wrap" />
+            <Grid Margin="0,8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="16" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Current quarter" FontWeight="SemiBold" Opacity="0.75" />
+                        <TextBlock x:Name="QuarterMilesText" FontSize="22" FontWeight="SemiBold" />
+                        <TextBlock x:Name="QuarterFuelText" Opacity="0.85" />
+                        <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,0">
+                            <TextBox x:Name="MpgBox" Header="Current MPG (editable - for the running estimate)" Width="240" />
+                            <Button x:Name="MpgSaveButton" Content="Save MPG" Click="MpgSaveButton_Click" VerticalAlignment="Bottom" />
+                        </StackPanel>
+                        <TextBlock x:Name="QuarterEstimateText" FontWeight="SemiBold" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Year to date" FontWeight="SemiBold" Opacity="0.75" />
+                        <TextBlock x:Name="YearText" FontSize="16" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+            <TextBlock Text="Quarter readiness" FontSize="18" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="IssuesList" SelectionMode="None" MaxHeight="300">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Border Background="#33FFA500" CornerRadius="6" Padding="12" Margin="0,8,0,0">
+                <TextBlock TextWrapping="Wrap"
+                           Text="TruckPilot organizes YOUR records and runs the standard IFTA worksheet arithmetic on them. It does not file your return, and it ships with no tax rates - every rate is entered and confirmed by you from the official IFTA rate chart. Fuel-tax law varies by jurisdiction and changes over time; verify against your base jurisdiction's current rules and consult a qualified tax professional. Estimates use your current MPG and change as you log miles and fuel." />
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

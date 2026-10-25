@@ -24,6 +24,7 @@ on:
       - 'gamevault/**'
       - 'denialpilot/**'
       - 'baypilot/**'
+      - 'truckpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -94,6 +95,10 @@ jobs:
             csproj: baypilot/BayPilot.csproj
             entrypoint: BayPilot.App
             exename: BayPilot
+          - dir: truckpilot
+            csproj: truckpilot/TruckPilot.csproj
+            entrypoint: TruckPilot.App
+            exename: TruckPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4

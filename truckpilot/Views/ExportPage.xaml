@@ -1,0 +1,19 @@
+<Page
+    x:Class="TruckPilot.Views.ExportPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10" MaxWidth="900">
+            <TextBlock Text="Audit export &amp; retention" FontSize="24" FontWeight="SemiBold" />
+            <TextBlock Text="IFTA records are generally kept 4 years from the return due date or filing date (whichever is later) - confirm the current rule for your base jurisdiction. The status below is computed from your oldest record on file; TruckPilot NEVER deletes anything automatically." TextWrapping="Wrap" Opacity="0.8" />
+            <TextBlock x:Name="RetentionText" FontWeight="SemiBold" TextWrapping="Wrap" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="YearBox" Header="Export year" Width="110" />
+                <Button x:Name="ExportAllButton" Content="Export full-year audit packet (.html)" Click="ExportAllButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="StatusText" TextWrapping="Wrap" Opacity="0.8" FontSize="12" />
+            <TextBlock Text="The audit packet contains the operator profile, every trip record, every fuel purchase, every rate entry with its confirmation, and all four quarterly worksheets for the year - the complete file an auditor asks for." TextWrapping="Wrap" Opacity="0.7" FontSize="12" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
