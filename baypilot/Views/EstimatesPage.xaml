@@ -1,0 +1,55 @@
+<Page
+    x:Class="BayPilot.Views.EstimatesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="380" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" Padding="0,0,12,0">
+                <TextBlock Text="Estimate" FontSize="20" FontWeight="SemiBold" />
+                <ComboBox x:Name="RoPicker" Header="Repair order" HorizontalAlignment="Stretch"
+                          SelectionChanged="RoPicker_SelectionChanged" />
+                <TextBlock x:Name="RoSummaryText" TextWrapping="Wrap" Opacity="0.85" FontSize="12" />
+
+                <TextBlock Text="Add a line" FontSize="16" FontWeight="SemiBold" Margin="0,8,0,0" />
+                <ComboBox x:Name="KindCombo" Header="Line kind" HorizontalAlignment="Stretch" />
+                <TextBox x:Name="DescBox" Header="Description" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="QtyBox" Header="Qty / hours" Text="1" Width="100" />
+                    <TextBox x:Name="RateBox" Header="Rate / price ($)" Text="0" Width="120" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="CostBox" Header="Part cost ($) - parts only" Text="0" Width="150" />
+                    <TextBox x:Name="MarkupBox" Header="Markup % - parts only" Text="50" Width="130" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="LaborPresetButton" Content="Labor preset (shop rate)" Click="LaborPresetButton_Click" />
+                    <Button x:Name="AddLineButton" Content="Add line" Click="AddLineButton_Click" />
+                    <Button x:Name="RemoveLineButton" Content="Remove selected" Click="RemoveLineButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="TotalsText" FontWeight="SemiBold" TextWrapping="Wrap" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save estimate" Click="SaveButton_Click" />
+                    <Button x:Name="ExportButton" Content="Export estimate (.html, printable)" Click="ExportButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="StatusText" TextWrapping="Wrap" Opacity="0.8" FontSize="12" />
+                <TextBlock Text="Totals shown count APPROVED lines only (plus shop supplies and tax from Settings). Labor hours and rates are the shop's own entries - BayPilot has no labor guide and no OEM data."
+                           TextWrapping="Wrap" Opacity="0.7" FontSize="12" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <ListView x:Name="LinesList" Grid.Column="2" SelectionChanged="LinesList_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding DisplayLine}" Padding="4,4" TextWrapping="Wrap" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
