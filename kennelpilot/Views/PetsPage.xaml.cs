@@ -83,7 +83,7 @@ public sealed partial class PetsPage : Page
             var v = _editVax[VaxList.SelectedIndex];
             VaxNameBox.Text = v.Name;
             VaxDocBox.Text = v.DocumentRef;
-            if (v.Expiry is { } e) VaxExpiryPicker.Date = e;
+            if (v.Expiry is { } exp) VaxExpiryPicker.Date = exp;
         }
     }
 
