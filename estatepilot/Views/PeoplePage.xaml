@@ -1,0 +1,82 @@
+<Page
+    x:Class="EstatePilot.Views.PeoplePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:EstatePilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Staff book" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Household staff per property: role, schedule pattern, contact, and the document clocks the manager tracks. Records only - no payroll, no timekeeping, no HR functions." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="StaffList" SelectionChanged="StaffList_SelectionChanged" MaxHeight="230">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:StaffMember">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="840" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Name" Margin="0,0,8,8" />
+                <TextBox x:Name="RoleBox" Grid.Row="0" Grid.Column="1" Header="Role" Margin="0,0,0,8" />
+                <ComboBox x:Name="PropertyBox" Grid.Row="1" Grid.Column="0" Header="Property" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <TextBox x:Name="ContactBox" Grid.Row="1" Grid.Column="1" Header="Contact" Margin="0,0,0,8" />
+                <TextBox x:Name="ScheduleBox" Grid.Row="2" Grid.Column="0" Header="Schedule pattern" Margin="0,0,8,8" />
+                <CalendarDatePicker x:Name="StartPicker" Grid.Row="2" Grid.Column="1" Header="Start date" Margin="0,0,0,8" />
+                <TextBox x:Name="DocNoteBox" Grid.Row="3" Grid.Column="0" Header="Document tracked (certification, background check...)" Margin="0,0,8,8" />
+                <CalendarDatePicker x:Name="DocPicker" Grid.Row="3" Grid.Column="1" Header="Document expiry" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save staff member" Click="SaveButton_Click" />
+                    <Button x:Name="NewButton" Content="New" Click="NewButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+
+            <TextBlock Text="Vendors (insurance is a first-class clock)" FontSize="22" FontWeight="SemiBold" Margin="0,20,0,0" />
+            <ListView x:Name="VendorList" SelectionChanged="VendorList_SelectionChanged" MaxHeight="230">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Vendor">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="840" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox x:Name="VendorNameBox" Grid.Row="0" Grid.Column="0" Header="Vendor" Margin="0,0,8,8" />
+                <TextBox x:Name="TradeBox" Grid.Row="0" Grid.Column="1" Header="Trade" Margin="0,0,0,8" />
+                <TextBox x:Name="VendorContactBox" Grid.Row="1" Grid.Column="0" Header="Contact" Margin="0,0,8,8" />
+                <CalendarDatePicker x:Name="CoiPicker" Grid.Row="1" Grid.Column="1" Header="COI expiry (as recorded)" Margin="0,0,0,8" />
+                <TextBox x:Name="LastJobBox" Grid.Row="2" Grid.Column="0" Header="Last job" Margin="0,0,8,8" />
+                <TextBox x:Name="RateBox" Grid.Row="2" Grid.Column="1" Header="Rate notes" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveVendorButton" Content="Save vendor" Click="SaveVendorButton_Click" />
+                    <Button x:Name="NewVendorButton" Content="New vendor" Click="NewVendorButton_Click" />
+                    <Button x:Name="DeleteVendorButton" Content="Delete" Click="DeleteVendorButton_Click" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
