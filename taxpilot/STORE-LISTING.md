@@ -1,0 +1,11 @@
+# TaxPilot — Gumroad listing (stub)
+
+**Price:** $14.99/month membership — flat, for the whole office.
+
+**Tagline:** The tax-office season board — every client, every return, every missing document, every deadline — on the preparer's own machine. Your client list never leaves your office.
+
+**What it is:** TaxDome runs $800–$1,200 per user per year, Canopy $74–$149 per user per month plus add-ons, Karbon $59–$89 — per-user cloud suites built around portals and e-signature, priced for firms. A solo or two-person office's actual tracking job — who owes me what document, which returns are stuck, what is due Friday — is local data. TaxPilot is exactly that layer: a client and engagement register (one row per client-year, seasons never overwrite each other) across 1040, 1120, 1120-S, 1065, 1120-H, 990, and 1041 with the full status pipeline from Not started to Accepted; document checklists templated per entity type with a chase view that sorts every missing document by last-contacted date and flags follow-ups overdue; a deadline engine driven by your own confirmed tables (federal defaults ship clearly labeled with an as-of note — confirm them; state dates are yours to add, no shipped 50-state authority) with per-client extended dates and the green/orange/red countdown; an e-file status log recording what your prep software reports back — submitted, accepted, rejected with code and fix; an appointment and contact log with what was promised; one-click season rollover that carries last year's clients and their carry-forward notes into the new season with statuses reset; and a printable season packet. Seeded with a fictional 12-client mini-season — docs outstanding, one rejected e-file, one extension — so every status color shows on first launch.
+
+**What it is not:** no tax preparation (it never computes a return), no e-file transmission, no IRS integration, no e-signature, no client portal, and no storage of client tax documents — it tracks that a document arrived and where you file it, keeping the PII footprint minimal by design. It is sold as a tracker, not a suite, and it doesn't pretend otherwise.
+
+**Private by design:** local JSON storage on your PC. No account, no cloud, no telemetry, works fully offline in 100 languages.
