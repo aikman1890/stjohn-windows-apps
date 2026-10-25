@@ -53,7 +53,7 @@ public sealed partial class DarPage : Page
         var item = _selected ?? new DarEntry();
         item.PostLabel = post?.DisplayLine ?? string.Empty;
         item.GuardLabel = GuardBox.Text.Trim();
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         item.Summary = SummaryBox.Text.Trim();
         if (_selected is null) _items.Add(item);
         await _store.SaveAsync(_items);

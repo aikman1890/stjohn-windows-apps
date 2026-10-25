@@ -86,7 +86,7 @@ public sealed partial class SchedulePage : Page
         item.PostLabel = post.DisplayLine;
         item.SiteLabel = post.SiteLabel;
         item.BillRatePerHour = site?.BillRatePerHour ?? item.BillRatePerHour;
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         item.StartHour = ParseNum(StartBox.Text);
         item.EndHour = ParseNum(EndBox.Text);
         var activeGuards = _guards.Where(g => g.Status == "Active").ToList();

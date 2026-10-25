@@ -73,7 +73,7 @@ public sealed partial class ClaimsPage : Page
         item.CustomerLabel = move.Customer;
         item.Item = ItemBox.Text.Trim();
         item.AmountClaimed = ParseMoney(AmountBox.Text);
-        item.FiledDate = FiledPicker.Date ?? DateTimeOffset.Now;
+        item.FiledDate = FiledPicker.Date;
         item.AckClockDays = int.TryParse(ClockBox.Text, out var d) ? d : 30;
         item.OfferAmount = ParseMoney(OfferBox.Text);
         item.SettledAmount = ParseMoney(SettledBox.Text);

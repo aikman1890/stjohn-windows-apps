@@ -1,0 +1,101 @@
+<Page
+    x:Class="WheelPilot.Views.StudentsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:WheelPilot.Models">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,16,0">
+            <TextBlock Text="Students" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Flag colour follows the permit dates and stale inquiries." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="StudentList" SelectionChanged="StudentList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Student">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="NewButton" Content="New student" Click="NewButton_Click" HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Student file" FontSize="19" FontWeight="SemiBold" />
+                <TextBlock x:Name="BalanceText" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Student name" Margin="0,0,8,8" />
+                    <ComboBox x:Name="StatusBox" Grid.Row="0" Grid.Column="1" Header="Status" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                    <TextBox x:Name="PhoneBox" Grid.Row="1" Grid.Column="0" Header="Student phone" Margin="0,0,8,8" />
+                    <TextBox x:Name="EmailBox" Grid.Row="1" Grid.Column="1" Header="Student email" Margin="0,0,0,8" />
+                    <TextBox x:Name="ParentBox" Grid.Row="2" Grid.Column="0" Header="Parent / guardian (minors)" Margin="0,0,8,8" />
+                    <TextBox x:Name="ParentPhoneBox" Grid.Row="2" Grid.Column="1" Header="Parent phone" Margin="0,0,0,8" />
+                    <TextBox x:Name="PermitBox" Grid.Row="3" Grid.Column="0" Header="Permit number (as recorded)" Margin="0,0,8,8" />
+                    <CalendarDatePicker x:Name="PermitPicker" Grid.Row="3" Grid.Column="1" Header="Permit expiry" Margin="0,0,0,8" />
+                    <TextBox x:Name="CourseBox" Grid.Row="4" Grid.Column="0" Header="Course enrolled" Margin="0,0,8,8" />
+                    <TextBox x:Name="SourceBox" Grid.Row="4" Grid.Column="1" Header="Inquiry source" Margin="0,0,0,8" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <CalendarDatePicker x:Name="TestPicker" Grid.Column="0" Header="Road test date (if booked)" Margin="0,0,8,0" />
+                    <TextBox x:Name="TestNoteBox" Grid.Column="1" Header="Test note (passed date etc.)" />
+                </Grid>
+                <TextBox x:Name="NotesBox" Header="Notes" AcceptsReturn="True" TextWrapping="Wrap" Height="60" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save student" Click="SaveButton_Click" />
+                    <Button x:Name="TouchButton" Content="Mark contacted today" Click="TouchButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+
+                <TextBlock Text="Buy a package (records the payment; hours land on the balance)" FontSize="16" FontWeight="SemiBold" Margin="0,10,0,0" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <ComboBox x:Name="PackageBox" Header="Package" Width="240" />
+                    <TextBox x:Name="PaidBox" Header="Amount paid now ($)" Width="150" />
+                    <TextBox x:Name="MethodBox" Header="Method note" Width="160" />
+                    <Button x:Name="BuyButton" Content="Record purchase" Click="BuyButton_Click" VerticalAlignment="Bottom" />
+                </StackPanel>
+                <TextBlock Text="Balance history (purchases, completed lessons, dated adjustments)" FontSize="16" FontWeight="SemiBold" Margin="0,10,0,0" />
+                <ListView x:Name="HistoryList" SelectionMode="None" MaxHeight="170">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBox x:Name="AdjHoursBox" Header="Adjustment hours (+/-)" Width="150" />
+                    <TextBox x:Name="AdjReasonBox" Header="Reason (required - corrections are never silent)" Width="320" />
+                    <Button x:Name="AdjButton" Content="Add adjustment" Click="AdjButton_Click" VerticalAlignment="Bottom" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

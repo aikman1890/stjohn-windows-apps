@@ -47,7 +47,7 @@ public sealed partial class CalendarPage : Page
         var item = _selected ?? new ComplianceDate();
         item.Title = TitleBox.Text.Trim();
         item.Category = CategoryBox.Text.Trim();
-        item.DueDate = DuePicker.Date ?? DateTimeOffset.Now;
+        item.DueDate = DuePicker.Date;
         item.Recurrence = RecurCombo.SelectedItem as string ?? "Monthly";
         item.Notes = NotesBox.Text.Trim();
         if (_selected is null) _items.Add(item);

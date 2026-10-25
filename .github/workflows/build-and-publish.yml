@@ -38,6 +38,7 @@ on:
       - 'venuepilot/**'
       - 'plotpilot/**'
       - 'guardpilot/**'
+      - 'wheelpilot/**'
       - 'farewellpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
@@ -165,6 +166,10 @@ jobs:
             csproj: guardpilot/GuardPilot.csproj
             entrypoint: GuardPilot.App
             exename: GuardPilot
+          - dir: wheelpilot
+            csproj: wheelpilot/WheelPilot.csproj
+            entrypoint: WheelPilot.App
+            exename: WheelPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4

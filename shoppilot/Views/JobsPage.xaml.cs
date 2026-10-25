@@ -118,7 +118,7 @@ public sealed partial class JobsPage : Page
         item.MaterialCertRef = CertBox.Text.Trim();
         item.MaterialCost = ParseMoney(MatCostBox.Text);
         item.QuotedPrice = ParseMoney(PriceBox.Text);
-        item.DueDate = DuePicker.Date ?? DateTimeOffset.Now;
+        item.DueDate = DuePicker.Date;
         item.CustomerPO = PoBox.Text.Trim();
         item.Priority = int.TryParse(PriorityBox.Text, out var p) ? p : 5;
         item.WorkCenter = CenterPicker.SelectedItem as string ?? string.Empty;

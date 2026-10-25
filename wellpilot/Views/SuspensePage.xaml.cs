@@ -57,7 +57,7 @@ public sealed partial class SuspensePage : Page
         var item = _selected ?? new SuspenseEntry();
         item.OwnerId = owner.Id;
         item.OwnerLabel = owner.Name;
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         item.Amount = decimal.TryParse(AmountBox.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out var a) ? a : 0m;
         item.Reason = ReasonBox.Text.Trim();
         if (_selected is null) _items.Add(item);

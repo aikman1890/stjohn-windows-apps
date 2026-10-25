@@ -100,7 +100,7 @@ public sealed partial class DecksPage : Page
             OwnerLabel = owner.Name,
             InterestType = type,
             DecimalInterest = dec,
-            EffectiveDate = EffPicker.Date ?? DateTimeOffset.Now,
+            EffectiveDate = EffPicker.Date,
             Version = version,
             Active = true,
             Note = NoteBox.Text.Trim(),

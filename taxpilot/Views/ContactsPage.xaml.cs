@@ -56,7 +56,7 @@ public sealed partial class ContactsPage : Page
         var item = _selected ?? new ContactLogEntry();
         item.ClientId = client.Id;
         item.ClientLabel = client.Name;
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         item.Who = WhoBox.Text.Trim();
         item.Summary = SummaryBox.Text.Trim();
         item.Promised = PromisedBox.Text.Trim();

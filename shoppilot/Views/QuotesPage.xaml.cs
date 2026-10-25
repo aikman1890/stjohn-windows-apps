@@ -88,7 +88,7 @@ public sealed partial class QuotesPage : Page
         item.EstOutsideCost = ParseMoney(EstOutBox.Text);
         item.Status = StatusCombo.SelectedItem as string ?? "Open";
         item.LossReason = LossBox.Text.Trim();
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         if (_selected is null) _items.Add(item);
         await _store.SaveAsync(_items);
         _selected = item;

@@ -66,7 +66,7 @@ public sealed partial class VisitsPage : Page
         item.CustomerLabel = unit.CustomerLabel;
         item.EquipmentId = unit.Id;
         item.EquipmentLabel = unit.FullLabel;
-        item.Date = DatePickerCtl.Date ?? DateTimeOffset.Now;
+        item.Date = DatePickerCtl.Date;
         item.WorkPerformed = WorkBox.Text.Trim();
         item.Readings = ReadingsBox.Text.Trim();
         item.Recommendation = RecBox.Text.Trim();

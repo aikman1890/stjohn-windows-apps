@@ -1,0 +1,52 @@
+<Page
+    x:Class="WheelPilot.Views.ReadinessPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Test readiness" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Milestone sign-offs per student (the school's own skills list), classroom attendance, and upcoming tests. Completion records are what the school enters - WheelPilot never claims to satisfy any state's reporting rule." Opacity="0.7" TextWrapping="Wrap" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="StudentBox" Header="Student" Width="300" />
+                <Button x:Name="LoadButton" Content="Load record" Click="LoadButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="SummaryText" FontSize="15" TextWrapping="Wrap" />
+            <TextBlock Text="Behind-the-wheel milestones" FontSize="17" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <ListView x:Name="SkillList" SelectionMode="None" MaxHeight="230">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="SkillBox" Header="Mark a milestone done" Width="280" />
+                <TextBox x:Name="SignerBox" Header="Signed off by" Width="200" />
+                <Button x:Name="MarkButton" Content="Mark done" Click="MarkButton_Click" VerticalAlignment="Bottom" />
+                <Button x:Name="UnmarkButton" Content="Remove mark" Click="UnmarkButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock Text="Classroom attendance" FontSize="17" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="AttList" SelectionMode="None" MaxHeight="160">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="SessionBox" Header="Course session" Width="380" />
+                <Button x:Name="AttButton" Content="Record attendance today" Click="AttButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock Text="Upcoming tests (all students)" FontSize="17" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="TestList" SelectionMode="None" MaxHeight="150">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

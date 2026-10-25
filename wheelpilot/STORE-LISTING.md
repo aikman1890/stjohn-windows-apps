@@ -1,0 +1,11 @@
+# WheelPilot — Gumroad listing (stub)
+
+**Price:** $9.99/month membership — flat per school, every instructor and car included.
+
+**Tagline:** $250/month floor is theirs. $9.99 flat is ours — and your students' records stay on your computer.
+
+**What it is:** The driving-school platforms start at $50 per user per month with a 5-user minimum — a $250/mo effective floor, plus setup — priced for franchises, not for the 1–3-instructor schools that teach most small-town teens from a paper diary and a package-balance spreadsheet. WheelPilot is that diary finished: a student register with parent/guardian contacts and permit-expiry warnings; packages with purchased/used/remaining hours that update themselves from the lesson log (corrections are dated adjustment entries, never silent edits — the balance is always provable); a triple-resource schedule board where a lesson needs a student, an instructor, AND a car at the same time — double-bookings on any of the three and out-of-service cars are hard blocks, not warnings a tired owner can click past; a cars file with inspection/registration/insurance date warnings and a maintenance log; classroom attendance and an instructor-signed milestone checklist feeding a test-readiness view (who's ready, whose test is booked, who passed); inquiries that flag themselves when untouched for 5 days; and a dashboard with today's lessons, balances outstanding, and hours sold vs. delivered. Seeded with a fictional sample school ("Conroe Driving Academy," sample data): 2 instructors, 2 cars — one in the shop tomorrow — 8 students, and one seeded double-booking the board flags on sight, so you can watch the conflict engine work before entering a single real student.
+
+**What it is not — stated plainly:** no online booking, no parent portal, no text reminders (network features are the cloud tools' pitch, not this one's), no DMV or state reporting and no certificate authority — WheelPilot records what the school enters and never claims to satisfy any state's rule; requirements vary, confirm before relying. No payment processing (payments are recorded, not taken), no curriculum or test-prep content, no multi-location rollups.
+
+**Private by design:** student records — much of them minors' — live in local JSON on the school's own PC. No account, no cloud, no telemetry, works fully offline in 100 languages.

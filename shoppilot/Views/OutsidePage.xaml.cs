@@ -71,8 +71,8 @@ public sealed partial class OutsidePage : Page
         item.Service = ServiceBox.Text.Trim();
         item.PONumber = PoBox.Text.Trim();
         item.Cost = decimal.TryParse(CostBox.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out var c) ? c : 0m;
-        item.SentDate = SentPicker.Date ?? DateTimeOffset.Now;
-        item.PromisedDate = PromisedPicker.Date ?? DateTimeOffset.Now;
+        item.SentDate = SentPicker.Date;
+        item.PromisedDate = PromisedPicker.Date;
         item.ReturnedDate = ReturnedCheck.IsChecked == true ? ReturnedPicker.Date : null;
         item.CertRef = CertBox.Text.Trim();
         if (_selected is null) _items.Add(item);

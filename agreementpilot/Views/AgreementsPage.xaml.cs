@@ -73,8 +73,8 @@ public sealed partial class AgreementsPage : Page
         item.CustomerLabel = customer.DisplayLine;
         item.PlanName = PlanCombo.Text.Trim();
         item.Price = ParseMoney(PriceBox.Text);
-        item.StartDate = StartPicker.Date ?? DateTimeOffset.Now;
-        item.RenewalDate = RenewalPicker.Date ?? DateTimeOffset.Now.AddYears(1);
+        item.StartDate = StartPicker.Date;
+        item.RenewalDate = RenewalPicker.Date;
         item.VisitsIncluded = int.TryParse(IncludedBox.Text, out var inc) ? inc : 0;
         item.VisitsDelivered = int.TryParse(DeliveredBox.Text, out var del) ? del : 0;
         item.CoveredNote = CoveredBox.Text.Trim();

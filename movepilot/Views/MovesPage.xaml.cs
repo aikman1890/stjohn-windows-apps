@@ -93,7 +93,7 @@ public sealed partial class MovesPage : Page
         item.Email = EmailBox.Text.Trim();
         item.Origin = OriginBox.Text.Trim();
         item.Destination = DestBox.Text.Trim();
-        item.MoveDate = MoveDatePicker.Date ?? DateTimeOffset.Now;
+        item.MoveDate = MoveDatePicker.Date;
         item.Status = StatusCombo.SelectedItem as string ?? "Lead";
         item.AccessNotes = AccessBox.Text.Trim();
         item.ValuationChoice = ValuationBox.Text.Trim();

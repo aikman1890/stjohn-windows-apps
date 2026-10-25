@@ -61,7 +61,7 @@ public sealed partial class StoragePage : Page
         var item = _selected ?? new StorageLot();
         item.Customer = CustomerBox.Text.Trim();
         item.LotId = LotBox.Text.Trim();
-        item.InDate = InPicker.Date ?? DateTimeOffset.Now;
+        item.InDate = InPicker.Date;
         item.MonthlyRate = ParseMoney(RateBox.Text);
         item.PaidToDate = ParseMoney(PaidBox.Text);
         item.OutDate = OutCheck.IsChecked == true ? OutPicker.Date : null;
