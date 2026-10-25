@@ -39,11 +39,9 @@ public sealed class GoogleCalendarClient
                 foreach (var e in result.Items)
                 {
                     var start = e.Start?.DateTimeDateTimeOffset?.LocalDateTime
-                                ?? e.Start?.DateDateTimeOffset?.LocalDateTime
-                                ?? DateTime.Today;
+                                ?? (DateTime.TryParse(e.Start?.Date, out var startDate) ? startDate : DateTime.Today);
                     var end = e.End?.DateTimeDateTimeOffset?.LocalDateTime
-                              ?? e.End?.DateDateTimeOffset?.LocalDateTime
-                              ?? start.AddHours(1);
+                              ?? (DateTime.TryParse(e.End?.Date, out var endDate) ? endDate : start.AddHours(1));
                     events.Add(new CalendarEvent
                     {
                         Provider = "Google Calendar",

@@ -77,7 +77,7 @@ public static class VoiceCrypto
             Array.Clear(blob, 0, blob.Length);
 
             byte[] plain;
-            var key = VoiceKey();
+            var key = VKey();
             try
             {
                 using var aes = Aes.Create();

@@ -24,7 +24,7 @@
                     <DataTemplate x:DataType="models:Note">
                         <StackPanel Padding="0,6">
                             <TextBlock Text="{x:Bind Title}" FontWeight="SemiBold" TextWrapping="Wrap" />
-                            <TextBlock Text="{x:Bind UpdatedAt.ToString('g')}" Opacity="0.7" FontSize="12" />
+                            <TextBlock Text='{x:Bind UpdatedAt.ToString("g")}' Opacity="0.7" FontSize="12" />
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>

@@ -36,7 +36,7 @@
                                 Click="ReminderCheckBox_Click" />
                             <StackPanel Grid.Column="1">
                                 <TextBlock Text="{x:Bind Text}" FontWeight="SemiBold" TextWrapping="Wrap" />
-                                <TextBlock Text="{x:Bind DueAt.ToString('g')}" Opacity="0.7" FontSize="12" />
+                                <TextBlock Text='{x:Bind DueAt.ToString("g")}' Opacity="0.7" FontSize="12" />
                             </StackPanel>
                             <Button x:Uid="RemindersPage_Delete"
                                 Grid.Column="2"

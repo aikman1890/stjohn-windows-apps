@@ -60,7 +60,7 @@ public sealed class SystemVoiceProvider : IVoiceProvider
                 EscapeSsml(text) +
                 "</prosody></speak>";
 
-            var stream = await synthesizer.SpeakSsmlAsync(ssml);
+            var stream = await synthesizer.SynthesizeSsmlToStreamAsync(ssml);
 
             // MediaPlayer must be created on the UI thread; callers are
             // page code-behind handlers, which run on the UI thread.
@@ -203,8 +203,11 @@ public sealed class SpeechService
             recognizer.Dispose();
             return result.Status switch
             {
-                SpeechRecognitionResultStatus.Success => (true, result.Text, string.Empty),
-                SpeechRecognitionResultStatus.NoMatch =>
+                SpeechRecognitionResultStatus.Success when !string.IsNullOrWhiteSpace(result.Text) =>
+                    (true, result.Text, string.Empty),
+                // WinRT has no NoMatch status: a dictation no-match surfaces
+                // as Success with empty text.
+                SpeechRecognitionResultStatus.Success =>
                     (false, string.Empty, "I didn't quite catch that — want to try once more?"),
                 _ => (false, string.Empty, "I couldn't hear anything. Check your microphone and try again."),
             };

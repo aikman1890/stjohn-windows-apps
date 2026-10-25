@@ -7,7 +7,7 @@ namespace Wuse;
 
 public sealed partial class MainWindow : Window
 {
-    private readonly object? _shellContent;
+    private readonly UIElement? _shellContent;
     private readonly StJohn.Licensing.LicenseManager _licensing;
     private bool _activatedThisSession;
 

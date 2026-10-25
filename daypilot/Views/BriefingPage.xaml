@@ -77,7 +77,7 @@
                     <DataTemplate x:DataType="models:ReminderItem">
                         <StackPanel Padding="0,8">
                             <TextBlock Text="{x:Bind Text}" FontWeight="SemiBold" TextWrapping="Wrap" />
-                            <TextBlock Text="{x:Bind DueAt.ToString('g')}" Opacity="0.7" FontSize="12" />
+                            <TextBlock Text='{x:Bind DueAt.ToString("g")}' Opacity="0.7" FontSize="12" />
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
