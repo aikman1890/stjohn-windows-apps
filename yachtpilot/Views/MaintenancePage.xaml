@@ -1,0 +1,51 @@
+<Page
+    x:Class="YachtPilot.Views.MaintenancePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:YachtPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Maintenance clocks" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Recurring and metered items per vessel. Overdue items block the charter-ready gate. Completing an item logs it to the vessel's proof ledger." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="ItemList" SelectionChanged="ItemList_SelectionChanged" MaxHeight="280">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:MaintenanceItem">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="860" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ComboBox x:Name="VesselBox" Grid.Row="0" Grid.Column="0" Header="Vessel" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <TextBox x:Name="TitleBox" Grid.Row="0" Grid.Column="1" Header="Item (engine service, haul-out, zincs, liferaft...)" Margin="0,0,0,8" />
+                <ComboBox x:Name="BasisBox" Grid.Row="1" Grid.Column="0" Header="Clock basis" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <CalendarDatePicker x:Name="NextDatePicker" Grid.Row="1" Grid.Column="1" Header="Next due (date basis)" Margin="0,0,0,8" />
+                <TextBox x:Name="NextHoursBox" Grid.Row="2" Grid.Column="0" Header="Next due at engine hours (hours basis)" Margin="0,0,8,8" />
+                <TextBox x:Name="NoteBox" Grid.Row="2" Grid.Column="1" Header="Note" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save item" Click="SaveButton_Click" />
+                    <Button x:Name="NewButton" Content="New item" Click="NewButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <CalendarDatePicker x:Name="DoneDatePicker" Header="Completed on" />
+                    <TextBox x:Name="DoneNextDateBox" Header="Set next due date (yyyy-MM-dd, date basis)" Width="240" />
+                    <TextBox x:Name="DoneNextHoursBox" Header="Set next due hours (hours basis)" Width="200" />
+                    <Button x:Name="DoneButton" Content="Mark completed" Click="DoneButton_Click" VerticalAlignment="Bottom" />
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

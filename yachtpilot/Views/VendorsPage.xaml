@@ -1,0 +1,46 @@
+<Page
+    x:Class="YachtPilot.Views.VendorsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:YachtPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Vendors &amp; yards" FontSize="22" FontWeight="SemiBold" />
+            <ListView x:Name="VendorList" SelectionChanged="VendorList_SelectionChanged" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Vendor">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="820" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Vendor / yard" Margin="0,0,8,8" />
+                <TextBox x:Name="TradeBox" Grid.Row="0" Grid.Column="1" Header="Trade" Margin="0,0,0,8" />
+                <TextBox x:Name="ContactBox" Grid.Row="1" Grid.Column="0" Header="Contact" Margin="0,0,8,8" />
+                <CalendarDatePicker x:Name="CoiPicker" Grid.Row="1" Grid.Column="1" Header="Insurance (COI) expiry, as recorded" Margin="0,0,0,8" />
+                <TextBox x:Name="LastJobBox" Grid.Row="2" Grid.Column="0" Header="Last job (vessel + work)" Margin="0,0,8,8" />
+                <TextBox x:Name="NextJobBox" Grid.Row="2" Grid.Column="1" Header="Next booked job" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save vendor" Click="SaveButton_Click" />
+                    <Button x:Name="NewButton" Content="New" Click="NewButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

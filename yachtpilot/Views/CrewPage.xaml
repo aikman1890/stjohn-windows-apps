@@ -1,0 +1,62 @@
+<Page
+    x:Class="YachtPilot.Views.CrewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:YachtPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Crew &amp; certificates" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="The clock that saves managers: certificates warn at 30 days because renewals mean courses and doctors booked weeks out. An expired certificate on assigned crew closes that vessel's charter-ready gate." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="CertList" SelectionMode="None" MaxHeight="230">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Certificate">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Crew members" FontSize="17" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <ListView x:Name="CrewList" SelectionChanged="CrewList_SelectionChanged" MaxHeight="170">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="860" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox x:Name="CrewNameBox" Grid.Row="0" Grid.Column="0" Header="Name" Margin="0,0,8,8" />
+                <TextBox x:Name="CrewRoleBox" Grid.Row="0" Grid.Column="1" Header="Role" Margin="0,0,0,8" />
+                <ComboBox x:Name="CrewVesselBox" Grid.Row="1" Grid.Column="0" Header="Assigned vessel" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <TextBox x:Name="CrewPhoneBox" Grid.Row="1" Grid.Column="1" Header="Phone" Margin="0,0,0,8" />
+                <TextBox x:Name="CrewEmailBox" Grid.Row="2" Grid.Column="0" Header="Email" Margin="0,0,8,8" />
+                <CheckBox x:Name="CrewActiveCheck" Grid.Row="2" Grid.Column="1" Content="Active" IsChecked="True" VerticalAlignment="Bottom" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveCrewButton" Content="Save crew member" Click="SaveCrewButton_Click" />
+                    <Button x:Name="NewCrewButton" Content="New" Click="NewCrewButton_Click" />
+                    <Button x:Name="DeleteCrewButton" Content="Delete" Click="DeleteCrewButton_Click" />
+                </StackPanel>
+            </Grid>
+            <TextBlock Text="Add / renew a certificate (for the selected crew member)" FontSize="17" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="CertTypeBox" Header="Type" Width="220" />
+                <CalendarDatePicker x:Name="CertExpiryPicker" Header="Expiry date" />
+                <TextBox x:Name="CertNoteBox" Header="Note" Width="240" />
+                <Button x:Name="CertButton" Content="Record certificate" Click="CertButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

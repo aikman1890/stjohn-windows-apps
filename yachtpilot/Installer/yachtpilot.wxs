@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  YachtPilot MSI installer - WiX Toolset v5, per-user (no admin / no UAC).
+  Installs to %LOCALAPPDATA%\Programs\St. John Pictures\YachtPilot.
+  The <ComponentGroupRef Id="AppFiles" /> is satisfied by Files.wxs, which
+  the build workflow generates from the publish output.
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="YachtPilot"
+           Language="1033"
+           Version="1.0.0"
+           Manufacturer="St. John Pictures"
+           ProductCode="1FF9A2C7-759F-4A17-A499-2228021A50CB"
+           UpgradeCode="D8A314BE-188F-487D-83F9-1D6DCA9A5F48"
+           Scope="perUser">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of YachtPilot is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Property Id="ARPPRODUCTICON" Value="[INSTALLFOLDER]YachtPilot.exe" />
+    <Property Id="ARPNOREPAIR" Value="1" />
+    <Property Id="ARPURLINFOABOUT" Value="https://aikman1890.github.io/stjohn-windows-apps/" />
+
+    <ui:WixUI Id="WixUI_Minimal" />
+
+    <StandardDirectory Id="LocalAppDataFolder">
+      <Directory Id="ProgramsDir" Name="Programs">
+        <Directory Id="CompanyDir" Name="St. John Pictures">
+          <Directory Id="INSTALLFOLDER" Name="YachtPilot" />
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppShortcutsDir" Name="YachtPilot">
+        <Component Id="StartMenuShortcut" Guid="DB27712A-28C8-466C-BD71-E9B3020C0E35" Bitness="always64">
+          <Shortcut Id="AppStartMenuShortcut"
+                    Name="YachtPilot"
+                    Description="YachtPilot - yacht management company book for Windows"
+                    Target="[INSTALLFOLDER]YachtPilot.exe"
+                    WorkingDirectory="INSTALLFOLDER" />
+          <RemoveFolder Id="RemoveAppShortcutsDir" Directory="AppShortcutsDir" On="uninstall" />
+          <RegistryValue Root="HKCU"
+                         Key="Software\St. John Pictures\YachtPilot"
+                         Name="installed"
+                         Type="integer"
+                         Value="1"
+                         KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <Feature Id="Main" Title="YachtPilot" Level="1">
+      <ComponentRef Id="StartMenuShortcut" />
+      <ComponentGroupRef Id="AppFiles" />
+    </Feature>
+  </Package>
+</Wix>
