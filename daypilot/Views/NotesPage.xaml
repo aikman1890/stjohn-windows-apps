@@ -3,7 +3,11 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:models="using:DayPilot.Models"
+    xmlns:converters="using:DayPilot.Converters"
     xmlns:views="using:DayPilot.Views">
+    <Page.Resources>
+        <converters:DateTimeFormatConverter x:Key="DateTimeFormatConverter" />
+    </Page.Resources>
 
     <Pivot x:Name="NotesPivot">
         <PivotItem x:Uid="NotesPage_TextNotes">
@@ -24,7 +28,7 @@
                     <DataTemplate x:DataType="models:Note">
                         <StackPanel Padding="0,6">
                             <TextBlock Text="{x:Bind Title}" FontWeight="SemiBold" TextWrapping="Wrap" />
-                            <TextBlock Text='{x:Bind UpdatedAt.ToString("g")}' Opacity="0.7" FontSize="12" />
+                            <TextBlock Text="{x:Bind UpdatedAt, Converter={StaticResource DateTimeFormatConverter}}" Opacity="0.7" FontSize="12" />
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>

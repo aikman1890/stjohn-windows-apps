@@ -2,7 +2,11 @@
     x:Class="Wuse.Views.ConversationsPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:models="using:Wuse.Models">
+    xmlns:models="using:Wuse.Models"
+    xmlns:converters="using:Wuse.Converters">
+    <Page.Resources>
+        <converters:DateTimeFormatConverter x:Key="DateTimeFormatConverter" />
+    </Page.Resources>
 
     <Grid Padding="16">
         <Grid.RowDefinitions>
@@ -28,7 +32,7 @@
                             <TextBlock Text="{x:Bind Title, Mode=OneWay}"
                                        Style="{StaticResource BodyStrongTextBlockStyle}"
                                        TextTrimming="CharacterEllipsis" />
-                            <TextBlock Text='{x:Bind StartedAt.ToString("g"), Mode=OneWay}'
+                            <TextBlock Text="{x:Bind StartedAt, Converter={StaticResource DateTimeFormatConverter}, Mode=OneWay}"
                                        Opacity="0.6" FontSize="12" />
                         </StackPanel>
                         <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">

@@ -9,6 +9,7 @@
         <converters:ChatAlignmentConverter x:Key="ChatAlignmentConverter" />
         <converters:ChatBackgroundConverter x:Key="ChatBackgroundConverter" />
         <converters:ChatForegroundConverter x:Key="ChatForegroundConverter" />
+        <converters:DateTimeFormatConverter x:Key="DateTimeFormatConverter" />
     </Page.Resources>
 
     <Grid Padding="16">
@@ -50,7 +51,7 @@
                             <TextBlock Text="{x:Bind Text, Mode=OneWay}"
                                        TextWrapping="WrapWholeWords"
                                        Foreground="{x:Bind Role, Converter={StaticResource ChatForegroundConverter}, Mode=OneWay}" />
-                            <TextBlock Text='{x:Bind At.ToString("g"), Mode=OneWay}'
+                            <TextBlock Text="{x:Bind At, Converter={StaticResource DateTimeFormatConverter}, Mode=OneWay}"
                                        Opacity="0.6" FontSize="11" HorizontalAlignment="Right" Margin="0,4,0,0"
                                        Foreground="{x:Bind Role, Converter={StaticResource ChatForegroundConverter}, Mode=OneWay}" />
                         </StackPanel>
