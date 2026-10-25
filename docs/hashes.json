@@ -1,1 +1,58 @@
-{}
+{
+  "bizpilot": {
+    "zip": {
+      "file": "bizpilot-windows.zip",
+      "sha256": "1c27630011e24685ffe1138ce80c0894322ee34dda8dbaec8186b35a5c8070a2"
+    },
+    "setup": {
+      "file": "bizpilot-Setup.exe",
+      "sha256": "467fff788a5db3f77b3e4eaa4abc1d879f3481ab7c8452fe9949b696f0c98eed"
+    },
+    "msi": {
+      "file": "bizpilot-Setup.msi",
+      "sha256": "0f763082fc39d6b065c0030459ebed358f997fd7443497fe0ade99cdd6e942a9"
+    }
+  },
+  "claimpilot": {
+    "zip": {
+      "file": "claimpilot-windows.zip",
+      "sha256": "1d8d14179cecc5e89170dfae08e40d8ac4c7b6004d36c578746ff45096f1441a"
+    },
+    "setup": {
+      "file": "claimpilot-Setup.exe",
+      "sha256": "7127acd2411e1938b7da7af87ad606ce4a33209a44c4902e35b74d604609e356"
+    },
+    "msi": {
+      "file": "claimpilot-Setup.msi",
+      "sha256": "b9b27117b59b24e879f017e639f0a241cbb569522a5aada114b8d74d0128a74c"
+    }
+  },
+  "wuse": {
+    "zip": {
+      "file": "wuse-windows.zip",
+      "sha256": "860a3c95c0498a0769cbb2f1e0b1394bd72f6c8f664efb650d7ae629393de69b"
+    },
+    "setup": {
+      "file": "wuse-Setup.exe",
+      "sha256": "2be41051e81b206b1500b8cbd749d35592e4b0567d4002afebd5bc2ab18940fa"
+    },
+    "msi": {
+      "file": "wuse-Setup.msi",
+      "sha256": "f41b0b8556480ee6912a794cd2406c914cad530fee921bf54727312db7fc3034"
+    }
+  },
+  "daypilot": {
+    "zip": {
+      "file": "daypilot-windows.zip",
+      "sha256": "deb33b820ff20bef4dec7524a746cdcf4d696b2a0b662b26eb518077b8e5fbfd"
+    },
+    "setup": {
+      "file": "daypilot-Setup.exe",
+      "sha256": "a9e48a3bc6f361a2df7f9432e56ff1a789e07fd2923853fe60b4fa08e1f28384"
+    },
+    "msi": {
+      "file": "daypilot-Setup.msi",
+      "sha256": "2fd8ab78f5434b29b12834e4e91ad5e13788f7a11f571b0d558c7fb5ec571b8f"
+    }
+  }
+}
