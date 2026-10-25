@@ -130,6 +130,26 @@ jobs:
             csproj: farewellpilot/FarewellPilot.csproj
             entrypoint: FarewellPilot.App
             exename: FarewellPilot
+          - dir: agreementpilot
+            csproj: agreementpilot/AgreementPilot.csproj
+            entrypoint: AgreementPilot.App
+            exename: AgreementPilot
+          - dir: movepilot
+            csproj: movepilot/MovePilot.csproj
+            entrypoint: MovePilot.App
+            exename: MovePilot
+          - dir: shoppilot
+            csproj: shoppilot/ShopPilot.csproj
+            entrypoint: ShopPilot.App
+            exename: ShopPilot
+          - dir: wellpilot
+            csproj: wellpilot/WellPilot.csproj
+            entrypoint: WellPilot.App
+            exename: WellPilot
+          - dir: taxpilot
+            csproj: taxpilot/TaxPilot.csproj
+            entrypoint: TaxPilot.App
+            exename: TaxPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4
