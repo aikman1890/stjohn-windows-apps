@@ -9,6 +9,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'stablepilot/**'
       - 'daypilot/**'
       - 'bizpilot/**'
       - 'wuse/**'
@@ -195,6 +196,10 @@ jobs:
             csproj: estatepilot/EstatePilot.csproj
             entrypoint: EstatePilot.App
             exename: EstatePilot
+          - dir: stablepilot
+            csproj: stablepilot/StablePilot.csproj
+            entrypoint: StablePilot.App
+            exename: StablePilot
     steps:
       - name: Check out
         uses: actions/checkout@v4
