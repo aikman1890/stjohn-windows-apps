@@ -32,6 +32,7 @@ on:
       - 'farewellpilot/**'
       - 'agreementpilot/**'
       - 'movepilot/**'
+      - 'shoppilot/**'
       - 'farewellpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:

@@ -1,0 +1,13 @@
+<Page
+    x:Class="ShopPilot.Views.BoardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="8">
+            <TextBlock Text="Scheduling board" FontSize="24" FontWeight="SemiBold" />
+            <TextBlock Text="Jobs by work center, in the priority order set on each job card (1 runs first). Leave this page up on a wall monitor - it is the whiteboard, and it reads the same local data." Opacity="0.8" TextWrapping="Wrap" />
+            <StackPanel x:Name="BoardPanel" Spacing="6" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
