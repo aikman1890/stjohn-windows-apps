@@ -1,0 +1,24 @@
+<Page
+    x:Class="RallyPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12">
+            <TextBlock x:Name="TitleText" Text="Group pipeline" FontSize="26" FontWeight="SemiBold" />
+            <TextBlock Text="The group business at a glance: quotes waiting on an answer (with follow-up clocks), events coming up, waivers still to chase, and balances falling due. No consumer booking and no payments - RallyPilot quotes and tracks; you invoice and collect as you do today." Opacity="0.75" TextWrapping="Wrap" />
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Quote follow-ups" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="QuoteText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Events &amp; chases" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="EventText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

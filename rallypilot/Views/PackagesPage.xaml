@@ -1,0 +1,58 @@
+<Page
+    x:Class="RallyPilot.Views.PackagesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:RallyPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Package builder" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Reusable event packages from your own components, so a quote is assembled, not re-typed from scratch per inquiry." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="PackageList" SelectionChanged="PackageList_SelectionChanged" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:EventPackage">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="860" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Package name" Margin="0,0,8,8" />
+                <TextBox x:Name="ComponentsBox" Grid.Row="0" Grid.Column="1" Header="Components" Margin="0,0,0,8" />
+                <TextBox x:Name="PerHeadBox" Grid.Row="1" Grid.Column="0" Header="Per-head price (0 if per-group)" Margin="0,0,8,8" />
+                <TextBox x:Name="PerGroupBox" Grid.Row="1" Grid.Column="1" Header="Per-group price" Margin="0,0,0,8" />
+                <TextBox x:Name="MinBox" Grid.Row="2" Grid.Column="0" Header="Minimum heads" Margin="0,0,8,8" />
+                <TextBox x:Name="StaffingBox" Grid.Row="2" Grid.Column="1" Header="Staffing requirements" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save package" Click="SaveButton_Click" />
+                    <Button x:Name="NewButton" Content="New" Click="NewButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+            </Grid>
+            <TextBlock Text="Add-on catalog" FontSize="17" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="AddOnList" SelectionMode="None" MaxHeight="160">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:AddOnDef">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="AddNameBox" Header="Add-on" Width="220" />
+                <TextBox x:Name="AddPriceBox" Header="Price" Width="100" />
+                <ComboBox x:Name="AddKindBox" Header="Pricing" Width="140" />
+                <Button x:Name="AddButton" Content="Add add-on" Click="AddButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,31 @@
+<Page
+    x:Class="RallyPilot.Views.RosterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:RallyPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Roster &amp; waiver chase" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Rosters arrive from the organizer - paste them in here. The chase list shows exactly who has not signed, exportable as the reminder list you send the organizer. RallyPilot registers waiver status; it captures no signatures." Opacity="0.7" TextWrapping="Wrap" />
+            <ComboBox x:Name="EventBox" Header="Event" Width="480" />
+            <TextBlock x:Name="ChaseText" TextWrapping="Wrap" FontWeight="SemiBold" />
+            <ListView x:Name="RosterList" SelectionMode="None" MaxHeight="330">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:RosterEntry">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="NameBox" Header="Participant" Width="230" />
+                <ComboBox x:Name="SignedBox" Header="Waiver" Width="130" />
+                <TextBox x:Name="VersionBox" Header="Version" Width="110" />
+                <Button x:Name="AddButton" Content="Add / update" Click="AddButton_Click" VerticalAlignment="Bottom" />
+                <Button x:Name="ExportButton" Content="Export chase list (text)" Click="ExportButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="StatusText" Opacity="0.8" TextWrapping="Wrap" />
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -12,6 +12,7 @@ on:
       - 'stablepilot/**'
       - 'rangepilot/**'
       - 'huntpilot/**'
+      - 'rallypilot/**'
       - 'daypilot/**'
       - 'bizpilot/**'
       - 'wuse/**'
@@ -210,6 +211,10 @@ jobs:
             csproj: huntpilot/HuntPilot.csproj
             entrypoint: HuntPilot.App
             exename: HuntPilot
+          - dir: rallypilot
+            csproj: rallypilot/RallyPilot.csproj
+            entrypoint: RallyPilot.App
+            exename: RallyPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4

@@ -1,0 +1,36 @@
+<Page
+    x:Class="RallyPilot.Views.RunOfDayPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:RallyPilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Run-of-day planner" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="The event day as a schedule board: groups rotating across activities and stations, staff per block, buffer and meal blocks - and a printable day sheet staff actually run from. Asset status is a manual field here: check it on the morning and write what you find." Opacity="0.7" TextWrapping="Wrap" />
+            <ComboBox x:Name="EventBox" Header="Event" Width="480" />
+            <ListView x:Name="BlockList" SelectionMode="None" MaxHeight="330">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:RunBlock">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="StartBox" Header="Start" Width="80" />
+                <TextBox x:Name="EndBox" Header="End" Width="80" />
+                <TextBox x:Name="TitleBox" Header="Block" Width="240" />
+                <ComboBox x:Name="KindBox" Header="Kind" Width="120" />
+                <TextBox x:Name="GroupBox" Header="Group" Width="110" />
+                <TextBox x:Name="StaffBox" Header="Staff" Width="150" />
+                <Button x:Name="AddButton" Content="Add block" Click="AddButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="AssetNoteBox" Header="Asset status note (applies to the selected event's next added block; edit blocks by re-adding)" Width="480" />
+                <Button x:Name="ExportButton" Content="Export day sheet (HTML)" Click="ExportButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="StatusText" Opacity="0.8" TextWrapping="Wrap" />
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
