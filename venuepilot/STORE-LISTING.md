@@ -1,0 +1,11 @@
+# VenuePilot — Gumroad listing (stub)
+
+**Price:** $14.99/month membership — flat per property, every space included, no per-space fees ever.
+
+**Tagline:** Never double-book a Saturday again — the small venue's date book, contract ledger, and day-of sheet on your own PC.
+
+**What it is:** Tripleseat, the venue-native platform, is $375 per venue per month; Perfect Venue $199, Event Temple from $249. HoneyBook is affordable but has no concept of a venue's dates — no holds, no space calendar, no double-booking protection. So small venues run on the documented status quo: paper calendars, whiteboards, spreadsheets, and folders. VenuePilot is that system finished: a date book across all your spaces (Barn / Hall / Grounds — yours to define) with inquiry → soft hold → contracted → completed, where a contracted date hard-blocks its space — a second contract on the same space and date cannot be saved, period — and holds expire loudly instead of silently; an event file per Saturday with client, package from your own rate card (peak/off-peak, consistent whoever answers the phone), guest count, and contract dates; a money ledger with deposits, milestones, balance due dates, final settlement, and refunds, plus the "who owes us before Saturday" view sorted by event date; vendor lists with arrival times and load-in/load-out flowing into a printable day-of sheet for the staff working the event; an inquiry pipeline that flags any inquiry untouched for 7 days, because small venues live on follow-up speed; and season reports — revenue by month, events by type, conversion. Seeded with a fictional sample season: 8 events with an expiring hold, an overdue balance, and a stale inquiry, every flag visible on first launch.
+
+**What it is not:** no online booking, marketplace, or listings — VenuePilot will never send you a bride; it runs the book for the clients you already get. No payment processing (deposits and balances are recorded; money moves as it does today), no e-signature or contract generation (your contract stays yours; the app tracks its status), no catering, staffing, or rental-inventory modules, and no multi-property chains.
+
+**Private by design:** local JSON storage on your PC. No account, no cloud, no telemetry, works fully offline — including on rural internet, which out here is a feature.
