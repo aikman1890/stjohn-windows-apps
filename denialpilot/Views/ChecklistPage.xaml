@@ -1,0 +1,42 @@
+<Page
+    x:Class="DenialPilot.Views.ChecklistPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" Padding="0,0,12,0">
+                <TextBlock Text="Evidence checklist" FontSize="20" FontWeight="SemiBold" />
+                <ComboBox x:Name="CasePicker" Header="Case" HorizontalAlignment="Stretch"
+                          SelectionChanged="CasePicker_SelectionChanged" />
+                <Button x:Name="LoadStandardButton" Content="Load standard checklist for this case" Click="LoadStandardButton_Click" HorizontalAlignment="Left" />
+                <TextBlock x:Name="ReadinessText" FontWeight="SemiBold" TextWrapping="Wrap" />
+                <TextBox x:Name="CustomBox" Header="Custom item" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="AddCustomButton" Content="Add item" Click="AddCustomButton_Click" />
+                    <Button x:Name="RemoveButton" Content="Remove selected" Click="RemoveButton_Click" />
+                    <Button x:Name="SaveButton" Content="Save checklist" Click="SaveButton_Click" />
+                </StackPanel>
+                <TextBlock Text="The standard set: denial letter, EOB, policy excerpt, medical records, physician letter of medical necessity, and proof of submission. Check items off as you gather them - the case is ready to file when the set is complete."
+                           TextWrapping="Wrap" Opacity="0.7" FontSize="12" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <ListView x:Name="ItemsList" Grid.Column="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Spacing="8" Padding="4,4">
+                        <CheckBox IsChecked="{Binding IsDone, Mode=TwoWay}" MinWidth="32" />
+                        <TextBlock Text="{Binding ItemName}" VerticalAlignment="Center" TextWrapping="Wrap" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

@@ -22,6 +22,7 @@ on:
       - 'sretoolbox/**'
       - 'invoicepilot/**'
       - 'gamevault/**'
+      - 'denialpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -84,6 +85,10 @@ jobs:
             csproj: gamevault/GameVault.csproj
             entrypoint: GameVault.App
             exename: GameVault
+          - dir: denialpilot
+            csproj: denialpilot/DenialPilot.csproj
+            entrypoint: DenialPilot.App
+            exename: DenialPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4
