@@ -1,0 +1,22 @@
+<Page
+    x:Class="FarewellPilot.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10" MaxWidth="680" HorizontalAlignment="Left">
+            <TextBlock Text="Settings" FontSize="24" FontWeight="SemiBold" />
+            <TextBox x:Name="NameBox" Header="Funeral home name (prints on statements)" />
+            <TextBox x:Name="AddressBox" Header="Address" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+            <TextBox x:Name="PhoneBox" Header="Phone" />
+            <TextBlock Text="Paperwork windows (YOUR rules - FarewellPilot ships no law)" FontSize="16" FontWeight="SemiBold" Margin="0,8,0,0" />
+            <TextBox x:Name="DcDaysBox" Header="Death-certificate filing window (days from date of death)" />
+            <TextBox x:Name="DepositDaysBox" Header="Preneed deposit window (days from contract date)" />
+            <TextBox x:Name="BaseChecklistBox" Header="Base arrangement checklist (one item per line)" AcceptsReturn="True" TextWrapping="Wrap" Height="160" />
+            <TextBox x:Name="BurialBox" Header="Burial / graveside extra items (one per line)" AcceptsReturn="True" TextWrapping="Wrap" Height="80" />
+            <TextBox x:Name="CremationBox" Header="Cremation extra items (one per line)" AcceptsReturn="True" TextWrapping="Wrap" Height="80" />
+            <Button x:Name="SaveButton" Content="Save settings" Click="SaveButton_Click" HorizontalAlignment="Left" />
+            <TextBlock x:Name="StatusText" TextWrapping="Wrap" Opacity="0.8" FontSize="12" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

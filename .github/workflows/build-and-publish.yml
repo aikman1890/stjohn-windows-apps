@@ -29,6 +29,7 @@ on:
       - 'platepilot/**'
       - 'lienpilot/**'
       - 'remodelpilot/**'
+      - 'farewellpilot/**'
       - '.github/workflows/build-and-publish.yml'
   workflow_dispatch:
 
@@ -119,6 +120,10 @@ jobs:
             csproj: remodelpilot/RemodelPilot.csproj
             entrypoint: RemodelPilot.App
             exename: RemodelPilot
+          - dir: farewellpilot
+            csproj: farewellpilot/FarewellPilot.csproj
+            entrypoint: FarewellPilot.App
+            exename: FarewellPilot
     steps:
       - name: Check out
         uses: actions/checkout@v4
