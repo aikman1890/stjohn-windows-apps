@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PlatePilot MSI installer - WiX Toolset v5, per-user (no admin / no UAC).
+  Installs to %LOCALAPPDATA%\Programs\St. John Pictures\PlatePilot.
+  The <ComponentGroupRef Id="AppFiles" /> is satisfied by Files.wxs, which
+  the build workflow generates from the publish output.
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="PlatePilot"
+           Language="1033"
+           Version="1.0.0"
+           Manufacturer="St. John Pictures"
+           ProductCode="1CD1590D-13F8-435B-812C-212DFC750B9D"
+           UpgradeCode="6ED061B8-9751-40E9-A3A9-7BC63FA4375D"
+           Scope="perUser">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of PlatePilot is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Property Id="ARPPRODUCTICON" Value="[INSTALLFOLDER]PlatePilot.exe" />
+    <Property Id="ARPNOREPAIR" Value="1" />
+    <Property Id="ARPURLINFOABOUT" Value="https://aikman1890.github.io/stjohn-windows-apps/" />
+
+    <ui:WixUI Id="WixUI_Minimal" />
+
+    <StandardDirectory Id="LocalAppDataFolder">
+      <Directory Id="ProgramsDir" Name="Programs">
+        <Directory Id="CompanyDir" Name="St. John Pictures">
+          <Directory Id="INSTALLFOLDER" Name="PlatePilot" />
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppShortcutsDir" Name="PlatePilot">
+        <Component Id="StartMenuShortcut" Guid="8F7B6A50-9349-485B-BF02-C029E6B59897" Bitness="always64">
+          <Shortcut Id="AppStartMenuShortcut"
+                    Name="PlatePilot"
+                    Description="PlatePilot - recipe and plate costing book for Windows"
+                    Target="[INSTALLFOLDER]PlatePilot.exe"
+                    WorkingDirectory="INSTALLFOLDER" />
+          <RemoveFolder Id="RemoveAppShortcutsDir" Directory="AppShortcutsDir" On="uninstall" />
+          <RegistryValue Root="HKCU"
+                         Key="Software\St. John Pictures\PlatePilot"
+                         Name="installed"
+                         Type="integer"
+                         Value="1"
+                         KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <Feature Id="Main" Title="PlatePilot" Level="1">
+      <ComponentRef Id="StartMenuShortcut" />
+      <ComponentGroupRef Id="AppFiles" />
+    </Feature>
+  </Package>
+</Wix>
