@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  RemodelPilot MSI installer - WiX Toolset v5, per-user (no admin / no UAC).
+  Installs to %LOCALAPPDATA%\Programs\St. John Pictures\RemodelPilot.
+  The <ComponentGroupRef Id="AppFiles" /> is satisfied by Files.wxs, which
+  the build workflow generates from the publish output.
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="RemodelPilot"
+           Language="1033"
+           Version="1.0.0"
+           Manufacturer="St. John Pictures"
+           ProductCode="09616291-F571-4D4D-BDD5-F8B5BD6B8E84"
+           UpgradeCode="A386853C-AAAA-432A-8B17-5FE74E07C4E5"
+           Scope="perUser">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of RemodelPilot is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Property Id="ARPPRODUCTICON" Value="[INSTALLFOLDER]RemodelPilot.exe" />
+    <Property Id="ARPNOREPAIR" Value="1" />
+    <Property Id="ARPURLINFOABOUT" Value="https://aikman1890.github.io/stjohn-windows-apps/" />
+
+    <ui:WixUI Id="WixUI_Minimal" />
+
+    <StandardDirectory Id="LocalAppDataFolder">
+      <Directory Id="ProgramsDir" Name="Programs">
+        <Directory Id="CompanyDir" Name="St. John Pictures">
+          <Directory Id="INSTALLFOLDER" Name="RemodelPilot" />
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppShortcutsDir" Name="RemodelPilot">
+        <Component Id="StartMenuShortcut" Guid="D9532A24-0CD9-433B-A13A-44DB41D5E237" Bitness="always64">
+          <Shortcut Id="AppStartMenuShortcut"
+                    Name="RemodelPilot"
+                    Description="RemodelPilot - remodel job costing and change orders for Windows"
+                    Target="[INSTALLFOLDER]RemodelPilot.exe"
+                    WorkingDirectory="INSTALLFOLDER" />
+          <RemoveFolder Id="RemoveAppShortcutsDir" Directory="AppShortcutsDir" On="uninstall" />
+          <RegistryValue Root="HKCU"
+                         Key="Software\St. John Pictures\RemodelPilot"
+                         Name="installed"
+                         Type="integer"
+                         Value="1"
+                         KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <Feature Id="Main" Title="RemodelPilot" Level="1">
+      <ComponentRef Id="StartMenuShortcut" />
+      <ComponentGroupRef Id="AppFiles" />
+    </Feature>
+  </Package>
+</Wix>

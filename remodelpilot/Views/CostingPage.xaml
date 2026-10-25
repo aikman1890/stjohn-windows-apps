@@ -1,0 +1,51 @@
+<Page
+    x:Class="RemodelPilot.Views.CostingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360" />
+            <ColumnDefinition Width="24" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" Padding="0,0,12,0">
+                <TextBlock Text="Budget vs. actual" FontSize="20" FontWeight="SemiBold" />
+                <ComboBox x:Name="JobPicker" Header="Job" HorizontalAlignment="Stretch" SelectionChanged="JobPicker_SelectionChanged" />
+                <TextBlock x:Name="MarginText" FontWeight="SemiBold" TextWrapping="Wrap" />
+                <TextBlock Text="Log an actual cost" FontSize="16" FontWeight="SemiBold" Margin="0,8,0,0" />
+                <DatePicker x:Name="DatePicker" Header="Date" />
+                <ComboBox x:Name="CategoryCombo" Header="Category" HorizontalAlignment="Stretch" />
+                <TextBox x:Name="DescBox" Header="Description" />
+                <TextBox x:Name="VendorBox" Header="Vendor / sub" />
+                <TextBox x:Name="AmountBox" Header="Amount ($)" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="AddButton" Content="Log cost" Click="AddButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete selected" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock Text="The budget column is the winning estimate's cost per category. A category turns into an overrun the moment actuals pass it - while there is still time to act." TextWrapping="Wrap" Opacity="0.7" FontSize="12" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Column="2" Spacing="8">
+            <TextBlock Text="By category" FontSize="16" FontWeight="SemiBold" />
+            <ListView x:Name="CategoryList" SelectionMode="None" MaxHeight="260">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Cost entries" FontSize="16" FontWeight="SemiBold" />
+            <ListView x:Name="ItemsList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding DisplayLine}" TextWrapping="Wrap" Padding="4,4" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>
