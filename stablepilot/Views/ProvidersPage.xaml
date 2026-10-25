@@ -1,0 +1,44 @@
+<Page
+    x:Class="StablePilot.Views.ProvidersPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:StablePilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Provider book" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Vets, farriers, dentists, chiropractors, transporters - and the next round booked against the cycle clocks." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="ProviderList" SelectionChanged="ProviderList_SelectionChanged" MaxHeight="260">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Provider">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="840" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Provider" Margin="0,0,8,8" />
+                <ComboBox x:Name="TradeBox" Grid.Row="0" Grid.Column="1" Header="Trade" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                <TextBox x:Name="ContactBox" Grid.Row="1" Grid.Column="0" Header="Contact" Margin="0,0,8,8" />
+                <TextBox x:Name="HorsesBox" Grid.Row="1" Grid.Column="1" Header="Horses they serve" Margin="0,0,0,8" />
+                <TextBox x:Name="LastBox" Grid.Row="2" Grid.Column="0" Header="Last visit" Margin="0,0,8,8" />
+                <TextBox x:Name="NextBox" Grid.Row="2" Grid.Column="1" Header="Next scheduled round" Margin="0,0,0,8" />
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save provider" Click="SaveButton_Click" />
+                    <Button x:Name="NewButton" Content="New" Click="NewButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

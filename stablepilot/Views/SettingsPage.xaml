@@ -1,0 +1,18 @@
+<Page
+    x:Class="StablePilot.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10" MaxWidth="640" HorizontalAlignment="Left">
+            <TextBlock Text="Settings" FontSize="24" FontWeight="SemiBold" />
+            <TextBox x:Name="BarnBox" Header="Barn name (prints on the board and statements)" />
+            <TextBox x:Name="AddressBox" Header="Address" AcceptsReturn="True" TextWrapping="Wrap" Height="50" />
+            <TextBox x:Name="PhoneBox" Header="Phone" />
+            <TextBox x:Name="CurrencyBox" Header="Default currency" />
+            <Button x:Name="SaveButton" Content="Save settings" Click="SaveButton_Click" HorizontalAlignment="Left" />
+            <TextBlock x:Name="SavedText" Opacity="0.75" />
+            <TextBlock Text="StablePilot is the barn's horse book: no lesson booking, no client portals, no online payments, no owner app, and no veterinary advice, diagnosis, or treatment recommendations - it tracks the schedules and records the vet sets. No breeding, sales, or livestock-production features. Records and scheduling only; veterinary care and regulatory compliance remain the responsibility of the barn and its veterinarians." Opacity="0.6" TextWrapping="Wrap" Margin="0,12,0,0" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

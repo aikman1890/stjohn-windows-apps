@@ -1,0 +1,43 @@
+<Page
+    x:Class="StablePilot.Views.HealthPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:StablePilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Health, incident &amp; training logs" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Dated entries, kept as they happen - the record an owner (or an insurer) asks for. No veterinary advice lives here; medical judgment stays with the vet." Opacity="0.7" TextWrapping="Wrap" />
+            <ComboBox x:Name="HorseFilterBox" Header="Horse" Width="340" />
+            <ListView x:Name="HealthList" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:HealthEntry">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="KindBox" Header="Kind" Width="160" />
+                <TextBox x:Name="DetailBox" Header="Detail" Width="380" />
+                <TextBox x:Name="ProviderBox" Header="Provider / by" Width="190" />
+                <Button x:Name="AddHealthButton" Content="Add entry" Click="AddHealthButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock Text="Training / sessions (feed the monthly bill)" FontSize="17" FontWeight="SemiBold" Margin="0,14,0,0" />
+            <ListView x:Name="SessionList" SelectionMode="None" MaxHeight="200">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:SessionEntry">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="TrainerBox" Header="Trainer" Width="170" />
+                <ComboBox x:Name="SessionKindBox" Header="Kind" Width="180" />
+                <TextBox x:Name="FeeBox" Header="Fee" Width="100" />
+                <TextBox x:Name="SessionNoteBox" Header="Note" Width="260" />
+                <Button x:Name="AddSessionButton" Content="Log session" Click="AddSessionButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

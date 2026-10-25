@@ -1,0 +1,49 @@
+<Page
+    x:Class="StablePilot.Views.CarePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:StablePilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Care clocks" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Coggins runs on a 12-month statutory cycle with a 30-day warning band; farrier, vaccinations, deworming, and dental run on the barn's own cycles with a 14-day band. Marking an item done rolls its clock by its cycle." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="ClockList" SelectionChanged="ClockList_SelectionChanged" MaxHeight="300">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:CareClock">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid MaxWidth="840" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ComboBox x:Name="HorseBox" Grid.Row="0" Grid.Column="0" Header="Horse" HorizontalAlignment="Stretch" Margin="0,0,8,8" />
+                <ComboBox x:Name="KindBox" Grid.Row="0" Grid.Column="1" Header="Kind" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                <TextBox x:Name="DetailBox" Grid.Row="1" Grid.Column="0" Header="Detail (product, series, shoes...)" Margin="0,0,8,8" />
+                <TextBox x:Name="CycleBox" Grid.Row="1" Grid.Column="1" Header="Cycle (days)" Margin="0,0,0,8" />
+                <CalendarDatePicker x:Name="DuePicker" Grid.Row="2" Grid.Column="0" Header="Next due" Margin="0,0,8,8" />
+                <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Bottom" Margin="0,0,0,8">
+                    <Button x:Name="SaveButton" Content="Save clock" Click="SaveButton_Click" />
+                    <Button x:Name="DoneButton" Content="Mark done today" Click="DoneButton_Click" />
+                </StackPanel>
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="NewButton" Content="New clock" Click="NewButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

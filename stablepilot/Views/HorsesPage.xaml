@@ -1,0 +1,102 @@
+<Page
+    x:Class="StablePilot.Views.HorsesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:StablePilot.Models">
+
+    <Grid Padding="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="420" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="0" Spacing="8" Margin="0,0,16,0">
+            <TextBlock Text="Horses" FontSize="22" FontWeight="SemiBold" />
+            <ListView x:Name="HorseList" SelectionChanged="HorseList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Horse">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="NewButton" Content="New horse" Click="NewButton_Click" HorizontalAlignment="Left" />
+            <TextBlock Text="Owners" FontSize="17" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="OwnerList" SelectionMode="None" MaxHeight="120">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="OwnerNameBox" Header="Owner name" Width="200" />
+                <TextBox x:Name="OwnerContactBox" Header="Contact" Width="180" />
+                <Button x:Name="OwnerButton" Content="Add owner" Click="OwnerButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Horse file" FontSize="19" FontWeight="SemiBold" />
+                <TextBlock x:Name="ClockSummaryText" TextWrapping="Wrap" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="0" Header="Horse name" Margin="0,0,8,8" />
+                    <ComboBox x:Name="OwnerBox" Grid.Row="0" Grid.Column="1" Header="Owner" HorizontalAlignment="Stretch" Margin="0,0,0,8" />
+                    <TextBox x:Name="StallBox" Grid.Row="1" Grid.Column="0" Header="Stall" Margin="0,0,8,8" />
+                    <TextBox x:Name="BreedBox" Grid.Row="1" Grid.Column="1" Header="Breed / age note" Margin="0,0,0,8" />
+                    <TextBox x:Name="FeedAmBox" Grid.Row="2" Grid.Column="0" Header="Feed - AM" Margin="0,0,8,8" />
+                    <TextBox x:Name="FeedPmBox" Grid.Row="2" Grid.Column="1" Header="Feed - PM" Margin="0,0,0,8" />
+                    <TextBox x:Name="SuppBox" Grid.Row="3" Grid.Column="0" Header="Supplements / meds (with sign-off on the board)" Margin="0,0,8,8" />
+                    <TextBox x:Name="TurnoutBox" Grid.Row="3" Grid.Column="1" Header="Turnout group" Margin="0,0,0,8" />
+                    <TextBox x:Name="BlanketBox" Grid.Row="4" Grid.Column="0" Header="Blanket rule (by temperature)" Margin="0,0,8,8" />
+                    <TextBox x:Name="RateBox" Grid.Row="4" Grid.Column="1" Header="Monthly board rate" Margin="0,0,0,8" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="VetBox" Grid.Column="0" Header="Vet (assigned)" Margin="0,0,8,0" />
+                    <TextBox x:Name="FarrierBox" Grid.Column="1" Header="Farrier (assigned)" Margin="0,0,0,0" />
+                </Grid>
+                <TextBox x:Name="NotesBox" Header="Notes" AcceptsReturn="True" TextWrapping="Wrap" Height="48" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="SaveButton" Content="Save horse" Click="SaveButton_Click" />
+                    <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+                </StackPanel>
+                <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+                <TextBlock Text="Document vault (local paths: Coggins certificate, health papers, registration, insurance)" FontSize="16" FontWeight="SemiBold" Margin="0,10,0,0" />
+                <ListView x:Name="DocList" SelectionMode="None" MaxHeight="130">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <ComboBox x:Name="DocKindBox" Header="Kind" Width="190" />
+                    <TextBox x:Name="DocTitleBox" Header="Title" Width="200" />
+                    <TextBox x:Name="DocPathBox" Header="Local path" Width="260" />
+                    <Button x:Name="DocButton" Content="Add" Click="DocButton_Click" VerticalAlignment="Bottom" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

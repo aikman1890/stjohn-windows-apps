@@ -1,0 +1,24 @@
+<Page
+    x:Class="StablePilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="12">
+            <TextBlock x:Name="TitleText" Text="Barn dashboard" FontSize="26" FontWeight="SemiBold" />
+            <TextBlock Text="The whole barn's clocks, sorted by pressure. An expired Coggins is flagged here - before the trailer is booked, not after. Records and scheduling only: veterinary care and regulatory compliance remain the barn's and its vets' responsibility." Opacity="0.75" TextWrapping="Wrap" />
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Care clocks" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="ClockText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="16">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Barn at a glance" FontSize="17" FontWeight="SemiBold" />
+                    <TextBlock x:Name="GlanceText" TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

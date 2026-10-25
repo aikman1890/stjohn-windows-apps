@@ -1,0 +1,38 @@
+<Page
+    x:Class="StablePilot.Views.BillingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:StablePilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Board billing &amp; owner statements" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="Monthly board + itemized extras + training sessions, in decimal math. The statement is generated from the ledger - never assembled from memory at month-end." Opacity="0.7" TextWrapping="Wrap" />
+            <TextBlock Text="Extras this month" FontSize="17" FontWeight="SemiBold" />
+            <ListView x:Name="ExtraList" SelectionChanged="ExtraList_SelectionChanged" MaxHeight="210">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:ExtraCharge">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="HorseBox" Header="Horse" Width="260" />
+                <ComboBox x:Name="CategoryBox" Header="Category" Width="200" />
+                <TextBox x:Name="DescBox" Header="Description" Width="260" />
+                <TextBox x:Name="AmountBox" Header="Amount" Width="110" />
+                <Button x:Name="AddExtraButton" Content="Add extra" Click="AddExtraButton_Click" VerticalAlignment="Bottom" />
+                <Button x:Name="DeleteExtraButton" Content="Delete selected" Click="DeleteExtraButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock Text="Owner statement" FontSize="17" FontWeight="SemiBold" Margin="0,14,0,0" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="OwnerBox" Header="Owner" Width="300" />
+                <TextBox x:Name="MonthBox" Header="Month (yyyy-MM)" Width="150" />
+                <Button x:Name="StatementButton" Content="Export statement (HTML)" Click="StatementButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="PreviewText" TextWrapping="Wrap" />
+            <TextBlock x:Name="StatusText" Opacity="0.8" TextWrapping="Wrap" />
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
