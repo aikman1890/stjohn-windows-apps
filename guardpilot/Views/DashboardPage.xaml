@@ -1,0 +1,47 @@
+<Page
+    x:Class="GuardPilot.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="GuardPilot" FontSize="28" FontWeight="SemiBold" />
+            <TextBlock x:Name="CompanyText" Opacity="0.8" TextWrapping="Wrap" />
+            <Grid Margin="0,8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="16" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="This week" FontWeight="SemiBold" Opacity="0.75" />
+                        <TextBlock x:Name="WeekText" FontSize="15" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="16">
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Licences &amp; follow-ups" FontWeight="SemiBold" Opacity="0.75" />
+                        <TextBlock x:Name="RiskText" FontSize="15" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+            <TextBlock Text="Schedule problems" FontSize="18" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="ProblemList" SelectionMode="None" MaxHeight="240">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Top clients by scheduled hours (this week)" FontSize="18" FontWeight="SemiBold" Margin="0,12,0,0" />
+            <ListView x:Name="TopList" SelectionMode="None" MaxHeight="180">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

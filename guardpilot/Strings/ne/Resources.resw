@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="BriefingPage_DueToday.Text" xml:space="preserve">
+    <value>आज अन्तिम</value>
+  </data>
+  <data name="BriefingPage_Notes.Text" xml:space="preserve">
+    <value>नोटहरू</value>
+  </data>
+  <data name="BriefingPage_Overdue.Text" xml:space="preserve">
+    <value>म्याद सकिएको</value>
+  </data>
+  <data name="BriefingPage_Refresh.Content" xml:space="preserve">
+    <value>ताजा गर्नुहोस्</value>
+  </data>
+  <data name="BriefingPage_TodaySBriefing.Text" xml:space="preserve">
+    <value>आजको ब्रिफिङ</value>
+  </data>
+  <data name="BriefingPage_UpcomingReminders.Text" xml:space="preserve">
+    <value>आगामी रिमाइन्डरहरू</value>
+  </data>
+  <data name="InkNotesControl_AddPage.Content" xml:space="preserve">
+    <value>पृष्ठ थप्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Clear.Content" xml:space="preserve">
+    <value>सफा गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>मसी क्यानभास सफा गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_DeletePage.Content" xml:space="preserve">
+    <value>पृष्ठ मेट्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_InkCanvasControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>मसी क्यानभास। यहाँ कलम, स्टाइलस, औँला वा माउसले कोर्नुहोस्।</value>
+  </data>
+  <data name="InkNotesControl_InkPages.Text" xml:space="preserve">
+    <value>मसी पृष्ठहरू</value>
+  </data>
+  <data name="InkNotesControl_InkPages_2.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>मसी पृष्ठहरू</value>
+  </data>
+  <data name="InkNotesControl_InkToolbarControl.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>मसी टुलबार। कलम, पेन्सिल, हाइलाइटर वा रबर छान्नुहोस्।</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.Header" xml:space="preserve">
+    <value>नयाँ पृष्ठको नाम</value>
+  </data>
+  <data name="InkNotesControl_NewPageName.PlaceholderText" xml:space="preserve">
+    <value>बैठक नोटहरू</value>
+  </data>
+  <data name="InkNotesControl_Redo.Content" xml:space="preserve">
+    <value>फेरि गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Redo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>स्ट्रोक फेरि गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Save.Content" xml:space="preserve">
+    <value>बचत गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Save.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>मसी पृष्ठ बचत गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Undo.Content" xml:space="preserve">
+    <value>रद्द गर्नुहोस्</value>
+  </data>
+  <data name="InkNotesControl_Undo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>अन्तिम स्ट्रोक रद्द गर्नुहोस्</value>
+  </data>
+  <data name="MainWindow_BriefingNavItem.Content" xml:space="preserve">
+    <value>ब्रिफिङ</value>
+  </data>
+  <data name="MainWindow_DayPilot.Title" xml:space="preserve">
+    <value>DayPilot</value>
+  </data>
+  <data name="MainWindow_NotesNavItem.Content" xml:space="preserve">
+    <value>नोटहरू</value>
+  </data>
+  <data name="MainWindow_RemindersNavItem.Content" xml:space="preserve">
+    <value>रिमाइन्डरहरू</value>
+  </data>
+  <data name="MainWindow_SettingsNavItem.Content" xml:space="preserve">
+    <value>सेटिङहरू</value>
+  </data>
+  <data name="NotesPage_AIWorking.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>AI काम गर्दै</value>
+  </data>
+  <data name="NotesPage_BodyBox.Header" xml:space="preserve">
+    <value>मुख्य भाग</value>
+  </data>
+  <data name="NotesPage_BodyBox.PlaceholderText" xml:space="preserve">
+    <value>आफ्नो नोट यहाँ लेख्नुहोस्…</value>
+  </data>
+  <data name="NotesPage_Delete.Content" xml:space="preserve">
+    <value>मेट्नुहोस्</value>
+  </data>
+  <data name="NotesPage_ExtractActionItems.Content" xml:space="preserve">
+    <value>कार्य वस्तुहरू निकाल्नुहोस्</value>
+  </data>
+  <data name="NotesPage_InkNotes.Header" xml:space="preserve">
+    <value>मसी नोटहरू</value>
+  </data>
+  <data name="NotesPage_NewNote.Content" xml:space="preserve">
+    <value>नयाँ नोट</value>
+  </data>
+  <data name="NotesPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>उपकरणमा AI</value>
+  </data>
+  <data name="NotesPage_Rewrite.Content" xml:space="preserve">
+    <value>फेरि लेख्नुहोस्</value>
+  </data>
+  <data name="NotesPage_Save.Content" xml:space="preserve">
+    <value>बचत गर्नुहोस्</value>
+  </data>
+  <data name="NotesPage_Summarize.Content" xml:space="preserve">
+    <value>सारांश दिनुहोस्</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.Header" xml:space="preserve">
+    <value>ट्यागहरू (अल्पविरामले छुट्याइएको)</value>
+  </data>
+  <data name="NotesPage_TagsCommaSeparated.PlaceholderText" xml:space="preserve">
+    <value>काम, विचारहरू</value>
+  </data>
+  <data name="NotesPage_TextNotes.Header" xml:space="preserve">
+    <value>पाठ नोटहरू</value>
+  </data>
+  <data name="NotesPage_TitleBox.Header" xml:space="preserve">
+    <value>शीर्षक</value>
+  </data>
+  <data name="NotesPage_TitleBox.PlaceholderText" xml:space="preserve">
+    <value>नोटको शीर्षक</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.Header" xml:space="preserve">
+    <value>सरल भाषामा रिमाइन्डर थप्नुहोस्</value>
+  </data>
+  <data name="RemindersPage_AddAReminderInPlain.PlaceholderText" xml:space="preserve">
+    <value>मलाई भोलि दिउँसो ३ बजे आमालाई फोन गर्न सम्झाउनुहोस्</value>
+  </data>
+  <data name="RemindersPage_AddReminder.Content" xml:space="preserve">
+    <value>रिमाइन्डर थप्नुहोस्</value>
+  </data>
+  <data name="RemindersPage_Delete.Content" xml:space="preserve">
+    <value>मेट्नुहोस्</value>
+  </data>
+  <data name="RemindersPage_MarkReminderAsDone.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>रिमाइन्डर सम्पन्न भनी चिन्ह लगाउनुहोस्</value>
+  </data>
+  <data name="RemindersPage_Reminders.Text" xml:space="preserve">
+    <value>रिमाइन्डरहरू</value>
+  </data>
+  <data name="SettingsPage_About.Text" xml:space="preserve">
+    <value>बारेमा</value>
+  </data>
+  <data name="SettingsPage_CheckAgain.Content" xml:space="preserve">
+    <value>फेरि जाँच्नुहोस्</value>
+  </data>
+  <data name="SettingsPage_GlobalHotkey.Text" xml:space="preserve">
+    <value>ग्लोबल हटकी</value>
+  </data>
+  <data name="SettingsPage_OnDeviceAI.Text" xml:space="preserve">
+    <value>उपकरणमा AI</value>
+  </data>
+  <data name="SettingsPage_Settings.Text" xml:space="preserve">
+    <value>सेटिङहरू</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.Content" xml:space="preserve">
+    <value>कार्य थप्नुहोस्</value>
+  </data>
+  <data name="TasksPage_AddTaskButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>कार्य थप्नुहोस्</value>
+  </data>
+  <data name="TasksPage_DeleteButton.Content" xml:space="preserve">
+    <value>मेट्नुहोस्</value>
+  </data>
+  <data name="TasksPage_DeleteButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>कार्य मेट्नुहोस्</value>
+  </data>
+  <data name="TasksPage_DoneCheck.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>कार्य सम्पन्न भनी चिन्ह लगाउनुहोस्</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.Header" xml:space="preserve">
+    <value>नयाँ कार्य</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.PlaceholderText" xml:space="preserve">
+    <value>जस्तै बिरुवाहरूमा पानी हाल्नुहोस्</value>
+  </data>
+  <data name="TasksPage_NewTaskBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>नयाँ कार्यको शीर्षक</value>
+  </data>
+  <data name="TasksPage_TaskList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>कार्य सूची</value>
+  </data>
+  <data name="TasksPage_Title.Text" xml:space="preserve">
+    <value>कार्यहरू</value>
+  </data>
+</root>
