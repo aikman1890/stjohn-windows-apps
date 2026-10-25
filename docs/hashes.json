@@ -1,100 +1,184 @@
 {
-  "jobpilot": {
-    "setup": {
-      "file": "jobpilot-Setup.exe",
-      "sha256": "873ec99eddaea92e1d1106ade5fddff4e6acbb02df3abd0a421ef2b179429da4"
-    },
-    "msi": {
-      "file": "jobpilot-Setup.msi",
-      "sha256": "4326741e3595233ac3aa62e355a36fc4314a1d0f082f465f34f6c64a8453b8dd"
-    },
-    "zip": {
-      "file": "jobpilot-windows.zip",
-      "sha256": "ad1fd7c896ea7c8bdb533fdf263f8bf201e07a49d55436e1d7f07be7170402be"
-    }
-  },
   "healthpilot": {
-    "setup": {
-      "file": "healthpilot-Setup.exe",
-      "sha256": "834baf821e4aba0ae1840224eb2d974760f78880c293369a7d890651b8454844"
-    },
     "msi": {
-      "file": "healthpilot-Setup.msi",
-      "sha256": "d021908c07817023f8aade714a241e31f90f311709371e98045cd27f889d43e1"
+      "sha256": "84e62704c354e55e48f1b99f1de2028793c0f6c7a1d39cff90dc5b2799fc8d07",
+      "file": "healthpilot-Setup.msi"
     },
     "zip": {
-      "file": "healthpilot-windows.zip",
-      "sha256": "d8530eecd0484fee7d760d50466fad9ec0976b0791c6c063ab21bb49c546436e"
+      "sha256": "44a819db52394f910d044c223972ca319ffb52566859c4c1bf709758a2ce3f31",
+      "file": "healthpilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "3553d0cd3decefef9579329d21a43723eddeb0e6ebed42cf83516ffd3054d93f",
+      "file": "healthpilot-Setup.exe"
     }
   },
-  "daypilot": {
-    "setup": {
-      "file": "daypilot-Setup.exe",
-      "sha256": "e65a51fcec4a68ecfe6d3bae6a97c3e84e066e6989bcebf03cc57f858dbd709f"
-    },
+  "casepilot": {
     "msi": {
-      "file": "daypilot-Setup.msi",
-      "sha256": "63463e20e8f7cc922efe016392fcfca18e0e2cee004edc67c3f0b5b80412e4a5"
+      "sha256": "82756ba2190bba81190144427b9261aa62710c6aaafd17df583bf0cca4236344",
+      "file": "casepilot-Setup.msi"
     },
     "zip": {
-      "file": "daypilot-windows.zip",
-      "sha256": "3cae6aa828eb2d36913f8ec3ae8156b82697c553909e5a76130c440f2a0d4c51"
-    }
-  },
-  "bizpilot": {
+      "sha256": "80e05787816b30d65296128aafe79a6932b1e9d792e2b3643f1af42545c87ca5",
+      "file": "casepilot-windows.zip"
+    },
     "setup": {
-      "file": "bizpilot-Setup.exe",
-      "sha256": "5c3a003b61533a2323704c3cc11ed8d4a4325217fc1f3a1a36d012a3ed05bc8a"
-    },
-    "msi": {
-      "file": "bizpilot-Setup.msi",
-      "sha256": "3f64d91291a2f0be95b0e0d1104279503967788514a588a85d7b8d4cb18817de"
-    },
-    "zip": {
-      "file": "bizpilot-windows.zip",
-      "sha256": "fd021822799fb4085a277f6e738a3334afe119358bcbaaad7b8da23e6e006ddf"
-    }
-  },
-  "claimpilot": {
-    "setup": {
-      "file": "claimpilot-Setup.exe",
-      "sha256": "734032b834f6a6fb353d3a920f283f699656bc64cb90141b4a333f0782d6ba93"
-    },
-    "msi": {
-      "file": "claimpilot-Setup.msi",
-      "sha256": "4404db6d394c84b0c10cfeddae23ce9c21aa271073fc8c8ca5d02b26b72f46b0"
-    },
-    "zip": {
-      "file": "claimpilot-windows.zip",
-      "sha256": "ef5e81bb8541bf5507ce23b11ad4648aec9738e36d4565f48a821b777d62a352"
+      "sha256": "6c0e0344c66d5e84edc1cc5393f0bf3464e7156ac4cb91573ee7bd4bff89c77b",
+      "file": "casepilot-Setup.exe"
     }
   },
   "wuse": {
-    "setup": {
-      "file": "wuse-Setup.exe",
-      "sha256": "ccc332a588e2497f418c92e410a66a994d97d4630ca02fb1750f601a37573969"
-    },
     "msi": {
-      "file": "wuse-Setup.msi",
-      "sha256": "cfe154f39ed38a3a539a38ae579bffd4df68435a25554aa6ac61bd426c4e69ff"
+      "sha256": "63a5ead3977e1c23d3e437ac6fe4e84d5db1b4a047775cbcd1e6bfcd2bc1ecec",
+      "file": "wuse-Setup.msi"
     },
     "zip": {
-      "file": "wuse-windows.zip",
-      "sha256": "ea38a39836a27857108ca3b0bfb3e74d8912884ada474ab5e8d22112e83b749d"
+      "sha256": "959a8106321936724b78fce650aa14ef715edcfadf52d96930e6b12656212723",
+      "file": "wuse-windows.zip"
+    },
+    "setup": {
+      "sha256": "132d1f37c63d51cf37da85a3da5902e2a8d49127b6639890515ee87eca02d28e",
+      "file": "wuse-Setup.exe"
+    }
+  },
+  "jobpilot": {
+    "msi": {
+      "sha256": "add80f72f837cbce85dc64136015e16fd44ffda73fac948bbcba6691e73e5840",
+      "file": "jobpilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "b7c50ae838003e87a33cce03eb3e4f0dcad304e7116ea221e6f12f50a1172282",
+      "file": "jobpilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "f0b6448b5bf80984608be1354c1e2841bd12af268cb7171fdcd69de145888fe5",
+      "file": "jobpilot-Setup.exe"
+    }
+  },
+  "billpilot": {
+    "msi": {
+      "sha256": "ad54b73c50f746645a0fd6fc5699a3a86aa8077a76cd93c0f5bea41d1880df32",
+      "file": "billpilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "5dde2aef14b12cf7289a423af29568ac45ff5c24c77eed5b2a6a0b6a49b8a275",
+      "file": "billpilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "f45b91bc1687c38112063dfcc8b85be4cb95cb59671c8293f38aa58fdaabb648",
+      "file": "billpilot-Setup.exe"
+    }
+  },
+  "gamevault": {
+    "msi": {
+      "sha256": "3c2038cfd49f59a465865c55f96affd66fdba61ab735f9abe1edf4ac02d48a64",
+      "file": "gamevault-Setup.msi"
+    },
+    "zip": {
+      "sha256": "2b8ca92146bcd58a09b1b53de3eb3dcfc752db4fb4699374a5bc6dd0c72bec18",
+      "file": "gamevault-windows.zip"
+    },
+    "setup": {
+      "sha256": "27212365309602cc17771280dd32b1677e4ba8cd27344513864954433210e56d",
+      "file": "gamevault-Setup.exe"
+    }
+  },
+  "bizpilot": {
+    "msi": {
+      "sha256": "8abc51cb21746ff8714e39bbcfd7921174a88028eefc0053a0d084f88ce86616",
+      "file": "bizpilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "becd237ff0b32a1c45c7c87d5aed1a2de883cd49dbbde03a3d12e40d6ab13d4f",
+      "file": "bizpilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "86c365451284022ed5ef44ad03a5251dc37a914982713897970302b1659ed82d",
+      "file": "bizpilot-Setup.exe"
+    }
+  },
+  "claimpilot": {
+    "msi": {
+      "sha256": "773a98e0edf5fca5cc35b333b1f1349d1dad0b979e27aa4969871a9e2d590b94",
+      "file": "claimpilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "39267012ad20bab0fb41c8da2c8703e97e154d57c138e095eec73a89ecfef473",
+      "file": "claimpilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "eb107ab88bdfe8cb649f65854b0ba01a42e8b0c4420c4f7629ea62c08829376b",
+      "file": "claimpilot-Setup.exe"
+    }
+  },
+  "invoicepilot": {
+    "msi": {
+      "sha256": "79053f2102684d3409854a6a2ac6fb0073004891daf0ad9028c092d5f57de711",
+      "file": "invoicepilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "04b9288640b15300103b0c9a2d08e9d4ec9598a15e6c020a00ab79c6be805ed6",
+      "file": "invoicepilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "cdf497b7344020b132660953abfdffad929c0af0b3e065976bb9626ad4205308",
+      "file": "invoicepilot-Setup.exe"
+    }
+  },
+  "sretoolbox": {
+    "msi": {
+      "sha256": "c5ea82cc106914f2642e4de6f33461e681952854a598a77599bf12c12e281377",
+      "file": "sretoolbox-Setup.msi"
+    },
+    "zip": {
+      "sha256": "5e965128576ce665368a1e977da8c171da213cd0e30aef68fbda752591dd5929",
+      "file": "sretoolbox-windows.zip"
+    },
+    "setup": {
+      "sha256": "74f0914a5bc71c50490d3f164777d1fc52276d01edca71bde157e741dd4dc4a7",
+      "file": "sretoolbox-Setup.exe"
     }
   },
   "disputepilot": {
-    "setup": {
-      "file": "disputepilot-Setup.exe",
-      "sha256": "3b227ea4d808feebabc3efd38422dbb8af22d56608d9136ec5fbadfa94a39870"
-    },
     "msi": {
-      "file": "disputepilot-Setup.msi",
-      "sha256": "f24ad27b49b65c229fa47a726e8b75b2e488eb78e1c9ad282fe2ef8be7bacfff"
+      "sha256": "c9c9f820637f8c821f3434fc9ea2676d8c7f731c2fae9976c2ba1b481c146dc2",
+      "file": "disputepilot-Setup.msi"
     },
     "zip": {
-      "file": "disputepilot-windows.zip",
-      "sha256": "64dd8dff3123b317ba5b2ff6705f53d691fdb7c8a52375f855b1042c28da7a44"
+      "sha256": "bb8edaece72bf8d961fa1cb5a101248bef79fdaa46cad4e3fc193de6d4cd4dc7",
+      "file": "disputepilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "f42658708b678b85a978eedcc14ba3fc665aa332e188ee64379ad902858dd863",
+      "file": "disputepilot-Setup.exe"
+    }
+  },
+  "clientpilot": {
+    "msi": {
+      "sha256": "a4f1f51adf489b8ddde3644c0c7554d99420b751038647c4a811f54a8c32f252",
+      "file": "clientpilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "b68f5db832211e29c7c2d16a21a20a3357c54c1371a91fe88f951a24b21d54bb",
+      "file": "clientpilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "4055d6ae558781f2f4ebfae03d948bc5d26279ba11118d1518f90ddee771961c",
+      "file": "clientpilot-Setup.exe"
+    }
+  },
+  "daypilot": {
+    "msi": {
+      "sha256": "397f05baa986ce4e223fa1c3009a122ea9300590fe4230b6aadf515f83807b17",
+      "file": "daypilot-Setup.msi"
+    },
+    "zip": {
+      "sha256": "aeb518fcb08dab75c3a0907d72be502a1c00bb5989baf8b9c24615f682d05402",
+      "file": "daypilot-windows.zip"
+    },
+    "setup": {
+      "sha256": "dc36d19c3d639fd47d90a292b917ec5f95939793fb1cdc02be262b4777cda054",
+      "file": "daypilot-Setup.exe"
     }
   }
 }
