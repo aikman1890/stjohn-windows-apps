@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - 'stablepilot/**'
+      - 'rangepilot/**'
       - 'daypilot/**'
       - 'bizpilot/**'
       - 'wuse/**'
@@ -200,6 +201,10 @@ jobs:
             csproj: stablepilot/StablePilot.csproj
             entrypoint: StablePilot.App
             exename: StablePilot
+          - dir: rangepilot
+            csproj: rangepilot/RangePilot.csproj
+            entrypoint: RangePilot.App
+            exename: RangePilot
     steps:
       - name: Check out
         uses: actions/checkout@v4

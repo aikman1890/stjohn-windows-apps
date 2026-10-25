@@ -1,0 +1,18 @@
+<Page
+    x:Class="RangePilot.Views.ReportsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Day-close report" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="The artifact an owner reviews weekly: revenue by package and by source (discount channels named, in dollars), media outstanding, asset downtime, and the day's balances." Opacity="0.7" TextWrapping="Wrap" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <CalendarDatePicker x:Name="DayPicker" Header="Day" />
+                <Button x:Name="ExportButton" Content="Export day-close (HTML)" Click="ExportButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="PreviewText" TextWrapping="Wrap" />
+            <TextBlock x:Name="StatusText" Opacity="0.8" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

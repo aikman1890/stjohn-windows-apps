@@ -1,0 +1,45 @@
+<Page
+    x:Class="RangePilot.Views.AssetsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:RangePilot.Models">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Asset book" FontSize="22" FontWeight="SemiBold" />
+            <TextBlock Text="The asset is the product. A down asset blocks new bookings against it and flags the bookings that need a swap or a call-ahead - before the guests drive out, not after." Opacity="0.7" TextWrapping="Wrap" />
+            <ListView x:Name="AssetList" SelectionChanged="AssetList_SelectionChanged" MaxHeight="230">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:AssetItem">
+                        <StackPanel Orientation="Horizontal" Spacing="8" Padding="4">
+                            <Ellipse Width="12" Height="12" Fill="{x:Bind FlagBrush}" VerticalAlignment="Center" />
+                            <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="NameBox" Header="Asset" Width="230" />
+                <ComboBox x:Name="KindBox" Header="Kind" Width="150" />
+                <ComboBox x:Name="StatusBox" Header="Status" Width="150" />
+                <TextBox x:Name="NextBox" Header="Next service note" Width="260" />
+                <Button x:Name="SaveButton" Content="Save asset" Click="SaveButton_Click" VerticalAlignment="Bottom" />
+                <Button x:Name="NewButton" Content="New" Click="NewButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock Text="Log (maintenance, rounds/fuel usage, notes)" FontSize="16" FontWeight="SemiBold" Margin="0,10,0,0" />
+            <ListView x:Name="LogList" SelectionMode="None" MaxHeight="180">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:AssetLogEntry">
+                        <TextBlock Text="{x:Bind DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox x:Name="LogKindBox" Header="Kind" Width="150" />
+                <TextBox x:Name="LogDetailBox" Header="Detail" Width="430" />
+                <Button x:Name="LogButton" Content="Log entry" Click="LogButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <TextBlock x:Name="ErrorText" Foreground="Red" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
