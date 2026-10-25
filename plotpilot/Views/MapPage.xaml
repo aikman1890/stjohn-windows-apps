@@ -1,0 +1,18 @@
+<Page
+    x:Class="PlotPilot.Views.MapPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Section map" FontSize="24" FontWeight="SemiBold" />
+            <TextBlock Text="The plat, rendered from the register itself - the map can never drift from the book, because it IS the book. Click a space for its record." Opacity="0.8" TextWrapping="Wrap" />
+            <ComboBox x:Name="SectionPicker" Header="Section" HorizontalAlignment="Stretch" SelectionChanged="SectionPicker_SelectionChanged" />
+            <TextBlock Text="Green available - Blue sold - Orange reserved - Gray occupied - Purple unknown" Opacity="0.75" TextWrapping="Wrap" />
+            <StackPanel x:Name="GridPanel" Spacing="6" />
+            <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="6" Padding="14">
+                <TextBlock x:Name="DetailText" TextWrapping="Wrap" Text="Select a space on the map." />
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

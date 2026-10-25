@@ -1,0 +1,32 @@
+<Page
+    x:Class="PlotPilot.Views.SearchPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Padding="24" Spacing="10">
+            <TextBlock Text="Counter search" FontSize="24" FontWeight="SemiBold" />
+            <TextBlock Text="Answer the family standing at the counter in seconds: by decedent name, owner name, or space address." Opacity="0.8" TextWrapping="Wrap" />
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <TextBox x:Name="QueryBox" Header="Search" Width="420" />
+                <Button x:Name="SearchButton" Content="Search" Click="SearchButton_Click" VerticalAlignment="Bottom" />
+            </StackPanel>
+            <ListView x:Name="ResultsList" SelectionMode="None" MaxHeight="330">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text="Available spaces near a family plot (pick a space - shows Available spaces in its section &amp; block)" FontSize="17" FontWeight="SemiBold" Margin="0,10,0,0" />
+            <ComboBox x:Name="NearPicker" HorizontalAlignment="Stretch" SelectionChanged="NearPicker_SelectionChanged" />
+            <ListView x:Name="NearList" SelectionMode="None" MaxHeight="220">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding DisplayLine}" TextWrapping="Wrap" Padding="4,3" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
