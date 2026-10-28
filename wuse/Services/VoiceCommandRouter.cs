@@ -104,6 +104,42 @@ public sealed class VoiceCommandRouter
         _email = new EmailAggregator(_gmail, _outlookMail, _yahoo);
     }
 
+    /// <summary>
+    /// Family-mode gate. Called by the chat view model INSTEAD of the full
+    /// command router when SettingsService.FamilyMode is on. Nothing
+    /// executes here: refused requests get the safety refusal, private
+    /// topics get one boundary reply, and everything else returns
+    /// unhandled so the view model answers with on-device AI chat only.
+    /// Any pending Shaun-side flow (vault setup, confirmations) is
+    /// dropped so a family turn can never complete it.
+    /// </summary>
+    public (bool Handled, string Reply) TryHandleFamilyAsync(string input)
+    {
+        var text = (input ?? string.Empty).Trim();
+        LastInputWasSecret = false;
+        if (text.Length == 0)
+            return (false, string.Empty);
+
+        if (SafetyGuard.IsRefused(text, out var category))
+        {
+            ClearPending();
+            return (true, SafetyGuard.WarmRefusal(category));
+        }
+
+        ClearPending();
+        var lower = text.ToLowerInvariant();
+        if (Regex.IsMatch(lower,
+                @"\b(vault|password|login|logins|email|mail|gmail|outlook|yahoo|calendar|reminder|appointment|file|files|document|folder|memory|memories|conversation|bank|account|debt|court|lawsuit|health|doctor|wife|divorce|money|payment|tax)\b"))
+        {
+            return (true,
+                "Family mode keeps Shaun's private stuff private — I can't open his email, vault, files, " +
+                "calendar, or memories, and I don't share his personal details. I can still chat, talk about " +
+                "his books and videos, and help with general questions. Ask me about those.");
+        }
+
+        return (false, string.Empty);
+    }
+
     public async Task<(bool Handled, string Reply)> TryHandleAsync(string input, bool fromVoice = false)
     {
         var text = (input ?? string.Empty).Trim();

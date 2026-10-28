@@ -61,6 +61,12 @@ public partial class ChatViewModel : ObservableObject
     [ObservableProperty]
     private string avatarStatus = "Ready";
 
+    /// <summary>True while SettingsService.FamilyMode is on. Refreshed on
+    /// every send so a toggle in Preferences takes effect on return to
+    /// chat. The page uses it for the avatar status reset.</summary>
+    [ObservableProperty]
+    private bool isFamilyMode;
+
     public ChatViewModel(
         SettingsService settings,
         AiService ai,
@@ -79,6 +85,8 @@ public partial class ChatViewModel : ObservableObject
         _dispatcher = Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread();
         SpeechService.Instance.VoiceNotice += OnVoiceNotice;
         speakReplies = settings.VoiceReplies;
+        isFamilyMode = settings.FamilyMode;
+        avatarStatus = isFamilyMode ? "Family mode" : "Ready";
     }
 
     partial void OnSpeakRepliesChanged(bool value)
@@ -167,7 +175,7 @@ public partial class ChatViewModel : ObservableObject
         if (input.Length == 0) return;
         InputText = string.Empty;
 
-        if (!_conversationSaved)
+        if (!_settings.FamilyMode && !_conversationSaved)
         {
             _conversation = _store.NewConversation(input);
             _conversationSaved = true;
@@ -178,22 +186,48 @@ public partial class ChatViewModel : ObservableObject
         IsBusy = true;
         try
         {
-            // The command router runs first: safety screening lives there, so
-            // refused requests never reach a command or the AI.
-            var routed = await _router.TryHandleAsync(input, _voiceTurn);
-            if (_router.LastInputWasSecret)
-                RedactSecretFromHistory(userMessage);
-            var reply = routed.Handled
-                ? routed.Reply
-                : await TryHandleLocalCommandAsync(input)
-                    ?? await _ai.ChatAsync(BuildSystemPrompt(_voiceTurn, input), _conversation.Messages, input)
-                    ?? (_ai.IsAvailable
-                        ? "I had trouble generating that reply just now — mind trying again?"
-                        : LocalFallbackReply());
+            // Family mode refresh: a toggle in Preferences applies the
+            // moment chat is used again.
+            IsFamilyMode = _settings.FamilyMode;
+            AvatarStatus = IsFamilyMode ? "Family mode" : "Ready";
+
+            string reply;
+            if (IsFamilyMode)
+            {
+                // Family mode talks only: the family gate answers private
+                // topics with one boundary reply, and everything else goes
+                // straight to on-device AI chat. No command runs, no local
+                // command runs, nothing is saved.
+                var fam = _router.TryHandleFamilyAsync(input);
+                reply = fam.Handled
+                    ? fam.Reply
+                    : await _ai.ChatAsync(BuildFamilySystemPrompt(), Messages, input)
+                        ?? (_ai.IsAvailable
+                            ? "I had trouble generating that reply just now — mind trying again?"
+                            : LocalFallbackReply());
+            }
+            else
+            {
+                // The command router runs first: safety screening lives there, so
+                // refused requests never reach a command or the AI.
+                var routed = await _router.TryHandleAsync(input, _voiceTurn);
+                if (_router.LastInputWasSecret)
+                    RedactSecretFromHistory(userMessage);
+                reply = routed.Handled
+                    ? routed.Reply
+                    : await TryHandleLocalCommandAsync(input)
+                        ?? await _ai.ChatAsync(BuildSystemPrompt(_voiceTurn, input), _conversation.Messages, input)
+                        ?? (_ai.IsAvailable
+                            ? "I had trouble generating that reply just now — mind trying again?"
+                            : LocalFallbackReply());
+            }
 
             var assistantMessage = new ChatMessage { Role = "assistant", Text = reply, At = DateTime.Now };
-            _store.AddMessage(_conversation, userMessage);
-            _store.AddMessage(_conversation, assistantMessage);
+            if (!IsFamilyMode)
+            {
+                _store.AddMessage(_conversation, userMessage);
+                _store.AddMessage(_conversation, assistantMessage);
+            }
             Messages.Add(assistantMessage);
             AssistantReplied?.Invoke(this, reply);
         }
@@ -232,6 +266,20 @@ public partial class ChatViewModel : ObservableObject
             At = DateTime.Now,
         });
     }
+
+    /// <summary>
+    /// Family-mode system prompt: fixed, family-safe text that never
+    /// includes Shaun's stored facts. The assistant is named for Shaun
+    /// and speaks in his voice, but must never claim to be him.
+    /// </summary>
+    private static string BuildFamilySystemPrompt() =>
+        "You are Shaun AI, a friendly assistant named for Shaun Nicholas St. John. " +
+        "You speak in his voice, but you are not him — never claim to be him. " +
+        "You run entirely on this Windows PC. You may chat about his books and videos " +
+        "and answer general questions. You must not reveal, discuss, or guess at his " +
+        "private information: email, accounts, money, debts, legal cases, health, " +
+        "family contact details, or anything personal. If asked about those, decline " +
+        "briefly and offer a general topic instead.";
 
     private string BuildSystemPrompt(bool forVoice = false, string? userInput = null)
     {

@@ -113,7 +113,7 @@ public sealed partial class ChatPage : Page
                 MicButton.Content = _micOriginalContent;
             MicButton.IsEnabled = true;
             _listening = false;
-            ViewModel.AvatarStatus = "Ready";
+            ViewModel.AvatarStatus = ViewModel.IsFamilyMode ? "Family mode" : "Ready";
         }
     }
 
@@ -141,7 +141,7 @@ public sealed partial class ChatPage : Page
         }
         finally
         {
-            ViewModel.AvatarStatus = "Ready";
+            ViewModel.AvatarStatus = ViewModel.IsFamilyMode ? "Family mode" : "Ready";
         }
     }
 }

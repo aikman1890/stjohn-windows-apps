@@ -47,6 +47,14 @@
             </StackPanel>
 
             <StackPanel Spacing="8">
+                <TextBlock Text="Family mode" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                <ToggleSwitch Header="Family mode (for Shaun's family)"
+                              IsOn="{x:Bind ViewModel.FamilyMode, Mode=TwoWay}" />
+                <TextBlock Text="When on, Shaun AI talks only: no email, vault, files, calendar, or account actions run, and no conversation is saved. Private topics get one boundary reply. Shaun AI is an assistant named for Shaun — it speaks in his voice but never claims to be him. Family mode is a household-trust setting, not a lock: anyone who opens Preferences can switch it back off."
+                           Opacity="0.7" TextWrapping="Wrap" />
+            </StackPanel>
+
+            <StackPanel Spacing="8">
                 <ToggleSwitch x:Uid="PreferencesPage_RememberAboutMe"
                               IsOn="{x:Bind ViewModel.RememberAboutMe, Mode=TwoWay}" />
                 <TextBlock x:Uid="PreferencesPage_WhenOnTheFactsYou"

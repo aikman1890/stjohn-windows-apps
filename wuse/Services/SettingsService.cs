@@ -44,6 +44,20 @@ public sealed class SettingsService
         set => Container.Values["VoiceReplies"] = value;
     }
 
+    /// <summary>
+    /// When true, wuse runs in Family mode: chat talks only. No command
+    /// executes (no vault, email, calendar, files, or account actions),
+    /// no conversation is saved, and private topics get one boundary
+    /// reply. Shaun turns this on when handing the PC to family. It is a
+    /// household-trust boundary, not a lock: anyone who opens Preferences
+    /// can switch it back off.
+    /// </summary>
+    public bool FamilyMode
+    {
+        get => GetBoolean("FamilyMode", false);
+        set => Container.Values["FamilyMode"] = value;
+    }
+
     /// <summary>LocalSettings key for the VoiceStudio voice profile name.</summary>
     public const string VoiceStudioProfileKey = "VoiceStudioProfile";
 

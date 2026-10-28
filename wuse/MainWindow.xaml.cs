@@ -92,6 +92,23 @@ public sealed partial class MainWindow : Window
         if (args.InvokedItemContainer is not NavigationViewItem item)
             return;
 
+        // Family mode: the chat firewall is not the only door. Vault,
+        // past conversations, ink notes, and quick actions stay Shaun-only
+        // while family mode is on; chat and preferences stay open.
+        if (App.Settings.FamilyMode && item.Tag as string is "conversations" or "actions" or "inknotes" or "vault")
+        {
+            var dialog = new ContentDialog
+            {
+                XamlRoot = this.Content.XamlRoot,
+                Title = "Family mode",
+                Content = "That part of wuse stays Shaun-only while family mode is on. Chat is open.",
+                CloseButtonText = "OK",
+            };
+            _ = dialog.ShowAsync();
+            NavView.SelectedItem = ChatNavItem;
+            return;
+        }
+
         switch (item.Tag as string)
         {
             case "chat":

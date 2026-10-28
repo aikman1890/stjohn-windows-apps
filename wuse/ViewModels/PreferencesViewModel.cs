@@ -23,6 +23,9 @@ public partial class PreferencesViewModel : ObservableObject
     [ObservableProperty]
     private bool speakReplies = true;
 
+    [ObservableProperty]
+    private bool familyMode;
+
     /// <summary>
     /// VoiceStudio voice-profile name wuse speaks through (Shaun's cloned
     /// voice). Empty disables it in favor of the Windows system voice.
@@ -74,6 +77,7 @@ public partial class PreferencesViewModel : ObservableObject
         themeName = settings.ThemeName;
         rememberAboutMe = settings.RememberAboutMe;
         speakReplies = settings.VoiceReplies;
+        familyMode = settings.FamilyMode;
         voiceStudioProfile = settings.VoiceStudioProfile;
         memoryBookEnabled = settings.MemoryBookEnabled;
         MemoryBookService.Instance.Loaded += OnMemoryBookLoaded;
@@ -102,6 +106,11 @@ public partial class PreferencesViewModel : ObservableObject
     partial void OnSpeakRepliesChanged(bool value)
     {
         _settings.VoiceReplies = value;
+    }
+
+    partial void OnFamilyModeChanged(bool value)
+    {
+        _settings.FamilyMode = value;
     }
 
     partial void OnVoiceStudioProfileChanged(string value)
