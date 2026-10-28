@@ -53,6 +53,14 @@ public partial class ChatViewModel : ObservableObject
     [ObservableProperty]
     private bool speakReplies = true;
 
+    /// <summary>
+    /// Avatar status line shown under the assistant's portrait on the chat
+    /// page: "Ready", "Listening…" while the mic is live, "Speaking…"
+    /// while a reply is being spoken aloud. Set by the page, never saved.
+    /// </summary>
+    [ObservableProperty]
+    private string avatarStatus = "Ready";
+
     public ChatViewModel(
         SettingsService settings,
         AiService ai,

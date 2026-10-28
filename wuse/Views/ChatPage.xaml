@@ -16,24 +16,46 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <CommandBar Grid.Row="0" DefaultLabelPosition="Right" Background="Transparent">
+
+        <!-- Live-assistant avatar: Shaun's portrait + live status. The
+             portrait is the living-room still from the avatar set (face
+             preserved, edited background). The voice behind it is wuse's
+             shaun2 VoiceStudio clone; the brain is the on-device AI. -->
+        <Grid Grid.Row="0" ColumnSpacing="12" Margin="0,0,0,8" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Ellipse Grid.Column="0" Width="56" Height="56">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="ms-appx:///Assets/Avatar/ShaunAvatar.png" Stretch="UniformToFill" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBlock Text="Shaun AI" FontWeight="SemiBold" FontSize="18" />
+                <TextBlock Text="{x:Bind ViewModel.AvatarStatus, Mode=OneWay}" Opacity="0.7" FontSize="13" />
+            </StackPanel>
+        </Grid>
+
+        <CommandBar Grid.Row="1" DefaultLabelPosition="Right" Background="Transparent">
             <AppBarButton x:Uid="ChatPage_NewChat" Icon="Add" Command="{x:Bind ViewModel.NewConversationCommand}" />
             <AppBarToggleButton x:Uid="VoiceRepliesToggle" Icon="Volume" Label="Voice replies"
                                 IsChecked="{x:Bind ViewModel.SpeakReplies, Mode=TwoWay}"
                                 ToolTipService.ToolTip="Speak replies aloud" />
         </CommandBar>
 
-        <InfoBar x:Uid="ChatPage_OnDeviceAIUnavailable" Grid.Row="1"
+        <InfoBar x:Uid="ChatPage_OnDeviceAIUnavailable" Grid.Row="2"
                  Message="{x:Bind ViewModel.AiStatusMessage, Mode=OneWay}"
                  Severity="Warning"
                  IsClosable="False"
                  IsOpen="{x:Bind ViewModel.IsAiUnavailable, Mode=OneWay}"
                  Margin="0,0,0,8" />
 
-        <ListView Grid.Row="2"
+        <ListView Grid.Row="3"
                   x:Name="MessageList"
                   ItemsSource="{x:Bind ViewModel.Messages, Mode=OneWay}"
                   SelectionMode="None">
@@ -60,7 +82,7 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <Grid Grid.Row="3" ColumnSpacing="8" Margin="0,8,0,0" VerticalAlignment="Center">
+        <Grid Grid.Row="4" ColumnSpacing="8" Margin="0,8,0,0" VerticalAlignment="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />

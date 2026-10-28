@@ -84,6 +84,7 @@ public sealed partial class ChatPage : Page
             MicButton.IsEnabled = false;
             _micOriginalContent = MicButton.Content;
             MicButton.Content = "Listening…";
+            ViewModel.AvatarStatus = "Listening…";
 
             var (ok, text, error) = await SpeechService.Instance.BeginRecognitionAsync();
 
@@ -112,6 +113,7 @@ public sealed partial class ChatPage : Page
                 MicButton.Content = _micOriginalContent;
             MicButton.IsEnabled = true;
             _listening = false;
+            ViewModel.AvatarStatus = "Ready";
         }
     }
 
@@ -122,19 +124,24 @@ public sealed partial class ChatPage : Page
     /// </summary>
     private async void OnAssistantReplied(object? sender, string text)
     {
+        // Always consume the voice-turn flag so it can't leak into a
+        // later turn.
+        bool voiceTurn = ViewModel.ConsumeVoiceTurn();
+        if (!ViewModel.SpeakReplies && !voiceTurn)
+            return;
         try
         {
-            // Always consume the voice-turn flag so it can't leak into a
-            // later turn.
-            bool voiceTurn = ViewModel.ConsumeVoiceTurn();
-            if (!ViewModel.SpeakReplies && !voiceTurn)
-                return;
+            ViewModel.AvatarStatus = "Speaking…";
             var speak = text.Length > 600 ? text.Substring(0, 600) : text;
             await SpeechService.Instance.SpeakAsync(speak);
         }
         catch
         {
             // Speech output must never break chat.
+        }
+        finally
+        {
+            ViewModel.AvatarStatus = "Ready";
         }
     }
 }
